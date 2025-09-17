@@ -1,4 +1,4 @@
-# Participation au 17-09-2025 21:16
+# Participation au 17-09-2025 21:17
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -36,7 +36,7 @@
 | 17 | [300155527](../300155527/README.md) :point_right: [Soul7331](https://github.com/Soul7331) <image src='https://avatars0.githubusercontent.com/u/231569948?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 18 | [300155606](../300155606/README.md) :point_right: [Djelloulmsili](https://github.com/Djelloulmsili) <image src='https://avatars0.githubusercontent.com/u/231571545?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :x: |
 | 19 | [300156204](../300156204/README.md) :point_right: [Abdou21566](https://github.com/Abdou21566) <image src='https://avatars0.githubusercontent.com/u/231571560?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
-| 20 | [300156615](../300156615/README.md) :point_right: [waliii81](https://github.com/waliii81) <image src='https://avatars0.githubusercontent.com/u/231570011?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :x: |
+| 20 | [300156615](../300156615/README.md) :point_right: [waliii81](https://github.com/waliii81) <image src='https://avatars0.githubusercontent.com/u/231570011?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 21 | [300157330](../300157330/README.md) :point_right: [toufikmekbel](https://github.com/toufikmekbel) <image src='https://avatars0.githubusercontent.com/u/231571164?s=460&v=4' width=20 height=20></image> | :x: | :x: |
 | 22 | [300157334](../300157334/README.md) :point_right: [Laalahamdaoui16-alt](https://github.com/Laalahamdaoui16-alt) <image src='https://avatars0.githubusercontent.com/u/231569676?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :x: |
 | 23 | [300157416](../300157416/README.md) :point_right: [300157416](https://github.com/300157416) <image src='https://avatars0.githubusercontent.com/u/583231?s=460&v=4' width=20 height=20></image> | :x: | :x: |
