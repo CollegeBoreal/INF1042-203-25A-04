@@ -1,3 +1,4 @@
 # 30057332
 
-![Ma photo](images/pic.png)
+
+<img src=images/pic.png width='50%' height='50%' > </img>
