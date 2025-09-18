@@ -1,3 +1,4 @@
 #300158052
 
-(image/github_image.png)
+Voici ma première image :  
+![Ma première image](images/githubimage.png)
