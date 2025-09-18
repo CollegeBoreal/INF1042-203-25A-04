@@ -1,3 +1,3 @@
 # 30057332
 
-![Ma photo](300157332/images/pic.png)
+![Ma photo](images/pic.png)
