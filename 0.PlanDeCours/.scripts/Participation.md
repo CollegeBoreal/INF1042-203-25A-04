@@ -1,4 +1,4 @@
-# Participation au 18-09-2025 20:51
+# Participation au 18-09-2025 21:22
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -43,7 +43,7 @@
 | 24 | [300156612](../300156612/README.md) :point_right: [06019](https://github.com/06019) <image src='https://avatars0.githubusercontent.com/u/583231?s=460&v=4' width=20 height=20></image> | :x: | :x: |
 | 25 | [300156615](../300156615/README.md) :point_right: [waliii81](https://github.com/waliii81) <image src='https://avatars0.githubusercontent.com/u/583231?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 26 | [300157330](../300157330/README.md) :point_right: [toufikmekbel](https://github.com/toufikmekbel) <image src='https://avatars0.githubusercontent.com/u/583231?s=460&v=4' width=20 height=20></image> | :x: | :x: |
-| 27 | [300157332](../300157332/README.md) :point_right: [aliboukhalfa98-sudo](https://github.com/aliboukhalfa98-sudo) <image src='https://avatars0.githubusercontent.com/u/583231?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :x: |
+| 27 | [300157332](../300157332/README.md) :point_right: [aliboukhalfa98-sudo](https://github.com/aliboukhalfa98-sudo) <image src='https://avatars0.githubusercontent.com/u/583231?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 28 | [300157334](../300157334/README.md) :point_right: [Laalahamdaoui16-alt](https://github.com/Laalahamdaoui16-alt) <image src='https://avatars0.githubusercontent.com/u/583231?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :x: |
 | 29 | [300157416](../300157416/README.md) :point_right: [LounisYounes](https://github.com/LounisYounes) <image src='https://avatars0.githubusercontent.com/u/583231?s=460&v=4' width=20 height=20></image> | :x: | :x: |
 | 30 | [300157440](../300157440/README.md) :point_right: [Houssam-eddinerachdi](https://github.com/Houssam-eddinerachdi) <image src='https://avatars0.githubusercontent.com/u/583231?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
