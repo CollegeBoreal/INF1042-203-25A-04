@@ -1,3 +1,3 @@
 # 300157334
 
-IMG_20230625_233349_964_Original.jpeg
+<img src=images/IMG_20230625_233349_964_Original.jpeg width='50%' height='50%' > </img>
