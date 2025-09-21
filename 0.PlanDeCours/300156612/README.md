@@ -1,1 +1,1 @@
-[image] bougie.jpg
+image/bougie.jpg
