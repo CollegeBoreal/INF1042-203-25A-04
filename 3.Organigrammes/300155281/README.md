@@ -1,5 +1,5 @@
     
-mermaid
+```mermaid
     graph TD
         A[Départ] --> B{Une décision ?};
         B -->|Oui| C[Action 1];
