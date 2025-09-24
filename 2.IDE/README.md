@@ -72,7 +72,7 @@ git push
 > 
 > Password for 'https://b300098957@github.com':
 
-### :three: Configurer GIT `~/.gitconfig`
+### :three: Configurer GIT `~/.gitconfig` - `Configuration d'informations personnelles`
 
 :bulb: pour soumettre son travail vers `github.com`
 
