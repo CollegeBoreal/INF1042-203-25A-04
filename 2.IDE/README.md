@@ -123,7 +123,7 @@ git pull
      ```
      
 
-- [ ] [Ajouter votre clé publique à votre compte github](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+- [ ] [Ajouter votre clé publique à votre compte github][SSH_KEY_ACCOUNT]
 
 
 ### :five: Configurer votre clé privée
@@ -201,4 +201,6 @@ choco install vscode
 # :books: References
 
 [SSH_KEY]: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key
+[SSH_KEY_ACCOUNT]: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account
+
 
