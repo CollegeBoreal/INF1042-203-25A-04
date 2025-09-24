@@ -1,10 +1,6 @@
 # :abacus: factorielle
 
-Parfait ! Voici un **document complet prêt pour GitHub** : une leçon sur le calcul de la factorielle, **itératif et récursif**, avec des organigrammes Mermaid et explications.
-
----
-
-# **Leçon : Calcul de la factorielle avec organigrammes Mermaid**
+# **Leçon : Calcul de la factorielle avec organigrammes**
 
 ## 1️⃣ Définition de la factorielle
 
