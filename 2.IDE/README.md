@@ -1,6 +1,8 @@
 # IDE (Integrated Development Environment)
 
-[:tada: Participation](.scripts/Participation.md)
+| SSH | USR/Passwd |
+|-|-|
+| [:1st_place_medal: Participation](.scripts/Participation.md) | [:2nd_place_medal: Participation Intermediaire](.scripts/Intermediaire.md) |
 
 ### :o: Installation
 
