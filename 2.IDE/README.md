@@ -121,16 +121,6 @@ Host github.com
     IdentityFile ~/.ssh/github.com.pk
 ```
 
-:pushpin: Utilisation du port ssh à travers TLS :four::four::three:
-
-
-```
-Host github.com
- HostName ssh.github.com
- IdentityFile ~/.ssh/github.com.pk
- Port 443
-```
-
 ## IDE
 
 - [ ] [:beer: HomeBrew Visual Studio Code](https://formulae.brew.sh/cask/visual-studio-code) sur :apple: Apple
