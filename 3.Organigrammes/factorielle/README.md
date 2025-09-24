@@ -93,16 +93,18 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    A([Début]) --> B[/Lire N/]
-    B --> C[Appeler factorielle(N)]
+    A([Debut]) --> B[/Lire N/]
+    B --> C[Appeler factorielle N]
     C --> D{N <= 1 ?}
     D -- Oui --> E[Retourner 1]
-    D -- Non --> F[Appeler factorielle(N-1)]
-    F --> G[Retourner N * factorielle(N-1)]
-    E --> H[Afficher résultat]
+    D -- Non --> F[Appeler factorielle N-1]
+    F --> G[Retourner N * factorielle N-1]
+    E --> H[Afficher resultat]
     G --> H
     H --> I([Fin])
 ```
+
+
 
 ---
 
