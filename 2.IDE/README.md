@@ -54,9 +54,9 @@ git add 300098957.md
 git status
 ```
 
-* donner un commentaire aux fichiers a enregistrer (commit)
+* donner un commentaire aux fichiers à valider (commit)
 ```sh
-git commit --message "Mon commentaire"
+git commit --message ":star: Mon premier commentaire"
 ```
 :warning: Se referer à la [:point_right: section](#three-configurer-git-gitconfig) `Configuration d'informations personnelles` pour le premier `commit` 
 
