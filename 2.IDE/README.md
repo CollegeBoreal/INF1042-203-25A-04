@@ -2,7 +2,7 @@
 
 ## :bulb: [Tutoriel sur GIT](https://github.com/CollegeBoreal/Tutoriels/tree/main/0.GIT)
 
-### :a: Installation
+### :o: Installation
 
 :point_right: Suivre l'[Installation](https://github.com/CollegeBoreal/Tutoriels/tree/main/0.GIT/Installation) 
 
