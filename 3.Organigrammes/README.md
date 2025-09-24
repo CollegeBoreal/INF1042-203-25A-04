@@ -2,9 +2,16 @@
 
 [:tada: Participation](.scripts/Participation.md)
 
-## :a: Examples
+## :o: Definition
 
-:bulb: **Flowchart** en Anglais
+En programmation, un organigramme (ou **flowchart**) sert à représenter visuellement la logique d’un algorithme, avec des symboles standards :
+
+- Ovales : début / fin
+- Rectangles : actions ou instructions
+- Losanges : conditions (oui / non)
+- Flèches : enchaînement
+
+## :a: Examples
 
 - [ ] La somme d'un chiffre `N`
 
