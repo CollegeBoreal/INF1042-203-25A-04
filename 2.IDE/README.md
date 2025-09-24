@@ -140,20 +140,20 @@ git pull
 
 :pushpin: Utilisation du port ssh par défaut :two::two:
 
-- [ ] Éditer le fichier de configuration de `SSH`
+      - Éditer le fichier de configuration de `SSH`
 
-```sh
-nano ~/.ssh/config
-```
+   ```sh
+   nano ~/.ssh/config
+   ```
 
-- [ ] Ajouter le contenu ci-dessous et ajuster le nom de fichier de votre clé publique.
+      - Ajouter le contenu ci-dessous et ajuster le nom de fichier de votre clé publique.
 
-```powershell
-Host github.com
-    HostName github.com
-    User git
-    IdentityFile ~/.ssh/mon_fichier.pk
-```
+   ```powershell
+   Host github.com
+       HostName github.com
+       User git
+       IdentityFile ~/.ssh/ma_cle.pk
+   ```
 
 ### :six: Changer l'URL du cours
 
