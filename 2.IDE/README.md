@@ -130,11 +130,9 @@ git pull
 - [ ] [Ajouter votre clé publique à votre compte github][SSH_KEY_ACCOUNT]
 
 
-### :five: Configurer votre clé privée
+### :five: [Configurer git avec votre clé personnelle][SSH_PRIVATE_KEY]
 
-- [ ] [Configurer git avec votre clé personnelle](https://github.com/CollegeBoreal/Tutoriels/tree/main/0.GIT#secret-configurer-git-clé-personnelle-documentation)
-
-## :secret: Configurer git (Clé personnelle) [Documentation](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account)
+## :secret: Configurer git (Clé personnelle) [Documentation][SSH_GITHUB_ACCOUNT]
 
 ### ~/.ssh/config
 
@@ -214,5 +212,6 @@ choco install vscode
 
 [SSH_KEY]: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key
 [SSH_KEY_ACCOUNT]: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account
-
+[SSH_PRIVATE_KEY]: https://github.com/CollegeBoreal/Tutoriels/tree/main/0.GIT#secret-configurer-git-clé-personnelle-documentation
+[SSH_GITHUB_ACCOUNT]: https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account
 
