@@ -5,5 +5,5 @@
         A --> B{Nombre % 2 == 0 ?};
         B -->|Oui| C[Le nombre est pair];
         B -->|Non| D[Le nombre est impair];
-        C --> fin[Fin]
+        C & D--> fin[Fin]
     
