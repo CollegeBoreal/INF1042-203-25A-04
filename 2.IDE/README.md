@@ -133,10 +133,16 @@ Host github.com
 
 ## IDE
 
-- [ ] [:beer: HomeBrew Visual Studio Code](https://formulae.brew.sh/cask/visual-studio-code) sur :apple:
+- [ ] [:beer: HomeBrew Visual Studio Code](https://formulae.brew.sh/cask/visual-studio-code) sur [:apple: Apple]
 
 ```sh
 brew install --cask visual-studio-code
+```
+
+- [ ] [:chocolate_bar: Chocolatey Visual Studio Code](https://community.chocolatey.org/packages/vscode) sur [:window: Windows]
+
+```sh
+choco install vscode
 ```
 
 # :books: References
