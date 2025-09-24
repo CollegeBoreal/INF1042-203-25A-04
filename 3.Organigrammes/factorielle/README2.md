@@ -50,7 +50,6 @@ flowchart TD
     style H fill:#bfb,stroke:#333,stroke-width:1.5px
     style I fill:#f9f,stroke:#333,stroke-width:2px
 
-flowchart TD
     A([Debut]) --> B[/Lire N/]
     B --> C[Appeler fonction factorielle N]
     C --> D{N <= 1 ?}
