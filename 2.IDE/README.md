@@ -60,7 +60,7 @@ git status
 ```sh
 git commit --message "Mon commentaire"
 ```
-:warning: Se referer à la section `Configuration d'informations personnelles` pour le premier `commit`
+:warning: Se referer à la section `Configuration d'informations personnelles` pour le premier `commit` [:point_left: ici](#three-configurer-git-gitconfig)
 
 * envoyer les modifications locales au serveur github
   
