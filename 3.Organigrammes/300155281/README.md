@@ -1,5 +1,5 @@
 
-    ORGANIGRAMME QUI DEFINIT LA PARITE D UN NOMBRE
+    
 ```mermaid
     graph TD
        debut[Début] --> A[Entrer un nombre];
@@ -8,7 +8,7 @@
         B -->|Non| D[Le nombre est impair];
         C & D--> fin[Fin]
 
-    ORGANIGRAMME QUI ADDITIONNE 2 NOMBRES
+    
 
 ```mermaid
     graph TD
@@ -16,6 +16,6 @@
         A -->B[entrer le deuxieme nombre];
         B -->C[calculer la somme= premier nombre+deuxieme nombre];
         C -->D[ Afficher la somme ];
-        D -->fin[fin];
+        D -->fin[fin]
         
     
