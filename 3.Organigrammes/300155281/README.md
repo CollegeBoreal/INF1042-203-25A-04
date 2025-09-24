@@ -10,7 +10,7 @@
 
     
 
-```mermaid
+
     graph TD
         debut[debut] --> A[entrer le premier nombre];
         A -->B[entrer le deuxieme nombre];
