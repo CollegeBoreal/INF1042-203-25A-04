@@ -100,7 +100,7 @@ git config --global --edit
         email = MonCourriel@me_remplacer.com
 ```
 
-### :u6307: Metter à jour mon rèpertoire local (pull)
+### :u6307: Mettre à jour mon répertoire local (pull)
 ```sh
 git pull 
 ```
