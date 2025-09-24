@@ -1,3 +1,4 @@
+
 ```mermaid
 flowchart TD
     A[Démarrage] --> B[Lire capteurs<br/>(caméra, lidar, GPS)]
