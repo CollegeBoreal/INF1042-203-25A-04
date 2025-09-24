@@ -157,13 +157,19 @@ git pull
 
 ### :six: Changer l'URL du cours
 
-1. **Changer l’URL du dépôt distant**
+1. **revenir au répertoire du cours**
+
+   ```sh
+   cd ~/Developer/INF1042-203-25A-04/2.IDE
+   ```
+
+2. **Changer l’URL du dépôt distant**
 
    ```sh
    git remote set-url origin git@github.com:CollegeBoreal/INF1042-203-25A-04.git
    ```
 
-2. **Vérifier la nouvelle configuration du dépôt distant**
+3. **Vérifier la nouvelle configuration du dépôt distant**
 
    ```sh
    git remote --verbose
@@ -177,6 +183,8 @@ git pull
    ```
 
 ### :seven: Créer un fichier dans ce répertoire `(1.SSH)`:
+
+:checkered_flag: Finalement,
 
 - [ ] avec le nom de répertoire :id: (votre identifiant boreal)
 - [ ] dans votre répertoire ajouter le fichier `README.md`
