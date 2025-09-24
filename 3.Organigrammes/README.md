@@ -1,3 +1,12 @@
+# 3.Organigrammes
+
+[:tada: Participation](.scripts/Participation.md)
+
+## :a: Examples
+
+:bulb: **Flowchart** en Anglais
+
+- [ ] La somme d'un chiffre `N`
 
 ```mermaid
 flowchart TD
@@ -11,6 +20,7 @@ flowchart TD
     G --> H([Fin])
 ```
 
+- [ ] Un organigramme fonctionnel
 
 ```mermaid
 flowchart RL
@@ -20,6 +30,8 @@ flowchart RL
     D@{ shape: procs, label: "Process Automation"}
     E@{ shape: paper-tape, label: "Paper Records"}
 ```
+
+- [ ] Un organigramme expliquant la fonction paire
 
 ```mermaid
 flowchart TD
