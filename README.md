@@ -8,7 +8,7 @@
 |:hash: | Date   | Cours                      | Intitulé                            |  Pratique                                                     |
 |-------|--------|:---------------------------|:------------------------------------|:--------------------------------------------------------------|
 | :one:   |08-sept| [0.PlanDeCours](0.PlanDeCours/.scripts/Participation.md)       | â Noter :x: |
-| :two:   |15-sept| [2.IDE](2.IDE/.scripts/Participation.md)                             | â Noter :x: |
+| :two:   |15-sept| [:1st_place_medal: 2.IDE](2.IDE/.scripts/Participation.md) [:2nd_place_medal: 2.IDE+](2.IDE/.scripts/Intermediaire.md)                            | â Noter :x: |
 
 ### :abacus: Évaluation
 
