@@ -34,6 +34,7 @@ echo "|:hash:| Boréal :id:                | README.md    | images |"
 echo "|------|----------------------------|--------------|--------|"
 
 i=0
+s=0
 
 for id in "${ETUDIANTS[@]}"
 do
@@ -44,13 +45,24 @@ do
    FULL_OK="| ${i} | [${id}](../${FILE}) :point_right: ${URL} | :heavy_check_mark: | :heavy_check_mark: | "
    KO="| ${i} | [${id}](../${FILE}) :point_right: ${URL} | :x: | :x: |"
    if [ -f "$FILE" ]; then
+    ACTUAL_NAME="$(basename "$(realpath "$FILE")")"
+    if [[ "$ACTUAL_NAME" == "README.md" ]]; then
         if [ -d "$FOLDER" ]; then
                 echo ${FULL_OK}
+                let "s++"
         else
             echo ${OK}
         fi
+    else
+       echo ${KO}
+    fi
    else
        echo ${KO}
    fi
    let "i++"
-done
+   COUNT="\$\\frac{${s}}{${i}}$"
+   STATS=$(echo "$s*100/$i" | bc)
+   SUM="$\displaystyle\sum_{i=1}^{${i}} s_i$"
+ done
+ 
+echo "| :abacus: | " ${COUNT} " = " ${STATS}% "|" ${SUM} = ${s} "|"
