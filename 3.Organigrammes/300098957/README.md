@@ -1,7 +1,6 @@
 
 
 ```mermaid
-```mermaid
 flowchart TD
     style A fill:#f9f,stroke:#333,stroke-width:2px
     style B fill:#bbf,stroke:#333,stroke-width:1.5px
@@ -22,5 +21,4 @@ flowchart TD
     E --> H[Afficher resultat]
     G --> H
     H --> I([Fin])
-```
 ```
