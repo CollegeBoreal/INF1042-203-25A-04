@@ -4,7 +4,7 @@
 
 ### :zero: Installation
 
-:point_right: Suivre l'[Installation](Installation)
+:point_right: Suivre l'[Installation](https://github.com/CollegeBoreal/Tutoriels/tree/main/0.GIT/Installation) 
 
 ### :one: Les premiers pas avec git
 
