@@ -1,8 +1,12 @@
 
 ```mermaid
-    graph TD
-        A[Départ] --> B{Une décision ?};
-        B -->|Oui| C[Action 1];
-        B -->|Non| D[Action 2];
-        C --> E[Fin];
-        D --> E[Fin];
+    journey
+    title My working day
+    section Go to work
+      Make tea: 5: Me
+      Go upstairs: 3: Me
+      Do work: 1: Me, Cat
+    section Go home
+      Go downstairs: 5: Me
+      Sit down: 5: Me
+
