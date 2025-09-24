@@ -128,9 +128,7 @@ git pull
      
 
 
-- [ ] [Configurer git avec votre clé personnelle][SSH_PRIVATE_KEY]
-
-###### :secret: Configurer git (Clé personnelle) [Documentation][SSH_GITHUB_ACCOUNT]
+- [ ] [:secret: Configurer git avec votre clé personnelle][SSH_PRIVATE_KEY] [Documentation][SSH_GITHUB_ACCOUNT]
 
 * le Fichier de configuration `SSH` ***~/.ssh/config***
 
