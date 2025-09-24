@@ -1,7 +1,6 @@
 #!/bin/bash
 
 ETUDIANTS=(
-300128166
 300146694
 300147253
 300150396
@@ -16,6 +15,7 @@ ETUDIANTS=(
 300152315
 300152362
 300153811
+300155045
 300155086
 300155109
 300155187
@@ -39,7 +39,6 @@ ETUDIANTS=(
 )
 
 IDS=(
-Roukaya-nana
 yourten06
 azzed98
 ibkourouma
@@ -54,6 +53,7 @@ hindchili
 nour19992108
 naser674
 hama374
+300155045
 ynsakliii
 AlexiaKabore
 MaimounaBella
