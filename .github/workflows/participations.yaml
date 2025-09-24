@@ -26,6 +26,13 @@ jobs:
           cd 2.IDE
           bash .scripts/run.sh
           cd ..
+          ##
+          ## Evaluating chapter 3.Organigrammes
+          ## 
+          echo "Evaluating chapter 3.Organigrammes Participation"
+          cd 3.Organigrammes
+          bash .scripts/run.sh
+          cd ..
 
       - name: Commit files
         run: |
