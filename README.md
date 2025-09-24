@@ -8,8 +8,7 @@
 |:hash: | Date   | Cours                      | Intitulé                            |  Pratique                                                     |
 |-------|--------|:---------------------------|:------------------------------------|:--------------------------------------------------------------|
 | :one:   |08-sept| [0.PlanDeCours](0.PlanDeCours/.scripts/Participation.md)       | â Noter :x: |
-| :two:   |15-sept| [0.Tutoriel sur GIT](.scripts/Participation.md)       | â Noter :x: |
-| :three: |22-sept| [1.SSH](1.SSH/.scripts/Participation.md)       | â Noter :x: |
+| :two:   |15-sept| [2.IDE](.scripts/Participation.md)                             | â Noter :x: |
 
 ### :abacus: Évaluation
 
