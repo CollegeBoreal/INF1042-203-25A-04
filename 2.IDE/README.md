@@ -128,7 +128,7 @@ Host github.com
     IdentityFile ~/.ssh/mon_fichier.pk
 ```
 
-## IDE
+## :toolbox: IDE
 
 - [ ] [:beer: HomeBrew Visual Studio Code](https://formulae.brew.sh/cask/visual-studio-code) sur :apple: Apple
 
