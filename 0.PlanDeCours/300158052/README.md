@@ -1,4 +1,4 @@
 #300158052
 
 Voici ma première image :  
-![Ma première image](images/githubimage.png)
+<img src = images/githubimage.png width = '50%' height = '50%')> </img>
