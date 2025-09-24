@@ -71,6 +71,7 @@ git push
 :secret: Remonter les informations vers le serveur requiert votre `utilisateur` et `mot de passe`
 
 > Username for 'https://github.com': b300098957
+> 
 > Password for 'https://b300098957@github.com':
 
 ### :three: Configurer GIT `~/.gitconfig`
