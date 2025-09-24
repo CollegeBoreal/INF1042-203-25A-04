@@ -50,13 +50,14 @@ flowchart TD
     style H fill:#bfb,stroke:#333,stroke-width:1.5px
     style I fill:#f9f,stroke:#333,stroke-width:2px
 
-    A([Début]) --> B[/Lire N/]
-    B --> C[Appeler factorielle(N)]
+flowchart TD
+    A([Debut]) --> B[/Lire N/]
+    B --> C[Appeler fonction factorielle N]
     C --> D{N <= 1 ?}
     D -- Oui --> E[Retourner 1]
-    D -- Non --> F[Appeler factorielle(N-1)]
-    F --> G[Retourner N * factorielle(N-1)]
-    E --> H[Afficher résultat]
+    D -- Non --> F[Appeler fonction factorielle N-1]
+    F --> G[Retourner N multiplie factorielle N-1]
+    E --> H[Afficher resultat]
     G --> H
     H --> I([Fin])
 ```
