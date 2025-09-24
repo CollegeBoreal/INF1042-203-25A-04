@@ -118,8 +118,8 @@ git pull
    - Éviter le 'pass phrase' en appuyant sur la touche `Enter`
    - renommer les fichiers par défaut
      ```sh
-      mv id_ed25519 mon_fichier.pk
-      mv id_ed25519.pub mon_fichier.pub
+      mv id_ed25519 ma_cle.pk
+      mv id_ed25519.pub ma_cle.pub
      ```
      
 
