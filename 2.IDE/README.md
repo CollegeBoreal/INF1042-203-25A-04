@@ -132,7 +132,7 @@ git pull
 
 ### :five: [Configurer git avec votre clé personnelle][SSH_PRIVATE_KEY]
 
-## :secret: Configurer git (Clé personnelle) [Documentation][SSH_GITHUB_ACCOUNT]
+#### :secret: Configurer git (Clé personnelle) [Documentation][SSH_GITHUB_ACCOUNT]
 
 ### ~/.ssh/config
 
