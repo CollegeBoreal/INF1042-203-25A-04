@@ -1,10 +1,40 @@
 # :abacus: factorielle
 
-Voici un **exemple complet d’organigramme pour le calcul de la factorielle** d’un nombre `N` avec **Mermaid**, prêt pour GitHub Markdown.
+Parfait ! Voici un **document complet prêt pour GitHub** : une leçon sur le calcul de la factorielle, **itératif et récursif**, avec des organigrammes Mermaid et explications.
 
 ---
 
-## 1️⃣ Organigramme classique (boucle)
+# **Leçon : Calcul de la factorielle avec organigrammes Mermaid**
+
+## 1️⃣ Définition de la factorielle
+
+La **factorielle** d’un nombre entier positif `N` (notée `N!`) est le produit de tous les entiers positifs de 1 à `N` :
+
+$$
+N! = 1 × 2 × 3 × … × N
+$$
+
+Cas particuliers :
+
+* `0! = 1`
+* `1! = 1`
+
+La factorielle est utilisée en mathématiques, statistiques et programmation (permutations, combinaisons, etc.).
+
+---
+
+## 2️⃣ Algorithme itératif
+
+### Étapes :
+
+1. Lire un nombre `N`.
+2. Initialiser `factor = 1`.
+3. Pour `i` de 1 à `N` : multiplier `factor` par `i`.
+4. Afficher `factor`.
+
+---
+
+### 2.1 Organigramme Mermaid classique
 
 ```mermaid
 flowchart TD
@@ -18,21 +48,9 @@ flowchart TD
     G --> H([Fin])
 ```
 
-### Explications :
-
-1. **Début** → le programme commence.
-2. **Lire N** → entrée de l’utilisateur.
-3. **Initialiser factor = 1 et i = 1** → variable pour stocker le résultat et compteur.
-4. **i <= N ?** → condition de la boucle.
-5. **factor = factor \* i** → multiplication pour la factorielle.
-6. **i = i + 1** → incrémenter le compteur.
-7. Boucle jusqu’à ce que `i > N`.
-8. **Écrire factor** → afficher le résultat.
-9. **Fin** → terminer le programme.
-
 ---
 
-## 2️⃣ Version avec **shapes personnalisés** (Mermaid avancé)
+### 2.2 Organigramme avec **shapes personnalisés**
 
 ```mermaid
 flowchart TD
@@ -55,10 +73,74 @@ flowchart TD
     G --> H
 ```
 
-> Cette version rend le diagramme plus visuel avec différents styles pour **début/fin**, **entrée**, **instruction**, et **condition**.
+---
+
+## 3️⃣ Algorithme récursif
+
+### Étapes :
+
+1. Fonction `factorielle(n)` :
+
+   * Si `n <= 1` → retourner 1
+   * Sinon → retourner `n * factorielle(n-1)`
+2. Lire `N`
+3. Appeler `factorielle(N)`
+4. Afficher le résultat
 
 ---
 
-Si tu veux, je peux aussi te créer **la version factorielle avec récursion** en organigramme Mermaid, ce qui est un peu plus complexe et pédagogique.
+### 3.1 Organigramme Mermaid classique (récursion)
 
-Veux‑tu que je fasse ça ?
+```mermaid
+flowchart TD
+    A([Début]) --> B[/Lire N/]
+    B --> C[Appeler factorielle(N)]
+    C --> D{N <= 1 ?}
+    D -- Oui --> E[Retourner 1]
+    D -- Non --> F[Appeler factorielle(N-1)]
+    F --> G[Retourner N * factorielle(N-1)]
+    E --> H[Afficher résultat]
+    G --> H
+    H --> I([Fin])
+```
+
+---
+
+### 3.2 Organigramme avec **shapes personnalisés**
+
+```mermaid
+flowchart TD
+    A@{ shape: manual-file, label: "Début du programme"}
+    B@{ shape: manual-input, label: "Lire N"}
+    C@{ shape: procs, label: "Appeler factorielle(N)"}
+    D@{ shape: diamond, label: "N <= 1 ?"}
+    E@{ shape: procs, label: "Retourner 1"}
+    F@{ shape: procs, label: "factorielle(N-1)"}
+    G@{ shape: procs, label: "Retourner N * factorielle(N-1)"}
+    H@{ shape: procs, label: "Afficher résultat"}
+    I@{ shape: manual-file, label: "Fin du programme"}
+
+    A --> B
+    B --> C
+    C --> D
+    D -- Oui --> E
+    D -- Non --> F
+    F --> G
+    E --> H
+    G --> H
+    H --> I
+```
+
+---
+
+## 4️⃣ Bonnes pratiques pour les organigrammes
+
+1. Toujours **commencer par Début** et finir par **Fin**.
+2. Utiliser des **formes cohérentes** pour les mêmes types d’actions.
+3. Garder le diagramme **simple et lisible**, éviter les croisements de flèches.
+4. Mettre des **étiquettes claires** sur les flèches pour les conditions (Oui / Non).
+5. Vérifier la logique en parallèle du code.
+
+---
+
+✅ Avec ces exemples, tu as un **tutoriel complet sur la factorielle** en **itératif et récursif**, avec **Mermaid** pour illustrer les algorithmes sur GitHub.
