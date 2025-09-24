@@ -107,7 +107,7 @@ git pull
 
 ## :b: SSH
 
-### :four: Créer votre clé SSH
+### :four: Gestion de votre clé SSH
 
 - [ ] [Générer votre clé SSH][SSH_KEY]
    ```sh
@@ -127,14 +127,12 @@ git pull
       ```
      
 
-- [ ] [Ajouter votre clé publique à votre compte github][SSH_KEY_ACCOUNT]
 
+- [ ] [Configurer git avec votre clé personnelle][SSH_PRIVATE_KEY]
 
-### :five: [Configurer git avec votre clé personnelle][SSH_PRIVATE_KEY]
+###### :secret: Configurer git (Clé personnelle) [Documentation][SSH_GITHUB_ACCOUNT]
 
-#### :secret: Configurer git (Clé personnelle) [Documentation][SSH_GITHUB_ACCOUNT]
-
-### ~/.ssh/config
+* le Fichier de configuration `SSH` ***~/.ssh/config***
 
 :pushpin: Utilisation du port ssh par défaut :two::two:
 
@@ -153,7 +151,10 @@ git pull
        IdentityFile ~/.ssh/ma_cle.pk
    ```
 
-### :six: Changer l'URL du cours
+- [ ] [Ajouter votre clé publique à votre compte github][SSH_KEY_ACCOUNT]
+
+
+### :five: Changer l'URL du cours
 
 1. **revenir au répertoire du cours**
 
@@ -180,7 +181,7 @@ git pull
    origin  git@github-boreal.com:CollegeBoreal/INF1042-203-25A-04.git (push)
    ```
 
-### :seven: Créer un fichier dans ce répertoire `(1.SSH)`:
+### :six: Créer un fichier dans ce répertoire `(1.SSH)`:
 
 :checkered_flag: Finalement,
 
