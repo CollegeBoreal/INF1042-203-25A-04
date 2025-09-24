@@ -1,4 +1,4 @@
-# Participation au 24-09-2025 12:16
+# Participation au 24-09-2025 14:54
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -14,8 +14,8 @@
 
 ## :a: Présence
 
-|:hash:| Boréal :id:                | :id:.md    | :rocket: |
-|------|----------------------------|------------|----------|
+|:hash:| Boréal :id:                | :id:/README.md    | :rocket: |
+|------|----------------------------|-------------------|----------|
 | 0 | [300146694](../300146694/README.md) :point_right: [yourten06](https://github.com/yourten06) <image src='https://avatars0.githubusercontent.com/u/232939164?s=460&v=4' width=20 height=20></image> | :x: |
 | 1 | [300147253](../300147253/README.md) :point_right: [azzed98](https://github.com/azzed98) <image src='https://avatars0.githubusercontent.com/u/232965506?s=460&v=4' width=20 height=20></image> | :x: |
 | 2 | [300150396](../300150396/README.md) :point_right: [ibkourouma](https://github.com/ibkourouma) <image src='https://avatars0.githubusercontent.com/u/232939321?s=460&v=4' width=20 height=20></image> | :x: |
