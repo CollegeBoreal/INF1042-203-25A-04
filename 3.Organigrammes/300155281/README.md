@@ -6,4 +6,4 @@
         B -->|Non| D[Le nombre est impair]
         C --> fin[Fin]
         D --> fin
-    mermaid```
+    ```
