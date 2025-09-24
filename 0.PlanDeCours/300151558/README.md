@@ -1,3 +1,3 @@
 # 300151558
 
-<img src=Images/github.jpg width='25%' height='25%' > </img>
+<img src=Images/github.jpg width='100%' height='100%' > </img>
