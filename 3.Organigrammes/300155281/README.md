@@ -1,8 +1,9 @@
     
 ```mermaid
     graph TD
-        A[Départ] --> B{Une décision ?};
-        B -->|Oui| C[Action 1];
-        B -->|Non| D[Action 2];
-        C --> E[Fin];
-        D --> E[Fin];
+       debut[Début] --> A[Entrer un nombre];
+        A --> B{Nombre % 2 == 0 ?};
+        B -->|Oui| C[Le nombre est pair];
+        B -->|Non| D[Le nombre est impair];
+        C --> fin[Fin]
+    
