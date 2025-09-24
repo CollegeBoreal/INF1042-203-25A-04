@@ -101,9 +101,3 @@ Ces versions sont **colorées, structurées et pédagogiques**, parfaites pour :
 * GitHub Markdown
 * Présentations
 * Cours et tutoriels interactifs
-
----
-
-Si tu veux, je peux créer **un pack complet Mermaid “Factorielle + autres algorithmes classiques”** avec **itératif, récursif, boucles, conditions**, tous colorés et prêts pour GitHub.
-
-Veux‑tu que je fasse ça ?
