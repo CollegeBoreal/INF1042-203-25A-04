@@ -114,7 +114,7 @@ git pull
 - [ ] [Générer votre clé SSH][SSH_KEY]
 - [ ] [Ajouter votre clé publique à votre compte github](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 
-[SSH_KEY]:(https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key)
+[SSH_KEY]: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key
 
 ### :five: Configurer votre clé privée
 
