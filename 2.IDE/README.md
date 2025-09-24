@@ -58,7 +58,7 @@ git status
 ```sh
 git commit --message ":star: Mon premier commentaire"
 ```
-:warning: Se referer à la [:point_right: section](#three-configurer-git-gitconfig) `Configuration d'informations personnelles` pour le premier `commit` 
+:warning: Se referer à la [:point_right: section](#three-configurer-git-gitconfig---configuration-dinformations-personnelles) `Configuration d'informations personnelles` pour le premier `commit` 
 
 * envoyer les modifications locales au serveur github
   
