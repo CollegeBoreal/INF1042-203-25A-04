@@ -112,6 +112,17 @@ git pull
 ### :four: Créer votre clé SSH
 
 - [ ] [Générer votre clé SSH][SSH_KEY]
+   ```sh
+   ssh-keygen -t ed25519 -C "your_email@example.com"
+   ```
+   - Éviter le 'pass phrase' en appuyant sur la touche `Enter`
+   - renommer les fichiers par défaut
+     ```sh
+      mv id_ed25519 mon_fichier.pk
+      mv id_ed25519.pub mon_fichier.pub
+     ```
+     
+
 - [ ] [Ajouter votre clé publique à votre compte github](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 
 
