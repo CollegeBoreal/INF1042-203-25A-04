@@ -1,4 +1,4 @@
-# Participation au 24-09-2025 20:47
+# Participation au 24-09-2025 20:50
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -47,8 +47,8 @@
 | 28 | [300157334](../300157334/README.md) :point_right: [Laalahamdaoui16-alt](https://github.com/Laalahamdaoui16-alt) <image src='https://avatars0.githubusercontent.com/u/231569676?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 29 | [300157416](../300157416/README.md) :point_right: [LounisYounes](https://github.com/LounisYounes) <image src='https://avatars0.githubusercontent.com/u/232939450?s=460&v=4' width=20 height=20></image> | :x: | :x: |
 | 30 | [300157440](../300157440/README.md) :point_right: [Houssam-eddinerachdi](https://github.com/Houssam-eddinerachdi) <image src='https://avatars0.githubusercontent.com/u/231572378?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
-| 31 | [300158052](../300158052/README.md) :point_right: [ZizouBouchelkia](https://github.com/ZizouBouchelkia) <image src='https://avatars0.githubusercontent.com/u/121287922?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :x: |
+| 31 | [300158052](../300158052/README.md) :point_right: [ZizouBouchelkia](https://github.com/ZizouBouchelkia) <image src='https://avatars0.githubusercontent.com/u/121287922?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 32 | [300158185](../300158185/README.md) :point_right: [Mohammed-Mati](https://github.com/Mohammed-Mati) <image src='https://avatars0.githubusercontent.com/u/232939280?s=460&v=4' width=20 height=20></image> | :x: | :x: |
 | 33 | [300158486](../300158486/README.md) :point_right: [lyes158](https://github.com/lyes158) <image src='https://avatars0.githubusercontent.com/u/232938643?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 34 | [300159189](../300159189/README.md) :point_right: [fateh98](https://github.com/fateh98) <image src='https://avatars0.githubusercontent.com/u/232939045?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
-| :abacus: |  $\frac{17}{35}$  =  48% | $\displaystyle\sum_{i=1}^{35} s_i$ = 17 |
+| :abacus: |  $\frac{18}{35}$  =  51% | $\displaystyle\sum_{i=1}^{35} s_i$ = 18 |
