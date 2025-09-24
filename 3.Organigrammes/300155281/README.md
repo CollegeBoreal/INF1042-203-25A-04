@@ -11,11 +11,4 @@
     
 
 
-    graph TD
-        debut[debut] --> A[entrer le premier nombre];
-        A -->B[entrer le deuxieme nombre];
-        B -->C[calculer la somme= premier nombre+deuxieme nombre];
-        C -->D[ Afficher la somme ];
-        D -->fin[fin]
-        
-    
+   
