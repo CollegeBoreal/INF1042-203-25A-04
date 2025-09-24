@@ -42,3 +42,6 @@ flowchart TD
     D --> F([Fin])
     E --> F([Fin])
 ```
+# :books: References
+
+- [ ] [:mermaid: Mermaid](https://mermaid.js.org)
