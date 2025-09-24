@@ -116,15 +116,15 @@ git pull
    - Éviter le 'pass phrase' en appuyant sur la touche `Enter`
    - renommer les fichiers par défaut qui se trouvent dans le répertoire `~/.ssh`
 
-     - aller vers le répertoire `~/.ssh`
-   ```sh
-   cd ~/.ssh
-   ```
-     - renommer les fichiers
-     ```sh
+        - aller vers le répertoire `~/.ssh`
+      ```sh
+      cd ~/.ssh
+      ```
+        - renommer les fichiers
+      ```sh
       mv id_ed25519 ma_cle.pk
       mv id_ed25519.pub ma_cle.pub
-     ```
+      ```
      
 
 - [ ] [Ajouter votre clé publique à votre compte github][SSH_KEY_ACCOUNT]
