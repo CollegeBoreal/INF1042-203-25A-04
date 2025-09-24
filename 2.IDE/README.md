@@ -39,7 +39,7 @@ cd Developer
 * allez dans le répertoire du cours
 
 ```sh
-cd INF1042-203-25A-04
+cd INF1042-203-25A-04/2.IDE
 ```
 
 ### :two: Créer son premier fichier sous git (utiliser vi)
