@@ -33,13 +33,13 @@ cd Developer
    - * example
 
    ```sh
-   git clone https://github.com/CollegeBoreal/INF1039-202-20A-01.git
+   git clone https://github.com/CollegeBoreal/INF1042-203-25A-04.git
    ```
    
 * allez dans le répertoire du cours
 
 ```sh
-cd INF1039-202-20A-01
+cd INF1042-203-25A-04
 ```
 
 ### :two: Créer son premier fichier sous git (utiliser vi)
@@ -51,7 +51,7 @@ nano 300098957.md
 ```sh
 git add 300098957.md
 ```
-> Vérifier son status avec (doit etre vert)  
+> Vérifier son status avec (doit etre :green_circle: vert)  
 ```sh
 git status
 ```
@@ -70,7 +70,7 @@ git push
 
 :secret: Remonter les informations vers le serveur requiert votre `utilisateur` et `mot de passe`
 
-```powershell
+```
 Username for 'https://github.com': b300098957
 Password for 'https://b300098957@github.com':
 ```
