@@ -6,7 +6,7 @@
 #
 # --------------------------------------
 
-source .scripts/students.sh --source-only
+source ../.scripts/students.sh --source-only
    
 echo "# Participation au `date +"%d-%m-%Y %H:%M"`"
 echo ""
