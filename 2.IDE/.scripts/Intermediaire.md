@@ -1,4 +1,4 @@
-# Participation au 01-10-2025 23:08
+# Participation au 01-10-2025 23:16
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -32,7 +32,7 @@
 | 13 | [300153811](../300153811.md) :point_right: [hama374](https://github.com/hama374) <image src='https://avatars0.githubusercontent.com/u/231571796?s=460&v=4' width=20 height=20></image> | :x: |
 | 14 | [300155045](../300155045.md) :point_right: [chouaibait](https://github.com/chouaibait) <image src='https://avatars0.githubusercontent.com/u/232956639?s=460&v=4' width=20 height=20></image> | :x: |
 | 15 | [300155086](../300155086.md) :point_right: [ynsakliii](https://github.com/ynsakliii) <image src='https://avatars0.githubusercontent.com/u/200866288?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
-| 16 | [300155109](../300155109.md) :point_right: [AlexiaKabore](https://github.com/AlexiaKabore) <image src='https://avatars0.githubusercontent.com/u/231572626?s=460&v=4' width=20 height=20></image> | :x: |
+| 16 | [300155109](../300155109.md) :point_right: [AlexiaKabore](https://github.com/AlexiaKabore) <image src='https://avatars0.githubusercontent.com/u/231572626?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 17 | [300155187](../300155187.md) :point_right: [MaimounaBella](https://github.com/MaimounaBella) <image src='https://avatars0.githubusercontent.com/u/231571253?s=460&v=4' width=20 height=20></image> | :x: |
 | 18 | [300155281](../300155281.md) :point_right: [Ernice778](https://github.com/Ernice778) <image src='https://avatars0.githubusercontent.com/u/231570309?s=460&v=4' width=20 height=20></image> | :x: |
 | 19 | [300155466](../300155466.md) :point_right: [rekhilahana34-tech](https://github.com/rekhilahana34-tech) <image src='https://avatars0.githubusercontent.com/u/232940163?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
@@ -51,4 +51,4 @@
 | 32 | [300158185](../300158185.md) :point_right: [Mohammed-Mati](https://github.com/Mohammed-Mati) <image src='https://avatars0.githubusercontent.com/u/232939280?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 33 | [300158486](../300158486.md) :point_right: [lyes158](https://github.com/lyes158) <image src='https://avatars0.githubusercontent.com/u/232938643?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 34 | [300159189](../300159189.md) :point_right: [fateh98](https://github.com/fateh98) <image src='https://avatars0.githubusercontent.com/u/232939045?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
-| :abacus: |  $\frac{15}{35}$  =  42% | $\displaystyle\sum_{i=1}^{35} s_i$ = 15 |
+| :abacus: |  $\frac{16}{35}$  =  45% | $\displaystyle\sum_{i=1}^{35} s_i$ = 16 |
