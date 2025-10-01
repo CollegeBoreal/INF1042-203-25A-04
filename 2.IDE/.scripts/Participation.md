@@ -1,4 +1,4 @@
-# Participation au 01-10-2025 23:31
+# Participation au 01-10-2025 23:32
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -50,5 +50,5 @@
 | 31 | [300158052](../300158052/README.md) :point_right: [ZizouBouchelkia](https://github.com/ZizouBouchelkia) <image src='https://avatars0.githubusercontent.com/u/121287922?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 32 | [300158185](../300158185/README.md) :point_right: [Mohammed-Mati](https://github.com/Mohammed-Mati) <image src='https://avatars0.githubusercontent.com/u/232939280?s=460&v=4' width=20 height=20></image> | :x: |
 | 33 | [300158486](../300158486/README.md) :point_right: [lyes158](https://github.com/lyes158) <image src='https://avatars0.githubusercontent.com/u/232938643?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
-| 34 | [300159189](../300159189/README.md) :point_right: [fateh98](https://github.com/fateh98) <image src='https://avatars0.githubusercontent.com/u/232939045?s=460&v=4' width=20 height=20></image> | :x: |
-| :abacus: |  $\frac{9}{35}$  =  25% | $\displaystyle\sum_{i=1}^{35} s_i$ = 9 |
+| 34 | [300159189](../300159189/README.md) :point_right: [fateh98](https://github.com/fateh98) <image src='https://avatars0.githubusercontent.com/u/232939045?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
+| :abacus: |  $\frac{10}{35}$  =  28% | $\displaystyle\sum_{i=1}^{35} s_i$ = 10 |
