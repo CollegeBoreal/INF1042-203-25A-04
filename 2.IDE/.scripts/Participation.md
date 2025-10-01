@@ -1,4 +1,4 @@
-# Participation au 01-10-2025 22:57
+# Participation au 01-10-2025 23:08
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -24,7 +24,7 @@
 | 5 | [300151262](../300151262/README.md) :point_right: [rifwil5-tech](https://github.com/rifwil5-tech) <image src='https://avatars0.githubusercontent.com/u/231570449?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 6 | [300151449](../300151449/README.md) :point_right: [AbderrahimAlaoui](https://github.com/AbderrahimAlaoui) <image src='https://avatars0.githubusercontent.com/u/231569522?s=460&v=4' width=20 height=20></image> | :x: |
 | 7 | [300151483](../300151483/README.md) :point_right: [Arnauld-ttad](https://github.com/Arnauld-ttad) <image src='https://avatars0.githubusercontent.com/u/231570852?s=460&v=4' width=20 height=20></image> | :x: |
-| 8 | [300151504](../300151504/README.md) :point_right: [nassimidir](https://github.com/nassimidir) <image src='https://avatars0.githubusercontent.com/u/232939073?s=460&v=4' width=20 height=20></image> | :x: |
+| 8 | [300151504](../300151504/README.md) :point_right: [nassimidir](https://github.com/nassimidir) <image src='https://avatars0.githubusercontent.com/u/232939073?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 9 | [300151505](../300151505/README.md) :point_right: [300151505](https://github.com/300151505) <image src='https://avatars0.githubusercontent.com/u/583231?s=460&v=4' width=20 height=20></image> | :x: |
 | 10 | [300151558](../300151558/README.md) :point_right: [hindchili](https://github.com/hindchili) <image src='https://avatars0.githubusercontent.com/u/232939530?s=460&v=4' width=20 height=20></image> | :x: |
 | 11 | [300152315](../300152315/README.md) :point_right: [nour19992108](https://github.com/nour19992108) <image src='https://avatars0.githubusercontent.com/u/232939475?s=460&v=4' width=20 height=20></image> | :x: |
@@ -51,4 +51,4 @@
 | 32 | [300158185](../300158185/README.md) :point_right: [Mohammed-Mati](https://github.com/Mohammed-Mati) <image src='https://avatars0.githubusercontent.com/u/232939280?s=460&v=4' width=20 height=20></image> | :x: |
 | 33 | [300158486](../300158486/README.md) :point_right: [lyes158](https://github.com/lyes158) <image src='https://avatars0.githubusercontent.com/u/232938643?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 34 | [300159189](../300159189/README.md) :point_right: [fateh98](https://github.com/fateh98) <image src='https://avatars0.githubusercontent.com/u/232939045?s=460&v=4' width=20 height=20></image> | :x: |
-| :abacus: |  $\frac{6}{35}$  =  17% | $\displaystyle\sum_{i=1}^{35} s_i$ = 6 |
+| :abacus: |  $\frac{7}{35}$  =  20% | $\displaystyle\sum_{i=1}^{35} s_i$ = 7 |
