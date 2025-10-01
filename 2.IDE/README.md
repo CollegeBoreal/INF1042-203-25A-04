@@ -106,7 +106,7 @@ git config --global --edit
 
 ### :u6307: Mettre à jour mon répertoire local (pull)
 ```sh
-git pull 
+git pull --no-edit
 ```
 
 ## :b: SSH
