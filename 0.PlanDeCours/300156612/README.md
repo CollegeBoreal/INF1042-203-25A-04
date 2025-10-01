@@ -1,2 +1,2 @@
 # 300156612
-![mon image](image/bougie.jpg)
+![mon image](images/bougie.jpg)
