@@ -46,9 +46,9 @@
 | 27 | [300157332](../300157332/README.md) :point_right: [aliboukhalfa98-sudo](https://github.com/aliboukhalfa98-sudo) <image src='https://avatars0.githubusercontent.com/u/232939140?s=460&v=4' width=20 height=20></image> | :x: |
 | 28 | [300157334](../300157334/README.md) :point_right: [Laalahamdaoui16-alt](https://github.com/Laalahamdaoui16-alt) <image src='https://avatars0.githubusercontent.com/u/231569676?s=460&v=4' width=20 height=20></image> | :x: |
 | 29 | [300157416](../300157416/README.md) :point_right: [LounisYounes](https://github.com/LounisYounes) <image src='https://avatars0.githubusercontent.com/u/232939450?s=460&v=4' width=20 height=20></image> | :x: |
-| 30 | [300157440](../300157440/README.md) :point_right: [Houssam-eddinerachdi](https://github.com/Houssam-eddinerachdi) <image src='https://avatars0.githubusercontent.com/u/231572378?s=460&v=4' width=20 height=20></image> | :x: |
+| 30 | [300157440](../300157440/README.md) :point_right: [Houssam-eddinerachdi](https://github.com/Houssam-eddinerachdi) <image src='https://avatars0.githubusercontent.com/u/231572378?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 31 | [300158052](../300158052/README.md) :point_right: [ZizouBouchelkia](https://github.com/ZizouBouchelkia) <image src='https://avatars0.githubusercontent.com/u/121287922?s=460&v=4' width=20 height=20></image> | :x: |
 | 32 | [300158185](../300158185/README.md) :point_right: [Mohammed-Mati](https://github.com/Mohammed-Mati) <image src='https://avatars0.githubusercontent.com/u/232939280?s=460&v=4' width=20 height=20></image> | :x: |
 | 33 | [300158486](../300158486/README.md) :point_right: [lyes158](https://github.com/lyes158) <image src='https://avatars0.githubusercontent.com/u/232938643?s=460&v=4' width=20 height=20></image> | :x: |
 | 34 | [300159189](../300159189/README.md) :point_right: [fateh98](https://github.com/fateh98) <image src='https://avatars0.githubusercontent.com/u/232939045?s=460&v=4' width=20 height=20></image> | :x: |
-| :abacus: |  $\frac{3}{35}$  =  8% | $\displaystyle\sum_{i=1}^{35} s_i$ = 3 |
+| :abacus: |  $\frac{4}{35}$  =  11% | $\displaystyle\sum_{i=1}^{35} s_i$ = 4 |
