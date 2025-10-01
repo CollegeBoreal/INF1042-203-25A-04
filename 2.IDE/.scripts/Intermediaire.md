@@ -1,4 +1,4 @@
-# Participation au 01-10-2025 22:08
+# Participation au 01-10-2025 23:18
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -24,7 +24,7 @@
 | 5 | [300151262](../300151262.md) :point_right: [rifwil5-tech](https://github.com/rifwil5-tech) <image src='https://avatars0.githubusercontent.com/u/231570449?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 6 | [300151449](../300151449.md) :point_right: [AbderrahimAlaoui](https://github.com/AbderrahimAlaoui) <image src='https://avatars0.githubusercontent.com/u/231569522?s=460&v=4' width=20 height=20></image> | :x: |
 | 7 | [300151483](../300151483.md) :point_right: [Arnauld-ttad](https://github.com/Arnauld-ttad) <image src='https://avatars0.githubusercontent.com/u/231570852?s=460&v=4' width=20 height=20></image> | :x: |
-| 8 | [300151504](../300151504.md) :point_right: [nassimidir](https://github.com/nassimidir) <image src='https://avatars0.githubusercontent.com/u/232939073?s=460&v=4' width=20 height=20></image> | :x: |
+| 8 | [300151504](../300151504.md) :point_right: [nassimidir](https://github.com/nassimidir) <image src='https://avatars0.githubusercontent.com/u/232939073?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 9 | [300151505](../300151505.md) :point_right: [300151505](https://github.com/300151505) <image src='https://avatars0.githubusercontent.com/u/583231?s=460&v=4' width=20 height=20></image> | :x: |
 | 10 | [300151558](../300151558.md) :point_right: [hindchili](https://github.com/hindchili) <image src='https://avatars0.githubusercontent.com/u/232939530?s=460&v=4' width=20 height=20></image> | :x: |
 | 11 | [300152315](../300152315.md) :point_right: [nour19992108](https://github.com/nour19992108) <image src='https://avatars0.githubusercontent.com/u/232939475?s=460&v=4' width=20 height=20></image> | :x: |
@@ -32,23 +32,23 @@
 | 13 | [300153811](../300153811.md) :point_right: [hama374](https://github.com/hama374) <image src='https://avatars0.githubusercontent.com/u/231571796?s=460&v=4' width=20 height=20></image> | :x: |
 | 14 | [300155045](../300155045.md) :point_right: [chouaibait](https://github.com/chouaibait) <image src='https://avatars0.githubusercontent.com/u/232956639?s=460&v=4' width=20 height=20></image> | :x: |
 | 15 | [300155086](../300155086.md) :point_right: [ynsakliii](https://github.com/ynsakliii) <image src='https://avatars0.githubusercontent.com/u/200866288?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
-| 16 | [300155109](../300155109.md) :point_right: [AlexiaKabore](https://github.com/AlexiaKabore) <image src='https://avatars0.githubusercontent.com/u/231572626?s=460&v=4' width=20 height=20></image> | :x: |
+| 16 | [300155109](../300155109.md) :point_right: [AlexiaKabore](https://github.com/AlexiaKabore) <image src='https://avatars0.githubusercontent.com/u/231572626?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 17 | [300155187](../300155187.md) :point_right: [MaimounaBella](https://github.com/MaimounaBella) <image src='https://avatars0.githubusercontent.com/u/231571253?s=460&v=4' width=20 height=20></image> | :x: |
 | 18 | [300155281](../300155281.md) :point_right: [Ernice778](https://github.com/Ernice778) <image src='https://avatars0.githubusercontent.com/u/231570309?s=460&v=4' width=20 height=20></image> | :x: |
-| 19 | [300155466](../300155466.md) :point_right: [rekhilahana34-tech](https://github.com/rekhilahana34-tech) <image src='https://avatars0.githubusercontent.com/u/232940163?s=460&v=4' width=20 height=20></image> | :x: |
+| 19 | [300155466](../300155466.md) :point_right: [rekhilahana34-tech](https://github.com/rekhilahana34-tech) <image src='https://avatars0.githubusercontent.com/u/232940163?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 20 | [300155504](../300155504.md) :point_right: [badreddine223](https://github.com/badreddine223) <image src='https://avatars0.githubusercontent.com/u/231570213?s=460&v=4' width=20 height=20></image> | :x: |
 | 21 | [300155527](../300155527.md) :point_right: [Soul7331](https://github.com/Soul7331) <image src='https://avatars0.githubusercontent.com/u/231569948?s=460&v=4' width=20 height=20></image> | :x: |
 | 22 | [300155606](../300155606.md) :point_right: [Djelloulmsili](https://github.com/Djelloulmsili) <image src='https://avatars0.githubusercontent.com/u/231571545?s=460&v=4' width=20 height=20></image> | :x: |
 | 23 | [300156204](../300156204.md) :point_right: [Abdou21566](https://github.com/Abdou21566) <image src='https://avatars0.githubusercontent.com/u/231571560?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 24 | [300156612](../300156612.md) :point_right: [06019](https://github.com/06019) <image src='https://avatars0.githubusercontent.com/u/232939132?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
-| 25 | [300156615](../300156615.md) :point_right: [waliii81](https://github.com/waliii81) <image src='https://avatars0.githubusercontent.com/u/231570011?s=460&v=4' width=20 height=20></image> | :x: |
+| 25 | [300156615](../300156615.md) :point_right: [waliii81](https://github.com/waliii81) <image src='https://avatars0.githubusercontent.com/u/231570011?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 26 | [300157330](../300157330.md) :point_right: [toufikmekbel](https://github.com/toufikmekbel) <image src='https://avatars0.githubusercontent.com/u/231571164?s=460&v=4' width=20 height=20></image> | :x: |
 | 27 | [300157332](../300157332.md) :point_right: [aliboukhalfa98-sudo](https://github.com/aliboukhalfa98-sudo) <image src='https://avatars0.githubusercontent.com/u/232939140?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
-| 28 | [300157334](../300157334.md) :point_right: [Laalahamdaoui16-alt](https://github.com/Laalahamdaoui16-alt) <image src='https://avatars0.githubusercontent.com/u/231569676?s=460&v=4' width=20 height=20></image> | :x: |
+| 28 | [300157334](../300157334.md) :point_right: [Laalahamdaoui16-alt](https://github.com/Laalahamdaoui16-alt) <image src='https://avatars0.githubusercontent.com/u/231569676?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 29 | [300157416](../300157416.md) :point_right: [LounisYounes](https://github.com/LounisYounes) <image src='https://avatars0.githubusercontent.com/u/232939450?s=460&v=4' width=20 height=20></image> | :x: |
 | 30 | [300157440](../300157440.md) :point_right: [Houssam-eddinerachdi](https://github.com/Houssam-eddinerachdi) <image src='https://avatars0.githubusercontent.com/u/231572378?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 31 | [300158052](../300158052.md) :point_right: [ZizouBouchelkia](https://github.com/ZizouBouchelkia) <image src='https://avatars0.githubusercontent.com/u/121287922?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 32 | [300158185](../300158185.md) :point_right: [Mohammed-Mati](https://github.com/Mohammed-Mati) <image src='https://avatars0.githubusercontent.com/u/232939280?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 33 | [300158486](../300158486.md) :point_right: [lyes158](https://github.com/lyes158) <image src='https://avatars0.githubusercontent.com/u/232938643?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 34 | [300159189](../300159189.md) :point_right: [fateh98](https://github.com/fateh98) <image src='https://avatars0.githubusercontent.com/u/232939045?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
-| :abacus: |  $\frac{11}{35}$  =  31% | $\displaystyle\sum_{i=1}^{35} s_i$ = 11 |
+| :abacus: |  $\frac{16}{35}$  =  45% | $\displaystyle\sum_{i=1}^{35} s_i$ = 16 |
