@@ -44,6 +44,4 @@ Le déroulement peut être modifié au besoin. La personne étudiante sera avis�
 | 01-Dec | :one::two: | Exposé – style de programmation Exercice – programmation Orientée-objet                | Notes de cours | Classe, objet |
 | 08-Dec | :one::three: | Révision des concepts vus en classe Travail – style de programmation                 | Notes de cours | Semaine :one: à :one::two: |
 
----
-
 # :books: References
