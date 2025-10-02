@@ -1,5 +1,5 @@
 # :abacus:  organigramme d'un nombre
-''' mermaid
+```mermaid
 flowchart TD
   A([Début]) --> B[/Lire un nombre n/]
   B --> C[n = n*n]
