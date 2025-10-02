@@ -5,5 +5,6 @@ flowchart TD
   B --> C[n = n*n]
   C --> D[/Afficher le resultat/]
   d --> E ([Fin])
+```
   
 
