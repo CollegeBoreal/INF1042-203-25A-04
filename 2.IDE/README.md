@@ -1,4 +1,4 @@
-
+git add README.md, git commit -m "Ajout du README.md", git push.
 
 # IDE (Integrated Development Environment)
 
