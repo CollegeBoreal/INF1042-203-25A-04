@@ -1,3 +1,5 @@
+git add README.md, git commit -m "Ajout du README.md", git push.
+
 # IDE (Integrated Development Environment)
 
 | SSH | USR/Passwd |
@@ -104,7 +106,7 @@ git config --global --edit
 
 ### :u6307: Mettre à jour mon répertoire local (pull)
 ```sh
-git pull 
+git pull --no-edit
 ```
 
 ## :b: SSH
