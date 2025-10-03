@@ -1,4 +1,4 @@
-# Participation au 03-10-2025 21:33
+# Participation au 03-10-2025 21:34
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -29,7 +29,7 @@
 | 10 | [300151558](../300151558/README.md) :point_right: [hindchili](https://github.com/hindchili) <image src='https://avatars0.githubusercontent.com/u/232939530?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 11 | [300152315](../300152315/README.md) :point_right: [nour19992108](https://github.com/nour19992108) <image src='https://avatars0.githubusercontent.com/u/232939475?s=460&v=4' width=20 height=20></image> | :x: | :x: |
 | 12 | [300152362](../300152362/README.md) :point_right: [naser674](https://github.com/naser674) <image src='https://avatars0.githubusercontent.com/u/231571903?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :x: |
-| 13 | [300153811](../300153811/README.md) :point_right: [hama374](https://github.com/hama374) <image src='https://avatars0.githubusercontent.com/u/231571796?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :x: |
+| 13 | [300153811](../300153811/README.md) :point_right: [hama374](https://github.com/hama374) <image src='https://avatars0.githubusercontent.com/u/231571796?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 14 | [300155045](../300155045/README.md) :point_right: [chouaibait](https://github.com/chouaibait) <image src='https://avatars0.githubusercontent.com/u/232956639?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 15 | [300155086](../300155086/README.md) :point_right: [ynsakliii](https://github.com/ynsakliii) <image src='https://avatars0.githubusercontent.com/u/200866288?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :x: |
 | 16 | [300155109](../300155109/README.md) :point_right: [AlexiaKabore](https://github.com/AlexiaKabore) <image src='https://avatars0.githubusercontent.com/u/231572626?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
@@ -51,4 +51,4 @@
 | 32 | [300158185](../300158185/README.md) :point_right: [Mohammed-Mati](https://github.com/Mohammed-Mati) <image src='https://avatars0.githubusercontent.com/u/232939280?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 33 | [300158486](../300158486/README.md) :point_right: [lyes158](https://github.com/lyes158) <image src='https://avatars0.githubusercontent.com/u/232938643?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 34 | [300159189](../300159189/README.md) :point_right: [fateh98](https://github.com/fateh98) <image src='https://avatars0.githubusercontent.com/u/232939045?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
-| :abacus: |  $\frac{27}{35}$  =  77% | $\displaystyle\sum_{i=1}^{35} s_i$ = 27 |
+| :abacus: |  $\frac{28}{35}$  =  80% | $\displaystyle\sum_{i=1}^{35} s_i$ = 28 |
