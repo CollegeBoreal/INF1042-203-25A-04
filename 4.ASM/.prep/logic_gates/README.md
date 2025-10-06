@@ -24,3 +24,11 @@ graph TD
     LUT --> XNOR[Porte NON-OU Exclusif]
     LUT --> TAM[Buffer / Tampon]
 ```
+
+
+```mermaid
+graph LR
+    A([A]) --> G{{AND}}
+    B([B]) --> G{{AND}}
+    G --> F([F])
+```
