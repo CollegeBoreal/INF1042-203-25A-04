@@ -32,3 +32,36 @@ graph LR
     B([B]) --> G{{AND}}
     G --> F([F])
 ```
+
+```mermaid
+graph TD
+    %% Entrées
+    A([A])
+    B([B])
+    F([F = A·B])
+    Vdd((Vdd))
+    GND((GND))
+
+    %% Transistors PMOS (pull-up)
+    P1[PMOS P1]
+    P2[PMOS P2]
+
+    %% Transistors NMOS (pull-down)
+    N1[NMOS N1]
+    N2[NMOS N2]
+
+    %% Connexions PMOS (en parallèle)
+    Vdd --> P1
+    Vdd --> P2
+    A -->|gate| P1
+    B -->|gate| P2
+    P1 --> F
+    P2 --> F
+
+    %% Connexions NMOS (en série)
+    F --> N1
+    N1 --> N2
+    N2 --> GND
+    A -->|gate| N1
+    B -->|gate| N2
+```
