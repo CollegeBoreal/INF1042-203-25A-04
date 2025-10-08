@@ -52,3 +52,9 @@ OpenJDK 64-Bit Server VM (build 25+36-3489, mixed mode, sharing)
 ```
 
 </details>
+
+# :books: References
+
+[RARS 1.6][RARS 1.6]
+
+[RARS 1.6]: https://github.com/TheThirdOne/rars/releases/tag/v1.6
