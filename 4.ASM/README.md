@@ -59,7 +59,7 @@ OpenJDK 64-Bit Server VM (build 25+36-3489, mixed mode, sharing)
 
 
 ```sh
-java -jar ..\lib\rars1_6.jar
+java -jar ..\.lib\rars1_6.jar
 ```
 
 ## :books: Exemples
