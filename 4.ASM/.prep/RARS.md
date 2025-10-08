@@ -39,3 +39,12 @@ experience to the next level at
 ```
 
 </details>
+
+```sh
+java --version
+```
+<details>
+openjdk 25 2025-09-16
+OpenJDK Runtime Environment (build 25+36-3489)
+OpenJDK 64-Bit Server VM (build 25+36-3489, mixed mode, sharing)
+</details>
