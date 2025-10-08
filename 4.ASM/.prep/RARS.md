@@ -53,6 +53,11 @@ OpenJDK 64-Bit Server VM (build 25+36-3489, mixed mode, sharing)
 
 </details>
 
+
+```sh
+java -jar ..\lib\rars1_6.jar
+```
+
 # :books: References
 
 [RARS 1.6][RARS 1.6]
