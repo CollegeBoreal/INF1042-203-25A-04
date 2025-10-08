@@ -1,12 +1,11 @@
+
 ```mermaid
 flowchart TD
-    A[Start] --> B[Enter Dividend]
-    B --> C[Enter Divisor]
-    C --> D{Is Divisor = 0?}
-    D -- Yes --> E[Error: Division by zero]
-    D -- No --> F[Compute Quotient = Dividend / Divisor]
-    F --> G[Display Result]
-    G --> H[End]
+    A[Start] --> B[Dividend = 12.5]
+    B --> C[Divisor = 2.5]
+    C --> D[Compute Quotient = 12.5 / 2.5]
+    D --> E[Quotient = 5.0]
+    E --> F[End]
 
 
 
