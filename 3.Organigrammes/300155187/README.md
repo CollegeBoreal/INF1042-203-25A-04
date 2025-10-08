@@ -1,12 +1,17 @@
-
 ```mermaid
-    journey
-    title My working day
-    section Go to work
-      Make tea: 5: Me
-      Go upstairs: 3: Me
-      Do work: 1: Me, Cat
-    section Go home
-      Go downstairs: 5: Me
-      Sit down: 5: Me
+flowchart TD
+    A[Start] --> B[Enter Dividend]
+    B --> C[Enter Divisor]
+    C --> D{Is Divisor = 0?}
+    D -- Yes --> E[Error: Division by zero]
+    D -- No --> F[Compute Quotient = Dividend / Divisor]
+    F --> G[Display Result]
+    G --> H[End]
+
+
+
+
+
+
+
 
