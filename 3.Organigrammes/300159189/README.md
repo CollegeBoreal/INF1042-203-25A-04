@@ -1,4 +1,6 @@
+
 ```mermaid
+flowchart TD
     style A fill:#f9f,stroke:#333,stroke-width:2px
     style B fill:#bbf,stroke:#333,stroke-width:1.5px
     style C fill:#bfb,stroke:#333,stroke-width:1.5px
@@ -14,3 +16,4 @@
     E --> D
     D -- Non --> F[Afficher somme]
     F --> G([Fin])
+
