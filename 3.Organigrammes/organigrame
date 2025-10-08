@@ -1,0 +1,6 @@
+```mermaid
+graph TD
+    A[Directeur Général] --> B[bosse]
+    B --> C[person 1]
+    B --> D[person 2]
+    B --> E[Testeur]

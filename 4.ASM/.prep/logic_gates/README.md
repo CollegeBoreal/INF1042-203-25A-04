@@ -24,3 +24,36 @@ graph TD
     LUT --> XNOR[Porte NON-OU Exclusif]
     LUT --> TAM[Buffer / Tampon]
 ```
+
+
+```mermaid
+graph LR
+    A([A]) --> G{{AND}}
+    B([B]) --> G{{AND}}
+    G --> F([F])
+```
+
+```mermaid
+graph TD
+    %% Entrées
+    A([A])
+    B([B])
+    F([F = A·B])
+    Vdd((Vdd))
+    GND((GND))
+
+    %% Transistors NMOS (pull-down en série)
+    N1[NMOS N1]
+    N2[NMOS N2]
+
+    %% Connexions NMOS
+    F --> N1
+    N1 --> N2
+    N2 --> GND
+
+    A -->|gate| N1
+    B -->|gate| N2
+
+    %% Pull-up externe
+    Vdd -->|résistance pull-up| F
+```
