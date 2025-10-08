@@ -1,6 +1,5 @@
 
-
-
+'''mermaid
 flowchart TD
     A([Début]) --> B[/Lire N/]
     B --> C[Initialiser S ← 0, i ← 1]
