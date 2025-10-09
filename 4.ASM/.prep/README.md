@@ -28,7 +28,7 @@ Il établit le lien entre les **fonctions logiques** (mathématiques booléennes
 
 Exemple :
 Si $$f = x_1·x_2 + \bar{x_3}$$, cela signifie :
-$$f = (x_1 \text{AND} x_2) \text{OR} (\text{NOT} x_3)$$
+$$f = (x_1 \text{ AND } x_2) \text{ OR } (\text{ NOT } x_3)$$
 
 ---
 
