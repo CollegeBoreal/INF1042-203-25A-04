@@ -239,12 +239,29 @@ OpenJDK 64-Bit Server VM (build 25+36-3489, mixed mode, sharing)
 
 ## :b: Expérimentation
 
+### 🎛️ Créer un fichier dans ce répertoire `(4.ASM)`:
+
+:checkered_flag: Finalement,
+
+- [ ] avec le nom de répertoire :id: (votre identifiant boreal)
+- [ ] dans votre répertoire ajouter le fichier `README.md`
+  - [ ] `nano `README.md
+- [ ] envoyer vers le serveur `git`
+  - [ ] `git add `:id:/README.md
+  - [ ] `git commit -m "mon fichier ..."` :id:/README.md
+  - [ ] `git push`
+
+### :rocket: Lancer l'IDE `RARS`
+
 ```sh
 java -jar ..\.lib\rars1_6.jar
 ```
 
+### 🔄 Exercices
 
-Utiliser l'example donner ci-dessus
+Utiliser l'example ASM donner ci-dessus, éxécuter les étiquettes ASM individuellement et faire une copie d'écran
+
+⚠️ Créer un répertoire `images` pour sauver les copies d'éran
 
 # :books: References
 
