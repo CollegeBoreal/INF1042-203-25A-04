@@ -19,7 +19,7 @@
 
 ---
 
-- [ ] [TECHNIQUES DES SYSTÈMES INFORMATIQUES](https://collegeboreal.ca/wp-content/uploads/2023/04/tsiq_2301.pdf)
+- [ ] [TECHNIQUES DES SYSTÈMES INFORMATIQUES](https://collegeboreal.ca/wp-content/uploads/2024/03/tsig_2401.pdf)
 
 ### Session d’automne – troisième étape – 14 semaines
 
