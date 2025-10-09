@@ -86,7 +86,7 @@ Ces blocs sont souvent utilisés comme **composants de base** dans des circuits 
 
 ### 7. 🧠 Introduction à l'assembleur
 
-* Le chapitre introduit brièvement **VHDL** (VHSIC Hardware Description Language) pour **décrire et simuler** les circuits logiques.
+* Le chapitre introduit brièvement **ASM** l'assembleur pour **décrire et simuler** instructions machines utilisant les circuits logiques.
 * Les éléments essentiels :
 
   * **Tag** : définit les étiquettes.
@@ -95,16 +95,6 @@ Ces blocs sont souvent utilisés comme **composants de base** dans des circuits 
 
 Exemple simple :
 
-```vhdl
-entity and2 is
-  port (A, B : in std_logic; F : out std_logic);
-end entity;
-
-architecture logic of and2 is
-begin
-  F <= A and B;
-end architecture;
-```
 
 ---
 
