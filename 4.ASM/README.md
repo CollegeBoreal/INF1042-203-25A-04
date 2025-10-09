@@ -247,7 +247,7 @@ OpenJDK 64-Bit Server VM (build 25+36-3489, mixed mode, sharing)
    - [ ] `mkdir ` :id:
 - [ ] dans votre répertoire ajouter le fichier `README.md`
   - [ ] `nano `README.md
-- [ ] envoyer vers le serveur `git`
+- [ ] envoyer vers le serveur `github.com`
   - [ ] `cd ..`
   - [ ] `git add `:id: 
   - [ ] `git commit -m "mon fichier ..."`
