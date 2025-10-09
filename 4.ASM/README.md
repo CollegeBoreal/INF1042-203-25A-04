@@ -120,7 +120,7 @@ flowchart TD
   * **Register** : décrit les registres interne.
   * **Instructions** : permettent d’écrire des instructions en assembleur.
 
-Exemple simple :
+Examples simple :
 
 ```asm
 init:
