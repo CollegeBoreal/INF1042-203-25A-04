@@ -178,7 +178,7 @@ Le Chapitre établit les **fondations du raisonnement logique en électronique n
 
 ### :abacus: - Installation de la machine virtuelle Java 
 
-Sous :desktop_computer: `Windows`, ouvrir une fenêtre `PowerShell` en mode Administrateur pour installer `openjdk`, fermer la fenêtre aprés installation
+Sous :desktop_computer: `Windows`, ouvrir une fenêtre `PowerShell` en mode :warning: `Administrateur` pour installer `openjdk`, fermer la fenêtre aprés installation
 
 ```sh
 choco install openjdk -y
@@ -217,6 +217,9 @@ experience to the next level at
 ```
 
 ### 🧪 Vérifier l'installation
+
+
+Sous :desktop_computer: `Windows`, ouvrir une fenêtre `PowerShell` en mode `Utilisateur` 
 
 </details>
 
