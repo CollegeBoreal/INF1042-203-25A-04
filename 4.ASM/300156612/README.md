@@ -52,6 +52,6 @@ OpenJDK 64-Bit Server VM (build 25+36-3489, mixed mode, sharing)
  </details>
  <details>
     <summary>des photos sur les instrutions en ordre</summary>
-    ![mon image](images/cmnd1.jpg)
+    ![mon image](images/cmnd1.png)
  </details>
     
