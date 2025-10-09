@@ -251,7 +251,7 @@ OpenJDK 64-Bit Server VM (build 25+36-3489, mixed mode, sharing)
   - [ ] `git commit -m "mon fichier ..."` :id:/README.md
   - [ ] `git push`
 
-### :rocket: Lancer l'IDE `RARS`
+### :rocket: Lancer l'IDE [RARS 1.6][RARS 1.6]
 
 ```sh
 java -jar ..\.lib\rars1_6.jar
@@ -265,10 +265,9 @@ Utiliser l'example ASM donner ci-dessus, éxécuter les étiquettes ASM individu
 
 # :books: References
 
-[RARS 1.6][RARS 1.6]
+- [ ] [HOW TRANSISTORS RUN CODE?](https://www.youtube.com/watch?v=HjneAhCy2N4)
+- [ ] [RARS 1.6][RARS 1.6]
 
 [RARS 1.6]: https://github.com/TheThirdOne/rars/releases/tag/v1.6
 
-# :books: References
 
-- [ ] [HOW TRANSISTORS RUN CODE?](https://www.youtube.com/watch?v=HjneAhCy2N4)
