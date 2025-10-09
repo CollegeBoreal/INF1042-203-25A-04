@@ -38,6 +38,6 @@ Environment Vars (like PATH) have changed. Close/reopen your shell to
  see the changes (or in powershell/cmd.exe just type `refreshenv`).
  The install of openjdk was successful.
   Deployed to 'C:\Program Files\OpenJDK'
-</details>
 Chocolatey installed 1/1 packages.
  See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+ </details>
