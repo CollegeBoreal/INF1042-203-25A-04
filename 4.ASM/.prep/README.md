@@ -54,7 +54,7 @@ Portes dérivées :
 * Deux formes standards :
 
   * **Sum of Products (SOP)** : somme (OR) de termes produits (AND).
-    Exemple : $$f = hat{x}_1’x_2 + x_1x_2’$$
+    Exemple : $$f = \hat{x}_1x_2 + x_1\hat{x_2}$$
   * **Product of Sums (POS)** : produit (AND) de sommes (OR).
     Exemple : `F = (A + B)(A’ + B’)`
 * Ces formes peuvent ensuite être simplifiées pour réduire le nombre de portes nécessaires.
