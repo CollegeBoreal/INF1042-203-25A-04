@@ -265,9 +265,11 @@ java -jar ..\.lib\rars1_6.jar
 
 ### 🔄 Exercices
 
-Utiliser l'example ASM donner ci-dessus, éxécuter les étiquettes ASM individuellement et faire une copie d'écran
+Utiliser l'example ASM donné ci-dessus, éxécuter les étiquettes ASM individuellement et faire une copie d'écran
 
 ⚠️ Créer un répertoire `images` pour sauver les copies d'éran
+
+- [ ] Nommer le fichier `Assembleur` riscv1.asm
 
 # :books: References
 
