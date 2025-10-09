@@ -83,6 +83,32 @@ Le chapitre présente des **blocs logiques standards** :
 
 Ces blocs sont souvent utilisés comme **composants de base** dans des circuits plus complexes.
 
+```mermaid
+flowchart TD
+
+    subgraph CPU
+        CU[Control Unit - Instruction Decoder and Control Logic]
+        RF[Register File]
+        ALU[ALU - Adders, Subtractors, Logic Ops]
+
+        CU --> RF
+        RF --> ALU
+        ALU --> RF
+    end
+
+    subgraph MemorySubsystem
+        DEC[Binary Address Decoders]
+        MEM[Main Memory]
+        DEC --> MEM
+    end
+
+    CU --> DEC
+    ALU --> DEC
+    DEC --> CU
+
+```
+
+
 ---
 
 ### 7. 🧠 Introduction à l'assembleur
@@ -218,30 +244,6 @@ Utiliser l'example donner ci-dessus
 [RARS 1.6][RARS 1.6]
 
 [RARS 1.6]: https://github.com/TheThirdOne/rars/releases/tag/v1.6
-```mermaid
-flowchart TD
-
-    subgraph CPU
-        CU[Control Unit - Instruction Decoder and Control Logic]
-        RF[Register File]
-        ALU[ALU - Adders, Subtractors, Logic Ops]
-
-        CU --> RF
-        RF --> ALU
-        ALU --> RF
-    end
-
-    subgraph MemorySubsystem
-        DEC[Binary Address Decoders]
-        MEM[Main Memory]
-        DEC --> MEM
-    end
-
-    CU --> DEC
-    ALU --> DEC
-    DEC --> CU
-
-```
 
 # :books: References
 
