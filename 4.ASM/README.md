@@ -174,7 +174,9 @@ Le Chapitre établit les **fondations du raisonnement logique en électronique n
 * Apprendre à **simplifier et modéliser** les circuits en **ASM**.
 
 
-## :abacus: - Installation de la machine virtuelle Java 
+## :b: Implémentation
+
+### :abacus: - Installation de la machine virtuelle Java 
 
 ```sh
 choco install openjdk -y
@@ -212,7 +214,7 @@ experience to the next level at
  https://chocolatey.org/compare
 ```
 
-## Vérifier l'installation
+### 🧪 Vérifier l'installation
 
 </details>
 
@@ -230,12 +232,12 @@ OpenJDK 64-Bit Server VM (build 25+36-3489, mixed mode, sharing)
 </details>
 
 
+## :b: Expérimentation
 
 ```sh
 java -jar ..\.lib\rars1_6.jar
 ```
 
-## :books: Implementation
 
 Utiliser l'example donner ci-dessus
 
