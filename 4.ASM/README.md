@@ -174,7 +174,7 @@ Le Chapitre établit les **fondations du raisonnement logique en électronique n
 * Apprendre à **simplifier et modéliser** les circuits en **ASM**.
 
 
-## :b: Implémentation
+## :o: Implémentation
 
 ### :abacus: - Installation de la machine virtuelle Java 
 
