@@ -27,8 +27,8 @@ Il établit le lien entre les **fonctions logiques** (mathématiques booléennes
   * **Diagramme logique**
 
 Exemple :
-Si `F = A·B + ¬C`, cela signifie :
-`F = (A AND B) OR (NOT C)`
+Si $$f = x_1·x_2 + \bar{x_3}, cela signifie :
+$$f = (x_1 AND x_2) OR (NOT x_3)$$
 
 ---
 
