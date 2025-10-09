@@ -114,8 +114,4 @@ Le Chapitre 2 établit les **fondations du raisonnement logique en électronique
 
 * Comprendre les **relations entre fonctions booléennes et circuits physiques**.
 * Savoir **traduire une table de vérité en schéma logique**.
-* Apprendre à **simplifier et modéliser** les circuits en **VHDL**.
-
----
-
-Souhaitez-vous que je te fasse un **résumé plus condensé (1 page)** ou une **fiche de révision structurée** (avec formules, lois booléennes et exemples types) ?
+* Apprendre à **simplifier et modéliser** les circuits en **ASM**.
