@@ -1,6 +1,6 @@
-# Assembleur (Assembly - ASM)
+# 4. Assembleur (Assembly - ASM)
 
-## 🧩 Chapitre 1 — Introduction to Logic Circuits
+## 🧩 — Introduction to Logic Circuits
 
 ### 🎯 Objectif du chapitre
 
@@ -32,7 +32,7 @@ Si `F = A·B + ¬C`, cela signifie :
 
 ---
 
-### 3. 🔧 Portes logiques fondamentales
+### 3. 🔧 Portes logiques (Logic Gates) fondamentales
 
 Les portes physiques de base sont :
 
@@ -54,9 +54,9 @@ Portes dérivées :
 * Deux formes standards :
 
   * **Sum of Products (SOP)** : somme (OR) de termes produits (AND).
-    Exemple : $$f = \bar{x}_1x_2 + x_1\bar{x_2}$$
+    Exemple : $$f(x_1,x_2) = \bar{x}_1x_2 + x_1\bar{x}_2$$
   * **Product of Sums (POS)** : produit (AND) de sommes (OR).
-    Exemple : `F = (A + B)(A’ + B’)`
+    Exemple : $$f(x_1,x_2) = (x_1 + x_2)(\bar{x}_1 + \bar{x}_2)$$
 * Ces formes peuvent ensuite être simplifiées pour réduire le nombre de portes nécessaires.
 
 ---
@@ -84,14 +84,14 @@ Ces blocs sont souvent utilisés comme **composants de base** dans des circuits 
 
 ---
 
-### 7. 🧠 Introduction à VHDL
+### 7. 🧠 Introduction à l'assembleur
 
 * Le chapitre introduit brièvement **VHDL** (VHSIC Hardware Description Language) pour **décrire et simuler** les circuits logiques.
 * Les éléments essentiels :
 
-  * **Entity** : définit les entrées/sorties du circuit.
-  * **Architecture** : décrit le comportement logique interne.
-  * **Concurrent statements** : permettent d’écrire des équations logiques directement.
+  * **Tag** : définit les étiquettes.
+  * **Register** : décrit les registres interne.
+  * **Instructions** : permettent d’écrire des instructions en assembleur.
 
 Exemple simple :
 
