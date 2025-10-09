@@ -54,7 +54,7 @@ Portes dérivées :
 * Deux formes standards :
 
   * **Sum of Products (SOP)** : somme (OR) de termes produits (AND).
-    Exemple : $$f(x_1,x_2) = \bar{x}_1x_2 + x_1\bar{x}_2$$
+    Exemple : $$f(x_1,x_2) = \bar{x}_1x_2 + x_1\bar{x_2}$$
   * **Product of Sums (POS)** : produit (AND) de sommes (OR).
     Exemple : $$f(x_1,x_2) = (x_1 + x_2)(\bar{x}_1 + \bar{x}_2)$$
 * Ces formes peuvent ensuite être simplifiées pour réduire le nombre de portes nécessaires.
