@@ -1,7 +1,7 @@
 
 # 4. Assembleur (Assembly - ASM)
 
-## 🧩 — Introduction to Logic Circuits
+## 🧩 — :a: Introduction to Logic Circuits
 
 ### 🎯 Objectif du chapitre
 
