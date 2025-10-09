@@ -100,7 +100,7 @@ Exemple simple :
 
 ### ✅ En résumé
 
-Le Chapitre 2 établit les **fondations du raisonnement logique en électronique numérique** :
+Le Chapitre établit les **fondations du raisonnement logique en électronique numérique** :
 
 * Comprendre les **relations entre fonctions booléennes et circuits physiques**.
 * Savoir **traduire une table de vérité en schéma logique**.
