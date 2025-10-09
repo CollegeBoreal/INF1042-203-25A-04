@@ -255,6 +255,10 @@ OpenJDK 64-Bit Server VM (build 25+36-3489, mixed mode, sharing)
 
 ### :rocket: Lancer l'IDE [RARS 1.6][RARS 1.6]
 
+- [ ] Se diriger vers le répertoire avec :id: (votre identifiant boreal)
+   - [ ] `cd ` :id:
+- [ ] Ouvrir l'IDE
+
 ```sh
 java -jar ..\.lib\rars1_6.jar
 ```
