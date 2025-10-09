@@ -41,3 +41,9 @@ Environment Vars (like PATH) have changed. Close/reopen your shell to
 Chocolatey installed 1/1 packages.
  See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
  </details>
+ <details>
+    <summary>details java --version</summary>
+openjdk 25 2025-09-16
+OpenJDK Runtime Environment (build 25+36-3489)
+OpenJDK 64-Bit Server VM (build 25+36-3489, mixed mode, sharing)
+ </details>
