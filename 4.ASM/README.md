@@ -243,7 +243,8 @@ OpenJDK 64-Bit Server VM (build 25+36-3489, mixed mode, sharing)
 
 :checkered_flag: Finalement,
 
-- [ ] avec le nom de répertoire :id: (votre identifiant boreal)
+- [ ] Créer un répertoire avec :id: (votre identifiant boreal)
+   - [ ] `mkdir ` :id:
 - [ ] dans votre répertoire ajouter le fichier `README.md`
   - [ ] `nano `README.md
 - [ ] envoyer vers le serveur `git`
