@@ -247,8 +247,9 @@ OpenJDK 64-Bit Server VM (build 25+36-3489, mixed mode, sharing)
 - [ ] dans votre répertoire ajouter le fichier `README.md`
   - [ ] `nano `README.md
 - [ ] envoyer vers le serveur `git`
-  - [ ] `git add `:id:/README.md
-  - [ ] `git commit -m "mon fichier ..."` :id:/README.md
+  - [ ] `cd ..`
+  - [ ] `git add `:id: 
+  - [ ] `git commit -m "mon fichier ..."`
   - [ ] `git push`
 
 ### :rocket: Lancer l'IDE [RARS 1.6][RARS 1.6]
