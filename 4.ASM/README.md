@@ -18,7 +18,7 @@ Le circuit du **Buffer** (Tampon), démontré un boutton permettant d'activer l'
 
 <img src=images/@beaneater-buffer.png width='30%' height='30%' > </img> 
 
-* **Circuit logique** : réseau de **portes logiques** (AND, OR, NOT, etc.) qui manipulent des signaux binaires (0 et 1).
+* **Circuit logique** : réseau de **portes logiques (Logic Gates)**[^1] (AND, OR, NOT, etc.) qui manipulent des signaux binaires (0 et 1).
 
 | **NOT** | **AND** (conjonction) | **OR** (disjonction) |
 |-|-|-|
@@ -341,6 +341,7 @@ Utiliser l'example ASM donné ci-dessus, éxécuter les étiquettes ASM individu
 - [ ] [HOW TRANSISTORS RUN CODE?](https://www.youtube.com/watch?v=HjneAhCy2N4)
 - [ ] [RARS 1.6][RARS 1.6]
 
+[^1]: https://www.youtube.com/watch?v=sTu3LwpF6XI
 [RARS 1.6]: https://github.com/TheThirdOne/rars/releases/tag/v1.6
 
 
