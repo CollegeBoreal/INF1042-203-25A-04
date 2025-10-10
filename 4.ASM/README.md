@@ -22,7 +22,7 @@ Il établit le lien entre les **fonctions logiques** (mathématiques booléennes
 
 | Buffer (Tampon) |
 |-|
-| <img src=images/@beaneater-buffer.png width='' height='' > </img> |
+| <img src=images/@beaneater-buffer.png width='30%' height='30%' > </img> |
 
 * **Logique booléenne** : utilisée pour décrire le comportement des circuits.
 
