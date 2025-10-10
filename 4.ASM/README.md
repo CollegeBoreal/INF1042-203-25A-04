@@ -25,6 +25,17 @@ Il établit le lien entre les **fonctions logiques** (mathématiques booléennes
 
   * **Table de vérité**
   * **Expression booléenne**
+
+| English        | French           | Symboles / Notes      | Algèbre Booléen   |
+| -------------- | -----------------| ----------------------|------------------ |
+| AND            |  ET              | A ⋅ B or A ∧ B        | $x_1$ ⋅ B or A ∧ B     |
+| OR             |  OU              | A + B or A ∨ B        |A + B or A ∨ B     |
+| NOT / Inverter |  NON             | ¬A or A̅               |¬A or A̅            |
+| NAND           |  NON-ET          | ¬(A ⋅ B)              |¬(A ⋅ B)           |
+| NOR            |  NON-OU          | ¬(A + B)              |¬(A + B)           |
+| XOR            |  OU exclusif     | A ⊕ B                 |A ⊕ B              |
+| XNOR           |  NON-OU exclusif | ¬(A ⊕ B)              |¬(A ⊕ B)           |
+| BUFFER         |  tampon          | passe juste le signal |
   * **Diagramme logique**
 
 Exemple :
