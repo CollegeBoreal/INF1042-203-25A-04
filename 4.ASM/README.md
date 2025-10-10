@@ -328,6 +328,8 @@ java -jar ..\.lib\rars1_6.jar
 
 Utiliser l'example ASM donné ci-dessus, éxécuter les étiquettes ASM individuellement et faire une copie d'écran
 
+:bulb: Les instructions de l'assembleur utilisées ici sont de l'architecture Open Source **RISC-V**[^2]
+
 | Exécution | Débuggage |
 |-|-|
 | <img src=images/RARS-run.png width='' height='' > </img> | <img src=images/RARS-debug.png width='' height='' > </img>|
@@ -344,4 +346,5 @@ Utiliser l'example ASM donné ci-dessus, éxécuter les étiquettes ASM individu
 [RARS 1.6]: https://github.com/TheThirdOne/rars/releases/tag/v1.6
 
 [^1]: https://www.youtube.com/watch?v=sTu3LwpF6XI
+[^2]: https://github.com/riscv/riscv-isa-manual
 
