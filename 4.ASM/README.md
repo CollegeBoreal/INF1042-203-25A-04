@@ -16,7 +16,7 @@ Il établit le lien entre les **fonctions logiques** (mathématiques booléennes
 
 Le circuit du **Buffer** (Tampon), démontre un boutton permettant d'activer l'interrupteur (switch) physique ôu le transistor permet le passage du courant ou pas
 
-<img src=images/@beaneater-buffer.png width='30%' height='30%' > </img> 
+<img src=images/@beaneater-buffer.png width='40%' height='40%' > </img> 
 
 * **Circuit logique** : réseau de **portes logiques (Logic Gates)**[^1] (AND, OR, NOT, etc.) qui manipulent des signaux binaires (0 et 1).
 
