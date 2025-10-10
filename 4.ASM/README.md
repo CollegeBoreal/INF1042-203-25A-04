@@ -43,13 +43,12 @@ Les portes physiques de base sont :
 
 Portes dérivées :
 
-* **NAND** (NOT AND), **NOR** (NOT OR), **XOR** (Combinaison NOT et OR), **XNOR**
-
 | **NAND** | **NOR** | **XOR**| **XNOR** |
 |-|-|-|-|
 | <img src=https://upload.wikimedia.org/wikipedia/commons/e/e6/NAND_ANSI_Labelled.svg width='' height='' > </img> | <img src=https://upload.wikimedia.org/wikipedia/commons/c/c6/NOR_ANSI_Labelled.svg width='' height='' > </img> | <img src=https://upload.wikimedia.org/wikipedia/commons/1/17/XOR_ANSI_Labelled.svg width='' height='' > </img> | <img src=https://upload.wikimedia.org/wikipedia/commons/b/b8/XNOR_ANSI_Labelled.svg width='' height='' > </img> |
 
 **NAND** et **NOR** sont dites **universelles** : on peut construire tout autre circuit à partir d’elles seules.
+<img src=https://upload.wikimedia.org/wikipedia/commons/f/fa/XOR_from_NAND.svg width='30%' height='30%' > </img>
 
 ---
 
