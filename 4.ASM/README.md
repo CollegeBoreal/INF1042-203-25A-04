@@ -28,10 +28,10 @@ Il établit le lien entre les **fonctions logiques** (mathématiques booléennes
 
 | English        | French           | Symboles / Notes      | Algèbre Booléen   |
 | -------------- | -----------------| ----------------------|------------------ |
-| AND            |  ET              | A ⋅ B or A ∧ B        | $x_1 \cdot x_2$       |
-| OR             |  OU              | A + B or A ∨ B        |A + B or A ∨ B     |
-| NOT / Inverter |  NON             | ¬A or A̅               |¬A or A̅            |
-| NAND           |  NON-ET          | ¬(A ⋅ B)              |¬(A ⋅ B)           |
+| AND            |  ET              | A ⋅ B or A ∧ B        | $x_1 \cdot x_2$   |
+| OR             |  OU              | A + B or A ∨ B        | $x_1 + x_2$       |
+| NOT / Inverter |  NON             | ¬A or A̅               | $\bar{x_1}$       |
+| NAND           |  NON-ET          | ¬(A ⋅ B)              | $\bar{(x_1 \cdot x_2)}$ |
 | NOR            |  NON-OU          | ¬(A + B)              |¬(A + B)           |
 | XOR            |  OU exclusif     | A ⊕ B                 |A ⊕ B              |
 | XNOR           |  NON-OU exclusif | ¬(A ⊕ B)              |¬(A ⊕ B)           |
