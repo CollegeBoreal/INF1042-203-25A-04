@@ -14,11 +14,16 @@ Il établit le lien entre les **fonctions logiques** (mathématiques booléennes
 
 * **Circuit logique** : réseau de **portes logiques** (AND, OR, NOT, etc.) qui manipulent des signaux binaires (0 et 1).
 
-| Buffer (Tampon) | **NOT** | **AND** (conjonction) | **OR** (disjonction) |
-|-|-|-|-|
-| <img src=images/@beaneater-buffer.png width='' height='' > </img> | <img src=images/@beaneater-inverter.png width='' height='' > </img> | <img src=images/@beaneater-and.png width='' height='' > </img> | <img src=images/@beaneater-or.png width='' height='' > </img> |
+| **NOT** | **AND** (conjonction) | **OR** (disjonction) |
+|-|-|-|
+| <img src=images/@beaneater-inverter.png width='' height='' > </img> | <img src=images/@beaneater-and.png width='' height='' > </img> | <img src=images/@beaneater-or.png width='' height='' > </img> |
 
 * **Variables binaires** : peuvent prendre la valeur `0` (faux) ou `1` (vrai).
+
+| Buffer (Tampon) |
+|-|
+| <img src=images/@beaneater-buffer.png width='' height='' > </img> |
+
 * **Logique booléenne** : utilisée pour décrire le comportement des circuits.
 
 ---
