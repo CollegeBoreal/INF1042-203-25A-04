@@ -80,8 +80,7 @@ Méthodes utilisées :
 Le chapitre présente des **blocs logiques standards** :
 
 * **Encodeurs / Décodeurs**
-* **Multiplexeurs (MUX)**
-* **Démultiplexeurs**
+* **Multiplexeurs (MUX) / Démultiplexeurs**
 * **Comparateurs**
 * **Additionneurs (half-adder, full-adder)**
 
