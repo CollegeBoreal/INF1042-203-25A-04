@@ -32,10 +32,11 @@ Il établit le lien entre les **fonctions logiques** (mathématiques booléennes
 | OR             |  OU              | A + B or A ∨ B        | $x_1 + x_2$       |
 | NOT / Inverter |  NON             | ¬A or A̅               | $\bar{x_1}$       |
 | NAND           |  NON-ET          | ¬(A ⋅ B)              | $\overline{(x_1 \cdot x_2)}$ |
-| NOR            |  NON-OU          | ¬(A + B)              |¬(A + B)           |
-| XOR            |  OU exclusif     | A ⊕ B                 |A ⊕ B              |
-| XNOR           |  NON-OU exclusif | ¬(A ⊕ B)              |¬(A ⊕ B)           |
-| BUFFER         |  tampon          | passe juste le signal |
+| NOR            |  NON-OU          | ¬(A + B)              | $\overline{(x_1 +  x_2)}$ |
+| XOR            |  OU exclusif     | A ⊕ B                 | $x_1 \otimes x_2$   |
+| XNOR           |  NON-OU exclusif | ¬(A ⊕ B)              | $\overline{(x_1 \otimes  x_2)}$ |
+| BUFFER         |  tampon          | passe juste le signal | |
+>>>>>>> f110711 (.)
   * **Diagramme logique**
 
 Exemple :
