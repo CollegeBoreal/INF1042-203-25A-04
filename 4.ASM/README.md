@@ -16,7 +16,7 @@ Il établit le lien entre les **fonctions logiques** (mathématiques booléennes
 
 | **NOT** | **AND** (conjonction) | **OR** (disjonction) |
 |-|-|-|
-| <img src=images/@beaneater-inverter.png width='' height='' > </img> | <img src=images/@beaneater-and.png width='' height='' > </img> | <img src=images/@beaneater-or.png width='' height='' > </img> |
+| <img src=images/@beaneater-inverter.png width='' height='' > </img> | <img src=images/@beaneater-and.png width='75%' height='75%' > </img> | <img src=images/@beaneater-or.png width='75%' height='75%' > </img> |
 
 * **Variables binaires** : peuvent prendre la valeur `0` (faux) ou `1` (vrai).
 
