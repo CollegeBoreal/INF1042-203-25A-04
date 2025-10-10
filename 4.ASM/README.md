@@ -303,6 +303,10 @@ OpenJDK 64-Bit Server VM (build 25+36-3489, mixed mode, sharing)
 java -jar ..\.lib\rars1_6.jar
 ```
 
+| Exécution | Débuggage |
+|-|-|
+| <img src=images/RARS-run.png width='' height='' > </img> | <img src=images/RARS-debug.png width='' height='' > </img> |
+
 ### 🔄 Exercices
 
 Utiliser l'example ASM donné ci-dessus, éxécuter les étiquettes ASM individuellement et faire une copie d'écran
