@@ -111,7 +111,43 @@ flowchart TD
 
 ---
 
-### 7. 🧠 Introduction à l'assembleur
+## 7. 🔢 Décodage binaire vers hexadécimal
+
+Le système **hexadécimal (base 16)** permet de représenter plus simplement les valeurs **binaires (base 2)**.
+Chaque **chiffre hexadécimal correspond à 4 bits**.
+
+| Binaire | Hexa |
+| :-----: | :--: |
+|   0000  |   0  |
+|   0001  |   1  |
+|   0010  |   2  |
+|   0011  |   3  |
+|   0100  |   4  |
+|   0101  |   5  |
+|   0110  |   6  |
+|   0111  |   7  |
+|   1000  |   8  |
+|   1001  |   9  |
+|   1010  |   A  |
+|   1011  |   B  |
+|   1100  |   C  |
+|   1101  |   D  |
+|   1110  |   E  |
+|   1111  |   F  |
+
+**Méthode :**
+
+1. Regrouper les bits par 4 (à partir de la droite).
+2. Remplacer chaque groupe par sa valeur hexadécimale.
+
+**Exemple :**
+`1010111100110101₂ = AF35₁₆`
+
+💡 En Assembleur : `xAF35` représente directement ce nombre binaire.
+
+---
+
+### 8. 🧠 Introduction à l'assembleur
 
 * Le chapitre introduit brièvement **ASM** l'assembleur pour **décrire et simuler** instructions machines utilisant les circuits logiques.
 * Les éléments essentiels :
