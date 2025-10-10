@@ -14,7 +14,7 @@ Il établit le lien entre les **fonctions logiques** (mathématiques booléennes
 
 * **Variables binaires** : peuvent prendre la valeur `0` (faux) ou `1` (vrai).
 
-Le circuit du **Buffer** (Tampon), démontré un boutton permettant d'activer l'interrupteur (switch) physique qui est le transistor permet le passage du courant ou pas
+Le circuit du **Buffer** (Tampon), démontre un boutton permettant d'activer l'interrupteur (switch) physique qui est le transistor permet le passage du courant ou pas
 
 <img src=images/@beaneater-buffer.png width='30%' height='30%' > </img> 
 
