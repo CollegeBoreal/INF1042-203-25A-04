@@ -22,7 +22,7 @@ Il établit le lien entre les **fonctions logiques** (mathématiques booléennes
 
 | Buffer (Tampon) |
 |-|
-| <img src=images/@beaneater-buffer.png width='30%' height='30%' > </img> Le courant passe ou ne passe pas |
+| <img src=images/@beaneater-buffer.png width='30%' height='30%' > </img> Une fonction logique est une expression reliant des entrées binaires à une sortie binaire. |
 
 * **Logique booléenne** : utilisée pour décrire le comportement des circuits.
 
