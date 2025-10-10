@@ -36,7 +36,6 @@ Il établit le lien entre les **fonctions logiques** (mathématiques booléennes
 | XOR            |  OU exclusif     | A ⊕ B                 | $x_1 \otimes x_2$   |
 | XNOR           |  NON-OU exclusif | ¬(A ⊕ B)              | $\overline{(x_1 \otimes  x_2)}$ |
 | BUFFER         |  tampon          | passe juste le signal | |
->>>>>>> f110711 (.)
   * **Diagramme logique**
 
 Exemple :
