@@ -12,17 +12,18 @@ Il établit le lien entre les **fonctions logiques** (mathématiques booléennes
 
 ### 1. 💡 Concepts de base
 
+* **Variables binaires** : peuvent prendre la valeur `0` (faux) ou `1` (vrai).
+
+Le circuit du **Buffer** (Tampon), démontré un boutton permettant d'activer l'interrupteur (switch) physique qui est le transistor permet le passage du courant ou pas
+
+<img src=images/@beaneater-buffer.png width='30%' height='30%' > </img> 
+
 * **Circuit logique** : réseau de **portes logiques** (AND, OR, NOT, etc.) qui manipulent des signaux binaires (0 et 1).
 
 | **NOT** | **AND** (conjonction) | **OR** (disjonction) |
 |-|-|-|
 | <img src=images/@beaneater-inverter.png width='' height='' > </img> | <img src=images/@beaneater-and.png width='90%' height='95%' > </img> | <img src=images/@beaneater-or.png width='95%' height='95%' > </img> |
 
-* **Variables binaires** : peuvent prendre la valeur `0` (faux) ou `1` (vrai).
-
-| Buffer (Tampon) |
-|-|
-| <img src=images/@beaneater-buffer.png width='30%' height='30%' > </img> Une fonction logique est une expression reliant des entrées binaires à une sortie binaire. |
 
 * **Logique booléenne** : utilisée pour décrire le comportement des circuits.
 
