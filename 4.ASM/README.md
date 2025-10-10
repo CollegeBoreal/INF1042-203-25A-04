@@ -49,7 +49,7 @@ Portes dérivées :
 
 **NAND** et **NOR** sont dites **universelles** : on peut construire tout autre circuit à partir d’elles seules.
 
-Par example, reconstruction de **XOR* par **NAND*: <img src=https://upload.wikimedia.org/wikipedia/commons/f/fa/XOR_from_NAND.svg width='30%' height='30%' > </img>
+Par example, reconstruction de **XOR** par **NAND**: <img src=https://upload.wikimedia.org/wikipedia/commons/f/fa/XOR_from_NAND.svg width='30%' height='30%' > </img>
 
 ---
 
