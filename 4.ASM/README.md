@@ -28,7 +28,7 @@ Il établit le lien entre les **fonctions logiques** (mathématiques booléennes
 
 | English        | French           | Symboles / Notes      | Algèbre Booléen   |
 | -------------- | -----------------| ----------------------|------------------ |
-| AND            |  ET              | A ⋅ B or A ∧ B        | $x_1 \dot x_2$       |
+| AND            |  ET              | A ⋅ B or A ∧ B        | $x_1 \cdot x_2$       |
 | OR             |  OU              | A + B or A ∨ B        |A + B or A ∨ B     |
 | NOT / Inverter |  NON             | ¬A or A̅               |¬A or A̅            |
 | NAND           |  NON-ET          | ¬(A ⋅ B)              |¬(A ⋅ B)           |
