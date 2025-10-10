@@ -38,7 +38,7 @@ $$f = (x_1 \text{ AND } x_2) \text{ OR } (\text{ NOT } x_3)$$
 Les portes physiques de base sont :
 
 | Buffer (Tampon) | **NOT** | **AND** (conjonction) | **OR** (disjonction) |
-|-|-|-|
+|-|-|-|-|
 | <img src=https://upload.wikimedia.org/wikipedia/commons/1/1a/Buffer_ANSI_Labelled.svg width='' height='' > </img> | <img src=https://upload.wikimedia.org/wikipedia/commons/6/60/NOT_ANSI_Labelled.svg width='' height='' > </img> | <img src=https://upload.wikimedia.org/wikipedia/commons/b/b9/AND_ANSI_Labelled.svg width='' height='' > </img> | <img src=https://upload.wikimedia.org/wikipedia/commons/1/16/OR_ANSI_Labelled.svg width='' height='' > </img> |
 
 Portes dérivées :
