@@ -31,7 +31,7 @@ Il établit le lien entre les **fonctions logiques** (mathématiques booléennes
 | AND            |  ET              | A ⋅ B or A ∧ B        | $x_1 \cdot x_2$   |
 | OR             |  OU              | A + B or A ∨ B        | $x_1 + x_2$       |
 | NOT / Inverter |  NON             | ¬A or A̅               | $\bar{x_1}$       |
-| NAND           |  NON-ET          | ¬(A ⋅ B)              | $\bar{(x_1 \cdot x_2)}$ |
+| NAND           |  NON-ET          | ¬(A ⋅ B)              | $\overline{(x_1 \cdot x_2)}$ |
 | NOR            |  NON-OU          | ¬(A + B)              |¬(A + B)           |
 | XOR            |  OU exclusif     | A ⊕ B                 |A ⊕ B              |
 | XNOR           |  NON-OU exclusif | ¬(A ⊕ B)              |¬(A ⊕ B)           |
