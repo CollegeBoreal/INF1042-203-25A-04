@@ -341,7 +341,7 @@ Utiliser l'example ASM donné ci-dessus, éxécuter les étiquettes ASM individu
 - [ ] [HOW TRANSISTORS RUN CODE?](https://www.youtube.com/watch?v=HjneAhCy2N4)
 - [ ] [RARS 1.6][RARS 1.6]
 
-[^1]: https://www.youtube.com/watch?v=sTu3LwpF6XI
 [RARS 1.6]: https://github.com/TheThirdOne/rars/releases/tag/v1.6
 
+[^1]: https://www.youtube.com/watch?v=sTu3LwpF6XI
 
