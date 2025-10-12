@@ -179,8 +179,8 @@ git pull --no-edit
    Ce qui affiche actuellement :
 
    ```lua
-   origin  git@github-boreal.com:CollegeBoreal/INF1042-203-25A-04.git (fetch)
-   origin  git@github-boreal.com:CollegeBoreal/INF1042-203-25A-04.git (push)
+   origin  git@github.com:CollegeBoreal/INF1042-203-25A-04.git (fetch)
+   origin  git@github.com:CollegeBoreal/INF1042-203-25A-04.git (push)
    ```
 
 ### :six: Créer un fichier dans ce répertoire `(2.IDE)`:
