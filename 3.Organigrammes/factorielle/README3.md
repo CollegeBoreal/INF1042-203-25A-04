@@ -3,7 +3,6 @@
 flowchart TD
     A0([Debut])
     A1[/Entrer n/]
-    A2[Appeler Fibo(n)]
     A3[Afficher le resultat]
     A4([Fin])
 
