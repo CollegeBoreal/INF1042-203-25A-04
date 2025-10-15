@@ -2,7 +2,45 @@
 
 Installer **Jupyter** (Notebook ou Lab) sous **Windows PowerShell**, en utilisant **Chocolatey**.
 
-Voici la méthode **complète, stable et propre**, adaptée à ton installation actuelle (avec **Miniforge3** déjà installé par `choco`).
+Installer **Miniforge** via **Chocolatey** sur Windows, voici la procédure complète :
+
+---
+
+### 1️⃣ Vérifier que Chocolatey est installé
+
+Ouvre **PowerShell en mode Administrateur** et tape :
+
+```powershell
+choco --version
+```
+
+* Si tu vois un numéro de version, Chocolatey est déjà installé.
+* Sinon, tu dois l’installer depuis [https://chocolatey.org/install](https://chocolatey.org/install).
+
+---
+
+### 2️⃣ Installer Miniforge
+
+Toujours dans **PowerShell en Administrateur** :
+
+```powershell
+choco install miniforge3 -y
+```
+
+* `-y` : confirme automatiquement l’installation.
+* Cela va installer Miniforge et ajouter `conda` au PATH.
+
+---
+
+### 3️⃣ Vérifier l’installation
+
+Ferme PowerShell et rouvre-le (pour que le PATH soit pris en compte), puis tape :
+
+```powershell
+conda --version
+```
+
+Tu devrais voir un numéro de version, ce qui confirme que l’installation a réussi.
 
 ---
 
@@ -96,15 +134,6 @@ python --version
 
 Tu devrais voir des versions cohérentes (par ex. Python 3.12.x et Jupyter 7.x ou 8.x).
 
----
+# :books: References
 
-## ⚙️ Alternative pure Chocolatey (sans Conda)
-
-Si tu ne veux pas utiliser Conda, tu peux aussi faire :
-
-```powershell
-choco install python jupyter -y
-```
-
-Mais cette méthode n’utilise **pas les environnements isolés** (donc moins recommandée pour les cours et projets multiples).
 
