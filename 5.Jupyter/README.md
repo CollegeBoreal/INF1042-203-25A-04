@@ -33,6 +33,12 @@ Après installation, ferme et rouvre PowerShell puis tape :
 conda --version
 ```
 
+si ça ne marche pas ajoute la variable d'environnement:
+
+```powershell
+$env:Path += ";C:\tools\miniforge3;C:\tools\miniforge3\Scripts"
+```
+
 Tu devrais voir la version de Conda.
 
 ## 🧩 2. (Optionnel) Mets à jour Conda
