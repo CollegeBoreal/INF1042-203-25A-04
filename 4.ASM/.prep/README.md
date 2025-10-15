@@ -1,136 +1,107 @@
-***RISC-V***
+# 4. Assembleur (Assembly - ASM)
 
-# A **consistent RISC-V assembler/compiler toolchain** on both macOS (via Homebrew) and Windows (via Chocolatey). That’s doable. The cleanest option is to use the **GNU RISC-V toolchain (riscv-gnu-toolchain)** or its packaged distributions.
+## 🧩 — Introduction to Logic Circuits
 
----
+### 🎯 Objectif du chapitre
 
-## 🖥 macOS (Homebrew)
-
-On macOS you can install via a tap:
-
-```bash
-brew tap riscv-software-src/riscv
-brew install riscv-gnu-toolchain
-```
-
-This gives you tools like:
-
-* `riscv64-unknown-elf-as` → assembler
-* `riscv64-unknown-elf-gcc` → C/C++ compiler
-* `riscv64-unknown-elf-ld` → linker
-
-You can now assemble RISC-V code, e.g.:
-
-```bash
-riscv64-unknown-elf-as prog.s -o prog.o
-riscv64-unknown-elf-ld prog.o -o prog.elf
-```
+Ce chapitre introduit les **circuits logiques combinatoires**, c’est-à-dire les circuits dont les sorties dépendent uniquement des **valeurs actuelles des entrées** (pas de mémoire).
+Il établit le lien entre les **fonctions logiques** (mathématiques booléennes) et leur **implémentation matérielle** (portes logiques [Logic Gates], circuits physiques).
 
 ---
 
-## 🪟 Windows (Chocolatey)
+### 1. 💡 Concepts de base
 
-On Windows, Chocolatey has **prebuilt RISC-V GCC toolchains** you can install. For example:
-
-```powershell
-choco install riscv-gnu-toolchain
-```
-
-That installs the same `riscv64-unknown-elf-*` binaries as on macOS.
-
-⚠️ Note: If you don’t see `riscv-gnu-toolchain` in the main Chocolatey repo, the alternative is **MSYS2 with riscv64-elf-gcc** (which also works well). You can install MSYS2 with choco:
-
-```powershell
-choco install msys2
-```
-
-Then inside MSYS2:
-
-```bash
-pacman -S riscv64-elf-gcc
-```
+* **Circuit logique** : réseau de **portes logiques** (AND, OR, NOT, etc.) qui manipulent des signaux binaires (0 et 1).
+* **Variables binaires** : peuvent prendre la valeur `0` (faux) ou `1` (vrai).
+* **Logique booléenne** : utilisée pour décrire le comportement des circuits.
 
 ---
 
-## ✅ Result
+### 2. 🧮 Fonctions logiques
 
-With either Homebrew (macOS) or Chocolatey/MSYS2 (Windows), you’ll have the **same RISC-V assembler + GCC toolchain** (`riscv64-unknown-elf-*`) available. This ensures that **the same ASM code assembles and runs the same way** across both systems.
+* Une **fonction logique** est une expression reliant des entrées binaires à une sortie binaire.
+* Peut être représentée sous plusieurs formes :
 
----
+  * **Table de vérité**
+  * **Expression booléenne**
+  * **Diagramme logique**
 
-# **minimal assembly “Hello, World” for RISC-V** that you can test on both Mac and Windows with this toolchain?
-
-Nice 😃 Let’s make a minimal **RISC-V “Hello, World”** in assembly that you can run with the exact same toolchain on both macOS and Windows.
-
-We’ll use the **standard Linux system call interface** (via `ecall`) so you can test it in QEMU after assembling.
-
----
-
-## 📄 `hello.s` (RISC-V Assembly)
-
-```asm
-    .section .data
-msg:
-    .asciz "Hello, World!\n"
-
-    .section .text
-    .globl _start
-
-_start:
-    # write(fd=1, buf=msg, count=14)
-    li a7, 64          # syscall number for write (Linux RISC-V)
-    li a0, 1           # fd = 1 (stdout)
-    la a1, msg         # buffer address
-    li a2, 14          # length of string
-    ecall
-
-    # exit(code=0)
-    li a7, 93          # syscall number for exit
-    li a0, 0           # exit code
-    ecall
-```
+Exemple :
+Si $$f = x_1·x_2 + \bar{x_3}$$, cela signifie :
+$$f = (x_1 \text{ AND } x_2) \text{ OR } (\text{ NOT } x_3)$$
 
 ---
 
-## 🔨 Build and Run
+### 3. 🔧 Portes logiques (Logic Gates) fondamentales
 
-### 1. Assemble & Link
+Les portes physiques de base sont :
 
-On both macOS and Windows (after installing the RISC-V toolchain):
+* **NOT** (inversion)
+* **AND** (conjonction)
+* **OR** (disjonction)
 
-```bash
-riscv64-unknown-elf-as hello.s -o hello.o
-riscv64-unknown-elf-ld hello.o -o hello.elf
-```
+Portes dérivées :
 
-Now you have `hello.elf`.
+* **NAND** (NOT AND), **NOR** (NOT OR), **XOR** (Combinaison NOT et OR), **XNOR**
+
+**NAND** et **NOR** sont dites **universelles** : on peut construire tout autre circuit à partir d’elles seules.
 
 ---
 
-### 2. Run in QEMU (RISC-V emulator)
+### 4. 🧱 Mise en œuvre de circuits logiques
 
-Install QEMU via brew/choco:
+* À partir d’une **table de vérité**, on déduit l’expression booléenne correspondante.
+* Deux formes standards :
 
-* macOS:
+  * **Sum of Products (SOP)** : somme (OR) de termes produits (AND).
+    Exemple : $$f(x_1,x_2) = \bar{x}_1x_2 + x_1\bar{x}_2$$
+  * **Product of Sums (POS)** : produit (AND) de sommes (OR).
+    Exemple : $$f(x_1,x_2) = (x_1 + x_2)(\bar{x}_1 + \bar{x}_2)$$
+* Ces formes peuvent ensuite être simplifiées pour réduire le nombre de portes nécessaires.
 
-  ```bash
-  brew install qemu
-  ```
-* Windows (Chocolatey):
+---
 
-  ```powershell
-  choco install qemu
-  ```
+### 5. ⚙️ Simplification des circuits
 
-Run:
+Méthodes utilisées :
 
-```bash
-qemu-riscv64 ./hello.elf
-```
+* **Algèbre booléenne** : appliquer des lois (commutative, distributive, absorption, De Morgan, etc.)
+* **Karnaugh maps (K-maps)** : représentation graphique permettant de simplifier visuellement une fonction logique à 4 ou 5 variables.
 
-You should see:
+---
 
-```
-Hello, World!
-```
+### 6. 🔌 Circuits combinatoires courants
 
+Le chapitre présente des **blocs logiques standards** :
+
+* **Encodeurs / Décodeurs**
+* **Multiplexeurs (MUX)**
+* **Démultiplexeurs**
+* **Comparateurs**
+* **Additionneurs (half-adder, full-adder)**
+
+Ces blocs sont souvent utilisés comme **composants de base** dans des circuits plus complexes.
+
+---
+
+### 7. 🧠 Introduction à l'assembleur
+
+* Le chapitre introduit brièvement **ASM** l'assembleur pour **décrire et simuler** instructions machines utilisant les circuits logiques.
+* Les éléments essentiels :
+
+  * **Tag** : définit les étiquettes.
+  * **Register** : décrit les registres interne.
+  * **Instructions** : permettent d’écrire des instructions en assembleur.
+
+Exemple simple :
+
+
+---
+
+### ✅ En résumé
+
+Le Chapitre établit les **fondations du raisonnement logique en électronique numérique** :
+
+* Comprendre les **relations entre fonctions booléennes et circuits physiques**.
+* Savoir **traduire une table de vérité en schéma logique**.
+* Apprendre à **simplifier et modéliser** les circuits en **ASM**.

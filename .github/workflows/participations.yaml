@@ -33,6 +33,20 @@ jobs:
           cd 3.Organigrammes
           bash .scripts/run.sh
           cd ..
+          ##
+          ## Evaluating chapter 4.ASM
+          ## 
+          echo "Evaluating chapter 4.ASM Participation"
+          cd 4.ASM
+          bash .scripts/run.sh
+          cd ..
+          ##
+          ## Evaluating chapter 5.Jupyter
+          ## 
+          echo "Evaluating chapter 5.Jupyter Participation"
+          cd 5.Jupyter
+          bash .scripts/run.sh
+          cd ..
 
       - name: Commit files
         run: |
