@@ -8,62 +8,32 @@ Installer **Miniforge** via **Chocolatey** sur Windows, voici la procédure comp
 
 ---
 
-### 1️⃣ Vérifier que Chocolatey est installé
+### 1️⃣ Commande de base
 
-Ouvre **PowerShell en mode Administrateur** et tape :
-
-```powershell
-choco --version
-```
-
-* Si tu vois un numéro de version, Chocolatey est déjà installé.
-* Sinon, tu dois l’installer depuis [https://chocolatey.org/install](https://chocolatey.org/install).
-
----
-
-### 2️⃣ Installer Miniforge
-
-Toujours dans **PowerShell en Administrateur** :
+Pour installer Miniforge pour **tous les utilisateurs** (AllUsers) et utiliser les valeurs par défaut :
 
 ```powershell
 choco install miniforge3 -y
 ```
 
-* `-y` : confirme automatiquement l’installation.
-* Cela va installer Miniforge et ajouter `conda` au PATH.
+* `/AddToPath` par défaut est `0` pour AllUsers (il ne mettra pas Miniforge dans le PATH pour des raisons de sécurité).
+* Le chemin par défaut sera : `C:\tools\miniforge3`
+
+* L’installation se fera dans :
+  `C:\Users\<TonNom>\AppData\Local\miniforge3`
+* Python de Miniforge sera accessible directement depuis PowerShell.
 
 ---
 
 ### 3️⃣ Vérifier l’installation
 
-Ferme PowerShell et rouvre-le (pour que le PATH soit pris en compte), puis tape :
+Après installation, ferme et rouvre PowerShell puis tape :
 
 ```powershell
 conda --version
 ```
 
-Tu devrais voir un numéro de version, ce qui confirme que l’installation a réussi.
-
----
-
-## 🧰 1. Vérifie que Miniforge est bien installé
-
-Ouvre PowerShell (pas besoin d’administrateur) et tape :
-
-```powershell
-where conda
-```
-
-➡️ Si tu vois un chemin comme
-`C:\ProgramData\Miniforge3\Scripts\conda.exe`
-✅ tu es prêt.
-Sinon, ajoute-le au PATH :
-
-```powershell
-$env:Path += ";C:\ProgramData\Miniforge3;C:\ProgramData\Miniforge3\Scripts"
-```
-
----
+Tu devrais voir la version de Conda.
 
 ## 🧩 2. (Optionnel) Mets à jour Conda
 
