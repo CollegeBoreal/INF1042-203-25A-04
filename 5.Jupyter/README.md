@@ -1,4 +1,4 @@
-# Jupyter
+# :ringed_planet: Jupyter
 
 Installer **Jupyter** (Notebook ou Lab) sous **Windows PowerShell**, en utilisant **Chocolatey**.
 
