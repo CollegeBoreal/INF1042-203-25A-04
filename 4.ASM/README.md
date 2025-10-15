@@ -1,6 +1,8 @@
 
 # 4. Assembleur (Assembly - ASM)
 
+[:tada: Participation](.scripts/Participation.md)
+
 ## :a: - 🧩 Introduction to Logic Circuits
 
 ### 🎯 Objectif du chapitre
