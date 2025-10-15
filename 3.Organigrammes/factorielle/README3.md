@@ -1,16 +1,21 @@
 
 ```mermaid
 flowchart TD
-  start((Démarrer))
+  start((Début))
   input[/Entrer n/]
-  init[[a = 0<br/>b = 1<br/>i = 1]]
-  out1([Afficher a])
-  cond{i < n ?}
-  step[[temp = a + b<br/>a = b<br/>b = temp<br/>i = i + 1]]
-  out2([Afficher a])
-  fin((Fin))
+  callFibo[[Appeler Fibo(n)]]
+  display([Afficher le résultat])
+  end((Fin))
 
-  start --> input --> init --> out1 --> cond
-  cond -- Oui --> step --> out2 --> cond
-  cond -- Non --> fin
+  start --> input --> callFibo --> display --> end
+
+  subgraph Fonction Fibo(n)
+    A{n ≤ 1 ?}
+    A -- Oui --> R1[[Retourner n]]
+    A -- Non --> C1[[x = Fibo(n - 1)]]
+    C1 --> C2[[y = Fibo(n - 2)]]
+    C2 --> R2[[Retourner x + y]]
+  end
+
+  callFibo --> A
 ```
