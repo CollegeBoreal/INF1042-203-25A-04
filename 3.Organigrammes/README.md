@@ -152,6 +152,8 @@ flowchart TD
 
 #### 3.2 Organigramme avec **shapes personnalisés**
 
+Example de récursion
+
 ```mermaid
 flowchart TD
     B@{ shape: manual-input, label: "Lire N"}
