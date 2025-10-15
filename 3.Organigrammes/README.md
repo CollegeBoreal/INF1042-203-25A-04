@@ -49,14 +49,11 @@ flowchart TD
     D --> F([Fin])
     E --> F([Fin])
 ```
-# :books: References
+## :abacus: factorielle
 
-- [ ] [:mermaid: Mermaid](https://mermaid.js.org)
-# :abacus: factorielle
+### **Leçon : Calcul de la factorielle avec organigrammes**
 
-# **Leçon : Calcul de la factorielle avec organigrammes**
-
-## 1️⃣ Définition de la factorielle
+### 1️⃣ Définition de la factorielle
 
 La **factorielle** d’un nombre entier positif `N` (notée `N!`) est le produit de tous les entiers positifs de 1 à `N` :
 
@@ -73,9 +70,9 @@ La factorielle est utilisée en mathématiques, statistiques et programmation (p
 
 ---
 
-## 2️⃣ Algorithme itératif
+### 2️⃣ Algorithme itératif
 
-### Étapes :
+#### Étapes :
 
 1. Lire un nombre `N`.
 2. Initialiser `factor = 1`.
@@ -84,7 +81,7 @@ La factorielle est utilisée en mathématiques, statistiques et programmation (p
 
 ---
 
-### 2.1 Organigramme Mermaid classique
+#### 2.1 Organigramme Mermaid classique
 
 ```mermaid
 flowchart TD
@@ -100,7 +97,7 @@ flowchart TD
 
 ---
 
-### 2.2 Organigramme avec **shapes personnalisés**
+#### 2.2 Organigramme avec **shapes personnalisés**
 
 ```mermaid
 flowchart TD
@@ -125,9 +122,9 @@ flowchart TD
 
 ---
 
-## 3️⃣ Algorithme récursif
+### 3️⃣ Algorithme récursif
 
-### Étapes :
+#### Étapes :
 
 1. Fonction `factorielle(n)` :
 
@@ -139,7 +136,7 @@ flowchart TD
 
 ---
 
-### 3.1 Organigramme Mermaid classique (récursion)
+#### 3.1 Organigramme Mermaid classique (récursion)
 
 ```mermaid
 flowchart TD
@@ -153,12 +150,9 @@ flowchart TD
     G --> H
     H --> I([Fin])
 ```
-
-
-
 ---
 
-### 3.2 Organigramme avec **shapes personnalisés**
+#### 3.2 Organigramme avec **shapes personnalisés**
 
 ```mermaid
 flowchart TD
@@ -185,7 +179,7 @@ flowchart TD
 
 ---
 
-## 4️⃣ Bonnes pratiques pour les organigrammes
+### 4️⃣ Bonnes pratiques pour les organigrammes
 
 1. Toujours **commencer par Début** et finir par **Fin**.
 2. Utiliser des **formes cohérentes** pour les mêmes types d’actions.
@@ -193,6 +187,6 @@ flowchart TD
 4. Mettre des **étiquettes claires** sur les flèches pour les conditions (Oui / Non).
 5. Vérifier la logique en parallèle du code.
 
----
+# :books: References
 
-✅ Avec ces exemples, tu as un **tutoriel complet sur la factorielle** en **itératif et récursif**, avec **Mermaid** pour illustrer les algorithmes sur GitHub.
+- [ ] [:mermaid: Mermaid](https://mermaid.js.org)
