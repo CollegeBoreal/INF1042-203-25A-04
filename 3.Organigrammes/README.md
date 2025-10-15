@@ -154,7 +154,6 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    A@{ shape: manual-file, label: "Début du programme"}
     B@{ shape: manual-input, label: "Lire N"}
     C@{ shape: procs, label: "Appeler factorielle(N)"}
     D@{ shape: diamond, label: "N <= 1 ?"}
@@ -162,9 +161,8 @@ flowchart TD
     F@{ shape: procs, label: "factorielle(N-1)"}
     G@{ shape: procs, label: "Retourner N * factorielle(N-1)"}
     H@{ shape: procs, label: "Afficher résultat"}
-    I@{ shape: manual-file, label: "Fin du programme"}
 
-    A --> B
+    A([Debut]) --> B
     B --> C
     C --> D
     D -- Oui --> E
@@ -172,7 +170,7 @@ flowchart TD
     F --> G
     E --> H
     G --> H
-    H --> I
+    H --> I([Fin])
 ```
 
 ---
