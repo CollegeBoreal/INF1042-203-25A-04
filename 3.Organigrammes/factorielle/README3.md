@@ -7,7 +7,10 @@ flowchart TD
     A3[Afficher le resultat]
     A4([Fin])
 
-    A0 --> A1 --> A2 --> A3 --> A4
+    A0 --> A1
+    A1 --> A2
+    A2 --> A3
+    A3 --> A4
 
     subgraph Fibo [Fonction Fibo(n)]
         B1{n <= 1 ?}
