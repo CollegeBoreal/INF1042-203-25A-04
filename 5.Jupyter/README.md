@@ -223,7 +223,7 @@ jupyter lab
 Tu peux ajouter ceci à ton profil PowerShell :
 
 ```powershell
-notepad $PROFILE
+nano $PROFILE
 ```
 
 Puis ajoute à la fin du fichier :
