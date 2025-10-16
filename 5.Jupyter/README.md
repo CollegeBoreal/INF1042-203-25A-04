@@ -41,6 +41,94 @@ $env:Path += ";C:\tools\miniforge3;C:\tools\miniforge3\Scripts"
 
 Tu devrais voir la version de Conda.
 
+Excellente question 👌 — tu veux donc **ajouter manuellement Miniforge au PATH de ton profil PowerShell**, puisque `/AddToPath` n’a pas été activé (ce qui est normal en mode `AllUsers` pour des raisons de sécurité).
+
+Voici les **étapes propres et sûres** pour le faire.
+
+---
+
+## 🧭 1️⃣ Localiser l’installation de Miniforge
+
+Par défaut, si tu as utilisé :
+
+```powershell
+choco install miniforge3 -y
+```
+
+et donc `/InstallationType:AllUsers`, ton Miniforge est ici :
+
+```
+C:\tools\miniforge3
+```
+
+Les dossiers importants à ajouter au PATH sont :
+
+```
+C:\tools\miniforge3
+C:\tools\miniforge3\Scripts
+C:\tools\miniforge3\Library\bin
+```
+
+---
+
+## ⚙️ 2️⃣ Vérifier le fichier `$PROFILE`
+
+Ouvre PowerShell et tape :
+
+```powershell
+echo $PROFILE
+```
+
+Tu verras un chemin du type :
+
+```
+C:\Users\<TonNom>\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
+```
+
+S’il n’existe pas, crée-le :
+
+```powershell
+New-Item -ItemType File -Path $PROFILE -Force
+```
+
+---
+
+## 🪄 3️⃣ Ajouter Miniforge au PATH dans le profil
+
+Édite le fichier :
+
+```powershell
+nano $PROFILE
+```
+
+Et ajoute à la fin :
+
+```powershell
+# >>> Miniforge3 initialization >>>
+$env:Path += ";C:\tools\miniforge3;C:\tools\miniforge3\Scripts;C:\tools\miniforge3\Library\bin"
+# <<< Miniforge3 initialization <<<
+```
+
+Sauvegarde et ferme.
+
+---
+
+## 🔁 4️⃣ Recharger le profil
+
+Recharge ton profil sans redémarrer PowerShell : (en utilisant dot-sourcing)
+
+```powershell
+. $PROFILE
+```
+
+Puis vérifie :
+
+```powershell
+conda --version
+```
+
+➡️ Tu devrais maintenant voir la version Conda s’afficher.
+
 ## 🧩 2. (Optionnel) Mets à jour Conda
 
 Toujours dans PowerShell :
