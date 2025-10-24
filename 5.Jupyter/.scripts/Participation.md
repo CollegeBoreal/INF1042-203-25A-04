@@ -1,4 +1,4 @@
-# Participation au 24-10-2025 16:23
+# Participation au 24-10-2025 20:29
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -52,3 +52,4 @@
 | 33 | [300158486](../300158486/README.md) :point_right: [lyes158](https://github.com/lyes158) <image src='https://avatars0.githubusercontent.com/u/232938643?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: | :x: |
 | 34 | [300159189](../300159189/README.md) :point_right: [fateh98](https://github.com/fateh98) <image src='https://avatars0.githubusercontent.com/u/232939045?s=460&v=4' width=20 height=20></image> | :x: | :x: | :x: |
 
+| :abacus: |  $\frac{2}{35}$  =  5% | $\displaystyle\sum_{i=1}^{35} s_i$ = 2 |
