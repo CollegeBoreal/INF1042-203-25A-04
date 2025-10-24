@@ -336,7 +336,7 @@ Utiliser l'example ASM donné ci-dessus, éxécuter les étiquettes ASM individu
 |-|-|
 | <img src=images/RARS-run.png width='' height='' > </img> | <img src=images/RARS-debug.png width='' height='' > </img>|
 
-⚠️ Créer un répertoire `images` pour sauver les copies d'éran
+⚠️ Créer un répertoire `images` pour sauver les copies d'écran
 
 - [ ] Nommer le fichier `Assembleur` riscv1.asm
 
