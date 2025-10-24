@@ -30,8 +30,8 @@ echo "| :x:                | Projet inexistant             |"
 echo ""
 echo "## :a: Présence"
 echo ""
-echo "|:hash:| Boréal :id:                | README.md    | images |"
-echo "|------|----------------------------|--------------|--------|"
+echo "|:hash:| Boréal :id:                | README.md    | images | Rapport |"
+echo "|------|----------------------------|--------------|--------|---------|"
 
 i=0
 s=0
@@ -41,8 +41,9 @@ do
    URL="[${IDS[${i}]}](https://github.com/${IDS[${i}]}) <image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image>"
    FILE=${id}/README.md
    FOLDER=${id}/images
-   OK="| ${i} | [${id}](../${FILE}) :point_right: ${URL} | :heavy_check_mark: | :x: |"
-   FULL_OK="| ${i} | [${id}](../${FILE}) :point_right: ${URL} | :heavy_check_mark: | :heavy_check_mark: | "
+   REPORT=${id}/RAPPORT.ipynb
+   OK="| ${i} | [${id}](../${FILE}) :point_right: ${URL} | :heavy_check_mark: | :x: | :x: |"
+   FULL_OK="| ${i} | [${id}](../${FILE}) :point_right: ${URL} | :heavy_check_mark: | :heavy_check_mark: | :receipt: |"
    KO="| ${i} | [${id}](../${FILE}) :point_right: ${URL} | :x: | :x: |"
    if [ -f "$FILE" ]; then
     ACTUAL_NAME="$(basename "$(realpath "$FILE")")"
