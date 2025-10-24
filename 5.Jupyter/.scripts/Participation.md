@@ -1,4 +1,4 @@
-# Participation au 24-10-2025 20:34
+# Participation au 24-10-2025 16:38
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -51,5 +51,4 @@
 | 32 | [300158185](../300158185/README.md) :point_right: [Mohammed-Mati](https://github.com/Mohammed-Mati) <image src='https://avatars0.githubusercontent.com/u/232939280?s=460&v=4' width=20 height=20></image> | :x: | :x: | [:x:](../300158185/RAPPORT.ipynb) |
 | 33 | [300158486](../300158486/README.md) :point_right: [lyes158](https://github.com/lyes158) <image src='https://avatars0.githubusercontent.com/u/232938643?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: | [:x:](../300158486/RAPPORT.ipynb) |
 | 34 | [300159189](../300159189/README.md) :point_right: [fateh98](https://github.com/fateh98) <image src='https://avatars0.githubusercontent.com/u/232939045?s=460&v=4' width=20 height=20></image> | :x: | :x: | [:x:](../300159189/RAPPORT.ipynb) |
-
 | :abacus: |  $\frac{2}{35}$  =  5% | $\displaystyle\sum_{i=1}^{35} s_i$ = 2 |

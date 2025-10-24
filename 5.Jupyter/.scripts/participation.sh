@@ -71,6 +71,5 @@ do
    SUM="$\displaystyle\sum_{i=1}^{${i}} s_i$"
 done
 
-echo ""
 echo "| :abacus: | " ${COUNT} " = " ${STATS}% "|" ${SUM} = ${s} "|"
 
