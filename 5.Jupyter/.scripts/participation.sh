@@ -2,15 +2,14 @@
 
 # --------------------------------------
 #
-#
+# Participation report generator
 #
 # --------------------------------------
 
 source ../.scripts/students.sh --source-only
-   
+
 echo "# Participation au `date +"%d-%m-%Y %H:%M"`"
 echo ""
-
 
 echo "| Table des matières            | Description                                             |"
 echo "|-------------------------------|---------------------------------------------------------|"
@@ -20,18 +19,16 @@ echo "| :b: [Précision](#b-précision) | L'étudiant.e a réussi son travail  :
 echo ""
 echo "## Légende"
 echo ""
-
 echo "| Signe              | Signification                 |"
 echo "|--------------------|-------------------------------|"
 echo "| :heavy_check_mark: | Prêt à être corrigé           |"
 echo "| :x:                | Projet inexistant             |"
 
-
 echo ""
 echo "## :a: Présence"
 echo ""
-echo "|:hash:| Boréal :id:                | README.md    | images | Rapport |"
-echo "|------|----------------------------|--------------|--------|---------|"
+echo "|:hash:| Boréal :id:                | README.md    | images | RAPPORT.ipynb |"
+echo "|------|----------------------------|--------------|--------|----------------|"
 
 i=0
 s=0
@@ -42,28 +39,38 @@ do
    FILE=${id}/README.md
    FOLDER=${id}/images
    REPORT=${id}/RAPPORT.ipynb
-   OK="| ${i} | [${id}](../${FILE}) :point_right: ${URL} | :heavy_check_mark: | :x: | :x: |"
-   FULL_OK="| ${i} | [${id}](../${FILE}) :point_right: ${URL} | :heavy_check_mark: | :heavy_check_mark: | :receipt: |"
-   KO="| ${i} | [${id}](../${FILE}) :point_right: ${URL} | :x: | :x: |"
+
+   README_ICON=":x:"
+   IMAGES_ICON=":x:"
+   RAPPORT_ICON=":x:"
+
    if [ -f "$FILE" ]; then
-    ACTUAL_NAME="$(basename "$(realpath "$FILE")")"
-    if [[ "$ACTUAL_NAME" == "README.md" ]]; then
-        if [ -d "$FOLDER" ]; then
-                echo ${FULL_OK}
-                let "s++"
-        else
-            echo ${OK}
-        fi
-    else
-       echo ${KO}
-    fi
-   else
-       echo ${KO}
+       ACTUAL_NAME="$(basename "$(realpath "$FILE")")"
+       if [[ "$ACTUAL_NAME" == "README.md" ]]; then
+           README_ICON=":heavy_check_mark:"
+       fi
    fi
+
+   if [ -d "$FOLDER" ]; then
+       IMAGES_ICON=":heavy_check_mark:"
+   fi
+
+   if [ -f "$REPORT" ]; then
+       RAPPORT_ICON=":receipt:"
+   fi
+
+   echo "| ${i} | [${id}](../${FILE}) :point_right: ${URL} | ${README_ICON} | ${IMAGES_ICON} | ${RAPPORT_ICON} |"
+
+   if [[ "$README_ICON" == ":heavy_check_mark:" && "$IMAGES_ICON" == ":heavy_check_mark:" && "$RAPPORT_ICON" == ":receipt:" ]]; then
+       let "s++"
+   fi
+
    let "i++"
    COUNT="\$\\frac{${s}}{${i}}$"
    STATS=$(echo "$s*100/$i" | bc)
    SUM="$\displaystyle\sum_{i=1}^{${i}} s_i$"
- done
- 
+done
+
+echo ""
 echo "| :abacus: | " ${COUNT} " = " ${STATS}% "|" ${SUM} = ${s} "|"
+
