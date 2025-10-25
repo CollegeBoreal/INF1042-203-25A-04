@@ -9,6 +9,8 @@ flowchart TD
     D -->|Non| G[Écrire factor]
     G --> H[Fin]
 ```
+
+
 ```mermaid
 flowchart TD
     A@{ shape: manual-file, label: "Début du programme"}
@@ -29,6 +31,8 @@ flowchart TD
     F --> D
     D -- Non --> G
     G --> H
+
+
 ```mermaid
     flowchart TD
     A[Début] --> B[/Lire N/]
@@ -38,5 +42,30 @@ flowchart TD
     E --> F[i = i + 1]
     F --> D
     D -->|Non| G[Écrire factor]
+    G --> H[Fin]
+```
+
+
+```mermaid
+flowchart TD
+    A@{ shape: manual-file, label: "Début du programme"}
+    B@{ shape: manual-input, label: "Lire N"}
+    C@{ shape: procs, label: "Appeler factorielle(N)"}
+    D@{ shape: diamond, label: "N <= 1 ?"}
+    E@{ shape: procs, label: "Retourner 1"}
+    F@{ shape: procs, label: "factorielle(N-1)"}
+    G@{ shape: procs, label: "Retourner N * factorielle(N-1)"}
+    H@{ shape: procs, label: "Afficher résultat"}
+    I@{ shape: manual-file, label: "Fin du programme"}
+
+    A --> B
+    B --> C
+    C --> D
+    D -- Oui --> E
+    D -- Non --> F
+    F --> G
+    E --> H
+    G --> H
+    H --> I
     G --> H[Fin]
 ```
