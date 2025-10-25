@@ -1,4 +1,3 @@
-mermaid
 flowchart TD
     A[Début] --> B[/Lire N/]
     B --> C[Initialiser factor = 1 et i = 1]
@@ -7,4 +6,4 @@ flowchart TD
     E --> F[i = i + 1]
     F --> D
     D -->|Non| G[Écrire factor]
-    G --> H[Fin]
+    G --> H[Fin]
