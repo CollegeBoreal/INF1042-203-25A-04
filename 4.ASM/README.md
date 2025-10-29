@@ -37,7 +37,7 @@ Il établit le lien entre les **fonctions logiques** (mathématiques booléennes
 
 ---
 
-### 1. 💡 Concepts de base
+### 💡 1. Concepts de base
 
 * **Variables binaires** : peuvent prendre la valeur `0` (faux) ou `1` (vrai).
 
@@ -56,7 +56,7 @@ Le circuit du **Buffer** (Tampon), démontre un boutton permettant d'activer l'i
 
 ---
 
-### 2. 🧮 Fonctions logiques
+### 🧮 2. Fonctions logiques
 
 * Une **fonction logique** est une expression reliant des entrées binaires à une sortie binaire.
 * Peut être représentée sous plusieurs formes :
@@ -82,7 +82,7 @@ $$f = (x_1 \text{ AND } x_2) \text{ OR } (\text{ NOT } x_3)$$
 
 ---
 
-### 3. 🔧 Portes logiques (Logic Gates) fondamentales
+### 🔧 3. Portes logiques (Logic Gates) fondamentales
 
 Les portes physiques de base sont :
 
@@ -102,7 +102,7 @@ Par example, reconstruction de **XOR** par **NAND**: <img src=https://upload.wik
 
 ---
 
-### 4. 🧱 Mise en œuvre de circuits logiques
+### 🧱 4. Mise en œuvre de circuits logiques
 
 * À partir d’une **table de vérité**, on déduit l’expression booléenne correspondante.
 * Deux formes standards :
@@ -115,7 +115,7 @@ Par example, reconstruction de **XOR** par **NAND**: <img src=https://upload.wik
 
 ---
 
-### 5. ⚙️ Simplification des circuits
+### ⚙️  5. Simplification des circuits
 
 Méthodes utilisées :
 
@@ -124,7 +124,7 @@ Méthodes utilisées :
 
 ---
 
-### 6. 🔌 Circuits combinatoires courants
+### 🔌 6. Circuits combinatoires courants
 
 Le chapitre présente des **blocs logiques standards** :
 
@@ -163,7 +163,7 @@ flowchart TD
 
 ---
 
-## 7. 🔢 Décodage binaire vers hexadécimal
+## 🔢 7. Décodage binaire vers hexadécimal
 
 Le système **hexadécimal (base 16)** permet de représenter plus simplement les valeurs **binaires (base 2)**.
 Chaque **chiffre hexadécimal correspond à 4 bits**.
@@ -199,7 +199,7 @@ Chaque **chiffre hexadécimal correspond à 4 bits**.
 
 ---
 
-### 8. 🧠 Introduction à l'assembleur
+### 🧠 8. Introduction à l'assembleur
 
 * Le chapitre introduit brièvement **ASM** l'assembleur pour **décrire et simuler** instructions machines utilisant les circuits logiques.
 * Les éléments essentiels :
