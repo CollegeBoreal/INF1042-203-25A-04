@@ -198,7 +198,76 @@ conda update --name base --channel defaults conda -y
 C’est préférable pour éviter les conflits de versions.
 
 ```powershell
-conda create -n INF1042-203-25A-04 python=3.12 -y
+conda create --name INF1042-203-25A-04 python=3.12 -y
+```
+<details>
+
+```lua
+Channels:
+ - conda-forge
+Platform: osx-arm64
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: /opt/homebrew/Caskroom/miniforge/base/envs/INF1042-203-25A-04
+
+  added / updated specs:
+    - python=3.12
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    libffi-3.5.2               |       he5f378a_0          39 KB  conda-forge
+    python-3.12.12             |h18782d2_1_cpython        11.5 MB  conda-forge
+    ------------------------------------------------------------
+                                           Total:        11.5 MB
+
+The following NEW packages will be INSTALLED:
+
+  bzip2              conda-forge/osx-arm64::bzip2-1.0.8-hd037594_8 
+  ca-certificates    conda-forge/noarch::ca-certificates-2025.10.5-hbd8a1cb_0 
+  icu                conda-forge/osx-arm64::icu-75.1-hfee45f7_0 
+  libexpat           conda-forge/osx-arm64::libexpat-2.7.1-hec049ff_0 
+  libffi             conda-forge/osx-arm64::libffi-3.5.2-he5f378a_0 
+  liblzma            conda-forge/osx-arm64::liblzma-5.8.1-h39f12f2_2 
+  libsqlite          conda-forge/osx-arm64::libsqlite-3.50.4-h4237e3c_0 
+  libzlib            conda-forge/osx-arm64::libzlib-1.3.1-h8359307_2 
+  ncurses            conda-forge/osx-arm64::ncurses-6.5-h5e97a16_3 
+  openssl            conda-forge/osx-arm64::openssl-3.5.4-h5503f6c_0 
+  pip                conda-forge/noarch::pip-25.2-pyh8b19718_0 
+  python             conda-forge/osx-arm64::python-3.12.12-h18782d2_1_cpython 
+  readline           conda-forge/osx-arm64::readline-8.2-h1d1bf99_2 
+  setuptools         conda-forge/noarch::setuptools-80.9.0-pyhff2d567_0 
+  tk                 conda-forge/osx-arm64::tk-8.6.13-h892fb3f_2 
+  tzdata             conda-forge/noarch::tzdata-2025b-h78e105d_0 
+  wheel              conda-forge/noarch::wheel-0.45.1-pyhd8ed1ab_1 
+
+
+
+Downloading and Extracting Packages:
+                                                                                                                  
+Preparing transaction: done                                                                                       
+Verifying transaction: done
+Executing transaction: done
+#
+# To activate this environment, use
+#
+#     $ conda activate INF1042-203-25A-04
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+```
+
+</details>
+
+- [ ] Active ton environnement
+
+```powershell
 conda activate INF1042-203-25A-04
 ```
 
@@ -207,7 +276,7 @@ conda activate INF1042-203-25A-04
 ## 🧠 4. Installe **JupyterLab (plus moderne)**
 
 ```powershell
-conda install -c conda-forge jupyterlab -y
+conda install --channel conda-forge jupyterlab -y
 ```
 
 Puis lance-le avec :
