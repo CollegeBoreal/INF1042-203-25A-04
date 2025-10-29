@@ -19,7 +19,6 @@
     - [✅ En résumé](#-en-résumé)
   - [:o: Implémentation](#o-implémentation)
     - [:abacus: - Installation de la machine virtuelle Java](#abacus---installation-de-la-machine-virtuelle-java)
-    - [:test_tube: Vérifier l'installation](#🧪-vérifier-linstallation)
   - [:b: Expérimentation](#b-expérimentation)
     - [🎛️ Créer un fichier dans ce répertoire `(4.ASM)`](#%EF%B8%8F-créer-un-fichier-dans-ce-répertoire-4asm)
     - [:rocket: Lancer l'IDE RARS 1.6](#rocket-lancer-lide-rars-16)
