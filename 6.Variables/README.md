@@ -51,4 +51,34 @@
 
 ---
 
+## :b: Expérimentation
+
+### 🎛️ Créer un fichier dans ce répertoire `(6.Variables)`:
+
+:checkered_flag: Finalement,
+
+- [ ] Créer un répertoire avec :id: (votre identifiant boreal)
+   - [ ] `mkdir ` :id:
+- [ ] dans votre répertoire ajouter le fichier `README.md`
+  - [ ] `nano `README.md
+- [ ] envoyer vers le serveur `github.com`
+  - [ ] `cd ..`
+  - [ ] `git add `:id: 
+  - [ ] `git commit -m "mon fichier ..."`
+  - [ ] `git push`
+
+### :rocket: Copier le fichier `RAPPORT.ipynb`
+
+- [ ] Se diriger vers le répertoire avec :id: (votre identifiant boreal)
+   - [ ] `cd ` :id:
+- [ ] Copier le fichier `RAPPORT.ipynb`
+
+```sh
+cp ../.lib/RAPPORT.ipynb .
+```
+
+### 🔄 Exercices
+
+- [ ] Démarrer jupyter dans votre répertoire
+- [ ] Modifier les exemples de variables et metter les à votre goût
 
