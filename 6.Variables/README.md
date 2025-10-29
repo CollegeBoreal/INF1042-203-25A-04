@@ -1,6 +1,112 @@
-# Types de variables de base en Python :snake:
+# 🐍 Les variables en Python
 
 [:tada: Participation](.scripts/Participation.md)
+
+---
+
+## 🎯 Qu’est-ce qu’une variable ?
+
+Une **variable** est un **nom symbolique** qui fait référence à une **valeur stockée en mémoire**.
+Elle permet de **stocker**, **manipuler** et **réutiliser** des données dans un programme.
+
+```python
+nom = "Alice"
+age = 25
+```
+
+Ici :
+
+* `nom` pointe vers la valeur `"Alice"`
+* `age` pointe vers la valeur `25`
+
+---
+
+## 🧠 Les types de variables simples
+
+Chaque valeur en Python a un **type**, c’est-à-dire une **catégorie de données**.
+Python détermine automatiquement le type selon la valeur donnée.
+
+| Exemple            | Type    | Description             |
+| ------------------ | ------- | ----------------------- |
+| `10`               | `int`   | Entier                  |
+| `3.14`             | `float` | Nombre décimal          |
+| `"Bonjour"`        | `str`   | Chaîne de caractères    |
+| `True`             | `bool`  | Booléen                 |
+| `[1, 2, 3]`        | `list`  | Liste modifiable        |
+| `(1, 2, 3)`        | `tuple` | Liste non modifiable    |
+| `{"nom": "Alice"}` | `dict`  | Dictionnaire clé/valeur |
+
+💡 Pour connaître le type d’une variable :
+
+```python
+x = 42
+print(type(x))  # <class 'int'>
+```
+
+---
+
+## 🔄 Mutabilité et immutabilité
+
+C’est une **notion essentielle** 🧩 :
+Elle détermine si une **valeur peut être modifiée** sans changer son **identité en mémoire**.
+
+### 🔸 **Objets immuables**
+
+Ce sont des objets **dont la valeur ne peut pas être modifiée** après leur création.
+Chaque modification crée **un nouvel objet** en mémoire.
+
+Exemples : `int`, `float`, `str`, `tuple`, `bool`
+
+```python
+x = 10
+print(id(x))  # adresse mémoire
+x = x + 1
+print(id(x))  # nouvelle adresse → nouvel objet
+```
+
+➡️ Le `int` est immuable : chaque opération crée une nouvelle valeur.
+
+---
+
+### 🔹 **Objets muables**
+
+Ces objets peuvent être **modifiés directement** en mémoire (leur adresse ne change pas).
+
+Exemples : `list`, `dict`, `set`
+
+```python
+liste = [1, 2, 3]
+print(id(liste))
+liste.append(4)
+print(id(liste))  # même adresse → objet modifié
+```
+
+➡️ La `list` est muable : on peut modifier son contenu sans créer un nouvel objet.
+
+---
+
+## 🧩 Illustration complète
+
+| Type    | Exemple          | Muable ? |
+| ------- | ---------------- | -------- |
+| `int`   | `x = 5`          | ❌ Non    |
+| `float` | `x = 3.14`       | ❌ Non    |
+| `str`   | `x = "Salut"`    | ❌ Non    |
+| `tuple` | `(1, 2)`         | ❌ Non    |
+| `list`  | `[1, 2, 3]`      | ✅ Oui    |
+| `dict`  | `{"nom": "Eve"}` | ✅ Oui    |
+| `set`   | `{1, 2, 3}`      | ✅ Oui    |
+
+---
+
+## ⚙️ En résumé
+
+* 🔹 **Variable** → nom qui référence une valeur
+* 🔹 **Type** → nature de la donnée (entier, texte, liste, etc.)
+* 🔹 **Immuable** → valeur fixe, nouvelle copie lors des modifications
+* 🔹 **Muable** → peut être modifiée directement
+
+# :a: Types de variables de base en Python :snake:
 
 ---
 
