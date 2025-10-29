@@ -2,9 +2,30 @@
 
 [:tada: Participation](.scripts/Participation.md)
 
-Installer **Jupyter** (Notebook ou Lab) sous **Windows PowerShell**, en utilisant **Chocolatey**.
 
-Installer **Miniforge** via **Chocolatey** sur Windows, voici la procédure complète :
+## 📝 Jupyter et environnement Conda
+
+**Jupyter** n’est pas un IDE classique, mais une **interface interactive** qui permet de créer des **notebooks** contenant :
+
+* du **code exécutable** (Python, R, Julia…)
+* du **texte enrichi** (Markdown)
+* des **visualisations et graphiques**
+
+**Pourquoi créer un environnement Conda pour Jupyter ?**
+
+Un **environnement Conda** est une **zone isolée** contenant sa propre version de Python et ses bibliothèques.
+
+**Raisons principales :**
+
+1. **Éviter les conflits** entre versions de Python ou bibliothèques pour différents projets.
+2. **Reproductibilité** : ton environnement peut être partagé et reproduit exactement.
+3. **Sécurité** : l’environnement de base reste propre et stable, sans risque de casser des dépendances.
+
+> 💡 Astuce : chaque projet Jupyter doit idéalement avoir son propre environnement Conda pour garantir que les notebooks fonctionnent partout.
+
+## :a: Installation
+
+Pour Installer **Jupyter** (Notebook ou Lab) sous **Windows PowerShell**, en utilisant **Chocolatey**  et installer **Miniforge** via **Chocolatey** sur Windows, voici la procédure complète :
 
 ---
 
