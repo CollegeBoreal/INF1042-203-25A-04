@@ -106,7 +106,7 @@ print(id(liste))  # même adresse → objet modifié
 * 🔹 **Immuable** → valeur fixe, nouvelle copie lors des modifications
 * 🔹 **Muable** → peut être modifiée directement
 
-# :a: Types de variables de base en Python :snake:
+# :a: Types de variables en Python :snake:
 
 ---
 
