@@ -321,6 +321,41 @@ Puis lance-le avec :
 ```powershell
 jupyter lab
 ```
+<details>
+<summary> :wood: **Log** </summary>
+
+```lua
+[I 2025-10-29 16:02:38.613 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-10-29 16:02:38.615 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2025-10-29 16:02:38.617 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-10-29 16:02:38.811 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-10-29 16:02:38.848 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-10-29 16:02:38.850 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-10-29 16:02:38.850 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-10-29 16:02:38.851 LabApp] JupyterLab extension loaded from /opt/homebrew/Caskroom/miniforge/base/envs/INF1042-203-25A-04/lib/python3.12/site-packages/jupyterlab
+[I 2025-10-29 16:02:38.851 LabApp] JupyterLab application directory is /opt/homebrew/share/jupyter/lab
+[I 2025-10-29 16:02:38.852 LabApp] Extension Manager is 'pypi'.
+[I 2025-10-29 16:02:38.884 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-10-29 16:02:38.885 ServerApp] Serving notebooks from local directory: /Users/valiha/Developer/github.com/collegeboreal/INF1042-203-25A-04/5.Jupyter
+[I 2025-10-29 16:02:38.885 ServerApp] Jupyter Server 2.17.0 is running at:
+[I 2025-10-29 16:02:38.885 ServerApp] http://localhost:8888/lab?token=c5cab21cfaa688fc26731dc19561f2a604a7d6c899800312
+[I 2025-10-29 16:02:38.885 ServerApp]     http://127.0.0.1:8888/lab?token=c5cab21cfaa688fc26731dc19561f2a604a7d6c899800312
+[I 2025-10-29 16:02:38.885 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2025-10-29 16:02:38.896 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///Users/valiha/Library/Jupyter/runtime/jpserver-74934-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/lab?token=c5cab21cfaa688fc26731dc19561f2a604a7d6c899800312
+        http://127.0.0.1:8888/lab?token=c5cab21cfaa688fc26731dc19561f2a604a7d6c899800312
+[I 2025-10-29 16:02:39.818 ServerApp] Skipped non-installed server(s): basedpyright, bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyrefly, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2025-10-29 16:02:41.090 LabApp] Build is up to date
+```
+
+</details>
+
+* Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+
 
 ---
 
