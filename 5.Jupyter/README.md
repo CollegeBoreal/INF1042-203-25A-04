@@ -188,7 +188,7 @@ conda --version
 Toujours dans PowerShell :
 
 ```powershell
-conda update -n base -c defaults conda -y
+conda update --name base --channel defaults conda -y
 ```
 
 ---
@@ -255,4 +255,8 @@ python --version
 Tu devrais voir des versions cohérentes (par ex. Python 3.12.x et Jupyter 7.x ou 8.x).
 
 # :books: References
+
+## conda :snake2:
+
+- [ ] [Anaconda](https://github.com/CollegeBoreal/Tutoriels/tree/main/P.PackageManager/A.Anaconda)
 
