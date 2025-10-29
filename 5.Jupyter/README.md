@@ -254,6 +254,31 @@ python --version
 
 Tu devrais voir des versions cohérentes (par ex. Python 3.12.x et Jupyter 7.x ou 8.x).
 
+---
+
+## :b: Expérimentation
+
+### 🎛️ Créer un fichier dans ce répertoire `(5.Jupyter)`:
+
+:checkered_flag: Finalement,
+
+- [ ] Créer un répertoire avec :id: (votre identifiant boreal)
+   - [ ] `mkdir ` :id:
+- [ ] dans votre répertoire ajouter le fichier `README.md`
+  - [ ] `nano `README.md
+- [ ] envoyer vers le serveur `github.com`
+  - [ ] `cd ..`
+  - [ ] `git add `:id: 
+  - [ ] `git commit -m "mon fichier ..."`
+  - [ ] `git push`
+
+### :rocket: Crée le fichier `RAPPORT.ipynb`
+
+- [ ] Se diriger vers le répertoire avec :id: (votre identifiant boreal)
+   - [ ] `cd ` :id:
+- [ ] Dans `Jupyter` crée un fichier en `Python` et renomme le en `RAPPORT.ipynb`
+
+
 # :books: References
 
 ## conda :snake:

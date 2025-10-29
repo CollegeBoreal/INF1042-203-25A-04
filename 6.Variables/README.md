@@ -1,5 +1,7 @@
 # Types de variables de base en Python :snake:
 
+[:tada: Participation](.scripts/Participation.md)
+
 ---
 
 ## 🧩 **Types de base**
