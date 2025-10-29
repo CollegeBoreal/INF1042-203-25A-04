@@ -2,6 +2,32 @@
 
 [:tada: Participation](.scripts/Participation.md)
 
+<details>
+  <summary> :ringed_planet: Table des matières </summary>
+
+
+- [📝 Jupyter et environnement Conda](#-jupyter-et-environnement-conda)
+- [:a: Installation](#a-installation)
+  - [1️⃣ Commande de base](#1-commande-de-base)
+  - [3️⃣ Vérifier l’installation](#3-vérifier-linstallation)
+  - [🧭 1️⃣ Localiser l’installation de Miniforge](#1-localiser-linstallation-de-miniforge)
+  - [⚙️ 2️⃣ Vérifier le fichier $PROFILE](#2-vérifier-le-fichier-profile)
+  - [🪄 3️⃣ Ajouter Miniforge au PATH dans le profil](#3-ajouter-miniforge-au-path-dans-le-profil)
+  - [🔁 4️⃣ Recharger le profil](#4-recharger-le-profil)
+- [🧩 2. (Optionnel) Mets à jour Conda](#2-optionnel-mets-à-jour-conda)
+- [📦 3. Crée un environnement Python pour Jupyter](#3-crée-un-environnement-python-pour-jupyter)
+- [🧠 4. Installe JupyterLab (plus moderne)](#4-installe-jupyterlab-plus-moderne)
+- [🧭 5. (Optionnel) Ajoute un raccourci PowerShell pour l’ouvrir rapidement](#5-optionnel-ajoute-un-raccourci-powershell-pour-louvrir-rapidement)
+- [🧹 6. Vérifie ton installation](#6-vérifie-ton-installation)
+- [:b: Expérimentation](#b-expérimentation)
+  - [🎛️ Créer un fichier dans ce répertoire `(5.Jupyter)`](#créer-un-fichier-dans-ce-répertoire-5jupyter)
+  - [:rocket: Crée le fichier `RAPPORT.ipynb`](#crée-le-fichier-rapportipynb)
+- [:books: References](#books-references)
+  - [conda :snake:](#conda-snake)
+
+</details>
+
+
 
 ## 📝 Jupyter et environnement Conda
 
