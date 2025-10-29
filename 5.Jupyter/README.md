@@ -5,7 +5,6 @@
 <details>
   <summary> :ringed_planet: <b>Table des matières</b> </summary>
 
-
 - [📝 Jupyter et environnement Conda](#-jupyter-et-environnement-conda)
 - [:a: 1. Installation](#a-installation)
 - [🧩 2. (Optionnel) Mets à jour Conda](#-2-optionnel-mets-à-jour-conda)
@@ -14,10 +13,7 @@
 - [🧭 5. (Optionnel) Ajoute un raccourci PowerShell pour l’ouvrir rapidement](#-5-optionnel-ajoute-un-raccourci-powershell-pour-louvrir-rapidement)
 - [🧹 6. Vérifie ton installation](#-6-vérifie-ton-installation)
 - [:b: Expérimentation](#b-expérimentation)
-  - [🎛️ Créer un fichier dans ce répertoire `(5.Jupyter)`](#créer-un-fichier-dans-ce-répertoire-5jupyter)
-  - [:rocket: Crée le fichier `RAPPORT.ipynb`](#crée-le-fichier-rapportipynb)
 - [:books: References](#books-references)
-  - [conda :snake:](#conda-snake)
 
 </details>
 
