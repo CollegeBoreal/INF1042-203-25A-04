@@ -79,6 +79,6 @@ cp ../.lib/RAPPORT.ipynb .
 
 ### 🔄 Exercices
 
-- [ ] Démarrer jupyter dans votre répertoire
-- [ ] Modifier les exemples de variables et metter les à votre goût
+- [ ] Démarrer `jupyter` dans son répertoire :id:
+- [ ] Modifier les exemples de variables et mettre à son goût
 
