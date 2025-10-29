@@ -4,7 +4,6 @@
 [:tada: Participation](.scripts/Participation.md)
 
 <details>
-<details>
   <summary> :ringed_planet: <b>Table des matières</b> </summary>
 
   - [:a: - 🧩 Introduction to Logic Circuits](#a----introduction-to-logic-circuits)
