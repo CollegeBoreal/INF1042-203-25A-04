@@ -19,7 +19,7 @@
     - [✅ En résumé](#-en-résumé)
   - [:o: Implémentation](#o-implémentation)
     - [:abacus: - Installation de la machine virtuelle Java](#abacus---installation-de-la-machine-virtuelle-java)
-    - [🧪 Vérifier l'installation](#🧪-vérifier-linstallation)
+    - [:test_tube: Vérifier l'installation](#🧪-vérifier-linstallation)
   - [:b: Expérimentation](#b-expérimentation)
     - [🎛️ Créer un fichier dans ce répertoire `(4.ASM)`](#🎛️-créer-un-fichier-dans-ce-répertoire-4asm)
     - [:rocket: Lancer l'IDE RARS 1.6](#rocket-lancer-lide-rars-16)
@@ -304,7 +304,7 @@ experience to the next level at
  https://chocolatey.org/compare
 ```
 
-### 🧪 Vérifier l'installation
+### :test_tube: Vérifier l'installation
 
 
 Sous :desktop_computer: `Windows`, ouvrir une fenêtre `PowerShell` en mode `Utilisateur` 
