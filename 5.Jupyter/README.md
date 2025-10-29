@@ -3,7 +3,7 @@
 [:tada: Participation](.scripts/Participation.md)
 
 <details>
-  <summary> :ringed_planet: Table des matières </summary>
+  <summary> :ringed_planet: **Table des matières** </summary>
 
 
 - [📝 Jupyter et environnement Conda](#-jupyter-et-environnement-conda)
