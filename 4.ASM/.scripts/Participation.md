@@ -1,4 +1,4 @@
-# Participation au 29-10-2025 19:55
+# Participation au 29-10-2025 19:57
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -38,7 +38,7 @@
 | 19 | [300155466](../300155466/README.md) :point_right: [rekhilahana34-tech](https://github.com/rekhilahana34-tech) <image src='https://avatars0.githubusercontent.com/u/232940163?s=460&v=4' width=20 height=20></image> | :x: | :x: |
 | 20 | [300155504](../300155504/README.md) :point_right: [badreddine223](https://github.com/badreddine223) <image src='https://avatars0.githubusercontent.com/u/231570213?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :x: |
 | 21 | [300155527](../300155527/README.md) :point_right: [Soul7331](https://github.com/Soul7331) <image src='https://avatars0.githubusercontent.com/u/231569948?s=460&v=4' width=20 height=20></image> | :x: | :x: |
-| 22 | [300155606](../300155606/README.md) :point_right: [Djelloulmsili](https://github.com/Djelloulmsili) <image src='https://avatars0.githubusercontent.com/u/231571545?s=460&v=4' width=20 height=20></image> | :x: | :x: |
+| 22 | [300155606](../300155606/README.md) :point_right: [Djelloulmsili](https://github.com/Djelloulmsili) <image src='https://avatars0.githubusercontent.com/u/231571545?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :x: |
 | 23 | [300156204](../300156204/README.md) :point_right: [Abdou21566](https://github.com/Abdou21566) <image src='https://avatars0.githubusercontent.com/u/231571560?s=460&v=4' width=20 height=20></image> | :x: | :x: |
 | 24 | [300156612](../300156612/README.md) :point_right: [06019](https://github.com/06019) <image src='https://avatars0.githubusercontent.com/u/232939132?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 25 | [300156615](../300156615/README.md) :point_right: [waliii81](https://github.com/waliii81) <image src='https://avatars0.githubusercontent.com/u/231570011?s=460&v=4' width=20 height=20></image> | :x: | :x: |
