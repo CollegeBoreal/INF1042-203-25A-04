@@ -7,7 +7,6 @@ flowchart TD
     D --> E[Quotient = 5.0]
     E --> F[End]
 
-```mermaid
 flowchart TD
     A([Début]) --> B[Initialiser A = 255, B = 3]
     B --> C{B = 0 ?}
