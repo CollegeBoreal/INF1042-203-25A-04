@@ -3,6 +3,32 @@
 
 [:tada: Participation](.scripts/Participation.md)
 
+<details>
+<details>
+  <summary> :ringed_planet: <b>Table des matières</b> </summary>
+
+  - [:a: - 🧩 Introduction to Logic Circuits](#a----introduction-to-logic-circuits)
+    - [🎯 Objectif du chapitre](#-objectif-du-chapitre)
+    - [1. 💡 Concepts de base](#1-💡-concepts-de-base)
+    - [2. 🧮 Fonctions logiques](#2-🧮-fonctions-logiques)
+    - [3. 🔧 Portes logiques (Logic Gates) fondamentales](#3-🔧-portes-logiques-logic-gates-fondamentales)
+    - [4. 🧱 Mise en œuvre de circuits logiques](#4-🧱-mise-en-œuvre-de-circuits-logiques)
+    - [5. ⚙️ Simplification des circuits](#5-⚙️-simplification-des-circuits)
+    - [6. 🔌 Circuits combinatoires courants](#6-🔌-circuits-combinatoires-courants)
+    - [7. 🔢 Décodage binaire vers hexadécimal](#7-🔢-décodage-binaire-vers-hexadécimal)
+    - [8. 🧠 Introduction à l'assembleur](#8-🧠-introduction-à-lassembleur)
+    - [✅ En résumé](#-en-résumé)
+  - [:o: Implémentation](#o-implémentation)
+    - [:abacus: - Installation de la machine virtuelle Java](#abacus---installation-de-la-machine-virtuelle-java)
+    - [🧪 Vérifier l'installation](#🧪-vérifier-linstallation)
+  - [:b: Expérimentation](#b-expérimentation)
+    - [🎛️ Créer un fichier dans ce répertoire `(4.ASM)`](#🎛️-créer-un-fichier-dans-ce-répertoire-4asm)
+    - [:rocket: Lancer l'IDE RARS 1.6](#rocket-lancer-lide-rars-16)
+    - [🔄 Exercices](#🔄-exercices)
+- [:books: References](#books-references)
+
+</details>
+
 ## :a: - 🧩 Introduction to Logic Circuits
 
 ### 🎯 Objectif du chapitre
