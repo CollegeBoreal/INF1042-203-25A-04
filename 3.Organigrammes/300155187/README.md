@@ -1,4 +1,3 @@
-
 ```mermaid
 flowchart TD
     A[Start] --> B[Dividend = 12.5]
