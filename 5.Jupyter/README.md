@@ -256,7 +256,7 @@ Tu devrais voir des versions cohérentes (par ex. Python 3.12.x et Jupyter 7.x o
 
 # :books: References
 
-## conda :snake2:
+## conda :snake:
 
 - [ ] [Anaconda](https://github.com/CollegeBoreal/Tutoriels/tree/main/P.PackageManager/A.Anaconda)
 
