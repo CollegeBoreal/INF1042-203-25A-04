@@ -234,6 +234,8 @@ conda update --name base --channel defaults conda -y
 
 C’est préférable pour éviter les conflits de versions.
 
+:warning: Installer avec votre utilisateur, pas l'Administrateur  
+
 ```powershell
 conda create --name INF1042-203-25A-04 python=3.12 -y
 ```
