@@ -1,4 +1,4 @@
-# Participation au 02-11-2025 22:38
+# Participation au 03-11-2025 20:53
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -21,7 +21,7 @@
 | 2 | [300150396](../300150396/README.md) :point_right: [ibkourouma](https://github.com/ibkourouma) <image src='https://avatars0.githubusercontent.com/u/232939321?s=460&v=4' width=20 height=20></image> | :x: | :x: | [:x:](../300150396/RAPPORT.ipynb) |
 | 3 | [300150410](../300150410/README.md) :point_right: [lahlou06](https://github.com/lahlou06) <image src='https://avatars0.githubusercontent.com/u/231570554?s=460&v=4' width=20 height=20></image> | :x: | :x: | [:x:](../300150410/RAPPORT.ipynb) |
 | 4 | [300150468](../300150468/README.md) :point_right: [sahebmohandsaid97-oss](https://github.com/sahebmohandsaid97-oss) <image src='https://avatars0.githubusercontent.com/u/232939143?s=460&v=4' width=20 height=20></image> | :x: | :x: | [:x:](../300150468/RAPPORT.ipynb) |
-| 5 | [300151262](../300151262/README.md) :point_right: [rifwil5-tech](https://github.com/rifwil5-tech) <image src='https://avatars0.githubusercontent.com/u/231570449?s=460&v=4' width=20 height=20></image> | :x: | :x: | [:x:](../300151262/RAPPORT.ipynb) |
+| 5 | [300151262](../300151262/README.md) :point_right: [rifwil5-tech](https://github.com/rifwil5-tech) <image src='https://avatars0.githubusercontent.com/u/231570449?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :x: | [:x:](../300151262/RAPPORT.ipynb) |
 | 6 | [300151449](../300151449/README.md) :point_right: [AbderrahimAlaoui](https://github.com/AbderrahimAlaoui) <image src='https://avatars0.githubusercontent.com/u/231569522?s=460&v=4' width=20 height=20></image> | :x: | :x: | [:x:](../300151449/RAPPORT.ipynb) |
 | 7 | [300151483](../300151483/README.md) :point_right: [Arnauld-ttad](https://github.com/Arnauld-ttad) <image src='https://avatars0.githubusercontent.com/u/231570852?s=460&v=4' width=20 height=20></image> | :x: | :x: | [:x:](../300151483/RAPPORT.ipynb) |
 | 8 | [300151504](../300151504/README.md) :point_right: [nassimidir](https://github.com/nassimidir) <image src='https://avatars0.githubusercontent.com/u/232939073?s=460&v=4' width=20 height=20></image> | :x: | :x: | [:x:](../300151504/RAPPORT.ipynb) |
