@@ -1,12 +1,16 @@
 
 ```mermaid
-    journey
-    title My working day
-    section Go to work
-      Make tea: 5: Me
-      Go upstairs: 3: Me
-      Do work: 1: Me, Cat
-    section Go home
-      Go downstairs: 5: Me
-      Sit down: 5: Me
+flowchart TD
+    A[Start] --> B[Dividend = 12.5]
+    B --> C[Divisor = 2.5]
+    C --> D[Compute Quotient = 12.5 / 2.5]
+    D --> E[Quotient = 5.0]
+    E --> F[End]
+
+
+
+
+
+
+
 
