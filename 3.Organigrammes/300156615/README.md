@@ -1,4 +1,4 @@
-```mermai
+```mermaid
 graph TD
   A["Directeur Général"] --> B["Chef de Département"]
   B --> C["Responsable Informatique"]
@@ -8,3 +8,4 @@ graph TD
   D --> G["Community Manager"]
   D --> H["Graphiste"]
 ```
+
