@@ -1,3 +1,4 @@
+```mermaid
 flowchart TD
     A[Début] --> B[Lire la valeur de x]
     B --> C{La proposition est-elle donnée ?}
