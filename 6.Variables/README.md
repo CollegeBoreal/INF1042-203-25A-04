@@ -384,11 +384,11 @@ Ce rapport montre comment :
 * 📊 Tu peux ajouter des **captions** (`> Citation`) pour des remarques ou des rappels.
 * 🧠 Sauvegarde régulièrement (Ctrl + S).
 
-# :books References
+# :books: References
 
 |  | 2 Variables |
 |--------------------------------------|----------------------------------------------------------------|
-| Ensemble (set) | ${\displaystyle \{(k,x)\ |\ k\in K\wedge x\in X\wedge P(x)\}}$ [^1] |
+| Ensemble (set) | ${\displaystyle \{(k,x)\ \|\ k\in K\wedge x\in X\wedge P(x)\}}$ [^1] |
 
 [^1]: https://en.wikipedia.org/wiki/Set-builder_notation
 
