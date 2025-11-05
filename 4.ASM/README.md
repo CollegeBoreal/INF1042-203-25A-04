@@ -110,6 +110,7 @@ Le chapitre présente des **blocs logiques standards** :
 
 Ces blocs sont souvent utilisés comme **composants de base** dans des circuits plus complexes.
 
+
 ```mermaid
 flowchart TD
 
