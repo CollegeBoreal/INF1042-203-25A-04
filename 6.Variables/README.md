@@ -325,6 +325,8 @@ print("La moyenne géométrique est :", geometrique([2, 4.5, 6, 8, 10]))
 ```markdown
 ## 3️⃣ Ensembles (set) et compréhension
 
+${\displaystyle \{(k,x)\ \|\ k\in K\wedge x\in X\wedge P(x)\}}$
+
 On construit un ensemble `S` de couples `(k, x)` où :
 - `k` provient de la liste `K = ['A', 'B', 'C']`
 - `x` provient de la liste `X = [1, 2, 3, 4, 5, 6]`
