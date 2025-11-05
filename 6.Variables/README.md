@@ -218,98 +218,6 @@ print(id(liste))  # même adresse → objet modifié
 * 🔹 **Immuable** → valeur fixe, nouvelle copie lors des modifications
 * 🔹 **Muable** → peut être modifiée directement
 
-# 🧩 RAPPORT
-
-## Objectif
-Démontrer une fonction unique `f(x)` qui adapte son comportement selon le type
-(int, float, str, list, tuple, dict) en utilisant le décorateur `@singledispatch`.
-
----
-
-## 1️⃣ Import du module
-
-```python
-from embellisseur import f
-```
-
-
-```python
-exemples = [
-    10,
-    2.718,
-    "hello",
-    [7, 8, 9],
-    (10, 20, 30),
-    {"x": 1, "y": 2}
-]
-
-for e in exemples:
-    print(f"\n--- f({e}) ---")
-    resultat = f(e)
-    for k, v in resultat.items():
-        print(f"{k:12} -> {v}")
-
-
-```
-
-## Moyenne
-
-
-```python
-from moyenne import algebrique, geometrique
-```
-
-
-```python
-# Exemple d'utilisation
-print("La moyenne algébrique est :", algebrique([2, 4.5, 6, 8, 10]))
-```
-
-```python
-# Exemple d'utilisation
-print("La moyenne géométrique est :", geometrique([2, 4.5, 6, 8, 10]))
-```
-
-|  | 2 Variables |
-|--------------------------------------|----------------------------------------------------------------|
-| Ensemble (set) | ${\displaystyle \{(k,x)\ |\ k\in K\wedge x\in X\wedge P(x)\}}$ [^1] |
-
-[^1]: https://en.wikipedia.org/wiki/Set-builder_notation
-
-
-```python
-# Listes de départ
-K = ['A', 'B', 'C']
-X = [1, 2, 3, 4, 5, 6]
-
-# Condition : garder uniquement les nombres pairs
-def P(x):
-    return x % 2 == 0
-
-# Générer un set de couples (k, x) où x satisfait P(x)
-S = {(k, x) for k in K for x in X if P(x)}
-print("Ensemble des couples filtrés :", S)
-
-# Calculer la moyenne algébrique des valeurs x filtrées
-x_values = [x for (_, x) in S]  # extraire les valeurs x du set
-if x_values:
-    moyenne = algebrique(x_values)
-else:
-    moyenne = 0
-
-print("Moyenne algébrique des x filtrés :", moyenne)
-```
-
-# :books: References
-
-```bash
-jupyter nbconvert --to markdown MON_NOTEBOOK.ipynb
-```
-
-Excellente question 👏
-
-Voici **comment transformer ton code et son explication en un fichier `RAPPORT.ipynb`** dans Jupyter Lab ou VS Code (ou même dans un simple éditeur texte).
-L’idée est d’**alterner les cellules Markdown (texte explicatif)** et **les cellules de code**.
 
 ---
 
@@ -476,4 +384,14 @@ Ce rapport montre comment :
 * 📊 Tu peux ajouter des **captions** (`> Citation`) pour des remarques ou des rappels.
 * 🧠 Sauvegarde régulièrement (Ctrl + S).
 
+# :books References
 
+|  | 2 Variables |
+|--------------------------------------|----------------------------------------------------------------|
+| Ensemble (set) | ${\displaystyle \{(k,x)\ |\ k\in K\wedge x\in X\wedge P(x)\}}$ [^1] |
+
+[^1]: https://en.wikipedia.org/wiki/Set-builder_notation
+
+```bash
+jupyter nbconvert --to markdown MON_NOTEBOOK.ipynb
+```
