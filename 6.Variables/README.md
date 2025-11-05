@@ -298,13 +298,13 @@ for e in exemples:
 Le module `moyenne` contient deux fonctions :
 
 - `algebrique(L)` : calcule la moyenne arithmétique  
-  \[
+  $
   \bar{x} = \frac{\sum x_i}{n}
-  \]
+  $
 - `geometrique(L)` : calcule la moyenne géométrique  
-  \[
+  $
   G = \sqrt[n]{\prod x_i}
-  \]
+  $
 ```
 
 ---
