@@ -1,5 +1,7 @@
 # 🐍 Leçon : Les variables en Python
 
+[:tada: Participation](.scripts/Participation.md)
+
 ---
 
 ## 🎯 Qu’est-ce qu’une variable ?
@@ -221,9 +223,37 @@ print(id(liste))  # même adresse → objet modifié
 
 ---
 
-## 🧩 1️⃣ — Crée ton notebook
+## :b: Expérimentation
 
-### Dans Jupyter Lab
+### 🎛️ Créer un fichier dans ce répertoire `(6.Variables)`:
+
+:checkered_flag: Finalement,
+
+- [ ] Créer un répertoire avec :id: (votre identifiant boreal)
+   - [ ] `mkdir ` :id:
+- [ ] dans votre répertoire ajouter le fichier `README.md`
+  - [ ] `nano `README.md
+- [ ] envoyer vers le serveur `github.com`
+  - [ ] `cd ..`
+  - [ ] `git add `:id: 
+  - [ ] `git commit -m "mon fichier ..."`
+  - [ ] `git push`
+
+### :rocket: Copier les fichiers :snake: Python
+
+- [ ] Se diriger vers le répertoire avec :id: (votre identifiant boreal)
+   - [ ] `cd ` :id:
+- [ ] copier les fichiers sources
+
+```sh
+cp ..\.lib\* .
+```
+
+### 🔄 Exercices
+
+#### 🧩 1️⃣ — Crée ton notebook
+
+##### Dans Jupyter Lab
 
 1. Ouvre ton environnement conda ou Python habituel.
 2. Lance Jupyter Lab :
@@ -237,13 +267,13 @@ print(id(liste))  # même adresse → objet modifié
 
 ---
 
-## 🧱 2️⃣ — Structure type du rapport
+#### 🧱 2️⃣ — Structure type du rapport
 
 Tu vas alterner **cellules Markdown** (texte explicatif) et **cellules Code** (le code à exécuter).
 
 ---
 
-### 🟦 Cellule Markdown (titre principal)
+##### 🟦 Cellule Markdown (titre principal)
 
 ```markdown
 # RAPPORT : Analyse de Code Python (Variables, Moyennes, Ensembles)
@@ -256,10 +286,10 @@ Ce notebook présente trois sections :
 
 ---
 
-### 🟩 Cellule Markdown (section 1 : explication)
+##### 🟩 Cellule Markdown (section 1 : explication)
 
 ```markdown
-## 1️⃣ Import du module `embellisseur`
+#### 1️⃣ Import du module `embellisseur`
 
 Cette section montre comment la fonction `f` traite différents types de variables.
 Elle illustre le **polymorphisme** de Python (une même fonction peut gérer plusieurs types).
@@ -267,7 +297,7 @@ Elle illustre le **polymorphisme** de Python (une même fonction peut gérer plu
 
 ---
 
-### 🟧 Cellule Code
+##### 🟧 Cellule Code
 
 ```python
 from embellisseur import f
@@ -290,7 +320,7 @@ for e in exemples:
 
 ---
 
-### 🟩 Cellule Markdown (section 2)
+##### 🟩 Cellule Markdown (section 2)
 
 ```markdown
 ## 2️⃣ Moyenne algébrique et géométrique
@@ -309,7 +339,7 @@ Le module `moyenne` contient deux fonctions :
 
 ---
 
-### 🟧 Cellule Code
+##### 🟧 Cellule Code
 
 ```python
 from moyenne import algebrique, geometrique
@@ -320,7 +350,7 @@ print("La moyenne géométrique est :", geometrique([2, 4.5, 6, 8, 10]))
 
 ---
 
-### 🟩 Cellule Markdown (section 3)
+##### 🟩 Cellule Markdown (section 3)
 
 ```markdown
 ## 3️⃣ Ensembles (set) et compréhension
@@ -340,7 +370,7 @@ Cela illustre :
 
 ---
 
-### 🟧 Cellule Code
+##### 🟧 Cellule Code
 
 ```python
 K = ['A', 'B', 'C']
@@ -363,7 +393,7 @@ print("Moyenne algébrique des x filtrés :", moyenne)
 
 ---
 
-### 🟩 Cellule Markdown (conclusion)
+##### 🟩 Cellule Markdown (conclusion)
 
 ```markdown
 ## 🧠 Conclusion
@@ -379,7 +409,7 @@ Ce rapport montre comment :
 
 ---
 
-## ✅ 3️⃣ — Conseils de mise en forme
+#### ✅ 3️⃣ — Conseils de mise en forme
 
 * 🔤 Utilise **les titres Markdown** (`#`, `##`, `###`) pour structurer.
 * 🧮 Pour des formules, mets-les entre `$$` ou `\[ ... \]`.
