@@ -1,3 +1,4 @@
+```mermaid
 flowchart TD
     A[Début] --> B[Entrer un nombre N]
     B --> C[i = 1, F = 1]
@@ -7,4 +8,4 @@ flowchart TD
     F --> G[i = i + 1]
     G --> D
     E --> H[Fin]
-
+```
