@@ -38,7 +38,7 @@ s=0 # Success
 
 for id in "${ETUDIANTS[@]}"
 do
-   URL="[<image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image>"
+   URL="[<image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image>](https://github.com/${IDS[${i}]})"
    FILE=${id}.md
    OK="| ${i} | [${id}](../${FILE}) ${URL} | :heavy_check_mark: | :heavy_check_mark: |"
    KO_WEB="| ${i} | [${id}](../${FILE}) ${URL} | :heavy_check_mark: | :x: |"
