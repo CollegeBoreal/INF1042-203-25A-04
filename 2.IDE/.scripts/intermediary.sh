@@ -38,11 +38,11 @@ s=0 # Success
 
 for id in "${ETUDIANTS[@]}"
 do
-   URL="[${IDS[${i}]}](https://github.com/${IDS[${i}]}) <image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image>"
+   URL="[<image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image>"
    FILE=${id}.md
-   OK="| ${i} | [${id}](../${FILE}) :point_right: ${URL} | :heavy_check_mark: | :heavy_check_mark: |"
-   KO_WEB="| ${i} | [${id}](../${FILE}) :point_right: ${URL} | :heavy_check_mark: | :x: |"
-   KO="| ${i} | [${id}](../${FILE}) :point_right: ${URL} | :x: |"
+   OK="| ${i} | [${id}](../${FILE}) ${URL} | :heavy_check_mark: | :heavy_check_mark: |"
+   KO_WEB="| ${i} | [${id}](../${FILE}) ${URL} | :heavy_check_mark: | :x: |"
+   KO="| ${i} | [${id}](../${FILE}) ${URL} | :x: |"
    if [ -f "$FILE" ]; then
        if git log --format=fuller -- ${FILE} | grep Author | grep -q "noreply"; then
            echo ${KO_WEB}
