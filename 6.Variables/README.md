@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# 🐍 Les variables en Python
+# 🐍 Leçon : Les variables en Python
 
 [:tada: Participation](.scripts/Participation.md)
 
@@ -7,73 +6,10 @@
 
 ## 🎯 Qu’est-ce qu’une variable ?
 
-Une **variable** est un **nom symbolique** qui fait référence à une **valeur stockée en mémoire**.
-Elle permet de **stocker**, **manipuler** et **réutiliser** des données dans un programme.
-=======
-<<<<<<< HEAD
-# 🐍 Leçon : Les variables en Python
-=======
-# :school: Plan De Cours
->>>>>>> 7d877f1 (Ajout du rapport et mise à jour du README)
-
-
-## :date: [Épreuves](.epreuves)
-
-## :one: [Devoirs](Devoirs)
-
-|:hash: | Date   | Cours                      | Intitulé                            |  Pratique                                                     |
-|-------|--------|:---------------------------|:------------------------------------|:--------------------------------------------------------------|
-| :one:   |08-sept| [0.PlanDeCours](0.PlanDeCours/.scripts/Participation.md)       | â Noter :x: |
-| :two:   |15-sept| [:1st_place_medal: 2.IDE](2.IDE/.scripts/Participation.md) [:2nd_place_medal: 2.IDE+](2.IDE/.scripts/Intermediaire.md)                            | â Noter :x: |
-| :three: |22-sept| [3.Organigrammes](3.Organigrammes/.scripts/Participation.md)   | â Noter :x: |
-| :four:  |06-oct | [4.ASM](4.ASM/.scripts/Participation.md)                       | â Noter :x: |
-| :five:  |13-oct | [5.Jupyter](5.Jupyter/.scripts/Participation.md)               | â Noter :x: |
-| :five:  |27-oct | [6.Variables](6.Variables/.scripts/Participation.md)               | â Noter :x: |
-
-### :abacus: Évaluation
-
-- [ ]  Stratégies et pondération de l’évaluation
-
-|  Résultat d'apprentissage | Description | % |
-|-|-|-|
-| :one: | Évaluation sommative : Interprétation des différentes phases de cycle de développement | 10 |
-| :two: | Travaux : Conception de divers programmes à l’aide d’un SID (IDE)                      | 30 |
-| :two: | Évaluation sommative : Utilisateur d’un SID (IDE)                                      | 15 |
-| :three: | Travaux : Conception de programmes utilisant divers styles de programmation          | 30 |
-| :three: | Évaluation sommative : Divers styles de programmation                                | 15 |
-
-
-### :scroll: Déroulement du cours
-
-Le déroulement peut être modifié au besoin. La personne étudiante sera avisée.
-
-| Période | Sem | Activités / Thèmes | Ressources/module |  Résultat d’apprentissage visé |
-|-|-|-|-|-|
-| 08-Sep | :one: | Exposé - Cycle de développement Exposé – Introduction au Python     | Notes de cours | Phases du cycle de développement |
-| 15-Sep | :two: | Évaluation – Conception à l’aide du système intégré de développement                | Notes de cours | git, commandes, Package Manager |
-| 22-Sep | :three: | Installation du système de développement Évaluation – Organigrammes | Notes de cours | Organigrammes                    |
-| 29-Sep | :four: | Exercices – Types de données et opérateurs Exposé – Entrée/sortie Travail – Programmes simples Python | Notes de cours | int, str, float, list, tuple, etc |
-| 06-Oct | :five: | Exposé – Programmer des décisions Exercices – expressions relationnelles             | Notes de cours | Opérateurs relationnels et logiques, tables de vérité if - else |
-| 13-Oct | :six: | Exercices – Programmer des décisions Travail – Programmes qui prennent des décisions | Notes de cours | if - else - elif |
-| 20-Oct | :books:
-| 27-Oct | :seven: | Exposé – utiliser un débogueur Exercices – débogueur                                  | Notes de cours  | Débogueur |
-| 03-Nov | :eight: | Exposé – boucles Exercices - Programmes qui répètent des instructions               | Notes de cours | la boucle for |
-| 10-Nov | :nine: |  Exposé – boucles Exercices - Programmes qui répètent des instructions (condition d'arrêt) | Notes de cours | La boucle while |
-| 17-Nov | :one::zero: | Exposé – conception de fonctions Exercices – conception de fonctions                  | Notes de cours | def, global |
-| 24-Nov | :one::one: |  Exposé – importation de modules Exercices – conception de et importation de modules   | Notes de cours | import, from |
-| 01-Dec | :one::two: | Exposé – style de programmation Exercice – programmation Orientée-objet                | Notes de cours | Classe, objet |
-| 08-Dec | :one::three: | Révision des concepts vus en classe Travail – style de programmation                 | Notes de cours | Semaine :one: à :one::two: |
-
----
-
-<<<<<<< HEAD
-## 🎯 Qu’est-ce qu’une variable ?
-
 Une **variable** est un **nom** qui sert à **stocker une valeur** dans la mémoire de l’ordinateur.
 Elle permet de **réutiliser** et **modifier** ces valeurs plus tard dans le programme.
 
 👉 On peut imaginer une variable comme une **boîte étiquetée** contenant une valeur.
->>>>>>> e1d50e24795f641c3609493c501757d054c199a0
 
 ```python
 nom = "Alice"
@@ -82,32 +18,6 @@ age = 25
 
 Ici :
 
-<<<<<<< HEAD
-* `nom` pointe vers la valeur `"Alice"`
-* `age` pointe vers la valeur `25`
-
----
-
-## 🧠 Les types de variables simples
-
-Chaque valeur en Python a un **type**, c’est-à-dire une **catégorie de données**.
-Python détermine automatiquement le type selon la valeur donnée.
-
-| Exemple            | Type    | Description             |
-| ------------------ | ------- | ----------------------- |
-| `10`               | `int`   | Entier                  |
-| `3.14`             | `float` | Nombre décimal          |
-| `"Bonjour"`        | `str`   | Chaîne de caractères    |
-| `True`             | `bool`  | Booléen                 |
-| `[1, 2, 3]`        | `list`  | Liste modifiable        |
-| `(1, 2, 3)`        | `tuple` | Liste non modifiable    |
-| `{"nom": "Alice"}` | `dict`  | Dictionnaire clé/valeur |
-
-💡 Pour connaître le type d’une variable :
-
-```python
-x = 42
-=======
 * `nom` contient la chaîne `"Alice"`
 * `age` contient l’entier `25`
 
@@ -150,14 +60,11 @@ vrai = True     # bool (booléen)
 Pour vérifier le type :
 
 ```python
->>>>>>> e1d50e24795f641c3609493c501757d054c199a0
 print(type(x))  # <class 'int'>
 ```
 
 ---
 
-<<<<<<< HEAD
-=======
 ## 🔁 Modifier une variable
 
 Une variable peut être **réaffectée** :
@@ -252,7 +159,6 @@ del a
 
 ---
 
->>>>>>> e1d50e24795f641c3609493c501757d054c199a0
 ## 🔄 Mutabilité et immutabilité
 
 C’est une **notion essentielle** 🧩 :
@@ -314,59 +220,6 @@ print(id(liste))  # même adresse → objet modifié
 * 🔹 **Immuable** → valeur fixe, nouvelle copie lors des modifications
 * 🔹 **Muable** → peut être modifiée directement
 
-<<<<<<< HEAD
-# :a: Types de variables en Python :snake:
-
----
-
-## 🧩 **Types de base**
-
-| Type      | Exemple      | Description                          |
-| --------- | ------------ | ------------------------------------ |
-| `int`     | `x = 42`     | Entier (positif ou négatif)          |
-| `float`   | `x = 3.14`   | Nombre à virgule flottante           |
-| `complex` | `x = 2 + 3j` | Nombre complexe                      |
-| `bool`    | `x = True`   | Valeur booléenne (`True` ou `False`) |
-| `str`     | `"Bonjour"`  | Chaîne de caractères                 |
-
----
-
-## 📦 **Types de collections**
-
-| Type        | Exemple                       | Description                       |
-| ----------- | ----------------------------- | --------------------------------- |
-| `list`      | `[1, 2, 3]`                   | Liste ordonnée et modifiable      |
-| `tuple`     | `(1, 2, 3)`                   | Liste ordonnée **non modifiable** |
-| `set`       | `{1, 2, 3}`                   | Ensemble **unique**, non ordonné  |
-| `frozenset` | `frozenset({1, 2, 3})`        | Ensemble **non modifiable**       |
-| `dict`      | `{"nom": "Alice", "âge": 25}` | Dictionnaire clé-valeur           |
-
----
-
-## ⚙️ **Types spéciaux**
-
-| Type         | Exemple                   | Description                          |
-| ------------ | ------------------------- | ------------------------------------ |
-| `NoneType`   | `x = None`                | Valeur vide ou absence de valeur     |
-| `bytes`      | `b"Bonjour"`              | Suite d’octets immuable              |
-| `bytearray`  | `bytearray([65, 66, 67])` | Suite d’octets modifiable            |
-| `memoryview` | `memoryview(b"Hello")`    | Vue mémoire sur des données binaires |
-| `range`      | `range(5)`                | Séquence d’entiers itérables         |
-| `array`      | `array('i', [1,2,3])`     | Tableau typé (module `array`)        |
-
----
-
-## 🔬 **Types avancés (objets)**
-
-| Type               | Exemple                   | Description          |
-| ------------------ | ------------------------- | -------------------- |
-| `function`         | `def f(): pass`           | Fonction Python      |
-| `module`           | `import math`             | Module chargé        |
-| `class` / `object` | `class Voiture: pass`     | Classe et instance   |
-| `iterator`         | `iter([1,2,3])`           | Objet itérable       |
-| `generator`        | `(x*x for x in range(5))` | Générateur paresseux |
-=======
->>>>>>> e1d50e24795f641c3609493c501757d054c199a0
 
 ---
 
@@ -386,16 +239,6 @@ print(id(liste))  # même adresse → objet modifié
   - [ ] `git commit -m "mon fichier ..."`
   - [ ] `git push`
 
-<<<<<<< HEAD
-### :rocket: Copier le fichier `RAPPORT.ipynb`
-
-- [ ] Se diriger vers le répertoire avec :id: (votre identifiant boreal)
-   - [ ] `cd ` :id:
-- [ ] Copier le fichier `RAPPORT.ipynb`
-
-```sh
-cp ../.lib/RAPPORT.ipynb .
-=======
 ### :rocket: Copier les fichiers :snake: Python
 
 - [ ] Se diriger vers le répertoire avec :id: (votre identifiant boreal)
@@ -404,16 +247,10 @@ cp ../.lib/RAPPORT.ipynb .
 
 ```sh
 cp ..\.lib\* .
->>>>>>> e1d50e24795f641c3609493c501757d054c199a0
 ```
 
 ### 🔄 Exercices
 
-<<<<<<< HEAD
-- [ ] Démarrer `jupyter` dans son répertoire :id:
-- [ ] Modifier les exemples de variables et mettre à son goût
-
-=======
 #### 🧩 1️⃣ — Crée ton notebook
 
 ##### Dans Jupyter Lab
@@ -590,7 +427,3 @@ Ce rapport montre comment :
 ```bash
 jupyter nbconvert --to markdown MON_NOTEBOOK.ipynb
 ```
-=======
-# :books: References
->>>>>>> 7d877f1 (Ajout du rapport et mise à jour du README)
->>>>>>> e1d50e24795f641c3609493c501757d054c199a0
