@@ -1,4 +1,4 @@
-# Participation au 06-11-2025 01:24
+# Participation au 06-11-2025 01:31
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -20,7 +20,7 @@
 | 1 | [300147253](../300147253/README.md) :point_right: [azzed98](https://github.com/azzed98) <image src='https://avatars0.githubusercontent.com/u/232965506?s=460&v=4' width=20 height=20></image> | :x: | :x: | [:x:](../300147253/RAPPORT.ipynb) |
 | 2 | [300150396](../300150396/README.md) :point_right: [ibkourouma](https://github.com/ibkourouma) <image src='https://avatars0.githubusercontent.com/u/232939321?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: | [:receipt:](../300150396/RAPPORT.ipynb) |
 | 3 | [300150410](../300150410/README.md) :point_right: [lahlou06](https://github.com/lahlou06) <image src='https://avatars0.githubusercontent.com/u/231570554?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :x: | [:x:](../300150410/RAPPORT.ipynb) |
-| 4 | [300150468](../300150468/README.md) :point_right: [sahebmohandsaid97-oss](https://github.com/sahebmohandsaid97-oss) <image src='https://avatars0.githubusercontent.com/u/232939143?s=460&v=4' width=20 height=20></image> | :x: | :x: | [:x:](../300150468/RAPPORT.ipynb) |
+| 4 | [300150468](../300150468/README.md) :point_right: [sahebmohandsaid97-oss](https://github.com/sahebmohandsaid97-oss) <image src='https://avatars0.githubusercontent.com/u/232939143?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :x: | [:receipt:](../300150468/RAPPORT.ipynb) |
 | 5 | [300151262](../300151262/README.md) :point_right: [rifwil5-tech](https://github.com/rifwil5-tech) <image src='https://avatars0.githubusercontent.com/u/231570449?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :x: | [:receipt:](../300151262/RAPPORT.ipynb) |
 | 6 | [300151449](../300151449/README.md) :point_right: [AbderrahimAlaoui](https://github.com/AbderrahimAlaoui) <image src='https://avatars0.githubusercontent.com/u/231569522?s=460&v=4' width=20 height=20></image> | :x: | :x: | [:x:](../300151449/RAPPORT.ipynb) |
 | 7 | [300151483](../300151483/README.md) :point_right: [Arnauld-ttad](https://github.com/Arnauld-ttad) <image src='https://avatars0.githubusercontent.com/u/231570852?s=460&v=4' width=20 height=20></image> | :x: | :x: | [:x:](../300151483/RAPPORT.ipynb) |
