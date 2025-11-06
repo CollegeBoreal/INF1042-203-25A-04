@@ -1,4 +1,4 @@
-# Participation au 06-11-2025 01:13
+# Participation au 06-11-2025 01:16
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -33,7 +33,7 @@
 | 14 | [300155045](../300155045/README.md) :point_right: [chouaibait](https://github.com/chouaibait) <image src='https://avatars0.githubusercontent.com/u/232956639?s=460&v=4' width=20 height=20></image> | :x: | :x: | [:x:](../300155045/RAPPORT.ipynb) |
 | 15 | [300155086](../300155086/README.md) :point_right: [ynsakliii](https://github.com/ynsakliii) <image src='https://avatars0.githubusercontent.com/u/200866288?s=460&v=4' width=20 height=20></image> | :x: | :x: | [:x:](../300155086/RAPPORT.ipynb) |
 | 16 | [300155109](../300155109/README.md) :point_right: [AlexiaKabore](https://github.com/AlexiaKabore) <image src='https://avatars0.githubusercontent.com/u/231572626?s=460&v=4' width=20 height=20></image> | :x: | :x: | [:x:](../300155109/RAPPORT.ipynb) |
-| 17 | [300155187](../300155187/README.md) :point_right: [MaimounaBella](https://github.com/MaimounaBella) <image src='https://avatars0.githubusercontent.com/u/231571253?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :x: | [:receipt:](../300155187/RAPPORT.ipynb) |
+| 17 | [300155187](../300155187/README.md) :point_right: [MaimounaBella](https://github.com/MaimounaBella) <image src='https://avatars0.githubusercontent.com/u/231571253?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: | [:receipt:](../300155187/RAPPORT.ipynb) |
 | 18 | [300155281](../300155281/README.md) :point_right: [Ernice778](https://github.com/Ernice778) <image src='https://avatars0.githubusercontent.com/u/231570309?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :x: | [:x:](../300155281/RAPPORT.ipynb) |
 | 19 | [300155466](../300155466/README.md) :point_right: [rekhilahana34-tech](https://github.com/rekhilahana34-tech) <image src='https://avatars0.githubusercontent.com/u/232940163?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :x: | [:x:](../300155466/RAPPORT.ipynb) |
 | 20 | [300155504](../300155504/README.md) :point_right: [badreddine223](https://github.com/badreddine223) <image src='https://avatars0.githubusercontent.com/u/231570213?s=460&v=4' width=20 height=20></image> | :x: | :x: | [:x:](../300155504/RAPPORT.ipynb) |
@@ -51,4 +51,4 @@
 | 32 | [300158185](../300158185/README.md) :point_right: [Mohammed-Mati](https://github.com/Mohammed-Mati) <image src='https://avatars0.githubusercontent.com/u/232939280?s=460&v=4' width=20 height=20></image> | :x: | :x: | [:x:](../300158185/RAPPORT.ipynb) |
 | 33 | [300158486](../300158486/README.md) :point_right: [lyes158](https://github.com/lyes158) <image src='https://avatars0.githubusercontent.com/u/232938643?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :x: | [:receipt:](../300158486/RAPPORT.ipynb) |
 | 34 | [300159189](../300159189/README.md) :point_right: [fateh98](https://github.com/fateh98) <image src='https://avatars0.githubusercontent.com/u/232939045?s=460&v=4' width=20 height=20></image> | :x: | :x: | [:x:](../300159189/RAPPORT.ipynb) |
-| :abacus: |  $\frac{1}{35}$  =  2% | $\displaystyle\sum_{i=1}^{35} s_i$ = 1 |
+| :abacus: |  $\frac{2}{35}$  =  5% | $\displaystyle\sum_{i=1}^{35} s_i$ = 2 |
