@@ -2,7 +2,7 @@
 
 
 
-mermaid
+```mermaid
 
 flowchart TD
 
@@ -19,6 +19,8 @@ D --> E{i <= N ?}
 E -->|Oui| F\[factor = factor \* i]; F --> G\[i = i + 1]; G --> E
 
 E -->|Non| H\[Afficher factor]; H --> I(\[Fin])
+
+```
 
 
 
