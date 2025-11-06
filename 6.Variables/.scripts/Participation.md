@@ -1,4 +1,8 @@
-# Participation au 01-11-2025 05:30
+<<<<<<< HEAD
+# Participation au 03-11-2025 20:53
+=======
+# Participation au 05-11-2025 15:36
+>>>>>>> e1d50e24795f641c3609493c501757d054c199a0
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -21,7 +25,11 @@
 | 2 | [300150396](../300150396/README.md) :point_right: [ibkourouma](https://github.com/ibkourouma) <image src='https://avatars0.githubusercontent.com/u/232939321?s=460&v=4' width=20 height=20></image> | :x: | :x: | [:x:](../300150396/RAPPORT.ipynb) |
 | 3 | [300150410](../300150410/README.md) :point_right: [lahlou06](https://github.com/lahlou06) <image src='https://avatars0.githubusercontent.com/u/231570554?s=460&v=4' width=20 height=20></image> | :x: | :x: | [:x:](../300150410/RAPPORT.ipynb) |
 | 4 | [300150468](../300150468/README.md) :point_right: [sahebmohandsaid97-oss](https://github.com/sahebmohandsaid97-oss) <image src='https://avatars0.githubusercontent.com/u/232939143?s=460&v=4' width=20 height=20></image> | :x: | :x: | [:x:](../300150468/RAPPORT.ipynb) |
+<<<<<<< HEAD
+| 5 | [300151262](../300151262/README.md) :point_right: [rifwil5-tech](https://github.com/rifwil5-tech) <image src='https://avatars0.githubusercontent.com/u/231570449?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :x: | [:x:](../300151262/RAPPORT.ipynb) |
+=======
 | 5 | [300151262](../300151262/README.md) :point_right: [rifwil5-tech](https://github.com/rifwil5-tech) <image src='https://avatars0.githubusercontent.com/u/231570449?s=460&v=4' width=20 height=20></image> | :x: | :x: | [:x:](../300151262/RAPPORT.ipynb) |
+>>>>>>> e1d50e24795f641c3609493c501757d054c199a0
 | 6 | [300151449](../300151449/README.md) :point_right: [AbderrahimAlaoui](https://github.com/AbderrahimAlaoui) <image src='https://avatars0.githubusercontent.com/u/231569522?s=460&v=4' width=20 height=20></image> | :x: | :x: | [:x:](../300151449/RAPPORT.ipynb) |
 | 7 | [300151483](../300151483/README.md) :point_right: [Arnauld-ttad](https://github.com/Arnauld-ttad) <image src='https://avatars0.githubusercontent.com/u/231570852?s=460&v=4' width=20 height=20></image> | :x: | :x: | [:x:](../300151483/RAPPORT.ipynb) |
 | 8 | [300151504](../300151504/README.md) :point_right: [nassimidir](https://github.com/nassimidir) <image src='https://avatars0.githubusercontent.com/u/232939073?s=460&v=4' width=20 height=20></image> | :x: | :x: | [:x:](../300151504/RAPPORT.ipynb) |
@@ -44,7 +52,11 @@
 | 25 | [300156615](../300156615/README.md) :point_right: [waliii81](https://github.com/waliii81) <image src='https://avatars0.githubusercontent.com/u/231570011?s=460&v=4' width=20 height=20></image> | :x: | :x: | [:x:](../300156615/RAPPORT.ipynb) |
 | 26 | [300157330](../300157330/README.md) :point_right: [toufikmekbel](https://github.com/toufikmekbel) <image src='https://avatars0.githubusercontent.com/u/231571164?s=460&v=4' width=20 height=20></image> | :x: | :x: | [:x:](../300157330/RAPPORT.ipynb) |
 | 27 | [300157332](../300157332/README.md) :point_right: [aliboukhalfa98-sudo](https://github.com/aliboukhalfa98-sudo) <image src='https://avatars0.githubusercontent.com/u/232939140?s=460&v=4' width=20 height=20></image> | :x: | :x: | [:x:](../300157332/RAPPORT.ipynb) |
+<<<<<<< HEAD
 | 28 | [300157334](../300157334/README.md) :point_right: [Laalahamdaoui16-alt](https://github.com/Laalahamdaoui16-alt) <image src='https://avatars0.githubusercontent.com/u/231569676?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :x: | [:x:](../300157334/RAPPORT.ipynb) |
+=======
+| 28 | [300157334](../300157334/README.md) :point_right: [Laalahamdaoui16-alt](https://github.com/Laalahamdaoui16-alt) <image src='https://avatars0.githubusercontent.com/u/231569676?s=460&v=4' width=20 height=20></image> | :x: | :x: | [:x:](../300157334/RAPPORT.ipynb) |
+>>>>>>> e1d50e24795f641c3609493c501757d054c199a0
 | 29 | [300157416](../300157416/README.md) :point_right: [LounisYounes](https://github.com/LounisYounes) <image src='https://avatars0.githubusercontent.com/u/232939450?s=460&v=4' width=20 height=20></image> | :x: | :x: | [:x:](../300157416/RAPPORT.ipynb) |
 | 30 | [300157440](../300157440/README.md) :point_right: [Houssam-eddinerachdi](https://github.com/Houssam-eddinerachdi) <image src='https://avatars0.githubusercontent.com/u/231572378?s=460&v=4' width=20 height=20></image> | :x: | :x: | [:x:](../300157440/RAPPORT.ipynb) |
 | 31 | [300158052](../300158052/README.md) :point_right: [ZizouBouchelkia](https://github.com/ZizouBouchelkia) <image src='https://avatars0.githubusercontent.com/u/121287922?s=460&v=4' width=20 height=20></image> | :x: | :x: | [:x:](../300158052/RAPPORT.ipynb) |
