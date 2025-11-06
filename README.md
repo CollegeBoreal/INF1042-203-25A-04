@@ -12,6 +12,7 @@
 | :three: |22-sept| [3.Organigrammes](3.Organigrammes/.scripts/Participation.md)   | â Noter :x: |
 | :four:  |06-oct | [4.ASM](4.ASM/.scripts/Participation.md)                       | â Noter :x: |
 | :five:  |13-oct | [5.Jupyter](5.Jupyter/.scripts/Participation.md)               | â Noter :x: |
+| :five:  |27-oct | [6.Variables](6.Variables/.scripts/Participation.md)               | â Noter :x: |
 
 ### :abacus: Évaluation
 
