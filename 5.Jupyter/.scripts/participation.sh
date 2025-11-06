@@ -59,7 +59,7 @@ do
        RAPPORT_ICON=":receipt:"
    fi
 
-   echo "| ${i} | [${id}](../${FILE}) :point_right: ${URL} | ${README_ICON} | ${IMAGES_ICON} | [${RAPPORT_ICON}](../${REPORT}) |"
+   echo "| ${i} | [${id}](../${FILE}) | ${README_ICON} | ${IMAGES_ICON} | [${RAPPORT_ICON}](../${REPORT}) |"
 
    if [[ "$README_ICON" == ":heavy_check_mark:" && "$IMAGES_ICON" == ":heavy_check_mark:" && "$RAPPORT_ICON" == ":receipt:" ]]; then
        let "s++"

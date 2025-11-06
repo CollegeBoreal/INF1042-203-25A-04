@@ -41,7 +41,7 @@ do
    URL="[${IDS[${i}]}](https://github.com/${IDS[${i}]}) <image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image>"
    FILE=${id}/README.md
    FOLDER=${id}/images
-   OK="| ${i} | [${id}](../${FILE}) :point_right: ${URL} | :heavy_check_mark: | :x: |"
+   OK="| ${i} | [${id}](../${FILE}) | :heavy_check_mark: | :x: |"
    FULL_OK="| ${i} | [${id}](../${FILE}) :point_right: ${URL} | :heavy_check_mark: | :heavy_check_mark: | "
    KO="| ${i} | [${id}](../${FILE}) :point_right: ${URL} | :x: | :x: |"
    if [ -f "$FILE" ]; then
