@@ -47,6 +47,13 @@ jobs:
           cd 5.Jupyter
           bash .scripts/run.sh
           cd ..
+          ##
+          ## Evaluating chapter 6.Variables
+          ## 
+          echo "Evaluating chapter 6.Variables Participation"
+          cd 6.Variables
+          bash .scripts/run.sh
+          cd ..
 
       - name: Commit files
         run: |
