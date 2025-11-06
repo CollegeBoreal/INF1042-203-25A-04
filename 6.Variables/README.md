@@ -1,4 +1,16 @@
 <<<<<<< HEAD
+# 🐍 Les variables en Python
+
+[:tada: Participation](.scripts/Participation.md)
+
+---
+
+## 🎯 Qu’est-ce qu’une variable ?
+
+Une **variable** est un **nom symbolique** qui fait référence à une **valeur stockée en mémoire**.
+Elle permet de **stocker**, **manipuler** et **réutiliser** des données dans un programme.
+=======
+<<<<<<< HEAD
 # 🐍 Leçon : Les variables en Python
 =======
 # :school: Plan De Cours
@@ -61,6 +73,7 @@ Une **variable** est un **nom** qui sert à **stocker une valeur** dans la mémo
 Elle permet de **réutiliser** et **modifier** ces valeurs plus tard dans le programme.
 
 👉 On peut imaginer une variable comme une **boîte étiquetée** contenant une valeur.
+>>>>>>> e1d50e24795f641c3609493c501757d054c199a0
 
 ```python
 nom = "Alice"
@@ -69,6 +82,32 @@ age = 25
 
 Ici :
 
+<<<<<<< HEAD
+* `nom` pointe vers la valeur `"Alice"`
+* `age` pointe vers la valeur `25`
+
+---
+
+## 🧠 Les types de variables simples
+
+Chaque valeur en Python a un **type**, c’est-à-dire une **catégorie de données**.
+Python détermine automatiquement le type selon la valeur donnée.
+
+| Exemple            | Type    | Description             |
+| ------------------ | ------- | ----------------------- |
+| `10`               | `int`   | Entier                  |
+| `3.14`             | `float` | Nombre décimal          |
+| `"Bonjour"`        | `str`   | Chaîne de caractères    |
+| `True`             | `bool`  | Booléen                 |
+| `[1, 2, 3]`        | `list`  | Liste modifiable        |
+| `(1, 2, 3)`        | `tuple` | Liste non modifiable    |
+| `{"nom": "Alice"}` | `dict`  | Dictionnaire clé/valeur |
+
+💡 Pour connaître le type d’une variable :
+
+```python
+x = 42
+=======
 * `nom` contient la chaîne `"Alice"`
 * `age` contient l’entier `25`
 
@@ -111,11 +150,14 @@ vrai = True     # bool (booléen)
 Pour vérifier le type :
 
 ```python
+>>>>>>> e1d50e24795f641c3609493c501757d054c199a0
 print(type(x))  # <class 'int'>
 ```
 
 ---
 
+<<<<<<< HEAD
+=======
 ## 🔁 Modifier une variable
 
 Une variable peut être **réaffectée** :
@@ -210,6 +252,7 @@ del a
 
 ---
 
+>>>>>>> e1d50e24795f641c3609493c501757d054c199a0
 ## 🔄 Mutabilité et immutabilité
 
 C’est une **notion essentielle** 🧩 :
@@ -271,6 +314,59 @@ print(id(liste))  # même adresse → objet modifié
 * 🔹 **Immuable** → valeur fixe, nouvelle copie lors des modifications
 * 🔹 **Muable** → peut être modifiée directement
 
+<<<<<<< HEAD
+# :a: Types de variables en Python :snake:
+
+---
+
+## 🧩 **Types de base**
+
+| Type      | Exemple      | Description                          |
+| --------- | ------------ | ------------------------------------ |
+| `int`     | `x = 42`     | Entier (positif ou négatif)          |
+| `float`   | `x = 3.14`   | Nombre à virgule flottante           |
+| `complex` | `x = 2 + 3j` | Nombre complexe                      |
+| `bool`    | `x = True`   | Valeur booléenne (`True` ou `False`) |
+| `str`     | `"Bonjour"`  | Chaîne de caractères                 |
+
+---
+
+## 📦 **Types de collections**
+
+| Type        | Exemple                       | Description                       |
+| ----------- | ----------------------------- | --------------------------------- |
+| `list`      | `[1, 2, 3]`                   | Liste ordonnée et modifiable      |
+| `tuple`     | `(1, 2, 3)`                   | Liste ordonnée **non modifiable** |
+| `set`       | `{1, 2, 3}`                   | Ensemble **unique**, non ordonné  |
+| `frozenset` | `frozenset({1, 2, 3})`        | Ensemble **non modifiable**       |
+| `dict`      | `{"nom": "Alice", "âge": 25}` | Dictionnaire clé-valeur           |
+
+---
+
+## ⚙️ **Types spéciaux**
+
+| Type         | Exemple                   | Description                          |
+| ------------ | ------------------------- | ------------------------------------ |
+| `NoneType`   | `x = None`                | Valeur vide ou absence de valeur     |
+| `bytes`      | `b"Bonjour"`              | Suite d’octets immuable              |
+| `bytearray`  | `bytearray([65, 66, 67])` | Suite d’octets modifiable            |
+| `memoryview` | `memoryview(b"Hello")`    | Vue mémoire sur des données binaires |
+| `range`      | `range(5)`                | Séquence d’entiers itérables         |
+| `array`      | `array('i', [1,2,3])`     | Tableau typé (module `array`)        |
+
+---
+
+## 🔬 **Types avancés (objets)**
+
+| Type               | Exemple                   | Description          |
+| ------------------ | ------------------------- | -------------------- |
+| `function`         | `def f(): pass`           | Fonction Python      |
+| `module`           | `import math`             | Module chargé        |
+| `class` / `object` | `class Voiture: pass`     | Classe et instance   |
+| `iterator`         | `iter([1,2,3])`           | Objet itérable       |
+| `generator`        | `(x*x for x in range(5))` | Générateur paresseux |
+=======
+>>>>>>> e1d50e24795f641c3609493c501757d054c199a0
 
 ---
 
@@ -290,6 +386,16 @@ print(id(liste))  # même adresse → objet modifié
   - [ ] `git commit -m "mon fichier ..."`
   - [ ] `git push`
 
+<<<<<<< HEAD
+### :rocket: Copier le fichier `RAPPORT.ipynb`
+
+- [ ] Se diriger vers le répertoire avec :id: (votre identifiant boreal)
+   - [ ] `cd ` :id:
+- [ ] Copier le fichier `RAPPORT.ipynb`
+
+```sh
+cp ../.lib/RAPPORT.ipynb .
+=======
 ### :rocket: Copier les fichiers :snake: Python
 
 - [ ] Se diriger vers le répertoire avec :id: (votre identifiant boreal)
@@ -298,10 +404,16 @@ print(id(liste))  # même adresse → objet modifié
 
 ```sh
 cp ..\.lib\* .
+>>>>>>> e1d50e24795f641c3609493c501757d054c199a0
 ```
 
 ### 🔄 Exercices
 
+<<<<<<< HEAD
+- [ ] Démarrer `jupyter` dans son répertoire :id:
+- [ ] Modifier les exemples de variables et mettre à son goût
+
+=======
 #### 🧩 1️⃣ — Crée ton notebook
 
 ##### Dans Jupyter Lab
@@ -481,3 +593,4 @@ jupyter nbconvert --to markdown MON_NOTEBOOK.ipynb
 =======
 # :books: References
 >>>>>>> 7d877f1 (Ajout du rapport et mise à jour du README)
+>>>>>>> e1d50e24795f641c3609493c501757d054c199a0
