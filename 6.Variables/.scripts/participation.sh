@@ -56,7 +56,10 @@ do
    fi
 
    if [ -f "$REPORT" ]; then
-       RAPPORT_ICON=":receipt:"
+       REPORT_NAME="$(basename "$(realpath "$REPORT")")"
+       if [[ "$REPORT_NAME" == "RAPPORT.ipynb" ]]; then
+           RAPPORT_ICON=":receipt:"
+       fi
    fi
 
    echo "| ${i} | [${id}](../${FILE}) ${URL} | ${README_ICON} | ${IMAGES_ICON} | [${RAPPORT_ICON}](../${REPORT}) |"
