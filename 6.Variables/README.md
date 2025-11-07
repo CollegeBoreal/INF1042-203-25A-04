@@ -278,8 +278,11 @@ Tu vas alterner **cellules Markdown** (texte explicatif) et **cellules Code** (l
 ```markdown
 # 🪐 RAPPORT : Analyse de Code Python (Variables, Moyennes, Ensembles)
 
-### Nom: Personne Importante 
-### 🆔 : 999999999
+|     |                     |
+| --- | ------------------- |
+| Nom | Personne Importante |
+| 🆔  | 999999999           |
+
 
 Ce notebook présente trois sections :
 1. Le module `embellisseur` et la fonction `f`
