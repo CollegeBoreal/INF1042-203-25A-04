@@ -13,7 +13,7 @@ Muhammad ibn Musa [al-Khwarizmi](https://en.wikipedia.org/wiki/Al-Khwarizmi) (78
 
 * **Algorithmes** ⚙️ : Des méthodes systématiques pour calculer ou résoudre des problèmes.
 
-![image](https://en.wikipedia.org/wiki/Al-Jabr#/media/File:Image-Al-Kitāb_al-muḫtaṣar_fī_ḥisāb_al-ğabr_wa-l-muqābala.jpg)
+![image](https://upload.wikimedia.org/wikipedia/commons/2/23/Image-Al-Kitāb_al-muḫtaṣar_fī_ḥisāb_al-ğabr_wa-l-muqābala.jpg)
 
 Son livre 📘 [*Kitab al-Mukhtasar fi Hisab al-Jabr wal-Muqabala*] (كتاب المختصر في حساب الجبر والمقابلة) est conceptuellement proche du modèle **Map/Reduce** 💻 :
 >
