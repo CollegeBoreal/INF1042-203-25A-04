@@ -1,4 +1,4 @@
-# Participation au 12-11-2025 17:21
+# Participation au 12-11-2025 17:24
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -23,7 +23,7 @@
 | 4 | [300150468](../300150468/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939143?s=460&v=4' width=20 height=20></image>](https://github.com/sahebmohandsaid97-oss) | :heavy_check_mark: | :x: | [:x:](../300150468/RAPPORT.ipynb) |
 | 5 | [300151262](../300151262/README.md) [<image src='https://avatars0.githubusercontent.com/u/231570449?s=460&v=4' width=20 height=20></image>](https://github.com/rifwil5-tech) | :heavy_check_mark: | :heavy_check_mark: | [:receipt:](../300151262/RAPPORT.ipynb) |
 | 6 | [300151449](../300151449/README.md) [<image src='https://avatars0.githubusercontent.com/u/231569522?s=460&v=4' width=20 height=20></image>](https://github.com/AbderrahimAlaoui) | :x: | :x: | [:x:](../300151449/RAPPORT.ipynb) |
-| 7 | [300151483](../300151483/README.md) [<image src='https://avatars0.githubusercontent.com/u/231570852?s=460&v=4' width=20 height=20></image>](https://github.com/Arnauld-ttad) | :x: | :x: | [:x:](../300151483/RAPPORT.ipynb) |
+| 7 | [300151483](../300151483/README.md) [<image src='https://avatars0.githubusercontent.com/u/231570852?s=460&v=4' width=20 height=20></image>](https://github.com/Arnauld-ttad) | :heavy_check_mark: | :x: | [:x:](../300151483/RAPPORT.ipynb) |
 | 8 | [300151504](../300151504/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939073?s=460&v=4' width=20 height=20></image>](https://github.com/nassimidir) | :x: | :x: | [:x:](../300151504/RAPPORT.ipynb) |
 | 9 | [300151505](../300151505/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939190?s=460&v=4' width=20 height=20></image>](https://github.com/300151505) | :x: | :x: | [:x:](../300151505/RAPPORT.ipynb) |
 | 10 | [300151558](../300151558/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939530?s=460&v=4' width=20 height=20></image>](https://github.com/hindchili) | :x: | :x: | [:x:](../300151558/RAPPORT.ipynb) |
