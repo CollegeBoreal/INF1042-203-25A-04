@@ -296,7 +296,7 @@ from functools import reduce
 
 ## :b: Expérimentation
 
-### 🎛️ Créer un fichier dans ce répertoire `(6.Variables)`:
+### 🎛️ Créer un fichier dans ce répertoire `(7.Algorithmes)`:
 
 :checkered_flag: Finalement,
 
@@ -310,15 +310,10 @@ from functools import reduce
   - [ ] `git commit -m "mon fichier ..."`
   - [ ] `git push`
 
-### :rocket: Copier les fichiers :snake: Python
-
 - [ ] Se diriger vers le répertoire avec :id: (votre identifiant boreal)
    - [ ] `cd ` :id:
-- [ ] copier les fichiers sources
 
-```sh
-cp ..\.lib\* .
-```
+- [ ] Continuer les 🔄 Exercices 
 
 ### 🔄 Exercices
 
