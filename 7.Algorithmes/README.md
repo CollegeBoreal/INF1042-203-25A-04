@@ -19,13 +19,12 @@ Ce rapport démontre comment les **algorithmes** sont influencés par la **progr
 
 ### 🔹 Formule mathématique
 
-\\[
-n! =
-\\begin{cases}
-1, & \\text{si } n = 0 \\\\
-n \\times (n - 1)!, & \\text{si } n > 0
-\\end{cases}
-\\]
+$
+n! = \begin{cases}
+   1, & \text{si } n = 0 \\
+   n \times (n - 1)!, & \text{si } n > 0
+\end{cases}
+$
 ```
 
 ---
@@ -66,19 +65,19 @@ factorielle_recursive(5)
 
 ### 🔹 Formule mathématique
 
-\\[
-S(n) = 1 + 2 + 3 + \\dots + n = \\frac{n(n + 1)}{2}
-\\]
+$
+S(n) = 1 + 2 + 3 + \dots + n = \frac{n(n + 1)}{2}
+$
 
 ### 🔹 Forme récursive
 
-\\[
+$
 S(n) =
-\\begin{cases}
-0, & \\text{si } n = 0 \\\\
-n + S(n - 1), & \\text{si } n > 0
-\\end{cases}
-\\]
+\begin{cases}
+   0, & \text{si } n = 0 \\
+   n + S(n - 1), & \text{si } n > 0
+\end{cases}
+$
 ```
 
 ---
@@ -119,14 +118,14 @@ somme_recursive(5)
 
 ### 🔹 Formule mathématique
 
-\\[
+$
 F(n) =
-\\begin{cases}
-0, & \\text{si } n = 0 \\\\
-1, & \\text{si } n = 1 \\\\
-F(n - 1) + F(n - 2), & \\text{si } n \\ge 2
-\\end{cases}
-\\]
+\begin{cases}
+   0, & \text{si } n = 0 \\
+   1, & \text{si } n = 1 \\
+   F(n - 1) + F(n - 2), & \text{si } n \ge 2
+\end{cases}
+$
 ```
 
 ---
