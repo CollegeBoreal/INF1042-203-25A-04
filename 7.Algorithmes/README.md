@@ -1,5 +1,9 @@
 ## 1️⃣ Algorithme : Définition
 
+[:tada: Participation](.scripts/Participation.md)
+
+---
+
 Un **algorithme** est une **suite d’instructions bien définies** permettant de résoudre un problème ou d’effectuer une tâche.
 
 Pour construire un algorithme efficace, il faut :
