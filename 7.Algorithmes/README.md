@@ -15,7 +15,7 @@ Muhammad ibn Musa [al-Khwarizmi](https://en.wikipedia.org/wiki/Al-Khwarizmi) (78
 
 <img src=https://upload.wikimedia.org/wikipedia/commons/2/23/Image-Al-Kitāb_al-muḫtaṣar_fī_ḥisāb_al-ğabr_wa-l-muqābala.jpg  width='20%' height='20%' > </img>
 
-Son livre 📘 [*Kitab al-Mukhtasar fi Hisab al-Jabr wal-Muqabala*] (كتاب المختصر في حساب الجبر والمقابلة) est conceptuellement proche du modèle **Map/Reduce** 💻 :
+Son livre 📘 [*Kitab al-Mukhtasar fi Hisab al-Jabr wal-Muqabala*] (كتاب المختصر في حساب الجبر والمقابلة) introduit des notions conceptuellement proche du modèle **Map/Reduce** 💻 :
 >
 > * **Al-jabr** 🟦 → transforme les termes (comme *map*)
 > * **Al-muqabala** 🟩 → simplifie et combine les résultats (comme *reduce*)
