@@ -152,9 +152,9 @@ while i < 5:
 squares = [x**2 for x in range(5)]  # [0,1,4,9,16]
 ```
 
----
+**Comprehension (fonctionnelle)**
 
-**Comprehension (fonctionnelle)** pour calculer la factorielle, tout en gardant l’idée d’une **condition de sortie** (cas de base).
+Pour calculer la factorielle, tout en gardant l’idée d’une **condition de sortie** (cas de base).
 On peut faire ça avec **`math.prod`** ou **`reduce`**, mais en gardant une syntaxe **comprehensive**.
 
 Voici un exemple :
@@ -179,8 +179,6 @@ print(factorielle_comprehension(5))  # Résultat : 120
 3. **Réduction** : `reduce(lambda x, y: x*y, ...)` calcule le produit de tous les éléments, comme la récursion.
 
 💡 Cette approche est **itérative mais proche de la récursion** dans sa logique : on multiplie tous les éléments d’une “pile” simulée par la liste.
-
----
 
 ## 3️⃣ Fonctions
 
