@@ -202,6 +202,29 @@ conda create -n INF1042-203-25A-04 python=3.12 -y
 conda activate INF1042-203-25A-04
 ```
 
+- [ ] Si tu rencontres cette erreur:
+
+> CondaError: Run 'conda init' before 'conda activate'
+
+- [ ] Rajoute `init` a ton `$PROFILE`
+
+```powershell
+nano $PROFILE
+```
+
+```powershell
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+(& "C:\tools\miniforge3\Scripts\conda.exe" "shell.powershell" "hook") | Out-String | Invoke-Expression
+# <<< conda initialize <<<
+```
+
+ - [ ] Recharge ton profil sans redémarrer PowerShell : (en utilisant dot-sourcing)
+
+```powershell
+. $PROFILE
+```
+
 ---
 
 ## 🧠 4. Installe **JupyterLab (plus moderne)**
