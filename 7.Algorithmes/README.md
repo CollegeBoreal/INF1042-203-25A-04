@@ -400,6 +400,23 @@ factorielle_recursive(5)
 
 ---
 
+##### 🟧 **Cellule Code — Version fonctionelle**
+
+```python
+from functools import reduce
+
+def factorielle_comprehension(n):
+    if n == 0:  # condition de sortie (cas de base)
+        return 1
+    # Produit de tous les entiers de 1 à n en utilisant une comprehension
+    return reduce(lambda x, y: x*y, [i for i in range(1, n+1)])
+```
+
+---
+
+##### 🟦 **Cellule Markdown (Synthèse)**
+
+
 ##### 🟦 **Cellule Markdown**
 
 ```markdown
@@ -498,8 +515,6 @@ fib_rec(10)
 ```
 
 ---
-
-##### 🟦 **Cellule Markdown (Synthèse)**
 
 ```markdown
 ## 📘 4️⃣ Synthèse comparative
