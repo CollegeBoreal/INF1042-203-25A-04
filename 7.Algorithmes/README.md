@@ -1,3 +1,5 @@
+# 🧮 Algorithmes
+
 [:tada: Participation](.scripts/Participation.md)
 
 ---
@@ -12,6 +14,15 @@ Muhammad ibn Musa [al-Khwarizmi](https://en.wikipedia.org/wiki/Al-Khwarizmi) (78
 * **Algorithmes** ⚙️ : Des méthodes systématiques pour calculer ou résoudre des problèmes.
 
 Son travail a inspiré les mathématiques et l’informatique modernes 💻🌍.
+
+Également, Al-Khwarizmi calculait les calendriers 🌙📅 :
+
+* **Astronomie** 🌞🌙 : Pour prédire les phases lunaires, les positions du soleil et des planètes.
+* **Religion** 🕌 : Pour que les fêtes et le Ramadan tombent aux bonnes dates.
+* **Échanges culturels** 🌍 : Étudier les calendriers indien, hébreu, perse pour comparer les événements.
+* **Algorithmes** ⚙️ : Formaliser des règles pas à pas pour calculer et convertir les dates.
+
+✅ En bref : il utilisait les calendriers pour **astronomie, religion, culture et mathématiques**.
 
 ---
 
