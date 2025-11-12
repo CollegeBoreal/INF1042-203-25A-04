@@ -13,6 +13,16 @@ Muhammad ibn Musa [al-Khwarizmi](https://en.wikipedia.org/wiki/Al-Khwarizmi) (78
 
 * **Algorithmes** ⚙️ : Des méthodes systématiques pour calculer ou résoudre des problèmes.
 
+![image](https://en.wikipedia.org/wiki/Al-Jabr#/media/File:Image-Al-Kitāb_al-muḫtaṣar_fī_ḥisāb_al-ğabr_wa-l-muqābala.jpg)
+
+Son livre 📘 [*Kitab al-Mukhtasar fi Hisab al-Jabr wal-Muqabala*] (كتاب المختصر في حساب الجبر والمقابلة) est conceptuellement proche du modèle **Map/Reduce** 💻 :
+>
+> * **Al-jabr** 🟦 → transforme les termes (comme *map*)
+> * **Al-muqabala** 🟩 → simplifie et combine les résultats (comme *reduce*)
+>
+> ⚙️ Les deux suivent une **logique algorithmique** : transformer → simplifier → obtenir le résultat final.
+
+
 Son travail a inspiré les mathématiques et l’informatique modernes 💻🌍.
 
 Également, Al-Khwarizmi calculait les calendriers 🌙📅 :
