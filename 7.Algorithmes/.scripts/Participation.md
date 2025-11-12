@@ -1,4 +1,4 @@
-# Participation au 12-11-2025 23:04
+# Participation au 12-11-2025 23:06
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -19,7 +19,7 @@
 | 0 | [300146694](../300146694/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939164?s=460&v=4' width=20 height=20></image>](https://github.com/yourten06) | :x: | :x: | [:x:](../300146694/RAPPORT.ipynb) |
 | 1 | [300147253](../300147253/README.md) [<image src='https://avatars0.githubusercontent.com/u/232965506?s=460&v=4' width=20 height=20></image>](https://github.com/azzed98) | :x: | :x: | [:x:](../300147253/RAPPORT.ipynb) |
 | 2 | [300150396](../300150396/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939321?s=460&v=4' width=20 height=20></image>](https://github.com/ibkourouma) | :x: | :x: | [:x:](../300150396/RAPPORT.ipynb) |
-| 3 | [300150410](../300150410/README.md) [<image src='https://avatars0.githubusercontent.com/u/231570554?s=460&v=4' width=20 height=20></image>](https://github.com/lahlou06) | :x: | :x: | [:x:](../300150410/RAPPORT.ipynb) |
+| 3 | [300150410](../300150410/README.md) [<image src='https://avatars0.githubusercontent.com/u/231570554?s=460&v=4' width=20 height=20></image>](https://github.com/lahlou06) | :x: | :heavy_check_mark: | [:x:](../300150410/RAPPORT.ipynb) |
 | 4 | [300150468](../300150468/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939143?s=460&v=4' width=20 height=20></image>](https://github.com/sahebmohandsaid97-oss) | :x: | :x: | [:x:](../300150468/RAPPORT.ipynb) |
 | 5 | [300151262](../300151262/README.md) [<image src='https://avatars0.githubusercontent.com/u/231570449?s=460&v=4' width=20 height=20></image>](https://github.com/rifwil5-tech) | :heavy_check_mark: | :heavy_check_mark: | [:receipt:](../300151262/RAPPORT.ipynb) |
 | 6 | [300151449](../300151449/README.md) [<image src='https://avatars0.githubusercontent.com/u/231569522?s=460&v=4' width=20 height=20></image>](https://github.com/AbderrahimAlaoui) | :x: | :x: | [:x:](../300151449/RAPPORT.ipynb) |
