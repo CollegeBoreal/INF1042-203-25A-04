@@ -302,9 +302,9 @@ fib_rec(10)
 
 | Algorithme | Formule mathématique | Base | Récurrence | Complexité temporelle |
 |-------------|----------------------|-------|-------------|------------------------|
-| Factorielle | \\( n! = n \\times (n-1)! \\) | \\( 0! = 1 \\) | Simple | O(n) |
+| Factorielle | \\( n! = n \times (n-1)! \\) | \\( 0! = 1 \\) | Simple | O(n) |
 | Somme | \\( S(n) = n + S(n-1) \\) | \\( S(0) = 0 \\) | Simple | O(n) |
-| Fibonacci | \\( F(n) = F(n-1) + F(n-2) \\) | \\( F(0)=0, F(1)=1 \\) | Double | O(2^n) (récursif) / O(n) (itératif) |
+| Fibonacci | \\( F(n) = F(n-1) + F(n-2) \\) | \\( F(0)=0, F(1)=1 \\) | Double | O($2^n$) (récursif) / O(n) (itératif) |
 
 ---
 
