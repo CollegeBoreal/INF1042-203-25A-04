@@ -262,11 +262,60 @@ from functools import reduce
 * Pour **problèmes définis par récurrence ou structures arborescentes**, la **récursion** est plus naturelle.
 * Les **comprehensions** et `reduce` sont idéales pour écrire du code **compact et lisible**, mais restent itératives sous le capot.
 
-## 📘 Structure complète du `RAPPORT.ipynb`
 
 ---
 
-### 🟦 **Cellule Markdown (titre principal)**
+## :b: Expérimentation
+
+### 🎛️ Créer un fichier dans ce répertoire `(6.Variables)`:
+
+:checkered_flag: Finalement,
+
+- [ ] Créer un répertoire avec :id: (votre identifiant boreal)
+   - [ ] `mkdir ` :id:
+- [ ] dans votre répertoire ajouter le fichier `README.md`
+  - [ ] `nano `README.md
+- [ ] envoyer vers le serveur `github.com`
+  - [ ] `cd ..`
+  - [ ] `git add `:id: 
+  - [ ] `git commit -m "mon fichier ..."`
+  - [ ] `git push`
+
+### :rocket: Copier les fichiers :snake: Python
+
+- [ ] Se diriger vers le répertoire avec :id: (votre identifiant boreal)
+   - [ ] `cd ` :id:
+- [ ] copier les fichiers sources
+
+```sh
+cp ..\.lib\* .
+```
+
+### 🔄 Exercices
+
+#### 🧩 1️⃣ — Crée ton notebook
+
+##### Dans Jupyter Lab
+
+1. Ouvre ton environnement conda ou Python habituel.
+2. Lance Jupyter Lab :
+
+   ```bash
+   jupyter lab
+   ```
+3. Clique sur ➕ `Notebook` → choisis ton environnement (ex. `INF1042-203`).
+4. Sauvegarde tout de suite sous le nom :
+   **`RAPPORT.ipynb`**
+
+---
+
+#### 🧱 2️⃣ — Structure type du rapport
+
+Tu vas alterner **cellules Markdown** (texte explicatif) et **cellules Code** (le code à exécuter).
+
+---
+
+##### 🟦 **Cellule Markdown (titre principal)**
 
 ```markdown
 # 🧮 Étude : Influence des boucles et de la récursion sur les algorithmes
@@ -276,7 +325,7 @@ Ce rapport démontre comment les **algorithmes** sont influencés par la **progr
 
 ---
 
-### 🟦 **Cellule Markdown**
+##### 🟦 **Cellule Markdown**
 
 ```markdown
 ## 1️⃣ Factorielle
@@ -293,7 +342,7 @@ $
 
 ---
 
-### 🟧 **Cellule Code — Version itérative**
+##### 🟧 **Cellule Code — Version itérative**
 
 ```python
 def factorielle_iterative(n):
@@ -308,7 +357,7 @@ factorielle_iterative(5)
 
 ---
 
-### 🟧 **Cellule Code — Version récursive**
+##### 🟧 **Cellule Code — Version récursive**
 
 ```python
 def factorielle_recursive(n):
@@ -322,7 +371,7 @@ factorielle_recursive(5)
 
 ---
 
-### 🟦 **Cellule Markdown**
+##### 🟦 **Cellule Markdown**
 
 ```markdown
 ## 2️⃣ Somme des n premiers entiers
@@ -346,7 +395,7 @@ $
 
 ---
 
-### 🟧 **Cellule Code — Version itérative (while)**
+##### 🟧 **Cellule Code — Version itérative (while)**
 
 ```python
 def somme_while(n):
@@ -362,7 +411,7 @@ somme_while(5)
 
 ---
 
-### 🟧 **Cellule Code — Version récursive**
+##### 🟧 **Cellule Code — Version récursive**
 
 ```python
 def somme_recursive(n):
@@ -375,7 +424,7 @@ somme_recursive(5)
 
 ---
 
-### 🟦 **Cellule Markdown**
+##### 🟦 **Cellule Markdown**
 
 ```markdown
 ## 3️⃣ Suite de Fibonacci
@@ -394,7 +443,7 @@ $
 
 ---
 
-### 🟧 **Cellule Code — Version itérative**
+##### 🟧 **Cellule Code — Version itérative**
 
 ```python
 def fib_iter(n):
@@ -408,7 +457,7 @@ fib_iter(10)
 
 ---
 
-### 🟧 **Cellule Code — Version récursive**
+##### 🟧 **Cellule Code — Version récursive**
 
 ```python
 def fib_rec(n):
@@ -421,7 +470,7 @@ fib_rec(10)
 
 ---
 
-### 🟦 **Cellule Markdown (Synthèse)**
+##### 🟦 **Cellule Markdown (Synthèse)**
 
 ```markdown
 ## 📘 4️⃣ Synthèse comparative
@@ -443,7 +492,7 @@ fib_rec(10)
 
 ---
 
-### ✅ Résumé visuel
+#### ✅ Résumé visuel
 
 | Type de cellule | Contenu                                                              |
 | --------------- | -------------------------------------------------------------------- |
