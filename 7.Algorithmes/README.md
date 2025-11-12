@@ -1,8 +1,3 @@
-Parfait 👍 — voici **la description détaillée** pour **créer ton fichier `RAPPORT.ipynb`** à la main dans **Jupyter Notebook / JupyterLab**.
-Tu pourras **copier-coller** chaque section dans le bon type de **cellule** 🟦 (Markdown) ou 🟧 (Code).
-
----
-
 # 📘 Structure complète du `RAPPORT.ipynb`
 
 ---
@@ -191,8 +186,4 @@ fib_rec(10)
 | --------------- | -------------------------------------------------------------------- |
 | 🟦 Markdown     | Titre, explications, formules mathématiques                          |
 | 🟧 Code         | Fonctions Python avec exemples (`factorielle`, `somme`, `fibonacci`) |
-
----
-
-Souhaites-tu que je t’ajoute une **section finale optionnelle** pour mesurer le **temps d’exécution** des versions itératives et récursives (avec `timeit`) ? Cela compléterait bien la comparaison de performance.
 
