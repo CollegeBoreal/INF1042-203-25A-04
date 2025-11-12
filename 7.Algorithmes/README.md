@@ -1,7 +1,3 @@
-Bien sûr ! Voici un **résumé clair et structuré des instructions et concepts Python** que nous avons vus à travers tes exemples et discussions :
-
----
-
 # 🐍 Résumé des instructions Python
 
 ## 1️⃣ Variables et types
