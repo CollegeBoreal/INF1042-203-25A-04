@@ -6,7 +6,7 @@
 
 Muhammad ibn Musa [al-Khwarizmi](https://en.wikipedia.org/wiki/Al-Khwarizmi) (780–850) était un mathématicien persan. Il est le « père de l’algèbre » et a donné son nom aux **algorithmes** 🔢.
 
-* **Algèbre** 🧮 : Il a montré comment résoudre des équations pas à pas.
+* **Algèbre** الجبر : Il a montré comment résoudre des équations pas à pas.
   Exemple : $( x + 5 = 12 ) → ( x = 12 - 5 = 7 )$ ✅
 
 * **Algorithmes** ⚙️ : Des méthodes systématiques pour calculer ou résoudre des problèmes.
