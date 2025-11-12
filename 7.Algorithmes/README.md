@@ -1,3 +1,103 @@
+## 1️⃣ Algorithme : Définition
+
+Un **algorithme** est une **suite d’instructions bien définies** permettant de résoudre un problème ou d’effectuer une tâche.
+
+Pour construire un algorithme efficace, il faut :
+
+1. **Stocker et organiser les données** → **structures de données**
+2. **Contrôler le flux d’exécution** → **structures de contrôle**
+
+---
+
+## 2️⃣ Structures de données
+
+Les **structures de données** permettent de **stocker, organiser et manipuler l’information** dans un programme. Elles sont essentielles car un algorithme dépend toujours des données qu’il traite.
+
+### 🔹 Exemples en Python :snake:
+
+| Structure | Utilité                       | Exemple              |
+| --------- | ----------------------------- | -------------------- |
+| `list`    | Séquence ordonnée, modifiable | `l = [1,2,3]`        |
+| `tuple`   | Séquence ordonnée, immuable   | `t = (1,2,3)`        |
+| `dict`    | Stockage clé-valeur           | `d = {"x":1, "y":2}` |
+| `set`     | Ensemble non ordonné, unique  | `s = {1,2,3}`        |
+
+### 🔹 Rôle dans l’algorithme
+
+* Permet de **garder en mémoire des valeurs intermédiaires** (ex: somme, factorielle)
+* Facilite le **parcours et la recherche** (ex: boucles sur liste ou dictionnaire)
+* Structure la solution de manière **claire et efficace**
+
+💡 Exemple : pour calculer la factorielle, on peut stocker les résultats intermédiaires dans une **liste** si on veut éviter la récursion (mémoïsation).
+
+---
+
+## 3️⃣ Structures de contrôle
+
+Les **structures de contrôle** définissent le **flux d’exécution** : elles permettent de répéter, de choisir ou de sauter des instructions.
+
+### 🔹 Types principaux
+
+| Structure          | Utilité                  | Exemple                                 |
+| ------------------ | ------------------------ | --------------------------------------- |
+| `if / elif / else` | Prendre des décisions    | `if n == 0: return 1`                   |
+| `for`              | Boucler sur une séquence | `for i in range(1, n+1): resultat *= i` |
+| `while`            | Boucle avec condition    | `while i <= n: s += i; i += 1`          |
+| `break / continue` | Contrôle fin des boucles | `if condition: break`                   |
+
+### 🔹 Rôle dans l’algorithme
+
+* Permet de **répéter des actions** (ex: calculs, parcours de données)
+* Permet de **prendre des décisions** selon les valeurs (ex: cas de base)
+* Permet de **contrôler quand arrêter** ou sauter certaines étapes
+
+💡 Exemple :
+Pour la factorielle récursive :
+
+* La **condition de sortie** `if n == 0` est une structure de contrôle qui évite la récursion infinie.
+* La multiplication `n * factorielle(n-1)` est répétée implicitement à chaque appel récursif.
+
+---
+
+## 4️⃣ Comment elles forment un algorithme
+
+1. **Données → structure** : Les données doivent être **stockées et organisées** pour être accessibles et manipulables facilement.
+
+   * Ex: liste pour parcourir les nombres, dictionnaire pour stocker des clés et valeurs.
+
+2. **Contrôle → logique** : Les structures de contrôle définissent **l’ordre d’exécution** et permettent de **répéter, choisir, ou arrêter** certaines actions.
+
+   * Ex: `for` pour répéter les multiplications, `if` pour le cas de base.
+
+3. **Ensemble → algorithme** :
+
+   * **Données structurées + instructions de contrôle** = **algorithme clair et efficace**.
+   * La combinaison permet de transformer un **problème abstrait** en une **solution exécutable**.
+
+---
+
+### 🔹 Exemple synthétique : Factorielle itérative
+
+```python
+def factorielle(n):
+    resultat = 1           # variable pour stocker le résultat
+    for i in range(1,n+1): # boucle pour répéter les multiplications
+        resultat *= i
+    return resultat
+```
+
+* **Structure de données** : `resultat` (int)
+* **Structure de contrôle** : `for` (répétition)
+* **Algorithme** : calcule le produit des entiers de 1 à n
+
+---
+
+💡 **Conclusion** :
+
+* Les **structures de données** définissent **ce que l’on manipule**.
+* Les **structures de contrôle** définissent **comment on manipule** ces données.
+* **Un algorithme est la combinaison des deux**, traduisant la logique d’un problème en instructions exécutables.
+
 # 🐍 Résumé des instructions Python
 
 ## 1️⃣ Variables et types
@@ -51,6 +151,34 @@ while i < 5:
 ```python
 squares = [x**2 for x in range(5)]  # [0,1,4,9,16]
 ```
+
+---
+
+**Comprehension (fonctionnelle)** pour calculer la factorielle, tout en gardant l’idée d’une **condition de sortie** (cas de base).
+On peut faire ça avec **`math.prod`** ou **`reduce`**, mais en gardant une syntaxe **comprehensive**.
+
+Voici un exemple :
+
+```python
+from functools import reduce
+
+def factorielle_comprehension(n):
+    if n == 0:  # condition de sortie (cas de base)
+        return 1
+    # Produit de tous les entiers de 1 à n en utilisant une comprehension
+    return reduce(lambda x, y: x*y, [i for i in range(1, n+1)])
+
+# Exemple
+print(factorielle_comprehension(5))  # Résultat : 120
+```
+
+### 🔹 Explication
+
+1. **Condition de sortie** : `if n == 0: return 1` → équivalent au cas de base récursif.
+2. **Comprehension** : `[i for i in range(1, n+1)]` crée la liste `[1, 2, ..., n]`.
+3. **Réduction** : `reduce(lambda x, y: x*y, ...)` calcule le produit de tous les éléments, comme la récursion.
+
+💡 Cette approche est **itérative mais proche de la récursion** dans sa logique : on multiplie tous les éléments d’une “pile” simulée par la liste.
 
 ---
 
