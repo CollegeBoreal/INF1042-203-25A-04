@@ -1,3 +1,4 @@
+# organigrame de la moiyene de classe
 ```mermaid```
 # Liste des notes de la classe
 notes = [12, 15, 9, 18, 14, 10]
