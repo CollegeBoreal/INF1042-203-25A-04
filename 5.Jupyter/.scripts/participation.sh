@@ -35,7 +35,7 @@ s=0
 
 for id in "${ETUDIANTS[@]}"
 do
-   URL="[${IDS[${i}]}](https://github.com/${IDS[${i}]}) <image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image>"
+   URL="[<image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image>](https://github.com/${IDS[${i}]})"
    FILE=${id}/README.md
    FOLDER=${id}/images
    REPORT=${id}/RAPPORT.ipynb
@@ -59,7 +59,7 @@ do
        RAPPORT_ICON=":receipt:"
    fi
 
-   echo "| ${i} | [${id}](../${FILE}) :point_right: ${URL} | ${README_ICON} | ${IMAGES_ICON} | [${RAPPORT_ICON}](../${REPORT}) |"
+   echo "| ${i} | [${id}](../${FILE}) ${URL} | ${README_ICON} | ${IMAGES_ICON} | [${RAPPORT_ICON}](../${REPORT}) |"
 
    if [[ "$README_ICON" == ":heavy_check_mark:" && "$IMAGES_ICON" == ":heavy_check_mark:" && "$RAPPORT_ICON" == ":receipt:" ]]; then
        let "s++"

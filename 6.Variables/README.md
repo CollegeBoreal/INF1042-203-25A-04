@@ -276,7 +276,13 @@ Tu vas alterner **cellules Markdown** (texte explicatif) et **cellules Code** (l
 ##### 🟦 Cellule Markdown (titre principal)
 
 ```markdown
-# RAPPORT : Analyse de Code Python (Variables, Moyennes, Ensembles)
+# 🪐 RAPPORT : Analyse de Code Python (Variables, Moyennes, Ensembles)
+
+|     |                     |
+| --- | ------------------- |
+| Nom | Personne Importante |
+| 🆔  | 999999999           |
+
 
 Ce notebook présente trois sections :
 1. Le module `embellisseur` et la fonction `f`

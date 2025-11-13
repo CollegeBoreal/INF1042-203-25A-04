@@ -54,6 +54,13 @@ jobs:
           cd 6.Variables
           bash .scripts/run.sh
           cd ..
+          ##
+          ## Evaluating chapter 7.Algorithmes
+          ## 
+          echo "Evaluating chapter 7.Algorithmes Participation"
+          cd 7.Algorithmes
+          bash .scripts/run.sh
+          cd ..
 
       - name: Commit files
         run: |
