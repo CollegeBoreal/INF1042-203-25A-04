@@ -1,4 +1,4 @@
-# organigrame de la moiyene de classe
+# organigrame de la moiyene de classe.
 ```mermaid```
 flowchart TD
     A[Début] --> B[Liste des notes]
