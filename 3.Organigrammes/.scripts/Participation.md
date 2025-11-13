@@ -1,4 +1,4 @@
-# Participation au 06-11-2025 04:53
+# Participation au 13-11-2025 00:13
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -28,7 +28,7 @@
 | 9 | [300151505](../300151505/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939190?s=460&v=4' width=20 height=20></image>](https://github.com/300151505) | :heavy_check_mark: |
 | 10 | [300151558](../300151558/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939530?s=460&v=4' width=20 height=20></image>](https://github.com/hindchili) | :heavy_check_mark: |
 | 11 | [300152315](../300152315/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939475?s=460&v=4' width=20 height=20></image>](https://github.com/nour19992108) | :heavy_check_mark: |
-| 12 | [300152362](../300152362/README.md) [<image src='https://avatars0.githubusercontent.com/u/231571903?s=460&v=4' width=20 height=20></image>](https://github.com/naser674) | :x: |
+| 12 | [300152362](../300152362/README.md) [<image src='https://avatars0.githubusercontent.com/u/231571903?s=460&v=4' width=20 height=20></image>](https://github.com/naser674) | :heavy_check_mark: |
 | 13 | [300153811](../300153811/README.md) [<image src='https://avatars0.githubusercontent.com/u/231571796?s=460&v=4' width=20 height=20></image>](https://github.com/hama374) | :x: |
 | 14 | [300155045](../300155045/README.md) [<image src='https://avatars0.githubusercontent.com/u/232956639?s=460&v=4' width=20 height=20></image>](https://github.com/chouaibait) | :heavy_check_mark: |
 | 15 | [300155086](../300155086/README.md) [<image src='https://avatars0.githubusercontent.com/u/200866288?s=460&v=4' width=20 height=20></image>](https://github.com/ynsakliii) | :x: |
