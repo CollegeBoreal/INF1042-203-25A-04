@@ -7,8 +7,8 @@
 
 |:hash: | Date   | Cours                      | Intitulé                            |  Pratique                                                     |
 |-------|--------|:---------------------------|:------------------------------------|:--------------------------------------------------------------|
-| :one:   |08-sept| [0.PlanDeCours](0.PlanDeCours/.scripts/Participation.md)       | [🎉](0.PlanDeCours/.scripts/Participation.md) 👉  â Noter :x:|
-| :two:   |15-sept| [:1st_place_medal: 2.IDE](2.IDE/.scripts/Participation.md) [:2nd_place_medal: 2.IDE+](2.IDE/.scripts/Intermediaire.md)                            | â Noter :x: |
+| :one:   |08-sept| [0.PlanDeCours](0.PlanDeCours)                       | [🎉](0.PlanDeCours/.scripts/Participation.md) 👉  â Noter :x:|
+| :two:   |15-sept| [2.IDE](2.IDE) | [:1st_place_medal: 2.IDE](2.IDE/.scripts/Participation.md) [:2nd_place_medal: 2.IDE+](2.IDE/.scripts/Intermediaire.md)  â Noter :x: |
 | :three: |22-sept| [3.Organigrammes](3.Organigrammes/.scripts/Participation.md)   | â Noter :x: |
 | :four:  |06-oct | [4.ASM](4.ASM/.scripts/Participation.md)                       | â Noter :x: |
 | :five:  |13-oct | [5.Jupyter](5.Jupyter/.scripts/Participation.md)               | â Noter :x: |
