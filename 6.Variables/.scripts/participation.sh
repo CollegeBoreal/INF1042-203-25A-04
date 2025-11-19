@@ -135,6 +135,7 @@ done
 COUNT="\$\\frac{${s}}{${i}}$"
 STATS=$(echo "$s*100/$i" | bc)
 SUM="$\displaystyle\sum_{i=1}^{${i}} s_i$"
+SUM_EXEC="$\displaystyle\sum_{i=1}^{${i}} e_i$"
 
-echo "| :abacus: | ${COUNT} = ${STATS}% | ${SUM} = ${s} | | | Total exécutions : ${total_exec}"
+echo "| :abacus: | ${COUNT} = ${STATS}% | ${SUM} = ${s} | | | ${SUM_EXEC} = ${total_exec}"
 
