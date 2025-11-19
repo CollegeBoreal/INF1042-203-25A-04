@@ -1,8 +1,150 @@
-# OOP
+# **Programmation Orientée Objet (POO) en Python 🐍**
 
-## **Projet Python : Formes Geométriques**
+---
 
-### **Structure du projet**
+## **1️⃣ Qu’est-ce que la POO ?**
+
+La **programmation orientée objet (POO)** organise le code autour de **objets** plutôt que des fonctions seules.
+
+* **🧩 Objet** : une entité combinant **données** et **comportements**
+* **🏗️ Classe** : plan ou modèle pour créer un objet
+* **🎯 Instance** : objet créé à partir d’une classe
+
+**Analogie :**
+
+* 🏠 Classe = plan de construction d’une maison
+* 🏡 Objet = maison réelle construite à partir du plan
+
+---
+
+## **2️⃣ Pourquoi utiliser la POO ?**
+
+* 🗂️ **Organisation** : regroupe données et fonctions liées
+* 🔄 **Réutilisation** : une classe peut être réutilisée partout
+* 🌱 **Héritage** : créer de nouvelles classes à partir de classes existantes
+* 🎭 **Polymorphisme** : même méthode, comportements différents selon l’objet
+
+---
+
+## **3️⃣ Concepts clés de la POO**
+
+### a) **Classe et objet 🏗️ → 🧩**
+
+```python
+class Personne:
+    def __init__(self, nom, age):
+        self.nom = nom  # attribut
+        self.age = age  # attribut
+
+    def se_presenter(self):
+        print(f"Bonjour, je m'appelle {self.nom} et j'ai {self.age} ans 🖐️")
+
+p1 = Personne("Alice", 25)
+p1.se_presenter()  # Bonjour, je m'appelle Alice et j'ai 25 ans 🖐️
+```
+
+* `__init__` = **constructeur** 🛠️
+* `self` = référence à **l’objet lui-même**
+* Attributs = données de l’objet
+* Méthodes = comportements de l’objet
+
+---
+
+### b) **Héritage 🌱**
+
+```python
+class Etudiant(Personne):
+    def __init__(self, nom, age, niveau):
+        super().__init__(nom, age)
+        self.niveau = niveau
+
+    def se_presenter(self):
+        print(f"Bonjour, je suis {self.nom}, {self.age} ans, étudiant en {self.niveau} 📚")
+
+e1 = Etudiant("Bob", 20, "Python")
+e1.se_presenter()  # Bonjour, je suis Bob, 20 ans, étudiant en Python 📚
+```
+
+* `Etudiant` hérite de `Personne`
+* `super().__init__()` = appel du constructeur parent
+* Méthode surchargée 🎨 pour changer le comportement
+
+---
+
+### c) **Encapsulation 🔒**
+
+```python
+class CompteBancaire:
+    def __init__(self, solde):
+        self.__solde = solde  # attribut privé
+
+    def deposer(self, montant):
+        self.__solde += montant
+
+    def retirer(self, montant):
+        if montant <= self.__solde:
+            self.__solde -= montant
+        else:
+            print("❌ Solde insuffisant")
+
+    def afficher_solde(self):
+        print(f"💰 Solde: {self.__solde}")
+
+compte = CompteBancaire(100)
+compte.deposer(50)
+compte.retirer(30)
+compte.afficher_solde()  # 💰 Solde: 120
+```
+
+* `_` ou `__` → attribut **privé**
+* Protège les données de l’objet
+
+---
+
+### d) **Polymorphisme 🎭**
+
+```python
+class Animal:
+    def parler(self):
+        pass
+
+class Chien(Animal):
+    def parler(self):
+        print("🐶 Woof !")
+
+class Chat(Animal):
+    def parler(self):
+        print("🐱 Miaou !")
+
+animaux = [Chien(), Chat()]
+for a in animaux:
+    a.parler()
+# Sortie:
+# 🐶 Woof !
+# 🐱 Miaou !
+```
+
+* Même méthode `parler()`, comportement différent selon l’objet
+
+---
+
+## **5️⃣ Résumé 📝**
+
+| Concept          | Description                                        |
+| ---------------- | -------------------------------------------------- |
+| 🏗️ Classe       | Plan ou modèle d’un objet                          |
+| 🧩 Objet         | Instance concrète d’une classe                     |
+| 🔧 Attribut      | Variable appartenant à un objet                    |
+| ⚙️ Méthode       | Fonction appartenant à un objet                    |
+| 🌱 Héritage      | Créer une nouvelle classe à partir d’une autre     |
+| 🔒 Encapsulation | Protéger les données d’un objet                    |
+| 🎭 Polymorphisme | Même méthode, comportement différent selon l’objet |
+
+---
+
+## ⚛️  **Projet Python : Formes Geométriques**
+
+### 📂 **Structure du projet**
 
 ```
 [:id:]/
