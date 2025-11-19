@@ -128,7 +128,7 @@ for a in animaux:
 
 ---
 
-## **5️⃣ Résumé 📝**
+### **5️⃣ Résumé 📝**
 
 | Concept          | Description                                        |
 | ---------------- | -------------------------------------------------- |
@@ -142,9 +142,35 @@ for a in animaux:
 
 ---
 
-## ⚛️  **Projet Python : Formes Geométriques**
+## :b: Expérimentation
 
-### 📂 **Structure du projet**
+### 🎛️ Créer un fichier dans ce répertoire `(8.OOP)`:
+
+:checkered_flag: Finalement,
+
+- [ ] Créer un répertoire avec :id: (votre identifiant boreal)
+   - [ ] `mkdir ` :id:
+- [ ] dans votre répertoire ajouter le fichier `README.md`
+  - [ ] `nano `README.md
+- [ ] envoyer vers le serveur `github.com`
+  - [ ] `cd ..`
+  - [ ] `git add `:id: 
+  - [ ] `git commit -m "mon fichier ..."`
+  - [ ] `git push`
+
+- [ ] Se diriger vers le répertoire avec :id: (votre identifiant boreal)
+   - [ ] `cd ` :id:
+
+- [ ] Continuer les 🔄 Exercices 
+
+### 🔄 Exercices
+
+#### ⚛️  **Projet Python : Formes Geométriques**
+
+Objectif : Créer un programme Python qui définit des figures géométriques de base et des figures héritées, démontrant l’héritage et la POO (Programmation Orientée Objet).
+
+#####  📂 **0.Structure du projet**
+
 
 ```
 [:id:]/
@@ -159,7 +185,7 @@ for a in animaux:
 
 ---
 
-### **1. Fichier `figure.py`**
+##### **1. Fichier `figure.py`**
 
 ```python
 """
@@ -185,7 +211,7 @@ class Figure:
 
 ---
 
-### **2. Fichier `Carre.py`**
+##### **2. Fichier `Carre.py`**
 
 ```python
 """
@@ -213,7 +239,7 @@ class Carre(Figure):
 
 ---
 
-### **3. Fichier `Cercle.py`**
+##### **3. Fichier `Cercle.py`**
 
 ```python
 """
@@ -242,7 +268,7 @@ class Cercle(Figure):
 
 ---
 
-### **4. Fichier `main.py`**
+##### **4. Fichier `main.py`**
 
 ```python
 """
@@ -277,7 +303,7 @@ if __name__ == "__main__":
 
 ---
 
-### **Points pédagogiques couverts**
+##### **Points pédagogiques couverts**
 
 * **Variables** : `cote`, `rayon`
 * **Fonctions** : `main()`, `aire()`, `afficher_info()`
