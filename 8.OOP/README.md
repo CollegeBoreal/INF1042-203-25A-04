@@ -318,3 +318,29 @@ if __name__ == "__main__":
 * Facilite la maintenance et le suivi dans des projets plus grands.
 
 
+### **6️⃣ 🛠️ Exercice pratique : Ajouter une nouvelle figure**
+
+**Instructions pour l'extension du projet :**
+
+1. Crée un nouveau fichier, par exemple `Triangle.py` ou `Rectangle.py`.
+2. Crée une classe qui **hérite de `Figure`**.
+3. Implémente les méthodes :
+
+   * `__init__` pour initialiser les dimensions
+   * `aire()` pour calculer l’aire
+4. Teste ta figure dans `main.py` :
+
+```python
+from Carre import Carre
+from Cercle import Cercle
+from Triangle import Triangle  # <-- votre nouvelle figure
+
+formes = [Carre(4), Cercle(3), Triangle(5, 2)]
+for f in formes:
+    print(f"Aire: {f.aire()} 📏")
+```
+
+💡 **Astuce :** Tu peux ajouter une méthode `afficher_info()` pour afficher les dimensions et l’aire de ta figure.
+
+**Objectif :** Comprendre l’héritage, le polymorphisme et comment **ajouter de nouvelles classes facilement** dans un projet POO.
+
