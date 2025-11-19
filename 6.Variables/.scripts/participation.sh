@@ -103,7 +103,11 @@ do
                            | select(.output_type=="error")] 
                           | length' "$REPORT" 2>/dev/null)
         if [ $? -eq 0 ]; then
-            ERROR_ICON=$(num_to_emoji "$ERROR_COUNT")
+            if [ "$ERROR_COUNT" -eq 0 ]; then
+                ERROR_ICON=""  # pas d'erreur
+            else
+                ERROR_ICON=":clock${ERROR_COUNT:-0}:"
+            fi
         fi
 
         # Vérification de la présence de l'ID dans le notebook (Signature)
