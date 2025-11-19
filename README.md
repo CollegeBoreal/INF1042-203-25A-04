@@ -5,15 +5,15 @@
 
 ## :one: [Devoirs](Devoirs)
 
-|:hash: | Date   | Cours                      | Intitulé                            |  Pratique                                                     |
-|-------|--------|:---------------------------|:------------------------------------|:--------------------------------------------------------------|
-| :one:   |08-sept| [0.PlanDeCours](0.PlanDeCours/.scripts/Participation.md)       | â Noter :x: |
-| :two:   |15-sept| [:1st_place_medal: 2.IDE](2.IDE/.scripts/Participation.md) [:2nd_place_medal: 2.IDE+](2.IDE/.scripts/Intermediaire.md)                            | â Noter :x: |
-| :three: |22-sept| [3.Organigrammes](3.Organigrammes/.scripts/Participation.md)   | â Noter :x: |
-| :four:  |06-oct | [4.ASM](4.ASM/.scripts/Participation.md)                       | â Noter :x: |
-| :five:  |13-oct | [5.Jupyter](5.Jupyter/.scripts/Participation.md)               | â Noter :x: |
-| :five:  |27-oct | [6.Variables](6.Variables/.scripts/Participation.md)           | â Noter :x: |
-| :six:   |10-nov | [7.Algorithmes](7.Algorithmes/.scripts/Participation.md)       | â Noter :x: |
+|  :hash: | Date  | Cours                              | 🎉 Participations                   |
+|---------|-------|:-----------------------------------|:------------------------------------|
+| :one:   |08-sept| [0.PlanDeCours](0.PlanDeCours)     | [🎉](0.PlanDeCours/.scripts/Participation.md) 👉  â Noter :x:|
+| :two:   |15-sept| [2.IDE](2.IDE) | [:1st_place_medal: 2.IDE](2.IDE/.scripts/Participation.md) [:2nd_place_medal: 2.IDE+](2.IDE/.scripts/Intermediaire.md)  â Noter :x: |
+| :three: |22-sept| [3.Organigrammes](3.Organigrammes) | [🎉](3.Organigrammes/.scripts/Participation.md) 👉  â Noter :x:|
+| :four:  |06-oct | [4.ASM](4.ASM)                     | [🎉](4.ASM/.scripts/Participation.md) 👉  â Noter :x:|
+| :five:  |13-oct | [5.Jupyter](5.Jupyter)             | [🎉](5.Jupyter/.scripts/Participation.md) 👉  â Noter :x:|
+| :five:  |27-oct | [6.Variables](6.Variables)         | [🎉](6.Variables/.scripts/Participation.md) 👉  â Noter :x:|
+| :six:   |10-nov | [7.Algorithmes](7.Algorithmes)     | [🎉](7.Algorithmes/.scripts/Participation.md) 👉  â Noter :x:|
 
 ### :abacus: Évaluation
 
