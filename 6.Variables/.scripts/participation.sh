@@ -45,8 +45,8 @@ echo "| :x:                | Projet inexistant             |"
 echo ""
 echo "## :a: Présence"
 echo ""
-echo "|:hash:| Boréal :id:                | README.md    | images | RAPPORT.ipynb | Exécutions | Erreurs |"
-echo "|------|----------------------------|--------------|--------|----------------|------------|--------|"
+echo "|:hash:| Boréal :id:                | README.md    | images | RAPPORT.ipynb | Exécutions | Erreurs | Signature |"
+echo "|------|----------------------------|--------------|--------|----------------|------------|--------|-----------|"
 
 # Initialisation
 i=0
@@ -67,6 +67,7 @@ do
     RAPPORT_ICON=":x:"
     EXEC_ICON=":x:"
     ERROR_ICON=":x:"
+    SIGN_ICON=":x:"
 
     # Vérification README
     if [ -f "$FILE" ]; then
@@ -104,10 +105,19 @@ do
         if [ $? -eq 0 ]; then
             ERROR_ICON=$(num_to_emoji "$ERROR_COUNT")
         fi
+
+        # Vérification de la présence de l'ID dans le notebook (Signature)
+        ID_PRESENT=$(jq -r --arg id "$id" '.cells[]
+                             | select(.cell_type=="markdown")
+                             | .source[]
+                             | select(test($id))' "$REPORT" 2>/dev/null)
+        if [ -n "$ID_PRESENT" ]; then
+            SIGN_ICON=":heavy_check_mark:"
+        fi
     fi
 
     # Affichage de la ligne pour l'étudiant
-    echo "| ${i} | [${id}](../${FILE}) ${URL} | ${README_ICON} | ${IMAGES_ICON} | [${RAPPORT_ICON}](../${REPORT}) | ${EXEC_ICON} | ${ERROR_ICON} |"
+    echo "| ${i} | [${id}](../${FILE}) ${URL} | ${README_ICON} | ${IMAGES_ICON} | [${RAPPORT_ICON}](../${REPORT}) | ${EXEC_ICON} | ${ERROR_ICON} | ${SIGN_ICON} |"
 
     # Comptage pour statistiques
     if [ "$README_ICON" = ":heavy_check_mark:" ] && [ "$IMAGES_ICON" = ":heavy_check_mark:" ] && [ "$RAPPORT_ICON" = ":receipt:" ]; then
