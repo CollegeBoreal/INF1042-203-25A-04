@@ -45,8 +45,8 @@ echo "| :x:                | Projet inexistant             |"
 echo ""
 echo "## :a: Présence"
 echo ""
-echo "|:hash:| Boréal :id:                | README.md    | images | RAPPORT.ipynb | Exécutions |"
-echo "|------|----------------------------|--------------|--------|----------------|------------|"
+echo "|:hash:| Boréal :id:                | README.md    | images | RAPPORT.ipynb  | Signature | :martial_arts_uniform: Exécutions | :boom: Erreurs"
+echo "|------|----------------------------|--------------|--------|----------------|-----------|--------|-----------|"
 
 # Initialisation
 i=0
@@ -66,6 +66,8 @@ do
     IMAGES_ICON=":x:"
     RAPPORT_ICON=":x:"
     EXEC_ICON=":x:"
+    ERROR_ICON=":x:"
+    SIGN_ICON=":x:"
 
     # Vérification README
     if [ -f "$FILE" ]; then
@@ -96,10 +98,31 @@ do
             EXEC_ICON=$(num_to_emoji "$EXEC_COUNT")
             total_exec=$((total_exec + EXEC_COUNT))
         fi
+
+        # Nombre d'erreurs avec jq
+        ERROR_COUNT=$(jq '[.cells[].outputs[]? 
+                           | select(.output_type=="error")] 
+                          | length' "$REPORT" 2>/dev/null)
+        if [ $? -eq 0 ]; then
+            if [ "$ERROR_COUNT" -eq 0 ]; then
+                ERROR_ICON=""  # pas d'erreur
+            else
+                ERROR_ICON=":clock${ERROR_COUNT:-0}:"
+            fi
+        fi
+
+        # Vérification de la présence de l'ID dans le notebook (Signature)
+        ID_PRESENT=$(jq -r --arg id "$id" '.cells[]
+                             | select(.cell_type=="markdown")
+                             | .source[]
+                             | select(test($id))' "$REPORT" 2>/dev/null)
+        if [ -n "$ID_PRESENT" ]; then
+            SIGN_ICON=":writing_hand:"
+        fi
     fi
 
     # Affichage de la ligne pour l'étudiant
-    echo "| ${i} | [${id}](../${FILE}) ${URL} | ${README_ICON} | ${IMAGES_ICON} | [${RAPPORT_ICON}](../${REPORT}) | ${EXEC_ICON} |"
+    echo "| ${i} | [${id}](../${FILE}) ${URL} | ${README_ICON} | ${IMAGES_ICON} | [${RAPPORT_ICON}](../${REPORT}) | ${SIGN_ICON} | ${EXEC_ICON} | ${ERROR_ICON} |"
 
     # Comptage pour statistiques
     if [ "$README_ICON" = ":heavy_check_mark:" ] && [ "$IMAGES_ICON" = ":heavy_check_mark:" ] && [ "$RAPPORT_ICON" = ":receipt:" ]; then
@@ -113,6 +136,7 @@ done
 COUNT="\$\\frac{${s}}{${i}}$"
 STATS=$(echo "$s*100/$i" | bc)
 SUM="$\displaystyle\sum_{i=1}^{${i}} s_i$"
+SUM_EXEC="$\displaystyle\sum_{i=1}^{${i}} e_i$"
 
-echo "| :abacus: | ${COUNT} = ${STATS}% | Total exécutions : ${total_exec} | ${SUM} = ${s} |"
+echo "| :abacus: | ${COUNT} = ${STATS}% | ${SUM} = ${s} | | | | ${SUM_EXEC} = ${total_exec}"
 
