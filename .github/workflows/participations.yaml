@@ -9,6 +9,12 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
+
+      - name: Install jq
+        run: brew install jq
+
+      - name: Use jq
+        run: echo '{"name":"GitHub"}' | jq '.name'
     
       - shell: bash
         run: |

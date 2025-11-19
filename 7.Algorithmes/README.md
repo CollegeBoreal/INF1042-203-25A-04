@@ -354,6 +354,11 @@ Tu vas alterner **cellules Markdown** (texte explicatif) et **cellules Code** (l
 ```markdown
 # 🧮 Étude : Influence des boucles et de la récursion sur les algorithmes
 
+|     |                     |
+| --- | ------------------- |
+| Nom | Personne Importante |
+| 🆔  | 999999999           |
+
 Ce rapport démontre comment les **algorithmes** sont influencés par la **programmation itérative** (avec `for`, `while`) et la **programmation récursive** en **Python**.
 ```
 
