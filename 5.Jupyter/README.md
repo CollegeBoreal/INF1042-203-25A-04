@@ -342,13 +342,74 @@ Conda ajoute ceci dans ton profil PowerShell (`$PROFILE`, souvent `Documents\Pow
 | Ajouter le `PATH` manuellement | Permet d’exécuter `conda` mais **pas d’activer** les environnements     |
 | Faire `conda init powershell`  | Configure PowerShell pour que `conda activate` fonctionne comme prévu ✅ |
 
-### Environement
+### Environnements
 
 ```powershell
 conda info --envs
 ```
-
+>
+```powershell
 # conda environments:
 #
 base                   C:\tools\miniforge3
 INF1042-203-25A-04   * C:\tools\miniforge3\envs\INF1042-203-25A-04
+```
+
+## **supprimer complètement** l’environnement `INF1042-203-25A-04`.
+
+Voici comment faire proprement :
+
+---
+
+## 🧹 1. Désactiver l’environnement courant
+
+Si tu es **actuellement dedans**, commence par le quitter :
+
+```bash
+conda deactivate
+```
+
+---
+
+## 🗑️ 2. Supprimer l’environnement
+
+Ensuite, exécute :
+
+```bash
+conda env remove --name INF1042-203-25A-04
+```
+
+ou version courte :
+
+```bash
+conda remove --name INF1042-203-25A-04 --all
+```
+
+---
+
+## 🔍 3. Vérifier la suppression
+
+Teste :
+
+```bash
+conda info --envs
+```
+
+Tu devrais voir que `INF1042-203-25A-04` n’apparaît plus dans la liste ✅
+
+---
+
+## ⚠️ 4. Cas particuliers
+
+Si l’environnement résiste (par exemple erreur de permission ou conflit de lien symbolique sur Windows), tu peux le supprimer **manuellement** :
+
+```bash
+rm -rf C:\tools\miniforge3\envs\INF1042-203-25A-04
+```
+
+Puis relancer :
+
+```bash
+conda clean --all
+```
+
