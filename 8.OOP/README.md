@@ -7,10 +7,12 @@
 ```
 [:id:]/
 │
-├── main.py        # Point d'entrée du programme
-├── figure.py      # Classe de base Figure
-├── Carre.py       # Classe Carré
-└── Cercle.py      # Classe Cercle
+├── README.md        # Le fichier de documentation
+├── images/.gitkeep  # Le fichier de permettant de garder le répertoire images
+├── main.py          # Point d'entrée du programme
+├── figure.py        # Classe de base Figure
+├── Carre.py         # Classe Carré
+└── Cercle.py        # Classe Cercle
 ```
 
 ---
