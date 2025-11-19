@@ -2,12 +2,6 @@
 
 ## **Projet Python : Formes Geométriques**
 
-Parfait ! On peut ajouter des **en-têtes à chaque fichier** pour indiquer clairement le nom du fichier, l’auteur (optionnel), la date, et la description du fichier. Cela aide les étudiants à structurer leur code et comprendre l’organisation du projet. Voici la version finale :
-
----
-
-## **Projet Python : Cercle et Carré avec en-têtes et commentaires**
-
 ### **Structure du projet**
 
 ```
