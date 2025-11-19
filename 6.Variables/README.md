@@ -1,3 +1,7 @@
+
+300151504
+
+
 # 🐍 Leçon : Les variables en Python
 
 [:tada: Participation](.scripts/Participation.md)
