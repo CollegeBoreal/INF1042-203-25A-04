@@ -1,4 +1,4 @@
-# Participation au 19-11-2025 22:43
+# Participation au 19-11-2025 22:46
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -46,7 +46,7 @@
 | 27 | [300157332](../300157332/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939140?s=460&v=4' width=20 height=20></image>](https://github.com/aliboukhalfa98-sudo) | :heavy_check_mark: | :heavy_check_mark: | [:receipt:](../300157332/RAPPORT.ipynb) |
 | 28 | [300157334](../300157334/README.md) [<image src='https://avatars0.githubusercontent.com/u/231569676?s=460&v=4' width=20 height=20></image>](https://github.com/Laalahamdaoui16-alt) | :heavy_check_mark: | :heavy_check_mark: | [:receipt:](../300157334/RAPPORT.ipynb) |
 | 29 | [300157416](../300157416/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939450?s=460&v=4' width=20 height=20></image>](https://github.com/LounisYounes) | :x: | :x: | [:x:](../300157416/RAPPORT.ipynb) |
-| 30 | [300157440](../300157440/README.md) [<image src='https://avatars0.githubusercontent.com/u/231572378?s=460&v=4' width=20 height=20></image>](https://github.com/Houssam-eddinerachdi) | :heavy_check_mark: | :x: | [:x:](../300157440/RAPPORT.ipynb) |
+| 30 | [300157440](../300157440/README.md) [<image src='https://avatars0.githubusercontent.com/u/231572378?s=460&v=4' width=20 height=20></image>](https://github.com/Houssam-eddinerachdi) | :heavy_check_mark: | :x: | [:receipt:](../300157440/RAPPORT.ipynb) |
 | 31 | [300158052](../300158052/README.md) [<image src='https://avatars0.githubusercontent.com/u/121287922?s=460&v=4' width=20 height=20></image>](https://github.com/ZizouBouchelkia) | :heavy_check_mark: | :heavy_check_mark: | [:receipt:](../300158052/RAPPORT.ipynb) |
 | 32 | [300158185](../300158185/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939280?s=460&v=4' width=20 height=20></image>](https://github.com/Mohammed-Mati) | :heavy_check_mark: | :heavy_check_mark: | [:receipt:](../300158185/RAPPORT.ipynb) |
 | 33 | [300158486](../300158486/README.md) [<image src='https://avatars0.githubusercontent.com/u/232938643?s=460&v=4' width=20 height=20></image>](https://github.com/lyes158) | :heavy_check_mark: | :heavy_check_mark: | [:receipt:](../300158486/RAPPORT.ipynb) |
