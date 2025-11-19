@@ -1,8 +1,10 @@
 # OOP
 
-## **Projet Python : Formes Geométriques**
+## **Projet Python : Gestion de figures géométriques**
 
-### **Structure du projet**
+Objectif : Créer un programme Python qui définit des figures géométriques de base et des figures héritées, démontrant l’héritage et la POO (Programmation Orientée Objet).
+
+### **0. Structure du projet**
 
 ```
 [:id:]/
