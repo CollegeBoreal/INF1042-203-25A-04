@@ -45,8 +45,8 @@ echo "| :x:                | Projet inexistant             |"
 echo ""
 echo "## :a: Présence"
 echo ""
-echo "|:hash:| Boréal :id:                | README.md    | images | RAPPORT.ipynb | Exécutions |"
-echo "|------|----------------------------|--------------|--------|----------------|------------|"
+echo "|:hash:| Boréal :id:                | README.md    | images | RAPPORT.ipynb | Exécutions | Erreurs |"
+echo "|------|----------------------------|--------------|--------|----------------|------------|--------|"
 
 # Initialisation
 i=0
@@ -66,6 +66,7 @@ do
     IMAGES_ICON=":x:"
     RAPPORT_ICON=":x:"
     EXEC_ICON=":x:"
+    ERROR_ICON=":x:"
 
     # Vérification README
     if [ -f "$FILE" ]; then
@@ -87,18 +88,26 @@ do
             RAPPORT_ICON=":receipt:"
         fi
 
-        # Nombre d'exécutions avec jq
+        # Nombre d'exécutions (stdout) avec jq
         EXEC_COUNT=$(jq '[.cells[].outputs[]? 
-                          | select(.name=="stdout")]
+                          | select(.name=="stdout")] 
                          | length' "$REPORT" 2>/dev/null)
         if [ $? -eq 0 ]; then
             EXEC_ICON=$(num_to_emoji "$EXEC_COUNT")
             total_exec=$((total_exec + EXEC_COUNT))
         fi
+
+        # Nombre d'erreurs avec jq
+        ERROR_COUNT=$(jq '[.cells[].outputs[]? 
+                           | select(.output_type=="error")] 
+                          | length' "$REPORT" 2>/dev/null)
+        if [ $? -eq 0 ]; then
+            ERROR_ICON=$(num_to_emoji "$ERROR_COUNT")
+        fi
     fi
 
     # Affichage de la ligne pour l'étudiant
-    echo "| ${i} | [${id}](../${FILE}) ${URL} | ${README_ICON} | ${IMAGES_ICON} | [${RAPPORT_ICON}](../${REPORT}) | ${EXEC_ICON} |"
+    echo "| ${i} | [${id}](../${FILE}) ${URL} | ${README_ICON} | ${IMAGES_ICON} | [${RAPPORT_ICON}](../${REPORT}) | ${EXEC_ICON} | ${ERROR_ICON} |"
 
     # Comptage pour statistiques
     if [ "$README_ICON" = ":heavy_check_mark:" ] && [ "$IMAGES_ICON" = ":heavy_check_mark:" ] && [ "$RAPPORT_ICON" = ":receipt:" ]; then
