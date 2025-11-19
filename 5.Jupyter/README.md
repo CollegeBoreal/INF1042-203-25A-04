@@ -202,6 +202,29 @@ conda create -n INF1042-203-25A-04 python=3.12 -y
 conda activate INF1042-203-25A-04
 ```
 
+- [ ] Si tu rencontres cette erreur:
+
+> CondaError: Run 'conda init' before 'conda activate'
+
+- [ ] Rajoute `init` a ton `$PROFILE`
+
+```powershell
+nano $PROFILE
+```
+
+```powershell
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+(& "C:\tools\miniforge3\Scripts\conda.exe" "shell.powershell" "hook") | Out-String | Invoke-Expression
+# <<< conda initialize <<<
+```
+
+ - [ ] Recharge ton profil sans redémarrer PowerShell : (en utilisant dot-sourcing)
+
+```powershell
+. $PROFILE
+```
+
 ---
 
 ## 🧠 4. Installe **JupyterLab (plus moderne)**
@@ -255,4 +278,138 @@ python --version
 Tu devrais voir des versions cohérentes (par ex. Python 3.12.x et Jupyter 7.x ou 8.x).
 
 # :books: References
+
+### 🧩 Ce que ta ligne fait
+
+```powershell
+$env:Path += ";C:\tools\miniforge3;C:\tools\miniforge3\Scripts;C:\tools\miniforge3\Library\bin"
+```
+
+➡️ Cela ajoute simplement les dossiers de Miniforge à la variable d’environnement **PATH**, donc Windows peut trouver `conda.exe`.
+Autrement dit, après ça tu peux taper :
+
+```powershell
+conda --version
+```
+
+et ça marchera ✅
+Mais...
+
+---
+
+### ⚠️ Pourquoi ce n’est **pas suffisant** pour `conda activate`
+
+La commande `conda activate` **n’est pas une simple exécutable** (`conda.exe`) :
+c’est une **fonction de shell**, qui :
+
+* modifie dynamiquement le `$env:PATH`,
+* change d’environnement virtuel,
+* ajuste des variables internes (comme `CONDA_DEFAULT_ENV`).
+
+Ces fonctions **ne sont pas chargées** si tu ne fais qu’ajouter le dossier dans ton `PATH`.
+
+---
+
+### ✅ Ce que fait `conda init powershell`
+
+Quand tu fais :
+
+```powershell
+conda init powershell
+```
+
+Conda ajoute ceci dans ton profil PowerShell (`$PROFILE`, souvent `Documents\PowerShell\Microsoft.PowerShell_profile.ps1`) :
+
+```powershell
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+(& "C:\tools\miniforge3\Scripts\conda.exe" "shell.powershell" "hook") | Out-String | Invoke-Expression
+# <<< conda initialize <<<
+```
+
+👉 Cette ligne exécute un **hook** spécial qui :
+
+* définit la fonction `conda activate`,
+* configure le prompt,
+* met à jour les variables correctement.
+
+---
+
+### 💡 En résumé
+
+| Action                         | Résultat                                                                |
+| ------------------------------ | ----------------------------------------------------------------------- |
+| Ajouter le `PATH` manuellement | Permet d’exécuter `conda` mais **pas d’activer** les environnements     |
+| Faire `conda init powershell`  | Configure PowerShell pour que `conda activate` fonctionne comme prévu ✅ |
+
+### Environnements
+
+```powershell
+conda info --envs
+```
+>
+```powershell
+# conda environments:
+#
+base                   C:\tools\miniforge3
+INF1042-203-25A-04   * C:\tools\miniforge3\envs\INF1042-203-25A-04
+```
+
+## **supprimer complètement** l’environnement `INF1042-203-25A-04`.
+
+Voici comment faire proprement :
+
+---
+
+## 🧹 1. Désactiver l’environnement courant
+
+Si tu es **actuellement dedans**, commence par le quitter :
+
+```bash
+conda deactivate
+```
+
+---
+
+## 🗑️ 2. Supprimer l’environnement
+
+Ensuite, exécute :
+
+```bash
+conda env remove --name INF1042-203-25A-04
+```
+
+ou version courte :
+
+```bash
+conda remove --name INF1042-203-25A-04 --all
+```
+
+---
+
+## 🔍 3. Vérifier la suppression
+
+Teste :
+
+```bash
+conda info --envs
+```
+
+Tu devrais voir que `INF1042-203-25A-04` n’apparaît plus dans la liste ✅
+
+---
+
+## ⚠️ 4. Cas particuliers
+
+Si l’environnement résiste (par exemple erreur de permission ou conflit de lien symbolique sur Windows), tu peux le supprimer **manuellement** :
+
+```bash
+rm -rf C:\tools\miniforge3\envs\INF1042-203-25A-04
+```
+
+Puis relancer :
+
+```bash
+conda clean --all
+```
 
