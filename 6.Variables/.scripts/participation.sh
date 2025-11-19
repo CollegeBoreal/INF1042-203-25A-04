@@ -45,8 +45,8 @@ echo "| :x:                | Projet inexistant             |"
 echo ""
 echo "## :a: Présence"
 echo ""
-echo "|:hash:| Boréal :id:                | README.md    | images | RAPPORT.ipynb | Exécutions | Erreurs | Signature |"
-echo "|------|----------------------------|--------------|--------|----------------|------------|--------|-----------|"
+echo "|:hash:| Boréal :id:                | README.md    | images | RAPPORT.ipynb  | Signature | :martial_arts_uniform: Exécutions | :boom: Erreurs"
+echo "|------|----------------------------|--------------|--------|----------------|-----------|--------|-----------|"
 
 # Initialisation
 i=0
@@ -112,12 +112,12 @@ do
                              | .source[]
                              | select(test($id))' "$REPORT" 2>/dev/null)
         if [ -n "$ID_PRESENT" ]; then
-            SIGN_ICON=":heavy_check_mark:"
+            SIGN_ICON=":writing_hand:"
         fi
     fi
 
     # Affichage de la ligne pour l'étudiant
-    echo "| ${i} | [${id}](../${FILE}) ${URL} | ${README_ICON} | ${IMAGES_ICON} | [${RAPPORT_ICON}](../${REPORT}) | ${EXEC_ICON} | ${ERROR_ICON} | ${SIGN_ICON} |"
+    echo "| ${i} | [${id}](../${FILE}) ${URL} | ${README_ICON} | ${IMAGES_ICON} | [${RAPPORT_ICON}](../${REPORT}) | ${SIGN_ICON} | ${EXEC_ICON} | ${ERROR_ICON} |"
 
     # Comptage pour statistiques
     if [ "$README_ICON" = ":heavy_check_mark:" ] && [ "$IMAGES_ICON" = ":heavy_check_mark:" ] && [ "$RAPPORT_ICON" = ":receipt:" ]; then
