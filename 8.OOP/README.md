@@ -1,5 +1,7 @@
 # **Programmation Orientée Objet (POO) en Python 🐍**
 
+[:tada: Participation](.scripts/Participation.md)
+
 ---
 
 ## **1️⃣ Qu’est-ce que la POO ?**
