@@ -67,6 +67,14 @@ jobs:
           cd 7.Algorithmes
           bash .scripts/run.sh
           cd ..
+          ##
+          ## Evaluating chapter 8.OOP
+          ## 
+          echo "Evaluating chapter 8.OOP Participation"
+          cd 8.OOP
+          bash .scripts/run.sh
+          cd ..
+
 
       - name: Commit files
         run: |
