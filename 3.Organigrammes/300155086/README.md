@@ -1,4 +1,3 @@
-# Organigramme du projet INF1042
 
 ```mermaid
 flowchart TD
@@ -29,4 +28,4 @@ flowchart TD
   - `flowchart LR` → de gauche à droite.  
 
 ---
-
+```
