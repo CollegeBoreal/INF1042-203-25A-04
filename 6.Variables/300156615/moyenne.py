@@ -2,7 +2,7 @@
  "cells": [
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 1,
    "id": "e9811572-5158-4dbb-95dc-34880d93a2c7",
    "metadata": {},
    "outputs": [],
@@ -41,6 +41,22 @@
     "    # Calculer la racine n-ième\n",
     "    return (reduce(lambda x, y: x * y, liste)) ** (1/len(liste))"
    ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "93857159-3822-4269-9450-099761929bb6",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "48caccad-61e1-452e-81c8-8e1ede9044fa",
+   "metadata": {},
+   "outputs": [],
+   "source": []
   }
  ],
  "metadata": {

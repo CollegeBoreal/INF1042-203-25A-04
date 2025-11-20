@@ -2,10 +2,44 @@
  "cells": [
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 1,
    "id": "cfdc4643-6ba2-44d1-aab4-b24352ab98c4",
    "metadata": {},
-   "outputs": [],
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "\n",
+      "BINAIRE : 8\n",
+      "→ 0b1000\n",
+      "\n",
+      "HEXADÉCIMAL : 255\n",
+      "→ 0xff\n",
+      "\n",
+      "INT : 42\n",
+      "→ 42\n",
+      "\n",
+      "FLOAT : 3.14\n",
+      "→ 3.14\n",
+      "\n",
+      "STR : 123\n",
+      "→ 123\n",
+      "\n",
+      "LIST : (1, 2, 3)\n",
+      "→ [1, 2, 3]\n",
+      "\n",
+      "TUPLE : [1, 2, 3]\n",
+      "→ (1, 2, 3)\n",
+      "\n",
+      "ARRAY : [4, 5, 6]\n",
+      "→ array('i', [4, 5, 6])\n",
+      "\n",
+      "DICT : [('a', 1), ('b', 2)]\n",
+      "→ {'a': 1, 'b': 2}\n"
+     ]
+    }
+   ],
    "source": [
     "# types_demo.py\n",
     "# Démonstration de fonctions Python pour différents types de données\n",
@@ -129,6 +163,14 @@
     "            if name == t:\n",
     "                print(f\"→ {result}\")\n"
    ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b0d7aa36-07b4-47f8-ad16-dc6b8325fb37",
+   "metadata": {},
+   "outputs": [],
+   "source": []
   }
  ],
  "metadata": {

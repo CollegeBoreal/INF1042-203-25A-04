@@ -2,10 +2,52 @@
  "cells": [
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 1,
    "id": "3831a3ce-ec69-4ee4-aaca-3e708755498f",
    "metadata": {},
-   "outputs": [],
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "\n",
+      "--- f(42) ---\n",
+      "binaire      -> 0b101010\n",
+      "hexadécimal  -> 0x2a\n",
+      "int          -> 42\n",
+      "float        -> 42.0\n",
+      "str          -> 42\n",
+      "\n",
+      "--- f(3.14) ---\n",
+      "float        -> 3.14\n",
+      "int          -> 3\n",
+      "str          -> 3.14\n",
+      "\n",
+      "--- f(abc) ---\n",
+      "str          -> abc\n",
+      "list         -> ['a', 'b', 'c']\n",
+      "tuple        -> ('a', 'b', 'c')\n",
+      "\n",
+      "--- f([1, 2, 3]) ---\n",
+      "list         -> [1, 2, 3]\n",
+      "tuple        -> (1, 2, 3)\n",
+      "array        -> array('i', [1, 2, 3])\n",
+      "str          -> [1, 2, 3]\n",
+      "\n",
+      "--- f((4, 5, 6)) ---\n",
+      "tuple        -> (4, 5, 6)\n",
+      "list         -> [4, 5, 6]\n",
+      "array        -> array('i', [4, 5, 6])\n",
+      "str          -> (4, 5, 6)\n",
+      "\n",
+      "--- f({'a': 1, 'b': 2}) ---\n",
+      "dict         -> {'a': 1, 'b': 2}\n",
+      "list_clés    -> ['a', 'b']\n",
+      "list_valeurs -> [1, 2]\n",
+      "str          -> {'a': 1, 'b': 2}\n"
+     ]
+    }
+   ],
    "source": [
     "# convertisseur.py\n",
     "\"\"\"\n",
@@ -99,6 +141,14 @@
     "        for k, v in f(e).items():\n",
     "            print(f\"{k:12} -> {v}\")\n"
    ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "aa35104b-b82f-44e5-8131-9e17535a7f4d",
+   "metadata": {},
+   "outputs": [],
+   "source": []
   }
  ],
  "metadata": {
