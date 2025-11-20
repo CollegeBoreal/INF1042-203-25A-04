@@ -1,7 +1,7 @@
 """
 Fichier : Carre.py
 Description : Classe Carré héritant de Figure
-Auteur : [300158185]
+Auteur : [300150410]
 Date : 2025-11-19
 """
 
