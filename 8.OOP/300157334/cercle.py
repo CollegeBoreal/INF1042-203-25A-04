@@ -1,6 +1,6 @@
 """
-Fichier : Cycle.py
-Description : Classe Cycle héritant de Figure
+Fichier : Cercle.py
+Description : Classe Cercle héritant de Figure
 Auteur : 300157334
 Date : 19-11-2025
 """
@@ -8,9 +8,9 @@ Date : 19-11-2025
 from figure import Figure
 import math
 
-class Cycle(Figure):
+class Cercle(Figure):
     def __init__(self, rayon):
-        super().__init__("Cycle")
+        super().__init__("Cercle")
         self.rayon = rayon
 
     def aire(self):
