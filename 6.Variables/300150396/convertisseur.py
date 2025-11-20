@@ -1,122 +1,61 @@
-# types_demo.py
-# Démonstration de fonctions Python pour différents types de données
+from embellisseur import f
 
-from array import array
-from typing import Any, List, Tuple
+exemples = [
+    10,
+    2.718,
+    "hello",
+    [7, 8, 9],
+    (10, 20, 30),
+    {"x": 1, "y": 2}
+]
 
-# --- Fonctions de conversion simples --- #
+for e in exemples:
+    print(f"\n--- f({e}) ---")
+    resultat = f(e)
+    for k, v in resultat.items():
+        print(f"{k:12} -> {v}")
 
-def to_binary(x: int) -> str:
-    """Retourne la représentation binaire de x (préfixée par 0b)."""
-    return bin(x)
+## 2️⃣ Moyenne algébrique et géométrique
 
-def to_hex(x: int) -> str:
-    """Retourne la représentation hexadécimale de x (préfixée par 0x)."""
-    return hex(x)
+Le module `moyenne` contient deux fonctions :
 
-def to_int(x) -> int:
-    """Convertit x en entier."""
-    return int(x)
+- `algebrique(L)` : calcule la moyenne arithmétique  
+  $
+  \bar{x} = \frac{\sum x_i}{n}
+  $
+- `geometrique(L)` : calcule la moyenne géométrique  
+  $
+  G = \sqrt[n]{\prod x_i}
+  $        
 
-def to_float(x) -> float:
-    """Convertit x en nombre à virgule flottante."""
-    return float(x)
+from moyenne import algebrique, geometrique
 
-def to_str(x) -> str:
-    """Convertit x en chaîne de caractères."""
-    return str(x)
+print("La moyenne algébrique est :", algebrique([2, 4.5, 6, 8, 10]))
+print("La moyenne géométrique est :", geometrique([2, 4.5, 6, 8, 10]))
 
-def to_list(x) -> list:
-    """Convertit x en liste (si possible)."""
-    return list(x)
+K = ['A', 'B', 'C']
+X = [1, 2, 3, 4, 5, 6]
 
-def to_tuple(x) -> tuple:
-    """Convertit x en tuple (si possible)."""
-    return tuple(x)
+def P(x):
+    return x % 2 == 0
 
-def to_array(x) -> array:
-    """Convertit une séquence numérique en tableau du module array."""
-    return array('i', x)
+S = {(k, x) for k in K for x in X if P(x)}
+print("Ensemble des couples filtrés :", S)
 
-def to_dict(x) -> dict:
-    """Convertit une liste de paires ou un dictionnaire existant."""
-    return dict(x)
+x_values = [x for (_, x) in S]
+if x_values:
+    moyenne = algebrique(x_values)
+else:
+    moyenne = 0
 
-# --- Fonction principale pour tester toutes les conversions --- #
+print("Moyenne algébrique des x filtrés :", moyenne)
 
-def convert_all(x) -> List[Tuple[str, Any]]:
-    """
-    Retourne une liste contenant toutes les représentations de x
-    selon les fonctions définies ci-dessus.
-    """
-    results = []
+## 🧠 Conclusion
 
-    try:
-        results.append(("binaire", to_binary(int(x))))
-    except Exception as e:
-        results.append(("binaire", f"Erreur: {e}"))
+Ce rapport montre comment :
+- Une même fonction (`f`) peut traiter plusieurs types de données.
+- Des fonctions mathématiques (`algebrique`, `geometrique`) peuvent être réutilisées.
+- Les **ensembles** et **comprehensions** facilitent les filtres et combinaisons de données.
 
-    try:
-        results.append(("hexadécimal", to_hex(int(x))))
-    except Exception as e:
-        results.append(("hexadécimal", f"Erreur: {e}"))
-
-    try:
-        results.append(("int", to_int(x)))
-    except Exception as e:
-        results.append(("int", f"Erreur: {e}"))
-
-    try:
-        results.append(("float", to_float(x)))
-    except Exception as e:
-        results.append(("float", f"Erreur: {e}"))
-
-    try:
-        results.append(("str", to_str(x)))
-    except Exception as e:
-        results.append(("str", f"Erreur: {e}"))
-
-    try:
-        results.append(("list", to_list(x)))
-    except Exception as e:
-        results.append(("list", f"Erreur: {e}"))
-
-    try:
-        results.append(("tuple", to_tuple(x)))
-    except Exception as e:
-        results.append(("tuple", f"Erreur: {e}"))
-
-    try:
-        results.append(("array", to_array(x)))
-    except Exception as e:
-        results.append(("array", f"Erreur: {e}"))
-
-    try:
-        results.append(("dict", to_dict(x)))
-    except Exception as e:
-        results.append(("dict", f"Erreur: {e}"))
-
-    return results
-
-
-# --- Exemple d'utilisation --- #
-if __name__ == "__main__":
-    # Exemple : convertir une liste
-    tests = {
-        "binaire": 8,
-        "hexadécimal": 255,
-        "int": "42",
-        "float": "3.14",
-        "str": 123,
-        "list": (1, 2, 3),
-        "tuple": [1, 2, 3],
-        "array": [4, 5, 6],
-        "dict": [("a", 1), ("b", 2)]
-    }
-
-    for t, val in tests.items():
-        print(f"\n{t.upper()} : {val}")
-        for name, result in convert_all(val):
-            if name == t:
-                print(f"→ {result}")
-
+> 🧩 Python est un langage à typage dynamique, où les fonctions peuvent être générales,
+> et les structures (listes, tuples, sets, dictionnaires) très expressives.
