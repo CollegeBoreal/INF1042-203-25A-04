@@ -4,6 +4,17 @@
 - Nom : Tarek Aklit
 - Identifiant Boréal : 300155086
 - Cours : INF1042 - Architecture et Systèmes
+```markdown
+ ## 🖼️ Captures d’écran
+
+### ▶️ Exécution dans RARS
+![RARS Exécution 1](images/RARS1.png)
+
+### 🐞 Débogage étape par étape
+![RARS Débogage 2](images/RARS2.png)
+
+### 📊 Registres et résultats
+![RARS Registres 3](images/RARS3.png)
 
 ---
 
