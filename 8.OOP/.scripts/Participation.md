@@ -1,4 +1,4 @@
-# Participation au 20-11-2025 02:30
+# Participation au 20-11-2025 02:45
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -41,7 +41,7 @@
 | 21 | [300155527](../300155527/README.md) [<image src='https://avatars0.githubusercontent.com/u/231569948?s=460&v=4' width=20 height=20></image>](https://github.com/Soul7331) | :x: | :x: | :x: |
 | 22 | [300155606](../300155606/README.md) [<image src='https://avatars0.githubusercontent.com/u/231571545?s=460&v=4' width=20 height=20></image>](https://github.com/Djelloulmsili) | :x: | :x: | :x: |
 | 23 | [300156204](../300156204/README.md) [<image src='https://avatars0.githubusercontent.com/u/231571560?s=460&v=4' width=20 height=20></image>](https://github.com/Abdou21566) | :heavy_check_mark: | :heavy_check_mark: | :rocket: |
-| 24 | [300156612](../300156612/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939132?s=460&v=4' width=20 height=20></image>](https://github.com/06019) | :heavy_check_mark: | :x: | :x: |
+| 24 | [300156612](../300156612/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939132?s=460&v=4' width=20 height=20></image>](https://github.com/06019) | :heavy_check_mark: | :heavy_check_mark: | :rocket: |
 | 25 | [300156615](../300156615/README.md) [<image src='https://avatars0.githubusercontent.com/u/231570011?s=460&v=4' width=20 height=20></image>](https://github.com/waliii81) | :x: | :x: | :x: |
 | 26 | [300157330](../300157330/README.md) [<image src='https://avatars0.githubusercontent.com/u/231571164?s=460&v=4' width=20 height=20></image>](https://github.com/toufikmekbel) | :x: | :x: | :x: |
 | 27 | [300157332](../300157332/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939140?s=460&v=4' width=20 height=20></image>](https://github.com/aliboukhalfa98-sudo) | :x: | :x: | :x: |
@@ -52,4 +52,4 @@
 | 32 | [300158185](../300158185/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939280?s=460&v=4' width=20 height=20></image>](https://github.com/Mohammed-Mati) | :heavy_check_mark: | :heavy_check_mark: | :rocket: |
 | 33 | [300158486](../300158486/README.md) [<image src='https://avatars0.githubusercontent.com/u/232938643?s=460&v=4' width=20 height=20></image>](https://github.com/lyes158) | :x: | :x: | :x: |
 | 34 | [300159189](../300159189/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939045?s=460&v=4' width=20 height=20></image>](https://github.com/fateh98) | :x: | :x: | :x: |
-| :abacus: |  $\frac{4}{35}$  =  11% | $\displaystyle\sum_{i=1}^{35} s_i$ = 4 |
+| :abacus: |  $\frac{5}{35}$  =  14% | $\displaystyle\sum_{i=1}^{35} s_i$ = 5 |
