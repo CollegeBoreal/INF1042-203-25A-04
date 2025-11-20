@@ -1,2 +1,2 @@
 #300152315
-![mon image](images/amazigh.webp)
+![mon image](images/amazigh..webp)
