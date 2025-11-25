@@ -1,0 +1,9 @@
+# Projet POO - Formes Géométriques
+Auteur : [300151483]
+Date : [2025-11-13]
+
+Ce projet illustre les concepts de la programmation orientée objet (POO) en Python :
+- Classe de base `Figure`
+- Classes héritées : `Carre`, `Cercle`, `Triangle`,
+- Démonstration de l’héritage et du polymorphisme
+
