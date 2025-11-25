@@ -25,7 +25,7 @@
 | 5 | [300151262](../300151262/README.md) [<image src='https://avatars0.githubusercontent.com/u/231570449?s=460&v=4' width=20 height=20></image>](https://github.com/rifwil5-tech) | :heavy_check_mark: | :heavy_check_mark: | :rocket: |
 | 6 | [300151449](../300151449/README.md) [<image src='https://avatars0.githubusercontent.com/u/231569522?s=460&v=4' width=20 height=20></image>](https://github.com/AbderrahimAlaoui) | :x: | :x: | :x: |
 | 7 | [300151483](../300151483/README.md) [<image src='https://avatars0.githubusercontent.com/u/231570852?s=460&v=4' width=20 height=20></image>](https://github.com/Arnauld-ttad) | :heavy_check_mark: | :x: | :x: |
-| 8 | [300151504](../300151504/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939073?s=460&v=4' width=20 height=20></image>](https://github.com/nassimidir) | :heavy_check_mark: | :heavy_check_mark: | :x: |
+| 8 | [300151504](../300151504/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939073?s=460&v=4' width=20 height=20></image>](https://github.com/nassimidir) | :heavy_check_mark: | :heavy_check_mark: | :rocket: |
 | 9 | [300151505](../300151505/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939190?s=460&v=4' width=20 height=20></image>](https://github.com/300151505) | :x: | :x: | :x: |
 | 10 | [300151558](../300151558/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939530?s=460&v=4' width=20 height=20></image>](https://github.com/hindchili) | :heavy_check_mark: | :heavy_check_mark: | :rocket: |
 | 11 | [300152315](../300152315/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939475?s=460&v=4' width=20 height=20></image>](https://github.com/nour19992108) | :heavy_check_mark: | :heavy_check_mark: | :rocket: |
@@ -43,7 +43,7 @@
 | 23 | [300156204](../300156204/README.md) [<image src='https://avatars0.githubusercontent.com/u/231571560?s=460&v=4' width=20 height=20></image>](https://github.com/Abdou21566) | :heavy_check_mark: | :heavy_check_mark: | :rocket: |
 | 24 | [300156612](../300156612/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939132?s=460&v=4' width=20 height=20></image>](https://github.com/06019) | :heavy_check_mark: | :heavy_check_mark: | :rocket: |
 | 25 | [300156615](../300156615/README.md) [<image src='https://avatars0.githubusercontent.com/u/231570011?s=460&v=4' width=20 height=20></image>](https://github.com/waliii81) | :heavy_check_mark: | :heavy_check_mark: | :x: |
-| 26 | [300157330](../300157330/README.md) [<image src='https://avatars0.githubusercontent.com/u/231571164?s=460&v=4' width=20 height=20></image>](https://github.com/toufikmekbel) | :heavy_check_mark: | :heavy_check_mark: | :x: |
+| 26 | [300157330](../300157330/README.md) [<image src='https://avatars0.githubusercontent.com/u/231571164?s=460&v=4' width=20 height=20></image>](https://github.com/toufikmekbel) | :heavy_check_mark: | :heavy_check_mark: | :rocket: |
 | 27 | [300157332](../300157332/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939140?s=460&v=4' width=20 height=20></image>](https://github.com/aliboukhalfa98-sudo) | :x: | :x: | :x: |
 | 28 | [300157334](../300157334/README.md) [<image src='https://avatars0.githubusercontent.com/u/231569676?s=460&v=4' width=20 height=20></image>](https://github.com/Laalahamdaoui16-alt) | :heavy_check_mark: | :heavy_check_mark: | :rocket: |
 | 29 | [300157416](../300157416/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939450?s=460&v=4' width=20 height=20></image>](https://github.com/LounisYounes) | :x: | :x: | :x: |
@@ -52,4 +52,4 @@
 | 32 | [300158185](../300158185/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939280?s=460&v=4' width=20 height=20></image>](https://github.com/Mohammed-Mati) | :heavy_check_mark: | :heavy_check_mark: | :rocket: |
 | 33 | [300158486](../300158486/README.md) [<image src='https://avatars0.githubusercontent.com/u/232938643?s=460&v=4' width=20 height=20></image>](https://github.com/lyes158) | :heavy_check_mark: | :heavy_check_mark: | :rocket: |
 | 34 | [300159189](../300159189/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939045?s=460&v=4' width=20 height=20></image>](https://github.com/fateh98) | :x: | :x: | :x: |
-| :abacus: |  $\frac{10}{35}$  =  28% | $\displaystyle\sum_{i=1}^{35} s_i$ = 10 |
+| :abacus: |  $\frac{12}{35}$  =  34% | $\displaystyle\sum_{i=1}^{35} s_i$ = 12 |
