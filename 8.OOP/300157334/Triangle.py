@@ -1,7 +1,7 @@
 """
 Fichier : Triangle.py
 Description : Classe Triangle héritant de Figure
-Auteur : [300157334]
+Auteur : 300157334
 Date : 2025-11-19
 """
 
