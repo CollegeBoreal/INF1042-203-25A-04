@@ -7,7 +7,7 @@ Date : 2025-11-19
 
 from Carre import Carre
 from Cercle import Cercle
-from Triangle import Triangle 
+from Triangl import Triangl 
 
 def main():
     """
@@ -26,7 +26,7 @@ def main():
 
 # Point d'entrée du programme
 if __name__ == "__main__":
-    formes = [Carre(4), Cercle(3), Triangle(5, 2)]
+    formes = [Carre(4), Cercle(3), Triangl(5, 2)]
 for f in formes:
     print(f"Aire: {f.aire()} 📏")
     main()
