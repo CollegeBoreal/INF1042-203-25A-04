@@ -1,15 +1,15 @@
 """
-Fichier : Triangl.py
-Description : Classe Triangl héritant de Figure
+Fichier : Triangle.py
+Description : Classe Triangle héritant de Figure
 Auteur : 300157334
 Date : 2025-11-19
 """
 
 from figure import Figure
 
-class Triangl(Figure):
+class Triangle(Figure):
     def __init__(self, base, hauteur):
-        super().__init__("Triangl")
+        super().__init__("Triangle")
         self.base = base
         self.hauteur = hauteur
 
