@@ -2,7 +2,7 @@
 """
 Fichier : figure.py
 Description : Classe de base pour toutes les figures géométriques
-Auteur : [300157334]
+Auteur : [300153811]
 Date : 2025-11-19
 """
 
@@ -18,3 +18,4 @@ class Figure:
     def aire(self):
         # Méthode à implémenter par les sous-classes
         raise NotImplementedError("Cette méthode doit être implémentée par les sous-classes.")
+
