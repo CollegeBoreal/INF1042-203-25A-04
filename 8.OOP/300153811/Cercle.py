@@ -1,7 +1,7 @@
 """
 Fichier : Cercle.py
 Description : Classe Cercle héritant de Figure
-Auteur : [300157334]
+Auteur : [300153811]
 Date : 2025-11-19
 """
 
