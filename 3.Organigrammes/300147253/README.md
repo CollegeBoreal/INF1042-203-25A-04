@@ -11,4 +11,3 @@ flowchart TD
     H -- Non --> I[i = i + 1]
     I --> F
     D --> J[Fin]
-    G --> J
