@@ -1,0 +1,13 @@
+# Ignorer les fichiers compilés Python
+__pycache__/
+*.pyc
+
+# Ignorer les checkpoints Jupyter
+.ipynb_checkpoints/
+
+# Ignorer les notebooks temporaires
+*.ipynb_checkpoints
+
+# Ignorer les fichiers temporaires
+*.log
+*.tmp
