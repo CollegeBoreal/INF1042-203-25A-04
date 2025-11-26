@@ -2,7 +2,7 @@
  "cells": [
   {
    "cell_type": "code",
-   "execution_count": 3,
+   "execution_count": 2,
    "id": "64317c9b-2385-4d91-9142-51443351e250",
    "metadata": {},
    "outputs": [
@@ -11,15 +11,14 @@
      "evalue": "No module named 'Carre'",
      "output_type": "error",
      "traceback": [
-      "\u001b[31m--------------------------------------------------------------------\u001b[39m",
-      "\u001b[31mModuleNotFoundError\u001b[39m                Traceback (most recent call last)",
-      "\u001b[36mCell\u001b[39m\u001b[36m \u001b[39m\u001b[32mIn[3]\u001b[39m\u001b[32m, line 8\u001b[39m\n\u001b[32m      1\u001b[39m \u001b[33;03m\"\"\"\u001b[39;00m\n\u001b[32m      2\u001b[39m \u001b[33;03mFichier : main.py\u001b[39;00m\n\u001b[32m      3\u001b[39m \u001b[33;03mDescription : Point d'entrée du programme. Crée un carré et un cercle et affiche leurs informations.\u001b[39;00m\n\u001b[32m      4\u001b[39m \u001b[33;03mAuteur : [ID de l'étudiant]\u001b[39;00m\n\u001b[32m      5\u001b[39m \u001b[33;03mDate : YYYY-MM-DD\u001b[39;00m\n\u001b[32m      6\u001b[39m \u001b[33;03m\"\"\"\u001b[39;00m\n\u001b[32m----> \u001b[39m\u001b[32m8\u001b[39m \u001b[38;5;28;01mfrom\u001b[39;00m\u001b[38;5;250m \u001b[39m\u001b[34;01mCarre\u001b[39;00m\u001b[38;5;250m \u001b[39m\u001b[38;5;28;01mimport\u001b[39;00m Carre\n\u001b[32m      9\u001b[39m \u001b[38;5;28;01mfrom\u001b[39;00m\u001b[38;5;250m \u001b[39m\u001b[34;01mCercle\u001b[39;00m\u001b[38;5;250m \u001b[39m\u001b[38;5;28;01mimport\u001b[39;00m Cercle\n\u001b[32m     11\u001b[39m \u001b[38;5;28;01mdef\u001b[39;00m\u001b[38;5;250m \u001b[39m\u001b[34mmain\u001b[39m():\n",
+      "\u001b[31m---------------------------------------------------------------------------\u001b[39m",
+      "\u001b[31mModuleNotFoundError\u001b[39m                       Traceback (most recent call last)",
+      "\u001b[36mCell\u001b[39m\u001b[36m \u001b[39m\u001b[32mIn[2]\u001b[39m\u001b[32m, line 8\u001b[39m\n\u001b[32m      1\u001b[39m \u001b[33;03m\"\"\"\u001b[39;00m\n\u001b[32m      2\u001b[39m \u001b[33;03mFichier : main.py\u001b[39;00m\n\u001b[32m      3\u001b[39m \u001b[33;03mDescription : Point d'entrée du programme. Crée un carré et un cercle et affiche leurs informations.\u001b[39;00m\n\u001b[32m      4\u001b[39m \u001b[33;03mAuteur : [ID de l'étudiant]\u001b[39;00m\n\u001b[32m      5\u001b[39m \u001b[33;03mDate : YYYY-MM-DD\u001b[39;00m\n\u001b[32m      6\u001b[39m \u001b[33;03m\"\"\"\u001b[39;00m\n\u001b[32m----> \u001b[39m\u001b[32m8\u001b[39m \u001b[38;5;28;01mfrom\u001b[39;00m\u001b[38;5;250m \u001b[39m\u001b[34;01mCarre\u001b[39;00m\u001b[38;5;250m \u001b[39m\u001b[38;5;28;01mimport\u001b[39;00m Carre\n\u001b[32m      9\u001b[39m \u001b[38;5;28;01mfrom\u001b[39;00m\u001b[38;5;250m \u001b[39m\u001b[34;01mCercle\u001b[39;00m\u001b[38;5;250m \u001b[39m\u001b[38;5;28;01mimport\u001b[39;00m Cercle\n\u001b[32m     11\u001b[39m \u001b[38;5;28;01mdef\u001b[39;00m\u001b[38;5;250m \u001b[39m\u001b[34mmain\u001b[39m():\n",
       "\u001b[31mModuleNotFoundError\u001b[39m: No module named 'Carre'"
      ]
     }
    ],
    "source": [
-    "\n",
     "\"\"\"\n",
     "Fichier : main.py\n",
     "Description : Point d'entrée du programme. Crée un carré et un cercle et affiche leurs informations.\n",
