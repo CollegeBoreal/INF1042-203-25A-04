@@ -348,23 +348,28 @@ for f in formes:
 
 ---
 
+## 🉐 Graphisme
 
-Voici un **notebook complet** (en Markdown + Code) compatible Jupyter, utilisant :
+Objectif: un notebook scientifique simple (aire, graphiques), les bibliothèques nécessaires sont :
+
+* **matplotlib**
+* **numpy**
+
+---
+
+### ✅ **Proposition : `requirements.txt` avec numéros de versions exacts**
+
+Voici un fichier **fiable et compatible** :
 
 ```
 matplotlib==3.9.2
 numpy==2.1.3
 ```
 
-Il te permet :
+Ceci permettra:
 
 ✅ d’utiliser tes classes `Figure`, `Carre`, `Cercle`
-✅ d’afficher leurs informations
 ✅ d’afficher **graphiquement** les figures (carré + cercle) avec Matplotlib
-✅ d’être exécuté tel quel dans un notebook Jupyter
-
-Tu peux copier-coller **tel quel** dans un fichier :
-📌 `FiguresGeometriques.ipynb` (via Jupyter → New Notebook → Coller)
 
 ---
 
@@ -476,3 +481,26 @@ Avec ce notebook :
 * tu visualises le carré et le cercle en douceur avec matplotlib
 
 
+=======
+✔ Versions stables fin 2025
+✔ Fonctionnent parfaitement ensemble
+✔ Compatibles Python 3.10–3.12
+
+---
+
+### 📌 **Si tu veux une version minimale :**
+
+```
+matplotlib==3.9.2
+numpy==2.1.3
+```
+
+### 🚀 **Installation**
+
+Dans ton projet :
+
+```bash
+pip install -r requirements.txt
+```
+
+---
