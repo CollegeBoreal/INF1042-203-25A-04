@@ -1,6 +1,6 @@
 """
 Fichier : Carre.py
-Description : Classe Carré héritant de Figure
+Description : Classe de base pour toutes les figures géométriques
 Auteur : [300157334]
 Date : 2025-11-19
 """
