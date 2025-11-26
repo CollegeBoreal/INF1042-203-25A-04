@@ -1,17 +1,17 @@
 ```mermaid
 graph TD
-  A["CEO"] --> B["VP Engineering"]
-  A --> C["VP Finance"]
-  A --> D["VP Human Resources"]
+  A["Manager Général"] --> B["Équipe Production"]
+  A --> C["Équipe Vente"]
+  A --> D["Équipe Support"]
 
-  B --> E["Lead Developer"]
-  B --> F["Infrastructure Manager"]
+  B --> E["Opérateur 1"]
+  B --> F["Opérateur 2"]
 
-  C --> G["Senior Accountant"]
-  C --> H["Financial Analyst"]
+  C --> G["Commercial 1"]
+  C --> H["Commercial 2"]
 
-  D --> I["Recruitment Specialist"]
-  D --> J["Training Coordinator"]
+  D --> I["Technicien Support 1"]
+  D --> J["Technicien Support 2"]
 
 ```
 
