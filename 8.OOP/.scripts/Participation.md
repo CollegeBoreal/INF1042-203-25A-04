@@ -1,4 +1,4 @@
-# Participation au 26-11-2025 06:31
+# Participation au 26-11-2025 06:32
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -38,7 +38,7 @@
 | 18 | [300155281](../300155281/README.md) [<image src='https://avatars0.githubusercontent.com/u/231570309?s=460&v=4' width=20 height=20></image>](https://github.com/Ernice778) | :heavy_check_mark: | :x: | :x: |
 | 19 | [300155466](../300155466/README.md) [<image src='https://avatars0.githubusercontent.com/u/232940163?s=460&v=4' width=20 height=20></image>](https://github.com/rekhilahana34-tech) | :x: | :x: | :x: |
 | 20 | [300155504](../300155504/README.md) [<image src='https://avatars0.githubusercontent.com/u/231570213?s=460&v=4' width=20 height=20></image>](https://github.com/badreddine223) | :x: | :x: | :x: |
-| 21 | [300155527](../300155527/README.md) [<image src='https://avatars0.githubusercontent.com/u/231569948?s=460&v=4' width=20 height=20></image>](https://github.com/Soul7331) | :heavy_check_mark: | :x: | :x: |
+| 21 | [300155527](../300155527/README.md) [<image src='https://avatars0.githubusercontent.com/u/231569948?s=460&v=4' width=20 height=20></image>](https://github.com/Soul7331) | :heavy_check_mark: | :heavy_check_mark: | :x: |
 | 22 | [300155606](../300155606/README.md) [<image src='https://avatars0.githubusercontent.com/u/231571545?s=460&v=4' width=20 height=20></image>](https://github.com/Djelloulmsili) | :heavy_check_mark: | :heavy_check_mark: | :x: |
 | 23 | [300156204](../300156204/README.md) [<image src='https://avatars0.githubusercontent.com/u/231571560?s=460&v=4' width=20 height=20></image>](https://github.com/Abdou21566) | :heavy_check_mark: | :heavy_check_mark: | :rocket: |
 | 24 | [300156612](../300156612/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939132?s=460&v=4' width=20 height=20></image>](https://github.com/06019) | :heavy_check_mark: | :heavy_check_mark: | :rocket: |
