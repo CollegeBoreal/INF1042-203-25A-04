@@ -7,7 +7,6 @@ Date : 2025-11-26
 
 from carre import Carre
 from cercle import Cercle
-from Triangle import Triangle 
 
 def main():
     """
