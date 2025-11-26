@@ -1,21 +1,24 @@
-
 """
-Fichier : figure.py
-Description : Classe de base pour toutes les figures géométriques
-Auteur : [300153811]
-Date : 2025-11-19
+Fichier : Triangle.py
+Description : Classe Triangle héritant de Figure
+Auteur : 300153811
+Date : 1999-10-24
 """
 
-class Figure:
-    def __init__(self, nom):
-        # Nom de la figure (ex: Carré, Cercle)
-        self.nom = nom
+from figure import Figure
 
-    def afficher_info(self):
-        # Retourne une chaîne contenant le nom de la figure
-        return f"Figure: {self.nom}"
+class Triangle(Figure):
+    def __init__(self, base, hauteur):
+        super().__init__("Triangle")
+        self.base = base
+        self.hauteur = hauteur
 
     def aire(self):
-        # Méthode à implémenter par les sous-classes
-        raise NotImplementedError("Cette méthode doit être implémentée par les sous-classes.")
+        # Aire d'un triangle : (base * hauteur) / 2
+        return (self.base * self.hauteur) / 2
 
+    def afficher_info(self):
+        return (
+            f"{super().afficher_info()}, "
+            f"base={self.base}, hauteur={self.hauteur}, aire={self.aire()}"
+        )
