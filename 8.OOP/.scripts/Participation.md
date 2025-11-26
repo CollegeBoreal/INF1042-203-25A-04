@@ -1,4 +1,4 @@
-# Participation au 26-11-2025 23:17
+# Participation au 26-11-2025 23:18
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -44,7 +44,7 @@
 | 24 | [300156612](../300156612/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939132?s=460&v=4' width=20 height=20></image>](https://github.com/06019) | :heavy_check_mark: | :heavy_check_mark: | :rocket: |
 | 25 | [300156615](../300156615/README.md) [<image src='https://avatars0.githubusercontent.com/u/231570011?s=460&v=4' width=20 height=20></image>](https://github.com/waliii81) | :heavy_check_mark: | :heavy_check_mark: | :x: |
 | 26 | [300157330](../300157330/README.md) [<image src='https://avatars0.githubusercontent.com/u/231571164?s=460&v=4' width=20 height=20></image>](https://github.com/toufikmekbel) | :heavy_check_mark: | :heavy_check_mark: | :rocket: |
-| 27 | [300157332](../300157332/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939140?s=460&v=4' width=20 height=20></image>](https://github.com/aliboukhalfa98-sudo) | :heavy_check_mark: | :x: | :x: |
+| 27 | [300157332](../300157332/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939140?s=460&v=4' width=20 height=20></image>](https://github.com/aliboukhalfa98-sudo) | :heavy_check_mark: | :x: | :rocket: |
 | 28 | [300157334](../300157334/README.md) [<image src='https://avatars0.githubusercontent.com/u/231569676?s=460&v=4' width=20 height=20></image>](https://github.com/Laalahamdaoui16-alt) | :heavy_check_mark: | :heavy_check_mark: | :x: |
 | 29 | [300157416](../300157416/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939450?s=460&v=4' width=20 height=20></image>](https://github.com/LounisYounes) | :x: | :x: | :x: |
 | 30 | [300157440](../300157440/README.md) [<image src='https://avatars0.githubusercontent.com/u/231572378?s=460&v=4' width=20 height=20></image>](https://github.com/Houssam-eddinerachdi) | :x: | :x: | :x: |
