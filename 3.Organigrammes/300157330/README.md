@@ -1,11 +1,18 @@
-# organigrame de la moiyene de classe.
-```mermaid```
-flowchart TD
-    A[Début] --> B[Liste des notes]
-    B --> C[Calculer la somme des notes]
-    C --> D[Calculer la moyenne = somme / nombre de notes]
-    D --> E[Afficher la somme et la moyenne]
-    E --> F[Fin]
+''' mermaid
+graph TD
+  A["PDG"] --> B["Directeur Technique"]
+  A --> C["Directeur Commercial"]
+  A --> D["Directeur des Ressources Humaines"]
+
+  B --> E["Responsable Développement"]
+  B --> F["Responsable Infrastructure"]
+
+  C --> G["Chef des Ventes"]
+  C --> H["Chef Marketing"]
+
+  D --> I["Responsable Recrutement"]
+  D --> J["Responsable Formation"]
+```
 
 
 
