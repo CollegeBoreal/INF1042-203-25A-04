@@ -14,7 +14,7 @@
     "Date : YYYY-MM-DD\n",
     "\"\"\"\n",
     "\n",
-    "from figure import Figure\n",
+    "from Carre import Carre\n",
     "\n",
     "class Carre(Figure):\n",
     "    def __init__(self, cote):\n",
