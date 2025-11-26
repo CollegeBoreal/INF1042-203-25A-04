@@ -346,3 +346,45 @@ for f in formes:
 
 **Objectif :** Comprendre l’héritage, le polymorphisme et comment **ajouter de nouvelles classes facilement** dans un projet POO.
 
+---
+
+## 🉐 Graphisme
+
+Objectif: un notebook scientifique simple (aire, graphiques), les bibliothèques nécessaires sont :
+
+* **matplotlib**
+* **numpy**
+
+---
+
+### ✅ **Proposition : `requirements.txt` avec numéros de versions exacts**
+
+Voici un fichier **fiable et compatible** :
+
+```
+matplotlib==3.9.2
+numpy==2.1.3
+```
+
+✔ Versions stables fin 2025
+✔ Fonctionnent parfaitement ensemble
+✔ Compatibles Python 3.10–3.12
+
+---
+
+### 📌 **Si tu veux une version minimale :**
+
+```
+matplotlib==3.9.2
+numpy==2.1.3
+```
+
+### 🚀 **Installation**
+
+Dans ton projet :
+
+```bash
+pip install -r requirements.txt
+```
+
+---
