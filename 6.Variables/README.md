@@ -1,3 +1,4 @@
+
 <<<<<<< HEAD
 # 🐍 Leçon : Les variables en Python
 =======
