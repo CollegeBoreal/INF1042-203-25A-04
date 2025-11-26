@@ -14,6 +14,7 @@
 | :five:  |13-oct | [5.Jupyter](5.Jupyter)             | [🎉](5.Jupyter/.scripts/Participation.md) 👉  â Noter :x:|
 | :five:  |27-oct | [6.Variables](6.Variables)         | [🎉](6.Variables/.scripts/Participation.md) 👉  â Noter :x:|
 | :six:   |10-nov | [7.Algorithmes](7.Algorithmes)     | [🎉](7.Algorithmes/.scripts/Participation.md) 👉  â Noter :x:|
+| :seven:   |17-nov | [8.OOP](8.OOP)                   | [🎉](8.OOP/.scripts/Participation.md) 👉  â Noter :x:|
 
 ### :abacus: Évaluation
 
