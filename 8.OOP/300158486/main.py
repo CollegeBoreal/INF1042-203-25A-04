@@ -8,22 +8,22 @@ Date : 2025-11-25
 from figure import Figure
 from Carre import Carre
 from Cercle import Cercle
-from Rectangle import Rectangle
+from Etoile import Etoile
 
 def main():
     # Tester les classes enfants
     carre1 = Carre(4)
     cercle1 = Cercle(3)
-    rectangle1 = Rectangle(5, 2)
+    etoile1 = Etoile(5)
 
     print(carre1.afficher_info())
     print(cercle1.afficher_info())
-    print(rectangle1.afficher_info())
+    print(etoile1.afficher_info())
 
-    # Tester Figure seule (donne erreur car aire n’est pas implémenté)
+    # Tester Figure seule (doit lever une erreur)
     try:
         f = Figure("FigureTest")
-        print(f.aire())  # Normalement erreur → méthode abstraite
+        print(f.aire())  # Normalement erreur -> méthode abstraite
     except Exception as e:
         print("Message attendu :", e)
 
