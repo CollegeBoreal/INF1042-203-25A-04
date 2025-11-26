@@ -368,13 +368,13 @@ numpy==2.1.3
 
 Ceci permettra:
 
-✅ d’utiliser tes classes `Figure`, `Carre`, `Cercle`
-✅ d’afficher **graphiquement** les figures (carré + cercle) avec Matplotlib
+- ✅ d’utiliser tes classes `Figure`, `Carre`, `Cercle`
+- ✅ d’afficher **graphiquement** les figures (carré + cercle) avec Matplotlib
 
 =======
-✔ Versions stables fin 2025
-✔ Fonctionnent parfaitement ensemble
-✔ Compatibles Python 3.10–3.12
+- ✔ Versions stables fin 2025
+- ✔ Fonctionnent parfaitement ensemble
+- ✔ Compatibles Python 3.10–3.12
 
 ---
 
