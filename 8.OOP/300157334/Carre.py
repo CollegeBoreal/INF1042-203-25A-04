@@ -1,7 +1,7 @@
 """
 Fichier : Carre.py
 Description : Classe de base pour toutes les figures géométriques
-Auteur : [300153811]
+Auteur : [300157334]
 Date : 2025-11-19
 """
 
