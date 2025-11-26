@@ -14,7 +14,7 @@
     "Date : YYYY-MM-DD\n",
     "\"\"\"\n",
     "\n",
-    "from figure import Figure\n",
+    "from Cercle import Cercle\n",
     "import math\n",
     "\n",
     "class Cercle(Figure):\n",
