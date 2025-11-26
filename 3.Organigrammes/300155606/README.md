@@ -1,3 +1,4 @@
+```mermaid
 graph TD
   A["Président"] --> B["Directeur des Opérations"]
   A --> C["Directrice Financière"]
@@ -11,3 +12,5 @@ graph TD
 
   D --> I["Recruteur"]
   D --> J["Chargé de Formation"]
+
+```
