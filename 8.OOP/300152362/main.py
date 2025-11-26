@@ -5,9 +5,8 @@ Auteur : [300152362]
 Date : 2025-11-26
 """
 
-from Carre import Carre
-from Cercle import Cercle
-from Triangle import Triangle 
+from carre import Carre
+from cercle import Cercle
 
 def main():
     """
