@@ -533,4 +533,4 @@ Avec ce notebook :
 * tu affiches leurs informations
 * tu visualises le carré et le cercle en douceur avec matplotlib
 
-
+# :books: References
