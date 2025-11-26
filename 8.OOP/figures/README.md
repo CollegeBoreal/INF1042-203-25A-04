@@ -25,8 +25,8 @@ $A = \frac{10 \times 6}{2}$
 
 Calcul :
 
-* (10 \times 6 = 60)
-* (60 \div 2 = 30)
+* $(10 \times 6 = 60)$
+* $(60 \div 2 = 30)$
 
 👉 **Aire = 30 unités²**
 
