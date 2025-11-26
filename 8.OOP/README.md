@@ -371,6 +371,30 @@ Ceci permettra:
 ✅ d’utiliser tes classes `Figure`, `Carre`, `Cercle`
 ✅ d’afficher **graphiquement** les figures (carré + cercle) avec Matplotlib
 
+=======
+✔ Versions stables fin 2025
+✔ Fonctionnent parfaitement ensemble
+✔ Compatibles Python 3.10–3.12
+
+---
+
+### 📌 **Crée un fichier `requirements.txt` :**
+
+- [ ] Ajoute le contenu ci-dessous au fichier
+
+```
+matplotlib==3.9.2
+numpy==2.1.3
+```
+
+### 🚀 **Installation**
+
+Dans ton :id:, lance :
+
+```bash
+pip install -r requirements.txt
+```
+
 ---
 
 # 📘 **Notebook : Figures géométriques & affichage graphique**
@@ -481,26 +505,3 @@ Avec ce notebook :
 * tu visualises le carré et le cercle en douceur avec matplotlib
 
 
-=======
-✔ Versions stables fin 2025
-✔ Fonctionnent parfaitement ensemble
-✔ Compatibles Python 3.10–3.12
-
----
-
-### 📌 **Si tu veux une version minimale :**
-
-```
-matplotlib==3.9.2
-numpy==2.1.3
-```
-
-### 🚀 **Installation**
-
-Dans ton projet :
-
-```bash
-pip install -r requirements.txt
-```
-
----
