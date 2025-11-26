@@ -1,4 +1,5 @@
 
+"""
 Fichier : trapeze.py
 Description : Classe Trapèze héritant de Figure
 Auteur : [300151483]
