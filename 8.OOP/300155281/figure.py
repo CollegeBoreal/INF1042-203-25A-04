@@ -3,15 +3,15 @@
   {
    "cell_type": "code",
    "execution_count": null,
-   "id": "acd4e1b6-2765-4be9-b4e3-930ba4014029",
+   "id": "a04ec9d8-b716-41bc-b528-d54b486d0766",
    "metadata": {},
    "outputs": [],
    "source": [
     "\"\"\"\n",
     "Fichier : figure.py\n",
     "Description : Classe de base pour toutes les figures géométriques\n",
-    "Auteur : [300155527]\n",
-    "Date : -10-20\n",
+    "Auteur : [ID de l'étudiant]\n",
+    "Date : YYYY-MM-DD\n",
     "\"\"\"\n",
     "\n",
     "class Figure:\n",
@@ -45,7 +45,7 @@
    "name": "python",
    "nbconvert_exporter": "python",
    "pygments_lexer": "ipython3",
-   "version": "3.13.9"
+   "version": "3.12.9"
   }
  },
  "nbformat": 4,
