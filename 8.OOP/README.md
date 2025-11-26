@@ -1,5 +1,7 @@
 # **Programmation Orientée Objet (POO) en Python 🐍**
 
+[:tada: Participation](.scripts/Participation.md)
+
 ---
 
 ## **1️⃣ Qu’est-ce que la POO ?**
@@ -344,3 +346,191 @@ for f in formes:
 
 **Objectif :** Comprendre l’héritage, le polymorphisme et comment **ajouter de nouvelles classes facilement** dans un projet POO.
 
+---
+
+## 🉐 Graphisme
+
+Objectif: un notebook scientifique simple (aire, graphiques), les bibliothèques nécessaires sont :
+
+* **matplotlib**
+* **numpy**
+
+---
+
+### ✅ **Proposition : `requirements.txt` avec numéros de versions exacts**
+
+Voici un fichier **fiable et compatible** :
+
+```
+matplotlib==3.9.2
+numpy==2.1.3
+```
+
+Ceci permettra:
+
+- ✅ d’utiliser tes classes `Figure`, `Carre`, `Cercle`
+- ✅ d’afficher **graphiquement** les figures (carré + cercle) avec Matplotlib
+
+=======
+- ✔ Versions stables fin 2025
+- ✔ Fonctionnent parfaitement ensemble
+- ✔ Compatibles Python 3.10–3.12
+
+---
+
+### 📌 **Crée un fichier `requirements.txt` :**
+
+- [ ] Ajoute le contenu ci-dessous au fichier
+
+```
+matplotlib==3.9.2
+numpy==2.1.3
+```
+
+### 🚀 **Installation**
+
+Dans ton :id:, lance :
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### 🔄 Exercices
+
+#### 🧩 1️⃣ — Crée ton notebook
+
+##### Dans Jupyter Lab
+
+1. Ouvre ton environnement conda ou Python habituel.
+2. Lance Jupyter Lab :
+
+   ```bash
+   jupyter lab
+   ```
+3. Clique sur ➕ `Notebook` → choisis ton environnement (ex. `INF1042-203`).
+4. Sauvegarde tout de suite sous le nom :
+   **`RAPPORT.ipynb`**
+
+---
+
+#### 🧱 2️⃣ — Structure type du rapport
+
+Tu vas alterner **cellules Markdown** (texte explicatif) et **cellules Code** (le code à exécuter).
+
+---
+
+##### 🟦 **Cellule Markdown (titre principal)**
+
+```markdown
+# 🧮 Étude : Figures Géométriques — Aires et Visualisations
+
+|     |                     |
+| --- | ------------------- |
+| Nom | Personne Importante |
+| 🆔  | 999999999           |
+
+Ce notebook démontre l’utilisation d’une hiérarchie de classes Python :
+
+- `Figure` (classe de base)
+- `Carre`
+- `Cercle`
+
+Puis l'affichage graphique grâce à :
+
+- **matplotlib 3.9.2**
+- **numpy 2.1.3**
+
+Nous allons :
+1. définir les classes dans le notebook  
+2. créer un carré et un cercle  
+3. tracer les figures graphiquement  
+```
+
+---
+
+#### ▶️  **2. Importer les classes**
+
+##### 🟧 **Cellule Code — Version itérative**
+
+```python
+from carre import Carre
+from cercle import Cercle
+
+c1 = Carre(4)
+c2 = Cercle(3)
+```
+
+---
+
+##### 🟧 **Cellule Code — Version itérative**
+
+
+#### 🎨 **3. Imports pour l'affichage graphique**
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+```
+
+---
+
+#### 🟦 **4. Fonction pour tracer un carré**
+
+```python
+def afficher_carre(carre):
+    cote = carre.cote
+    x = [0, cote, cote, 0, 0]
+    y = [0, 0, cote, cote, 0]
+
+    plt.figure(figsize=(5, 5))
+    plt.plot(x, y)
+    plt.fill(x, y, alpha=0.3)
+    plt.title(f"Carré — côté={cote}, aire={carre.aire()}")
+    plt.axis("equal")
+    plt.grid(True)
+    plt.show()
+```
+
+---
+
+#### ⚪ **5. Fonction pour tracer un cercle**
+
+```python
+def afficher_cercle(cercle):
+    r = cercle.rayon
+    theta = np.linspace(0, 2*np.pi, 300)
+
+    x = r * np.cos(theta)
+    y = r * np.sin(theta)
+
+    plt.figure(figsize=(5, 5))
+    plt.plot(x, y)
+    plt.fill(x, y, alpha=0.3)
+    plt.title(f"Cercle — rayon={r}, aire={cercle.aire():.2f}")
+    plt.axis("equal")
+    plt.grid(True)
+    plt.show()
+```
+
+---
+
+#### 🖼️ **6. Affichage des deux figures**
+
+```python
+afficher_carre(c1)
+afficher_cercle(c2)
+```
+
+---
+
+### 🎉 Résultat
+
+Avec ce notebook :
+
+* tu as ta hiérarchie d’objets
+* tu affiches leurs informations
+* tu visualises le carré et le cercle en douceur avec matplotlib
+
+# :books: References
