@@ -1,3 +1,9 @@
+"""
+Fichier : Cercle.py
+Description : Classe Cercle héritant de Figure
+Auteur : [300155527]
+Date : 2025-10-20
+"""
 from figure import Figure
 import matplotlib.pyplot as plt
 
