@@ -4,25 +4,23 @@ Description : Point d'entrée du programme. Crée un carré et un cercle et affi
 Auteur : [300155527]
 Date : 2025-10-20
 """
-
 from Carre import Carre
 from Cercle import Cercle
+from Triangle import Triangle
+from Lozange import Lozange
 
-def main():
-    """
-    Fonction principale du programme.
-    Crée un carré et un cercle, puis affiche leurs informations.
-    """
-    # Création d'un carré de côté 4
-    c1 = Carre(4)
+def demo():
+    formes = [
+        Carre(4),
+        Cercle(3),
+        Triangle(6, 4),
+        Lozange(8, 5)  # ✅ Nouveau
+    ]
 
-    # Création d'un cercle de rayon 3
-    c2 = Cercle(3)
+    for f in formes:
+        f.afficher()
+        print(f"Aire:", f.aire())
+        f.dessiner()
 
-    # Affichage des informations des deux figures
-    print(c1.afficher_info())
-    print(c2.afficher_info())
-
-# Point d'entrée du programme
 if __name__ == "__main__":
-    main()
+    demo()
