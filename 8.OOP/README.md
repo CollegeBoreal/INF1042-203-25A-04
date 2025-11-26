@@ -397,14 +397,39 @@ pip install -r requirements.txt
 
 ---
 
-# 📘 **Notebook : Figures géométriques & affichage graphique**
+### 🔄 Exercices
+
+#### 🧩 1️⃣ — Crée ton notebook
+
+##### Dans Jupyter Lab
+
+1. Ouvre ton environnement conda ou Python habituel.
+2. Lance Jupyter Lab :
+
+   ```bash
+   jupyter lab
+   ```
+3. Clique sur ➕ `Notebook` → choisis ton environnement (ex. `INF1042-203`).
+4. Sauvegarde tout de suite sous le nom :
+   **`RAPPORT.ipynb`**
 
 ---
 
-## 🧩 **1. Introduction (Markdown)**
+#### 🧱 2️⃣ — Structure type du rapport
+
+Tu vas alterner **cellules Markdown** (texte explicatif) et **cellules Code** (le code à exécuter).
+
+---
+
+##### 🟦 **Cellule Markdown (titre principal)**
 
 ```markdown
-# Figures Géométriques — Aires et Visualisations
+# 🧮 Étude : Figures Géométriques — Aires et Visualisations
+
+|     |                     |
+| --- | ------------------- |
+| Nom | Personne Importante |
+| 🆔  | 999999999           |
 
 Ce notebook démontre l’utilisation d’une hiérarchie de classes Python :
 
@@ -420,13 +445,14 @@ Puis l'affichage graphique grâce à :
 Nous allons :
 1. définir les classes dans le notebook  
 2. créer un carré et un cercle  
-3. afficher leurs informations  
-4. tracer les figures graphiquement  
+3. tracer les figures graphiquement  
 ```
 
 ---
 
-## ▶️  **2. Importer les classes**
+#### ▶️  **2. Importer les classes**
+
+##### 🟧 **Cellule Code — Version itérative**
 
 ```python
 from carre import Carre
@@ -438,7 +464,10 @@ c2 = Cercle(3)
 
 ---
 
-## 🎨 **3. Imports pour l'affichage graphique**
+##### 🟧 **Cellule Code — Version itérative**
+
+
+#### 🎨 **3. Imports pour l'affichage graphique**
 
 ```python
 import numpy as np
@@ -447,7 +476,7 @@ import matplotlib.pyplot as plt
 
 ---
 
-## 🟦 **4. Fonction pour tracer un carré**
+#### 🟦 **4. Fonction pour tracer un carré**
 
 ```python
 def afficher_carre(carre):
@@ -466,7 +495,7 @@ def afficher_carre(carre):
 
 ---
 
-## ⚪ **5. Fonction pour tracer un cercle**
+#### ⚪ **5. Fonction pour tracer un cercle**
 
 ```python
 def afficher_cercle(cercle):
@@ -487,7 +516,7 @@ def afficher_cercle(cercle):
 
 ---
 
-## 🖼️ **6. Affichage des deux figures**
+#### 🖼️ **6. Affichage des deux figures**
 
 ```python
 afficher_carre(c1)
@@ -496,7 +525,7 @@ afficher_cercle(c2)
 
 ---
 
-# 🎉 Résultat
+### 🎉 Résultat
 
 Avec ce notebook :
 
