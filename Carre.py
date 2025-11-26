@@ -1,21 +1,25 @@
-"""
-Fichier : Carre.py
-Description : Classe Carré héritant de Figure
-Auteur : [300155527]
-Date : 2025-10-20
-"""
-
 from figure import Figure
+import matplotlib.pyplot as plt
 
 class Carre(Figure):
     def __init__(self, cote):
-        super().__init__("Carré")  # Appel du constructeur de la classe de base
-        self.cote = cote           # Longueur du côté du carré
+        super().__init__("Carré")
+        self.cote = cote
 
     def aire(self):
-        # Calcul de l'aire du carré
         return self.cote ** 2
 
-    def afficher_info(self):
-        # Retourne une chaîne contenant le nom, le côté et l'aire
-        return f"{super().afficher_info()}, côté={self.cote}, aire={self.aire()}"
+    def afficher(self):
+        super().afficher()
+        print(f"Côté: {self.cote}, Aire: {self.aire()}")
+
+    def dessiner(self):
+        x = [0, self.cote, self.cote, 0, 0]
+        y = [0, 0, self.cote, self.cote, 0]
+        plt.figure(figsize=(4,4))
+        plt.plot(x, y, color="green")
+        plt.fill(x, y, color="lightgreen", alpha=0.5)
+        plt.axis("equal")
+        plt.axis("off")
+        plt.title("Carré")
+        plt.show()

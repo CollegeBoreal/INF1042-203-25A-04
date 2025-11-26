@@ -1,22 +1,28 @@
-"""
-Fichier : Cercle.py
-Description : Classe Cercle héritant de Figure
-Auteur : [300155527]
-Date : 2025-10-20
-"""
-
 from figure import Figure
-import math
+import matplotlib.pyplot as plt
+import numpy as np
 
 class Cercle(Figure):
     def __init__(self, rayon):
-        super().__init__("Cercle")  # Appel du constructeur de la classe de base
-        self.rayon = rayon           # Rayon du cercle
+        super().__init__("Cercle")
+        self.rayon = rayon
 
     def aire(self):
-        # Calcul de l'aire du cercle
-        return math.pi * self.rayon ** 2
+        return np.pi * (self.rayon ** 2)
 
-    def afficher_info(self):
-        # Retourne une chaîne contenant le nom, le rayon et l'aire
-        return f"{super().afficher_info()}, rayon={self.rayon}, aire={self.aire():.2f}"
+    def afficher(self):
+        super().afficher()
+        print(f"Rayon: {self.rayon}, Aire: {self.aire():.2f}")
+
+    def dessiner(self):
+        theta = np.linspace(0, 2*np.pi, 300)
+        x = self.rayon * np.cos(theta)
+        y = self.rayon * np.sin(theta)
+
+        plt.figure(figsize=(4,4))
+        plt.plot(x, y, color="red")
+        plt.fill(x, y, color="salmon", alpha=0.5)
+        plt.axis("equal")
+        plt.axis("off")
+        plt.title("Cercle")
+        plt.show()
