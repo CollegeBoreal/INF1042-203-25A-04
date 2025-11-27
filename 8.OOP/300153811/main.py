@@ -30,4 +30,3 @@ if __name__ == "__main__":
 for f in formes:
     print(f"Aire: {f.aire()} 📏")
     main()
-
