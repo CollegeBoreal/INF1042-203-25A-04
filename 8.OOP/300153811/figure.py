@@ -3,7 +3,7 @@
 Fichier : figure.py
 Description : Classe de base pour toutes les figures géométriques
 Auteur : [300153811]
-Date : 2025-11-19
+Date : 2025-11-24
 """
 
 class Figure:
