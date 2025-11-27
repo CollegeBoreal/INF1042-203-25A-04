@@ -1,4 +1,4 @@
-# Participation au 27-11-2025 15:07
+# Participation au 27-11-2025 15:13
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -27,7 +27,7 @@
 | 4 | [300150468](../300150468/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939143?s=460&v=4' width=20 height=20></image>](https://github.com/sahebmohandsaid97-oss) | :heavy_check_mark: | :heavy_check_mark: | :x: | :rocket: | [:x:](../300150468/RAPPORT.ipynb) | :x: | :zero: | :x: |
 | 5 | [300151262](../300151262/README.md) [<image src='https://avatars0.githubusercontent.com/u/231570449?s=460&v=4' width=20 height=20></image>](https://github.com/rifwil5-tech) | :heavy_check_mark: | :heavy_check_mark: | :page_facing_up: | :rocket: | [:receipt:](../300151262/RAPPORT.ipynb) | :writing_hand: | :zero: |  |
 | 6 | [300151449](../300151449/README.md) [<image src='https://avatars0.githubusercontent.com/u/231569522?s=460&v=4' width=20 height=20></image>](https://github.com/AbderrahimAlaoui) | :heavy_check_mark: | :heavy_check_mark: | :x: | :rocket: | [:receipt:](../300151449/RAPPORT.ipynb) | :writing_hand: | :zero: |  |
-| 7 | [300151483](../300151483/README.md) [<image src='https://avatars0.githubusercontent.com/u/231570852?s=460&v=4' width=20 height=20></image>](https://github.com/Arnauld-ttad) | :heavy_check_mark: | :heavy_check_mark: | :page_facing_up: | :x: | [:receipt:](../300151483/RAPPORT.ipynb) | :writing_hand: | :zero: |  |
+| 7 | [300151483](../300151483/README.md) [<image src='https://avatars0.githubusercontent.com/u/231570852?s=460&v=4' width=20 height=20></image>](https://github.com/Arnauld-ttad) | :heavy_check_mark: | :heavy_check_mark: | :page_facing_up: | :x: | [:receipt:](../300151483/RAPPORT.ipynb) | :writing_hand: | :zero: | :boom: |
 | 8 | [300151504](../300151504/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939073?s=460&v=4' width=20 height=20></image>](https://github.com/nassimidir) | :heavy_check_mark: | :heavy_check_mark: | :x: | :rocket: | [:x:](../300151504/RAPPORT.ipynb) | :x: | :zero: | :x: |
 | 9 | [300151505](../300151505/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939190?s=460&v=4' width=20 height=20></image>](https://github.com/300151505) | :x: | :x: | :x: | :x: | [:x:](../300151505/RAPPORT.ipynb) | :x: | :zero: | :x: |
 | 10 | [300151558](../300151558/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939530?s=460&v=4' width=20 height=20></image>](https://github.com/hindchili) | :heavy_check_mark: | :heavy_check_mark: | :x: | :rocket: | [:x:](../300151558/RAPPORT.ipynb) | :x: | :zero: | :x: |
