@@ -1,4 +1,4 @@
-# Participation au 27-11-2025 01:17
+# Participation au 27-11-2025 01:18
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -52,7 +52,7 @@
 | 29 | [300157416](../300157416/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939450?s=460&v=4' width=20 height=20></image>](https://github.com/LounisYounes) | :x: | :x: | :x: | :x: | [:x:](../300157416/RAPPORT.ipynb) | :x: | :zero: | :x: |
 | 30 | [300157440](../300157440/README.md) [<image src='https://avatars0.githubusercontent.com/u/231572378?s=460&v=4' width=20 height=20></image>](https://github.com/Houssam-eddinerachdi) | :x: | :x: | :x: | :x: | [:x:](../300157440/RAPPORT.ipynb) | :x: | :zero: | :x: |
 | 31 | [300158052](../300158052/README.md) [<image src='https://avatars0.githubusercontent.com/u/121287922?s=460&v=4' width=20 height=20></image>](https://github.com/ZizouBouchelkia) | :x: | :x: | :x: | :x: | [:x:](../300158052/RAPPORT.ipynb) | :x: | :zero: | :x: |
-| 32 | [300158185](../300158185/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939280?s=460&v=4' width=20 height=20></image>](https://github.com/Mohammed-Mati) | :heavy_check_mark: | :heavy_check_mark: | :page_facing_up: | :x: | [:receipt:](../300158185/RAPPORT.ipynb) | :writing_hand: | :zero: |  |
+| 32 | [300158185](../300158185/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939280?s=460&v=4' width=20 height=20></image>](https://github.com/Mohammed-Mati) | :heavy_check_mark: | :heavy_check_mark: | :page_facing_up: | :rocket: | [:receipt:](../300158185/RAPPORT.ipynb) | :writing_hand: | :zero: |  |
 | 33 | [300158486](../300158486/README.md) [<image src='https://avatars0.githubusercontent.com/u/232938643?s=460&v=4' width=20 height=20></image>](https://github.com/lyes158) | :heavy_check_mark: | :heavy_check_mark: | :page_facing_up: | :rocket: | [:receipt:](../300158486/RAPPORT.ipynb) | :writing_hand: | :zero: |  |
 | 34 | [300159189](../300159189/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939045?s=460&v=4' width=20 height=20></image>](https://github.com/fateh98) | :x: | :x: | :x: | :x: | [:x:](../300159189/RAPPORT.ipynb) | :x: | :zero: | :x: |
 | :abacus: | $\frac{14}{35}$ = 40% | | | | | Total Exécutions = 0 | |
