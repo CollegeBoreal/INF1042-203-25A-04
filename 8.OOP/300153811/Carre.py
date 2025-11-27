@@ -19,4 +19,3 @@ class Carre(Figure):
     def afficher_info(self):
         # Retourne une chaîne contenant le nom, le côté et l'aire
         return f"{super().afficher_info()}, côté={self.cote}, aire={self.aire()}"
-
