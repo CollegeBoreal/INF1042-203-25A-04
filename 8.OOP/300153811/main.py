@@ -2,7 +2,7 @@
 Fichier : main.py
 Description : Point d'entrée du programme. Crée un carré et un cercle et affiche leurs informations.
 Auteur : [300153811]
-Date : 2025-11-24
+Date : 2025-11-19
 """
  
 from Carre import Carre
