@@ -1,4 +1,4 @@
-# Participation au 27-11-2025 00:51
+# Participation au 27-11-2025 00:52
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -20,7 +20,7 @@
 
 |:hash:| Boréal :id: | README.md | images | requirements.txt | :rocket: main.py | :receipt: RAPPORT.ipynb | :writing_hand: Sgn | :martial_arts_uniform: Exécutions | :boom: Erreurs |
 |------|-------------|-----------|--------|-------------------|-------------------|----------------|-----------|------------------------------------|----------------|
-| 0 | [300146694](../300146694/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939164?s=460&v=4' width=20 height=20></image>](https://github.com/yourten06) | :x: | :x: | :x: | :x: | [:x:](../300146694/RAPPORT.ipynb) | :x: | :zero: | :x: |
+| 0 | [300146694](../300146694/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939164?s=460&v=4' width=20 height=20></image>](https://github.com/yourten06) | :heavy_check_mark: | :x: | :x: | :x: | [:x:](../300146694/RAPPORT.ipynb) | :x: | :zero: | :x: |
 | 1 | [300147253](../300147253/README.md) [<image src='https://avatars0.githubusercontent.com/u/232965506?s=460&v=4' width=20 height=20></image>](https://github.com/azzed98) | :x: | :x: | :x: | :x: | [:x:](../300147253/RAPPORT.ipynb) | :x: | :zero: | :x: |
 | 2 | [300150396](../300150396/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939321?s=460&v=4' width=20 height=20></image>](https://github.com/ibkourouma) | :heavy_check_mark: | :x: | :x: | :x: | [:x:](../300150396/RAPPORT.ipynb) | :x: | :zero: | :x: |
 | 3 | [300150410](../300150410/README.md) [<image src='https://avatars0.githubusercontent.com/u/231570554?s=460&v=4' width=20 height=20></image>](https://github.com/lahlou06) | :heavy_check_mark: | :heavy_check_mark: | :x: | :rocket: | [:receipt:](../300150410/RAPPORT.ipynb) | :writing_hand: | :zero: |  |
