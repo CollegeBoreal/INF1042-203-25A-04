@@ -3,6 +3,30 @@
 
 [:tada: Participation](.scripts/Participation.md)
 
+<details>
+  <summary> :ringed_planet: <b>Table des matières</b> </summary>
+
+  - [:a: - 🧩 Introduction to Logic Circuits](#a----introduction-to-logic-circuits)
+    - [🎯 Objectif du chapitre](#-objectif-du-chapitre)
+    - [1. 💡 Concepts de base](#-1-concepts-de-base)
+    - [2. 🧮 Fonctions logiques](#-2-fonctions-logiques)
+    - [3. 🔧 Portes logiques (Logic Gates) fondamentales](#-3-portes-logiques-logic-gates-fondamentales)
+    - [4. 🧱 Mise en œuvre de circuits logiques](#-4-mise-en-œuvre-de-circuits-logiques)
+    - [5. ⚙️ Simplification des circuits](#-5-simplification-des-circuits)
+    - [6. 🔌 Circuits combinatoires courants](#-6-circuits-combinatoires-courants)
+    - [7. 🔢 Décodage binaire vers hexadécimal](#-7-décodage-binaire-vers-hexadécimal)
+    - [8. 🧠 Introduction à l'assembleur](#-8-introduction-à-lassembleur)
+    - [✅ En résumé](#-en-résumé)
+  - [:o: Implémentation](#o-implémentation)
+    - [:abacus: - Installation de la machine virtuelle Java](#abacus---installation-de-la-machine-virtuelle-java)
+  - [:b: Expérimentation](#b-expérimentation)
+    - [🎛️ Créer un fichier dans ce répertoire `(4.ASM)`](#%EF%B8%8F-créer-un-fichier-dans-ce-répertoire-4asm)
+    - [:rocket: Lancer l'IDE RARS 1.6](#rocket-lancer-lide-rars-16)
+    - [🔄 Exercices](#-exercices)
+- [:books: References](#books-references)
+
+</details>
+
 ## :a: - 🧩 Introduction to Logic Circuits
 
 ### 🎯 Objectif du chapitre
@@ -12,7 +36,7 @@ Il établit le lien entre les **fonctions logiques** (mathématiques booléennes
 
 ---
 
-### 1. 💡 Concepts de base
+### 💡 1. Concepts de base
 
 * **Variables binaires** : peuvent prendre la valeur `0` (faux) ou `1` (vrai).
 
@@ -31,7 +55,7 @@ Le circuit du **Buffer** (Tampon), démontre un boutton permettant d'activer l'i
 
 ---
 
-### 2. 🧮 Fonctions logiques
+### 🧮 2. Fonctions logiques
 
 * Une **fonction logique** est une expression reliant des entrées binaires à une sortie binaire.
 * Peut être représentée sous plusieurs formes :
@@ -57,7 +81,7 @@ $$f = (x_1 \text{ AND } x_2) \text{ OR } (\text{ NOT } x_3)$$
 
 ---
 
-### 3. 🔧 Portes logiques (Logic Gates) fondamentales
+### 🔧 3. Portes logiques (Logic Gates) fondamentales
 
 Les portes physiques de base sont :
 
@@ -77,7 +101,7 @@ Par example, reconstruction de **XOR** par **NAND**: <img src=https://upload.wik
 
 ---
 
-### 4. 🧱 Mise en œuvre de circuits logiques
+### 🧱 4. Mise en œuvre de circuits logiques
 
 * À partir d’une **table de vérité**, on déduit l’expression booléenne correspondante.
 * Deux formes standards :
@@ -90,7 +114,7 @@ Par example, reconstruction de **XOR** par **NAND**: <img src=https://upload.wik
 
 ---
 
-### 5. ⚙️ Simplification des circuits
+### ⚙️  5. Simplification des circuits
 
 Méthodes utilisées :
 
@@ -99,7 +123,7 @@ Méthodes utilisées :
 
 ---
 
-### 6. 🔌 Circuits combinatoires courants
+### 🔌 6. Circuits combinatoires courants
 
 Le chapitre présente des **blocs logiques standards** :
 
@@ -109,6 +133,7 @@ Le chapitre présente des **blocs logiques standards** :
 * **Additionneurs (half-adder, full-adder)**
 
 Ces blocs sont souvent utilisés comme **composants de base** dans des circuits plus complexes.
+
 
 ```mermaid
 flowchart TD
@@ -138,7 +163,7 @@ flowchart TD
 
 ---
 
-## 7. 🔢 Décodage binaire vers hexadécimal
+## 🔢 7. Décodage binaire vers hexadécimal
 
 Le système **hexadécimal (base 16)** permet de représenter plus simplement les valeurs **binaires (base 2)**.
 Chaque **chiffre hexadécimal correspond à 4 bits**.
@@ -174,7 +199,7 @@ Chaque **chiffre hexadécimal correspond à 4 bits**.
 
 ---
 
-### 8. 🧠 Introduction à l'assembleur
+### 🧠 8. Introduction à l'assembleur
 
 * Le chapitre introduit brièvement **ASM** l'assembleur pour **décrire et simuler** instructions machines utilisant les circuits logiques.
 * Les éléments essentiels :
@@ -279,7 +304,7 @@ experience to the next level at
  https://chocolatey.org/compare
 ```
 
-### 🧪 Vérifier l'installation
+### :test_tube: Vérifier l'installation
 
 
 Sous :desktop_computer: `Windows`, ouvrir une fenêtre `PowerShell` en mode `Utilisateur` 

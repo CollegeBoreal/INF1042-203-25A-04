@@ -9,6 +9,12 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
+
+      - name: Install jq
+        run: brew install jq
+
+      - name: Use jq
+        run: echo '{"name":"GitHub"}' | jq '.name'
     
       - shell: bash
         run: |
@@ -47,6 +53,28 @@ jobs:
           cd 5.Jupyter
           bash .scripts/run.sh
           cd ..
+          ##
+          ## Evaluating chapter 6.Variables
+          ## 
+          echo "Evaluating chapter 6.Variables Participation"
+          cd 6.Variables
+          bash .scripts/run.sh
+          cd ..
+          ##
+          ## Evaluating chapter 7.Algorithmes
+          ## 
+          echo "Evaluating chapter 7.Algorithmes Participation"
+          cd 7.Algorithmes
+          bash .scripts/run.sh
+          cd ..
+          ##
+          ## Evaluating chapter 8.OOP
+          ## 
+          echo "Evaluating chapter 8.OOP Participation"
+          cd 8.OOP
+          bash .scripts/run.sh
+          cd ..
+
 
       - name: Commit files
         run: |
