@@ -1,18 +1,19 @@
 from carre import Carre
 from cercle import Cercle
 from Triangle import Triangle
-from trapeze import Trapeze   # <-- ajout
+from trapeze import Trapeze
 
 def main():
     formes = [
         Carre(4),
         Cercle(3),
         Triangle(5, 2),
-        Trapeze(6, 4, 3)   # <-- exemple de trapèze
+        Trapeze(6, 4, 3)
     ]
 
     for f in formes:
         print(f.afficher_info())
+        f.dessiner()   # affiche graphiquement la figure
 
 if __name__ == "__main__":
     main()
