@@ -395,6 +395,12 @@ Dans ton :id:, lance :
 pip install -r requirements.txt
 ```
 
+si ça ne marche pas essaye:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
 ---
 
 ### 🔄 Exercices
