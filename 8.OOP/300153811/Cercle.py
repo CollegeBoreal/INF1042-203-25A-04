@@ -20,4 +20,3 @@ class Cercle(Figure):
     def afficher_info(self):
         # Retourne une chaîne contenant le nom, le rayon et l'aire
         return f"{super().afficher_info()}, rayon={self.rayon}, aire={self.aire():.2f}"
-
