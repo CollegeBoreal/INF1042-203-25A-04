@@ -2,7 +2,7 @@
 Fichier : Triangle.py
 Description : Classe Triangle héritant de Figure
 Auteur : 300153811
-Date : 2025-11-19
+Date : 2025-10-24
 """
 
 from figure import Figure
