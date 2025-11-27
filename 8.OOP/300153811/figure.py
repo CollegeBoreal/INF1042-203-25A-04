@@ -18,4 +18,3 @@ class Figure:
     def aire(self):
         # Méthode à implémenter par les sous-classes
         raise NotImplementedError("Cette méthode doit être implémentée par les sous-classes.")
-
