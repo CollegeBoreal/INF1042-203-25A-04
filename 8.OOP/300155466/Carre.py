@@ -1,8 +1,9 @@
+
 """
 Fichier : Carre.py
-Description : Classe de base pour toutes les figures géométriques
-Auteur : [300153811]
-Date : 2025-11-19
+Description : Classe Carré héritant de Figure
+Auteur : [300155466]
+Date : 2025-11-26
 """
 
 from figure import Figure

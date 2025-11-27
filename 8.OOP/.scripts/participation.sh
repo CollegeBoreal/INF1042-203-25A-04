@@ -2,7 +2,7 @@
 
 # --------------------------------------
 #
-# Participation report generator (Merged + main.py EXEC restored)
+# Participation report generator (Merged + main.py EXEC + requirements.txt)
 #
 # --------------------------------------
 
@@ -38,6 +38,7 @@ echo "| Signe              | Signification                 |"
 echo "|--------------------|-------------------------------|"
 echo "| :heavy_check_mark: | Prêt à être corrigé           |"
 echo "| :x:                | Projet inexistant             |"
+echo "| :page_facing_up:   | requirements.txt présent      |"
 echo "| :rocket:           | Script Python exécutable      |"
 echo "| :receipt:          | Notebook présent              |"
 echo "| :writing_hand:     | Signature dans le notebook    |"
@@ -45,8 +46,8 @@ echo ""
 
 echo "## :a: Présence"
 echo ""
-echo "|:hash:| Boréal :id: | README.md | images | :rocket: main.py | :receipt: RAPPORT.ipynb | :writing_hand: Signature | :martial_arts_uniform: Exécutions | :boom: Erreurs |"
-echo "|------|-------------|-----------|--------|-------------------|---------------|-----------|------------------------------------|----------------|"
+echo "|:hash:| Boréal :id: | README.md | images | requirements.txt | :rocket: main.py | :receipt: RAPPORT.ipynb | :writing_hand: Sgn | :martial_arts_uniform: Exécutions | :boom: Erreurs |"
+echo "|------|-------------|-----------|--------|-------------------|-------------------|----------------|-----------|------------------------------------|----------------|"
 
 i=0
 s=0
@@ -58,11 +59,13 @@ do
 
     FILE=${id}/README.md
     FOLDER=${id}/images
+    REQUIRE=${id}/requirements.txt
     REPORT=${id}/RAPPORT.ipynb
     MAIN=${id}/main.py
 
     README_ICON=":x:"
     IMAGES_ICON=":x:"
+    REQUIRE_ICON=":x:"
     EXEC_PY_ICON=":x:"
     RAPPORT_ICON=":x:"
     SIGN_ICON=":x:"
@@ -74,6 +77,9 @@ do
 
     # images folder
     [ -d "$FOLDER" ] && IMAGES_ICON=":heavy_check_mark:"
+
+    # requirements.txt
+    [ -f "$REQUIRE" ] && REQUIRE_ICON=":page_facing_up:"
 
     # main.py execution
     if [ -f "$MAIN" ]; then
@@ -104,7 +110,7 @@ do
         [ -n "$ID_PRESENT" ] && SIGN_ICON=":writing_hand:"
     fi
 
-    echo "| ${i} | [${id}](../${FILE}) ${URL} | ${README_ICON} | ${IMAGES_ICON} | ${EXEC_PY_ICON} | [${RAPPORT_ICON}](../${REPORT}) | ${SIGN_ICON} | ${EXEC_NOTEBOOK_ICON} | ${ERROR_ICON} |"
+    echo "| ${i} | [${id}](../${FILE}) ${URL} | ${README_ICON} | ${IMAGES_ICON} | ${REQUIRE_ICON} | ${EXEC_PY_ICON} | [${RAPPORT_ICON}](../${REPORT}) | ${SIGN_ICON} | ${EXEC_NOTEBOOK_ICON} | ${ERROR_ICON} |"
 
     # Comptage minimal
     if [ "$README_ICON" = ":heavy_check_mark:" ] && \

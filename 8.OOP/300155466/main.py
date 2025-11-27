@@ -1,13 +1,12 @@
 """
 Fichier : main.py
 Description : Point d'entrée du programme. Crée un carré et un cercle et affiche leurs informations.
-Auteur : [300153811]
-Date : 2025-11-19
+Auteur : [300155466]
+Date : 2025-11-26
 """
- 
+
 from Carre import Carre
 from Cercle import Cercle
-from Triangle import Triangle
 
 def main():
     """
@@ -26,7 +25,4 @@ def main():
 
 # Point d'entrée du programme
 if __name__ == "__main__":
-    formes = [Carre(4), Cercle(3), Triangle(5, 2)]
-for f in formes:
-    print(f"Aire: {f.aire()} 📏")
     main()
