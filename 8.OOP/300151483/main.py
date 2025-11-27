@@ -13,7 +13,7 @@ def main():
 
     for f in formes:
         print(f.afficher_info())
-        f.dessiner()   # affiche graphiquement la figure
+        f.dessiner()
 
 if __name__ == "__main__":
     main()
