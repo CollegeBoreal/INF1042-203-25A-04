@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+=======
+>>>>>>> 90fc2900cc46aeb96e5b2bad435939b52d4e26d6
 # 🐍 Leçon : Les variables en Python
 
 [:tada: Participation](.scripts/Participation.md)

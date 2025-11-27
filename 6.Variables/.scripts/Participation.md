@@ -1,4 +1,4 @@
-# Participation au 26-11-2025 23:14
+# Participation au 27-11-2025 01:15
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -16,7 +16,7 @@
 
 |:hash:| Boréal :id:                | README.md    | images | RAPPORT.ipynb  | Signature | :martial_arts_uniform: Exécutions | :boom: Erreurs
 |------|----------------------------|--------------|--------|----------------|-----------|--------|-----------|
-| 0 | [300146694](../300146694/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939164?s=460&v=4' width=20 height=20></image>](https://github.com/yourten06) | :x: | :x: | [:x:](../300146694/RAPPORT.ipynb) | :x: | :x: | :x: |
+| 0 | [300146694](../300146694/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939164?s=460&v=4' width=20 height=20></image>](https://github.com/yourten06) | :heavy_check_mark: | :heavy_check_mark: | [:receipt:](../300146694/RAPPORT.ipynb) | :writing_hand: | :three: |  |
 | 1 | [300147253](../300147253/README.md) [<image src='https://avatars0.githubusercontent.com/u/232965506?s=460&v=4' width=20 height=20></image>](https://github.com/azzed98) | :x: | :x: | [:x:](../300147253/RAPPORT.ipynb) | :x: | :x: | :x: |
 | 2 | [300150396](../300150396/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939321?s=460&v=4' width=20 height=20></image>](https://github.com/ibkourouma) | :heavy_check_mark: | :heavy_check_mark: | [:receipt:](../300150396/RAPPORT.ipynb) | :writing_hand: | :three: |  |
 | 3 | [300150410](../300150410/README.md) [<image src='https://avatars0.githubusercontent.com/u/231570554?s=460&v=4' width=20 height=20></image>](https://github.com/lahlou06) | :heavy_check_mark: | :heavy_check_mark: | [:receipt:](../300150410/RAPPORT.ipynb) | :writing_hand: | :three: |  |
@@ -45,10 +45,10 @@
 | 26 | [300157330](../300157330/README.md) [<image src='https://avatars0.githubusercontent.com/u/231571164?s=460&v=4' width=20 height=20></image>](https://github.com/toufikmekbel) | :heavy_check_mark: | :heavy_check_mark: | [:receipt:](../300157330/RAPPORT.ipynb) | :writing_hand: | :one: | :clock3: |
 | 27 | [300157332](../300157332/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939140?s=460&v=4' width=20 height=20></image>](https://github.com/aliboukhalfa98-sudo) | :heavy_check_mark: | :heavy_check_mark: | [:receipt:](../300157332/RAPPORT.ipynb) | :writing_hand: | :two: |  |
 | 28 | [300157334](../300157334/README.md) [<image src='https://avatars0.githubusercontent.com/u/231569676?s=460&v=4' width=20 height=20></image>](https://github.com/Laalahamdaoui16-alt) | :heavy_check_mark: | :heavy_check_mark: | [:receipt:](../300157334/RAPPORT.ipynb) | :writing_hand: | :three: |  |
-| 29 | [300157416](../300157416/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939450?s=460&v=4' width=20 height=20></image>](https://github.com/LounisYounes) | :x: | :x: | [:x:](../300157416/RAPPORT.ipynb) | :x: | :x: | :x: |
-| 30 | [300157440](../300157440/README.md) [<image src='https://avatars0.githubusercontent.com/u/231572378?s=460&v=4' width=20 height=20></image>](https://github.com/Houssam-eddinerachdi) | :heavy_check_mark: | :heavy_check_mark: | [:x:](../300157440/RAPPORT.ipynb) | :x: | :x: | :x: |
+| 29 | [300157416](../300157416/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939450?s=460&v=4' width=20 height=20></image>](https://github.com/LounisYounes) | :heavy_check_mark: | :heavy_check_mark: | [:receipt:](../300157416/RAPPORT.ipynb) | :writing_hand: | :three: |  |
+| 30 | [300157440](../300157440/README.md) [<image src='https://avatars0.githubusercontent.com/u/231572378?s=460&v=4' width=20 height=20></image>](https://github.com/Houssam-eddinerachdi) | :heavy_check_mark: | :heavy_check_mark: | [:receipt:](../300157440/RAPPORT.ipynb) | :x: | :zero: |  |
 | 31 | [300158052](../300158052/README.md) [<image src='https://avatars0.githubusercontent.com/u/121287922?s=460&v=4' width=20 height=20></image>](https://github.com/ZizouBouchelkia) | :heavy_check_mark: | :heavy_check_mark: | [:receipt:](../300158052/RAPPORT.ipynb) | :writing_hand: | :two: |  |
 | 32 | [300158185](../300158185/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939280?s=460&v=4' width=20 height=20></image>](https://github.com/Mohammed-Mati) | :heavy_check_mark: | :heavy_check_mark: | [:receipt:](../300158185/RAPPORT.ipynb) | :writing_hand: | :three: |  |
 | 33 | [300158486](../300158486/README.md) [<image src='https://avatars0.githubusercontent.com/u/232938643?s=460&v=4' width=20 height=20></image>](https://github.com/lyes158) | :heavy_check_mark: | :heavy_check_mark: | [:receipt:](../300158486/RAPPORT.ipynb) | :writing_hand: | :three: |  |
 | 34 | [300159189](../300159189/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939045?s=460&v=4' width=20 height=20></image>](https://github.com/fateh98) | :heavy_check_mark: | :heavy_check_mark: | [:receipt:](../300159189/RAPPORT.ipynb) | :writing_hand: | :three: |  |
-| :abacus: | $\frac{29}{35}$ = 82% | $\displaystyle\sum_{i=1}^{35} s_i$ = 29 | | | | $\displaystyle\sum_{i=1}^{35} e_i$ = 70
+| :abacus: | $\frac{32}{35}$ = 91% | $\displaystyle\sum_{i=1}^{35} s_i$ = 32 | | | | $\displaystyle\sum_{i=1}^{35} e_i$ = 76
