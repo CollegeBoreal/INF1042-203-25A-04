@@ -1,7 +1,7 @@
 """
 Fichier : Cercle.py
 Description : Classe Cercle héritant de Figure
-Auteur : [300157334]
+Auteur : [300153811]
 Date : 2025-11-19
 """
 
@@ -20,4 +20,3 @@ class Cercle(Figure):
     def afficher_info(self):
         # Retourne une chaîne contenant le nom, le rayon et l'aire
         return f"{super().afficher_info()}, rayon={self.rayon}, aire={self.aire():.2f}"
-
