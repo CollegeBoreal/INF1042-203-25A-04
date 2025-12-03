@@ -29,7 +29,7 @@ Grille d'évaluation du projet:
 | 🚀 main.py           | | | | | / 1 |
 | 🧾 RAPPORT.ipynb     | | | | | / 1 |
 | ✍️ Signature         | | | | | / 1 |
-| 🚀 <autre figure>.py | | | | | / 1 |
+| 🚀 [autre figure].py | | | | | / 1 |
 | 🏁 Vérification      | | | | | / 2.25 |
 | | | | | | |	
 | Total  | | | | | / 18 |	
