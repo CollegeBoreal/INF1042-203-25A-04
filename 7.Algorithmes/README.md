@@ -272,12 +272,12 @@ from functools import reduce
 ## 6️⃣ Concepts clés vus dans les exemples
 
 | Concept                           | Explication                                                                                      |
-| --------------------------------- | ------------------------------------------------------------------------------------------------ |
-| Récursion                         | Une fonction s’appelle elle-même pour résoudre un problème de manière “définition mathématique”. |
-| Boucle itérative                  | Répète un bloc d’instructions pour un nombre fixe ou jusqu’à une condition.                      |
-| Cas de base / condition de sortie | Condition qui arrête la récursion ou la boucle.                                                  |
-| Comprehension                     | Moyen compact et pythonique de créer des séquences ou calculer des résultats.                    |
-| Accumulation                      | Stocker un résultat intermédiaire (`resultat *= i` ou `s += i`).                                 |
+| --------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| Récursion (recursion en anglais)        | Une fonction s’appelle elle-même pour résoudre un problème de manière “définition mathématique”. |
+| Boucle itérative (iterative en anglais) | Répète un bloc d’instructions pour un nombre fixe ou jusqu’à une condition.                      |
+| Cas de base / condition de sortie       | Condition qui arrête la récursion ou la boucle.                                                  |
+| Comprehension                           | Moyen compact et pythonique de créer des séquences ou calculer des résultats.                    |
+| Accumulation                            | Stocker un résultat intermédiaire (`resultat *= i` ou `s += i`).                                 |
 
 ---
 
