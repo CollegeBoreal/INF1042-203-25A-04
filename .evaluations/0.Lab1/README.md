@@ -30,5 +30,5 @@ Grille d'évaluation des laboratoires:
 | 🧾 RAPPORT.ipynb | | | | | / 1 |
 | ✍️ Signature | | | | | / 1 |
 | | | | | | |	
-| Total  | | | | | / 18 |	
+| Total  | | | | | / 14 |	
 
