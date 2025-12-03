@@ -14,7 +14,7 @@ Grille d'évaluation des laboratoires:
 |-|-|-|-|-|-|
 | #️⃣ 4️⃣.***ASM***		        | 🎉 Parfait `1` pt | ✅ Present `0.5` pt | 💥 Error `0.25` pt | ❌ Non fait `0` pt | ___Note critère___ |
 | 🗒️README.md | | | | | / 1 |
-| 1️⃣ riscv1.asm | | | | | / 1 |
+| 🧾 riscv1.asm | | | | | / 1 |
 | | | | | | |	
 | #️⃣ 5️⃣.***Jupyter***	 | 🎉 Parfait 1 pt | ✅ Present 0.5 pt | 💥 Error 0.25 pt | ❌ Non fait 0 pt | ___Note critère___ |
 | 🗒️README.md | | | | | / 1 |
