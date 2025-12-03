@@ -24,14 +24,13 @@ Grille d'évaluation du projet:
 | 🆔.md | | | | | / 0.5 |
 | | | | | | |	
 | #️⃣ 8️⃣.***OOP***	| 🎉 Parfait `1` pt | ✅ Present `0.5` pt | 💥 Error `0.25` pt | ❌ Non fait `0` pt | ___Note critère___ |
-| 🗒️ README.md        | | | | | / 1 |
-| 📄 requirements.txt | | | | | / 1 |
-| 🚀 main.py          | | | | | / 1 |
-| 🧾 RAPPORT.ipynb    | | | | | / 1 |
-| ✍️ Signature        | | | | | / 1 |
-| 3️⃣ utilisateurs3.ps1 | | | | | / 1 |
-| 4️⃣ utilisateurs4.ps1 | | | | | / 1 |
-| 🏁 Vérification | | | | | / 2.25 |
+| 🗒️ README.md         | | | | | / 1 |
+| 📄 requirements.txt  | | | | | / 1 |
+| 🚀 main.py           | | | | | / 1 |
+| 🧾 RAPPORT.ipynb     | | | | | / 1 |
+| ✍️ Signature         | | | | | / 1 |
+| 🚀 <autre figure>.py | | | | | / 1 |
+| 🏁 Vérification      | | | | | / 2.25 |
 | | | | | | |	
 | Total  | | | | | / 18 |	
 
