@@ -25,11 +25,6 @@ Grille d'évaluation des laboratoires:
 | 🧾 RAPPORT.ipynb | | | | | / 1 |
 | ✍️ Signature | | | | | / 1 |
 | | | | | | |	
-| #️⃣ 5️⃣.***6.Variables*** | 🎉 Parfait 1 pt | ✅ Present 0.5 pt | 💥 Error 0.25 pt | ❌ Non fait 0 pt | ___Note critère___ |
-| 🗒️README.md | | | | | / 1 |
-| 🧾 RAPPORT.ipynb | | | | | / 1 |
-| ✍️ Signature | | | | | / 1 |
-| | | | | | |	
 | #️⃣ 7️⃣.***Algorithmes*** | 🎉 Parfait 1 pt | ✅ Present 0.5 pt | 💥 Error 0.25 pt | ❌ Non fait 0 pt | ___Note critère___ |
 | 🗒️README.md | | | | | / 1 |
 | 🧾 RAPPORT.ipynb | | | | | / 1 |
