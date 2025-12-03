@@ -1,9 +1,8 @@
-
 """
 Fichier : Carre.py
 Description : Classe de base pour toutes les figures géométriques
-Auteur : [300159189]
-Date : 2025-12-03
+Auteur : [300158052]
+Date : 2000-08-13
 """
 
 from figure import Figure
@@ -20,4 +19,3 @@ class Carre(Figure):
     def afficher_info(self):
         # Retourne une chaîne contenant le nom, le côté et l'aire
         return f"{super().afficher_info()}, côté={self.cote}, aire={self.aire()}"
-
