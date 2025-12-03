@@ -18,8 +18,8 @@ Grille d'évaluation du projet:
 | 🗒️ README.md | | | | | / 0.5 |
 | 📂 images    | | | | | / 0.5 |
 | | | | | | |
-| #️⃣ 2️⃣.***🥇 IDE***             |  |                    | ✅ Present `0.25` pt | ❌ Non fait `0` pt | ___Note critère___ |
-| 🆔/README.md | | | | | / 0.25 |
+| #️⃣ 2️⃣.***🥇 IDE***             | | 🎉 Parfait `0.5` pt | ✅ Present `0.25` pt | ❌ Non fait `0` pt | ___Note critère___ |
+| 🆔/README.md | | | | | / 0.5 |
 | | | | | | |	
 | #️⃣ 2️⃣.***🥈 IDE+***            |  |                    | ✅ Present `0.5` pt | ❌ Non fait `0` pt | ___Note critère___ |
 | 🆔.md | | | | | / 0.5 |
