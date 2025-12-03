@@ -18,11 +18,9 @@ Grille d'évaluation du projet:
 | 🗒️ README.md | | | | | / 0.5 |
 | 📂 images    | | | | | / 0.5 |
 | | | | | | |
-| #️⃣ 2️⃣.***🥇 IDE***             | | 🎉 Parfait `0.5` pt | ✅ Present `0.25` pt | ❌ Non fait `0` pt | ___Note critère___ |
+| #️⃣ 2️⃣.***🥇 IDE***             |  |                     | ✅ Present `0.5` pt | ❌ Non fait `0` pt | ___Note critère___ |
 | 🆔/README.md | | | | | / 0.5 |
-| | | | | | |	
-| #️⃣ 2️⃣.***🥈 IDE+***            |  |                    | ✅ Present `0.5` pt | ❌ Non fait `0` pt | ___Note critère___ |
-| 🆔.md | | | | | / 0.5 |
+| 🆔.md        | | | | | / 0.5 |
 | | | | | | |	
 | #️⃣ 8️⃣.***OOP***	| 🎉 Parfait `1` pt | ✅ Present `0.5` pt | 💥 Error `0.25` pt | ❌ Non fait `0` pt | ___Note critère___ |
 | 🗒️ README.md         | | | | | / 1 |
@@ -31,7 +29,7 @@ Grille d'évaluation du projet:
 | 🚀 [autre figure].py | | | | | / 1 |
 | ✍️ Signature         | | | | | / 1 |
 | 🧾 RAPPORT.ipynb     | | | | | / 1 |
-| 🏁 Vérification      | | | | | / 2 |
+| 🏁 Vérification      | | | | | / 1 |
 | | | | | | |	
-| Total  | | | | | / 18 |	
+| Total  | | | | | / 10 |	
 
