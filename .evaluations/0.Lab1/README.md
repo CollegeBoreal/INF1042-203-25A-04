@@ -2,8 +2,9 @@
 
 | Signe   | Signification             |
 |:------- |:--------------------------|
-| 🎉      | Présent                        |
-| ✅      | Fichier/Script Présent      |
+| 🎉      | Qualité de la documentation excellente |
+| ✅      | Fichier/Script Présent    |
+| 🧾      | La qualité du `RAPPORT.ipynb` inclus les 🥋 Exécutions et les 💥 Erreurs liés à `Jupyter lab` |
 | 💥      | Fichier/Script Présent ou Tentative de présence générant une erreur |
 | ❌      | Non fait                       |
 
@@ -11,31 +12,28 @@ Grille d'évaluation des laboratoires:
 
 | | | | | | |
 |-|-|-|-|-|-|
-| #️⃣ 3️⃣.***VM***		        | 🎉 Parfait `1` pt | ✅ Present `0.5` pt | 💥 Error `0.25` pt | ❌ Non fait `0` pt | ___Note critère___ |
+| #️⃣ 4️⃣.***ASM***		        | 🎉 Parfait `1` pt | ✅ Present `0.5` pt | 💥 Error `0.25` pt | ❌ Non fait `0` pt | ___Note critère___ |
 | 🗒️README.md | | | | | / 1 |
-| 🏁 Vérification | | | | | / 1 |
+| 1️⃣ riscv1.asm | | | | | / 1 |
 | | | | | | |	
-| #️⃣ 4️⃣.***OUs***	 | 🎉 Parfait 1 pt | ✅ Present 0.5 pt | 💥 Error 0.25 pt | ❌ Non fait 0 pt | ___Note critère___ |
+| #️⃣ 5️⃣.***Jupyter***	 | 🎉 Parfait 1 pt | ✅ Present 0.5 pt | 💥 Error 0.25 pt | ❌ Non fait 0 pt | ___Note critère___ |
 | 🗒️README.md | | | | | / 1 |
-| 🥾bootstrap.ps1 | | | | | / 1 |
-| 1️⃣ utilisateurs1.ps1 | | | | | / 1 |
-| 2️⃣ utilisateurs2.ps1 | | | | | / 1 |
-| 3️⃣ utilisateurs3.ps1 | | | | | / 1 |
-| 4️⃣ utilisateurs4.ps1 | | | | | / 1 |
-| 🏁 Vérification | | | | | / 1 |
+| 🧾 RAPPORT.ipynb | | | | | / 1 |
 | | | | | | |	
-| #️⃣ 5️⃣.***Services*** | 🎉 Parfait 1 pt | ✅ Present 0.5 pt | 💥 Error 0.25 pt | ❌ Non fait 0 pt | ___Note critère___ |
+| #️⃣ 6️⃣.***Variables*** | 🎉 Parfait 1 pt | ✅ Present 0.5 pt | 💥 Error 0.25 pt | ❌ Non fait 0 pt | ___Note critère___ |
 | 🗒️README.md | | | | | / 1 |
-| 1️⃣ services1.ps1 | | | | | / 1 |
-| 2️⃣ services2.ps1 | | | | | / 1 |
-| 3️⃣ services3.ps1 | | | | | / 1 |
-| 4️⃣ services4.ps1 | | | | | / 1 |
+| 🧾 RAPPORT.ipynb | | | | | / 1 |
+| ✍️ Signature | | | | | / 1 |
 | | | | | | |	
-| #️⃣ 6️⃣.***Objects*** | 🎉 Parfait 1 pt | ✅ Present 0.5 pt | 💥 Error 0.25 pt | ❌ Non fait 0 pt | ___Note critère___ |
+| #️⃣ 5️⃣.***6.Variables*** | 🎉 Parfait 1 pt | ✅ Present 0.5 pt | 💥 Error 0.25 pt | ❌ Non fait 0 pt | ___Note critère___ |
 | 🗒️README.md | | | | | / 1 |
-| 1️⃣ utilisateurs1.ps1 | | | | | / 1 |
-| 2️⃣ utilisateurs2.ps1 | | | | | / 1 |
-| 🏁 Vérification | | | | | / 1 |
+| 🧾 RAPPORT.ipynb | | | | | / 1 |
+| ✍️ Signature | | | | | / 1 |
+| | | | | | |	
+| #️⃣ 7️⃣.***Algorithmes*** | 🎉 Parfait 1 pt | ✅ Present 0.5 pt | 💥 Error 0.25 pt | ❌ Non fait 0 pt | ___Note critère___ |
+| 🗒️README.md | | | | | / 1 |
+| 🧾 RAPPORT.ipynb | | | | | / 1 |
+| ✍️ Signature | | | | | / 1 |
 | | | | | | |	
 | Total  | | | | | / 18 |	
 
