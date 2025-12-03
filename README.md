@@ -1,7 +1,18 @@
 # :school: Plan De Cours
 
-
 ## :date: [Épreuves](.epreuves)
+
+| :hash:  | Date   | Épreuves                                           |
+|-------- |--------|:---------------------------------------------------|
+| :one:   |04-dec  | Finale                                             |
+
+## 🧨 [Évaluations](.evaluations)
+
+| :hash:  | Date   | Evaluations                                        |
+|-------- |--------|:---------------------------------------------------|
+| :one:   |10-dec  | [0.Lab1](.evaluations/0.Lab1)                      |
+| :two:   |10-dec  | [1.Projet](.evaluations/1.Projet)                  |
+
 
 ## :one: [Devoirs](Devoirs)
 
@@ -12,8 +23,9 @@
 | :three: |22-sept| [3.Organigrammes](3.Organigrammes) | [🎉](3.Organigrammes/.scripts/Participation.md) 👉  â Noter :x:|
 | :four:  |06-oct | [4.ASM](4.ASM)                     | [🎉](4.ASM/.scripts/Participation.md) 👉  â Noter :x:|
 | :five:  |13-oct | [5.Jupyter](5.Jupyter)             | [🎉](5.Jupyter/.scripts/Participation.md) 👉  â Noter :x:|
-| :five:  |27-oct | [6.Variables](6.Variables)         | [🎉](6.Variables/.scripts/Participation.md) 👉  â Noter :x:|
-| :six:   |10-nov | [7.Algorithmes](7.Algorithmes)     | [🎉](7.Algorithmes/.scripts/Participation.md) 👉  â Noter :x:|
+| :six:   |27-oct | [6.Variables](6.Variables)         | [🎉](6.Variables/.scripts/Participation.md) 👉  â Noter :x:|
+| :seven: |10-nov | [7.Algorithmes](7.Algorithmes)     | [🎉](7.Algorithmes/.scripts/Participation.md) 👉  â Noter :x:|
+| :eight: |17-nov | [8.OOP](8.OOP)                     | [🎉](8.OOP/.scripts/Participation.md) 👉  â Noter :x:|
 
 ### :abacus: Évaluation
 
