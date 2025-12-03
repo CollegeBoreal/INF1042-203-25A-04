@@ -5,7 +5,8 @@
 | 🎉         | Qualité de la documentation excellente |
 | ✅         | Fichier/Script Présent    |
 | 🧾         | La qualité du `RAPPORT.ipynb` inclus les 🥋 Exécutions et les 💥 Erreurs liés à `Jupyter lab` |
-| 🚀 main.py | Vérifie que les programmes Python supplémentaires ont été rajoutés (autres que Figure, Cercle, Carré) |
+| 🚀 XXX.py  | Vérifie que les programmes Python supplémentaires ont été rajoutés (autres que Figure, Cercle, Carré) |
+| 🏁         | Vérifie l'affichage graphique de la figure géometrique |
 | 💥         | Fichier/Script Présent ou Tentative de présence générant une erreur |
 | ❌         | Non fait                       |
 
@@ -27,10 +28,10 @@ Grille d'évaluation du projet:
 | 🗒️ README.md         | | | | | / 1 |
 | 📄 requirements.txt  | | | | | / 1 |
 | 🚀 main.py           | | | | | / 1 |
-| 🧾 RAPPORT.ipynb     | | | | | / 1 |
-| ✍️ Signature         | | | | | / 1 |
 | 🚀 [autre figure].py | | | | | / 1 |
-| 🏁 Vérification      | | | | | / 2.25 |
+| ✍️ Signature         | | | | | / 1 |
+| 🧾 RAPPORT.ipynb     | | | | | / 1 |
+| 🏁 Vérification      | | | | | / 2 |
 | | | | | | |	
 | Total  | | | | | / 18 |	
 
