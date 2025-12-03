@@ -1,4 +1,5 @@
 from figure import Figure
+from mpl_toolkits.mplot3d.art3d import Poly3DCollection
 import matplotlib.pyplot as plt
 
 class Triangle(Figure):
@@ -10,16 +11,18 @@ class Triangle(Figure):
     def aire(self):
         return (self.base * self.hauteur) / 2
 
-    def afficher_info(self):
-        return f"{super().afficher_info()}, base={self.base}, hauteur={self.hauteur}, aire={self.aire()}"
-
-    def dessiner(self):
-        x = [0, self.base, self.base/2, 0]
-        y = [0, 0, self.hauteur, 0]
-        plt.figure(figsize=(5, 5))
-        plt.plot(x, y, "g-")
-        plt.fill(x, y, "lightgreen", alpha=0.5)
-        plt.title(f"Triangle — base={self.base}, hauteur={self.hauteur}, aire={self.aire()}")
-        plt.axis("equal")
-        plt.grid(True)
+    def dessiner_3D(self):
+        fig = plt.figure()
+        ax = fig.add_subplot(111, projection='3d')
+        vertices = [
+            [0, 0, 0], [self.base, 0, 0], [self.base/2, self.hauteur, 0], [self.base/2, self.hauteur/2, 3]
+        ]
+        faces = [
+            [vertices[0], vertices[1], vertices[2]],
+            [vertices[0], vertices[1], vertices[3]],
+            [vertices[1], vertices[2], vertices[3]],
+            [vertices[2], vertices[0], vertices[3]]
+        ]
+        ax.add_collection3d(Poly3DCollection(faces, facecolors='lightgreen', edgecolors='black', alpha=0.7))
+        ax.set_title(f"Pyramide triangulaire — base={self.base}, hauteur={self.hauteur}, aire={self.aire():.2f}")
         plt.show()
