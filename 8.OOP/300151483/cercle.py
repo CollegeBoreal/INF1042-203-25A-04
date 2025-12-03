@@ -1,27 +1,21 @@
 from figure import Figure
-import matplotlib.pyplot as plt
 import numpy as np
-import math
+import matplotlib.pyplot as plt
 
-class Cercle(Figure):
+class Cercle:
     def __init__(self, rayon):
-        super().__init__("Cercle")
         self.rayon = rayon
 
     def aire(self):
-        return math.pi * self.rayon ** 2
+        return np.pi * self.rayon**2
 
-    def afficher_info(self):
-        return f"{super().afficher_info()}, rayon={self.rayon}, aire={self.aire():.2f}"
-
-    def dessiner(self):
-        theta = np.linspace(0, 2*math.pi, 300)
-        x = self.rayon * np.cos(theta)
-        y = self.rayon * np.sin(theta)
-        plt.figure(figsize=(5, 5))
-        plt.plot(x, y, "r-")
-        plt.fill(x, y, "lightcoral", alpha=0.5)
-        plt.title(f"Cercle — rayon={self.rayon}, aire={self.aire():.2f}")
-        plt.axis("equal")
-        plt.grid(True)
+    def dessiner_3D(self):
+        fig = plt.figure()
+        ax = fig.add_subplot(111, projection='3d')
+        u, v = np.mgrid[0:2*np.pi:40j, 0:np.pi:20j]
+        x = self.rayon * np.cos(u) * np.sin(v)
+        y = self.rayon * np.sin(u) * np.sin(v)
+        z = self.rayon * np.cos(v)
+        ax.plot_surface(x, y, z, color='lightblue', alpha=0.6)
+        ax.set_title(f"Sphère — rayon={self.rayon}, aire={self.aire():.2f}")
         plt.show()
