@@ -2,8 +2,9 @@ from figure import Figure
 import numpy as np
 import matplotlib.pyplot as plt
 
-class Cercle:
+class Cercle(Figure):
     def __init__(self, rayon):
+        super().__init__("Cercle")
         self.rayon = rayon
 
     def aire(self):

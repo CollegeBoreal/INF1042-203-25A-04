@@ -1,6 +1,6 @@
 from carre import Carre
 from cercle import Cercle
-from triangle import Triangle
+from Triangle import Triangle
 from trapeze import Trapeze
 
 def main():
