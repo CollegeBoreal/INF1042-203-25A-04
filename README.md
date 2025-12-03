@@ -1,7 +1,18 @@
 # :school: Plan De Cours
 
-
 ## :date: [Épreuves](.epreuves)
+
+| :hash:  | Date   | Épreuves                                           |
+|-------- |--------|:---------------------------------------------------|
+| :one:   |04-dec  | Finale                                             |
+
+## 🧨 [Évaluations](.evaluations)
+
+| :hash:  | Date   | Evaluations                                        |
+|-------- |--------|:---------------------------------------------------|
+| :one:   |10-dec  | [0.Lab1](.evaluations/0.Lab1)                      |
+| :two:   |10-dec  | [1.Projet](.evaluations/1.Projet)                  |
+
 
 ## :one: [Devoirs](Devoirs)
 
