@@ -1,3 +1,5 @@
+#300155281
+
 # 🌟 APPRENTISSAGE DE QUELQUES COMMANDES GIT 🌟
 
 Ce projet est une introduction à Git et aux commandes de base pour gérer et partager des fichiers.
@@ -19,6 +21,7 @@ git commit -m "Description concise de mes changements"
 
 # 5. Partager les commits locaux avec le dépôt distant
 git push
+
 
 
 
