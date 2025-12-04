@@ -1,4 +1,4 @@
-#300155281
+# 300155281
 
 # 🌟 APPRENTISSAGE DE QUELQUES COMMANDES GIT 🌟
 
@@ -21,6 +21,7 @@ git commit -m "Description concise de mes changements"
 
 # 5. Partager les commits locaux avec le dépôt distant
 git push
+
 
 
 
