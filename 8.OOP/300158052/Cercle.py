@@ -1,8 +1,8 @@
 """
 Fichier : Cercle.py
 Description : Classe Cercle héritant de Figure
-Auteur : [300158185]
-Date : 2025-11-19
+Auteur : [300158052]
+Date : 2000-08-13
 """
 
 from figure import Figure
