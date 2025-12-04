@@ -1,7 +1,7 @@
 # 300155281
 
 
-#🚀 Ma première réalisation avec Git
+🚀 Ma première réalisation avec Git
 # Un projet pour apprendre les bases de Git et GitHub
 
 
