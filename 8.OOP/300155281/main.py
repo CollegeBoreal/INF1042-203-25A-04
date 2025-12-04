@@ -5,8 +5,8 @@ Auteur : [300155281]
 Date : YYYY-MM-DD
 """
 
-from carre import Carre
-from cercle import Cercle
+from Carre import Carre
+from Cercle import Cercle
 from Trapeze import Trapeze
 
 def main():
