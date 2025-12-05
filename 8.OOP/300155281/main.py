@@ -2,7 +2,7 @@
 Fichier : main.py
 Description : Point d'entrée du programme. Crée un carré et un cercle et affiche leurs informations.
 Auteur : [300155281]
-Date : YYYY-MM-DD
+Date : 2025-12-04
 """
 
 from carre import Carre
@@ -12,8 +12,8 @@ from Trapeze import Trapeze
 def main():
     formes = [
         Carre(4),
-        Cercle(3),
-        Trapeze(6, 4, 3)
+        Cercle(10),
+        Trapeze(6, 4, 8)
     ]
 
     for f in formes:
