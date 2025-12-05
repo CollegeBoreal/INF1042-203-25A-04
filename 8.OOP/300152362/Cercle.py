@@ -11,10 +11,10 @@ import math
 class Cercle(Figure):
     def __init__(self, rayon):
         super().__init__("Cercle")  # Appel du constructeur de la classe de base
-        self.rayon = rayon           # Rayon du cercle
+        self.rayon = rayon           # Rayon du Cercle
 
     def aire(self):
-        # Calcul de l'aire du cercle
+        # Calcul de l'aire du Cercle
         return math.pi * self.rayon ** 2
 
     def afficher_info(self):
