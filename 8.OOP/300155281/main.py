@@ -19,5 +19,5 @@ def main():
     for f in formes:
         print(f.afficher_info())
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
