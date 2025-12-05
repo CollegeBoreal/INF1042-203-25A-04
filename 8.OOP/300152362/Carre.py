@@ -9,11 +9,11 @@ from figure import Figure
 
 class Carre(Figure):
     def __init__(self, cote):
-        super().__init__("Carré")  # Appel du constructeur de la classe de base
-        self.cote = cote           # Longueur du côté du carré
+        super().__init__("Carre")  # Appel du constructeur de la classe de base
+        self.cote = cote           # Longueur du côté du Carre
 
     def aire(self):
-        # Calcul de l'aire du carré
+        # Calcul de l'aire du Carre
         return self.cote ** 2
 
     def afficher_info(self):
