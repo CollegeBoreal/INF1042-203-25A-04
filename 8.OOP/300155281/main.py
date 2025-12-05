@@ -5,8 +5,8 @@ Auteur : [300155281]
 Date : 2025-12-04
 """
 
-from Carre import Carre
-from Cercle import Cercle
+from carre import Carre
+from cercle import Cercle
 from Trapeze import Trapeze
 
 def main():
