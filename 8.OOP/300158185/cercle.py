@@ -1,5 +1,5 @@
 """
-Fichier : Cercle.py
+Fichier : cercle.py
 Description : Classe Cercle héritant de Figure
 Auteur : [300158185]
 Date : 1998-08-10
@@ -8,9 +8,9 @@ Date : 1998-08-10
 from figure import Figure
 import math
 
-class Cercle(Figure):
+class cercle(Figure):
     def __init__(self, rayon):
-        super().__init__("Cercle")  # Appel du constructeur de la classe de base
+        super().__init__("cercle")  # Appel du constructeur de la classe de base
         self.rayon = rayon           # Rayon du cercle
 
     def aire(self):
