@@ -1,4 +1,4 @@
-# Participation au 05-12-2025 20:03
+# Participation au 05-12-2025 20:04
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -48,7 +48,7 @@
 | 29 | [300157416](../300157416/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939450?s=460&v=4' width=20 height=20></image>](https://github.com/LounisYounes) | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | 30 | [300157440](../300157440/README.md) [<image src='https://avatars0.githubusercontent.com/u/231572378?s=460&v=4' width=20 height=20></image>](https://github.com/Houssam-eddinerachdi) | :heavy_check_mark: | :heavy_check_mark: | :x: |
 | 31 | [300158052](../300158052/README.md) [<image src='https://avatars0.githubusercontent.com/u/121287922?s=460&v=4' width=20 height=20></image>](https://github.com/ZizouBouchelkia) | :heavy_check_mark: | :heavy_check_mark: | :x: |
-| 32 | [300158185](../300158185/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939280?s=460&v=4' width=20 height=20></image>](https://github.com/Mohammed-Mati) | :heavy_check_mark: | :heavy_check_mark: | :x: |
+| 32 | [300158185](../300158185/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939280?s=460&v=4' width=20 height=20></image>](https://github.com/Mohammed-Mati) | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | 33 | [300158486](../300158486/README.md) [<image src='https://avatars0.githubusercontent.com/u/232938643?s=460&v=4' width=20 height=20></image>](https://github.com/lyes158) | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | 34 | [300159189](../300159189/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939045?s=460&v=4' width=20 height=20></image>](https://github.com/fateh98) | :heavy_check_mark: | :heavy_check_mark: | :x: |
-| :abacus: |  $\frac{14}{35}$  =  40% | $\displaystyle\sum_{i=1}^{35} s_i$ = 14 |
+| :abacus: |  $\frac{15}{35}$  =  42% | $\displaystyle\sum_{i=1}^{35} s_i$ = 15 |
