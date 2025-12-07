@@ -1,19 +1,19 @@
 """
-Fichier : Carre.py
-Description : Classe Carré héritant de Figure
+Fichier : carre.py
+Description : Classe de base pour toutes les figures géométriques
 Auteur : [300158185]
-Date : 2025-11-19
+Date : 1998-08-10
 """
 
 from figure import Figure
 
-class Carre(Figure):
+class carre(Figure):
     def __init__(self, cote):
-        super().__init__("Carré")  # Appel du constructeur de la classe de base
-        self.cote = cote           # Longueur du côté du carré
+        super().__init__("carre")  # Appel du constructeur de la classe de base
+        self.cote = cote           # Longueur du côté du carre
 
     def aire(self):
-        # Calcul de l'aire du carré
+        # Calcul de l'aire du carre
         return self.cote ** 2
 
     def afficher_info(self):

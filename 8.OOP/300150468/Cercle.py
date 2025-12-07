@@ -1,7 +1,7 @@
 """
 Fichier : Cercle.py
 Description : Classe Cercle héritant de Figure
-Auteur : [ID de l'étudiant]
+Auteur : [300150468]
 Date : YYYY-MM-DD
 """
 

@@ -13,7 +13,7 @@ def main():
 
     for f in formes:
         print(f.afficher_info())
-        f.dessiner()
+        #f.dessiner_3D()   # ⚠️ utiliser la version 3D
 
 if __name__ == "__main__":
     main()
