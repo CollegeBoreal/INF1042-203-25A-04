@@ -131,6 +131,7 @@ done
 
 COUNT="\$\\frac{${s}}{${i}}$"
 STATS=$(echo "$s*100/$i" | bc)
+SUM_EXEC="$\displaystyle\sum_{i=1}^{${i}} e_i$"
 
-echo "| :abacus: | ${COUNT} = ${STATS}% | | | | | Total Figures = ${total_figures} | |"
+echo "| :abacus: | ${COUNT} = ${STATS}% | ${SUM} = ${s} | | | | ${SUM_EXEC} = ${total_figures}"
 
