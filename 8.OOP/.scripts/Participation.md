@@ -1,4 +1,4 @@
-# Participation au 08-12-2025 18:31
+# Participation au 08-12-2025 13:32
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -19,7 +19,7 @@
 
 ## :a: Présence
 
-|:hash:| Boréal :id: | README.md | images | :page_facing_up: req | :rocket: main.py | :receipt: RAPPORT.ipynb | :writing_hand: Sgn | :framed_picture: Figures | :boom: Erreurs |
+|:hash:| Boréal :id: | README.md | images | :page_facing_up: req | :rocket: main.py | :receipt: RAPPORT | :writing_hand: Sgn | :framed_picture: Figures | :boom: Erreurs |
 |------|-------------|-----------|--------|-------------------|-------------------|----------------|-----------|--------------------------|----------------|
 | 0 | [300146694](../300146694/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939164?s=460&v=4' width=20 height=20></image>](https://github.com/yourten06) | :heavy_check_mark: | :heavy_check_mark: | :page_facing_up: | :rocket: | [:receipt:](../300146694/RAPPORT.ipynb) | :writing_hand: | :two: |  |
 | 1 | [300147253](../300147253/README.md) [<image src='https://avatars0.githubusercontent.com/u/232965506?s=460&v=4' width=20 height=20></image>](https://github.com/azzed98) | :x: | :x: | :x: | :x: | [:x:](../300147253/RAPPORT.ipynb) | :x: | :zero: | :x: |
@@ -56,4 +56,4 @@
 | 32 | [300158185](../300158185/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939280?s=460&v=4' width=20 height=20></image>](https://github.com/Mohammed-Mati) | :heavy_check_mark: | :heavy_check_mark: | :page_facing_up: | :rocket: | [:receipt:](../300158185/RAPPORT.ipynb) | :writing_hand: | :two: |  |
 | 33 | [300158486](../300158486/README.md) [<image src='https://avatars0.githubusercontent.com/u/232938643?s=460&v=4' width=20 height=20></image>](https://github.com/lyes158) | :heavy_check_mark: | :heavy_check_mark: | :page_facing_up: | :rocket: | [:receipt:](../300158486/RAPPORT.ipynb) | :writing_hand: | :three: |  |
 | 34 | [300159189](../300159189/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939045?s=460&v=4' width=20 height=20></image>](https://github.com/fateh98) | :heavy_check_mark: | :heavy_check_mark: | :page_facing_up: | :x: | [:receipt:](../300159189/RAPPORT.ipynb) | :writing_hand: | :two: |  |
-| :abacus: | $\frac{27}{35}$ = 77% |  = 27 | | | | $\displaystyle\sum_{i=1}^{35} e_i$ = 73
+| :abacus: | $\frac{27}{35}$ = 77% |  = 27 | | | | | | $\displaystyle\sum_{i=1}^{35} e_i$ = 73

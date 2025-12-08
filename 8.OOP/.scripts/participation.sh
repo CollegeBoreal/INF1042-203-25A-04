@@ -47,7 +47,7 @@ echo ""
 
 echo "## :a: Présence"
 echo ""
-echo "|:hash:| Boréal :id: | README.md | images | :page_facing_up: req | :rocket: main.py | :receipt: RAPPORT.ipynb | :writing_hand: Sgn | :framed_picture: Figures | :boom: Erreurs |"
+echo "|:hash:| Boréal :id: | README.md | images | :page_facing_up: req | :rocket: main.py | :receipt: RAPPORT | :writing_hand: Sgn | :framed_picture: Figures | :boom: Erreurs |"
 echo "|------|-------------|-----------|--------|-------------------|-------------------|----------------|-----------|--------------------------|----------------|"
 
 i=0
@@ -133,5 +133,5 @@ COUNT="\$\\frac{${s}}{${i}}$"
 STATS=$(echo "$s*100/$i" | bc)
 SUM_EXEC="$\displaystyle\sum_{i=1}^{${i}} e_i$"
 
-echo "| :abacus: | ${COUNT} = ${STATS}% | ${SUM} = ${s} | | | | ${SUM_EXEC} = ${total_figures}"
+echo "| :abacus: | ${COUNT} = ${STATS}% | ${SUM} = ${s} | | | | | | ${SUM_EXEC} = ${total_figures}"
 
