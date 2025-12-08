@@ -92,22 +92,27 @@ do
     if [ -f "$REPORT" ]; then
         RAPPORT_ICON=":receipt:"
 
-        # Comptage des Figures dans le notebook
-        FIGURES_COUNT=$(jq '[.cells[].outputs[]? 
-                              | select(.output_type=="display_data")
-                              | .data."text/plain"
-                              | .[] 
-                              | select(test("Figure"))] | length' "$REPORT" 2>/dev/null)
-
-        FIGURES_ICON=$(num_to_emoji "$FIGURES_COUNT")
-        total_figures=$((total_figures + FIGURES_COUNT))
-
         # Comptage des erreurs
         ERROR_COUNT=$(jq '[.cells[].outputs[]?
                            | select(.output_type=="error")] 
                          | length' "$REPORT" 2>/dev/null)
 
         [ "$ERROR_COUNT" -eq 0 ] && ERROR_ICON="" || ERROR_ICON=":boom:"
+
+        # Comptage des Figures uniquement si pas d'erreur
+        if [ "$ERROR_COUNT" -eq 0 ]; then
+            FIGURES_COUNT=$(jq '[.cells[].outputs[]? 
+                                  | select(.output_type=="display_data")
+                                  | .data."text/plain"
+                                  | .[] 
+                                  | select(test("Figure"))] | length' "$REPORT" 2>/dev/null)
+
+            FIGURES_ICON=$(num_to_emoji "$FIGURES_COUNT")
+            total_figures=$((total_figures + FIGURES_COUNT))
+        else
+            FIGURES_COUNT=0
+            FIGURES_ICON=":zero:"
+        fi
 
         # Vérifier si l'ID est présent dans un markdown
         ID_PRESENT=$(jq -r --arg id "$id" '
@@ -133,5 +138,5 @@ COUNT="\$\\frac{${s}}{${i}}$"
 STATS=$(echo "$s*100/$i" | bc)
 SUM_EXEC="$\displaystyle\sum_{i=1}^{${i}} e_i$"
 
-echo "| :abacus: | ${COUNT} = ${STATS}% | ${SUM} = ${s} | | | | | | ${SUM_EXEC} = ${total_figures}"
+echo "| :abacus: | ${COUNT} = ${STATS}% | | | | | | | ${SUM_EXEC} = ${total_figures} |"
 
