@@ -42,16 +42,17 @@ echo "| :page_facing_up:   | requirements.txt présent      |"
 echo "| :rocket:           | Script Python exécutable      |"
 echo "| :receipt:          | Notebook présent              |"
 echo "| :writing_hand:     | Signature dans le notebook    |"
+echo "| :framed_picture:   | Figures présentes             |"
 echo ""
 
 echo "## :a: Présence"
 echo ""
-echo "|:hash:| Boréal :id: | README.md | images | requirements.txt | :rocket: main.py | :receipt: RAPPORT.ipynb | :writing_hand: Sgn | :martial_arts_uniform: Exécutions | :boom: Erreurs |"
-echo "|------|-------------|-----------|--------|-------------------|-------------------|----------------|-----------|------------------------------------|----------------|"
+echo "|:hash:| Boréal :id: | README.md | images | :page_facing_up: req | :rocket: main.py | :receipt: RAPPORT | :writing_hand: Sgn | :framed_picture: Figures | :boom: Erreurs |"
+echo "|------|-------------|-----------|--------|-------------------|-------------------|----------------|-----------|--------------------------|----------------|"
 
 i=0
 s=0
-total_exec=0
+total_figures=0
 
 for id in "${ETUDIANTS[@]}"
 do
@@ -69,7 +70,7 @@ do
     EXEC_PY_ICON=":x:"
     RAPPORT_ICON=":x:"
     SIGN_ICON=":x:"
-    EXEC_NOTEBOOK_ICON=":zero:"
+    FIGURES_ICON=":zero:"
     ERROR_ICON=":x:"
 
     # README
@@ -91,26 +92,37 @@ do
     if [ -f "$REPORT" ]; then
         RAPPORT_ICON=":receipt:"
 
-        EXEC_COUNT=$(jq '[.cells[].outputs[]? 
-                          | select(.output_type=="execute_result")] 
-                         | length' "$REPORT" 2>/dev/null)
-        EXEC_NOTEBOOK_ICON=$(num_to_emoji "$EXEC_COUNT")
-        total_exec=$((total_exec + EXEC_COUNT))
-
+        # Comptage des erreurs
         ERROR_COUNT=$(jq '[.cells[].outputs[]?
                            | select(.output_type=="error")] 
-                         | length' "$REPORT")
+                         | length' "$REPORT" 2>/dev/null)
 
         [ "$ERROR_COUNT" -eq 0 ] && ERROR_ICON="" || ERROR_ICON=":boom:"
 
+        # Comptage des Figures uniquement si pas d'erreur
+        if [ "$ERROR_COUNT" -eq 0 ]; then
+            FIGURES_COUNT=$(jq '[.cells[].outputs[]? 
+                                  | select(.output_type=="display_data")
+                                  | .data."text/plain"
+                                  | .[] 
+                                  | select(test("Figure"))] | length' "$REPORT" 2>/dev/null)
+
+            FIGURES_ICON=$(num_to_emoji "$FIGURES_COUNT")
+            total_figures=$((total_figures + FIGURES_COUNT))
+        else
+            FIGURES_COUNT=0
+            FIGURES_ICON=":zero:"
+        fi
+
+        # Vérifier si l'ID est présent dans un markdown
         ID_PRESENT=$(jq -r --arg id "$id" '
                         .cells[] | select(.cell_type=="markdown")
-                        | .source[] | select(test($id))' "$REPORT")
+                        | .source[] | select(test($id))' "$REPORT" 2>/dev/null)
 
         [ -n "$ID_PRESENT" ] && SIGN_ICON=":writing_hand:"
     fi
 
-    echo "| ${i} | [${id}](../${FILE}) ${URL} | ${README_ICON} | ${IMAGES_ICON} | ${REQUIRE_ICON} | ${EXEC_PY_ICON} | [${RAPPORT_ICON}](../${REPORT}) | ${SIGN_ICON} | ${EXEC_NOTEBOOK_ICON} | ${ERROR_ICON} |"
+    echo "| ${i} | [${id}](../${FILE}) ${URL} | ${README_ICON} | ${IMAGES_ICON} | ${REQUIRE_ICON} | ${EXEC_PY_ICON} | [${RAPPORT_ICON}](../${REPORT}) | ${SIGN_ICON} | ${FIGURES_ICON} | ${ERROR_ICON} |"
 
     # Comptage minimal
     if [ "$README_ICON" = ":heavy_check_mark:" ] && \
@@ -124,6 +136,7 @@ done
 
 COUNT="\$\\frac{${s}}{${i}}$"
 STATS=$(echo "$s*100/$i" | bc)
+SUM_EXEC="$\displaystyle\sum_{i=1}^{${i}} e_i$"
 
-echo "| :abacus: | ${COUNT} = ${STATS}% | | | | | Total Exécutions = ${total_exec} | |"
+echo "| :abacus: | ${COUNT} = ${STATS}% | | | | | | | ${SUM_EXEC} = ${total_figures} |"
 

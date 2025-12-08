@@ -8,6 +8,7 @@ Date : 2005-11-25
 from carre import Carre
 from cercle import Cercle
 from losange import losange
+from parallelogramme import parallelogramme
 
 def main():
     """
@@ -23,10 +24,15 @@ def main():
      # Création d'un losange de diagonal 10 et 8
     c3 = losange(10,8)
 
+    # Création d'un parallelograme de diagonal 10 et 8
+    c4 = parallelogramme(12,7)
+
     # Affichage des informations des deux figures
     print(c1.afficher_info())
     print(c2.afficher_info())
     print(c3.afficher_info())
+    print(c4.afficher_info())
+
 
 # Point d'entrée du programme
 if __name__ == "__main__":
