@@ -10,7 +10,7 @@ class Cercle(Figure):
     def aire(self):
         return np.pi * self.rayon**2
 
-    def dessiner_3D(self):
+    #def dessiner_3D(self):
         fig = plt.figure()
         ax = fig.add_subplot(111, projection='3d')
         u, v = np.mgrid[0:2*np.pi:40j, 0:np.pi:20j]

@@ -11,7 +11,7 @@ class Triangle(Figure):
     def aire(self):
         return (self.base * self.hauteur) / 2
 
-    def dessiner_3D(self):
+    #def dessiner_3D(self):
         fig = plt.figure()
         ax = fig.add_subplot(111, projection='3d')
         vertices = [
