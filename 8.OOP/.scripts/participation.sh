@@ -47,7 +47,7 @@ echo ""
 
 echo "## :a: Présence"
 echo ""
-echo "|:hash:| Boréal :id: | README.md | images | requirements.txt | :rocket: main.py | :receipt: RAPPORT.ipynb | :writing_hand: Sgn | :framed_picture: Figures | :boom: Erreurs |"
+echo "|:hash:| Boréal :id: | README.md | images | :page_facing_up: req | :rocket: main.py | :receipt: RAPPORT.ipynb | :writing_hand: Sgn | :framed_picture: Figures | :boom: Erreurs |"
 echo "|------|-------------|-----------|--------|-------------------|-------------------|----------------|-----------|--------------------------|----------------|"
 
 i=0

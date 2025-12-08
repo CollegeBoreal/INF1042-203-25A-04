@@ -1,4 +1,4 @@
-# Participation au 08-12-2025 18:22
+# Participation au 08-12-2025 13:28
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -19,7 +19,7 @@
 
 ## :a: Présence
 
-|:hash:| Boréal :id: | README.md | images | requirements.txt | :rocket: main.py | :receipt: RAPPORT.ipynb | :writing_hand: Sgn | :framed_picture: Figures | :boom: Erreurs |
+|:hash:| Boréal :id: | README.md | images | :page_facing_up: req | :rocket: main.py | :receipt: RAPPORT.ipynb | :writing_hand: Sgn | :framed_picture: Figures | :boom: Erreurs |
 |------|-------------|-----------|--------|-------------------|-------------------|----------------|-----------|--------------------------|----------------|
 | 0 | [300146694](../300146694/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939164?s=460&v=4' width=20 height=20></image>](https://github.com/yourten06) | :heavy_check_mark: | :heavy_check_mark: | :page_facing_up: | :rocket: | [:receipt:](../300146694/RAPPORT.ipynb) | :writing_hand: | :two: |  |
 | 1 | [300147253](../300147253/README.md) [<image src='https://avatars0.githubusercontent.com/u/232965506?s=460&v=4' width=20 height=20></image>](https://github.com/azzed98) | :x: | :x: | :x: | :x: | [:x:](../300147253/RAPPORT.ipynb) | :x: | :zero: | :x: |
