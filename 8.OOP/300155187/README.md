@@ -16,7 +16,7 @@ Chaque figure possède :
 
  
 
-🔹 Figures 2D disponibles 
+## 🔹 Figures 2D disponibles 
 
 Figure 
 
@@ -96,7 +96,7 @@ Rayon r, Hauteur h
 
  
 
-🧩 Structure du Projet 
+## 🧩 Structure du Projet 
 
 figure.py → Classe de base Figure  
 
@@ -457,6 +457,7 @@ Créer des animations 2D et 3D interactives
  
 
  
+
 
 
 
