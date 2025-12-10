@@ -122,26 +122,19 @@ cone.py → Classe Cone
 
 Fonctions d'affichage graphique : 
 
+```python
+
 afficher_carre()  
-
 afficher_cercle()  
-
 afficher_losange()  
-
 afficher_parallelogramme()  
-
 afficher_cylindre()  
-
 afficher_prisme_carre()  
-
 afficher_prisme_losange()  
-
 afficher_prisme_parallelogramme()  
-
 afficher_sphere()  
-
 afficher_cone() 
-
+```
  
 
 🎯 Objectifs du Projet 
@@ -464,5 +457,6 @@ Créer des animations 2D et 3D interactives
  
 
  
+
 
 
