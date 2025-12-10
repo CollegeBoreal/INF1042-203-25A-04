@@ -1,8 +1,8 @@
 """
 Fichier : Parallelogramme.py
 Description : Classe Carré héritant de Figure
-Auteur : [ID de l'étudiant]
-Date : YYYY-MM-DD
+Auteur : [hindchili]
+Date : 2025.12.10
 """
 
 from figure import Figure
