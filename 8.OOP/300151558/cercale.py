@@ -8,7 +8,7 @@ Date : YYYY-MM-DD
 from figure import Figure
 import math
 
-class Cercle(Figure):
+class cercle(Figure):
     def __init__(self, rayon):
         super().__init__("Cercle")  # Appel du constructeur de la classe de base
         self.rayon = rayon           # Rayon du cercle

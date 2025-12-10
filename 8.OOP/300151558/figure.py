@@ -1,8 +1,8 @@
 """
 Fichier : figure.py
 Description : Classe de base pour toutes les figures géométriques
-Auteur : 300151558
-Date : 2025-11-19
+Auteur : [ID de l'étudiant]
+Date : YYYY-MM-DD
 """
 
 class Figure:
