@@ -1,3 +1,4 @@
+
 # :ringed_planet: Jupyter
 
 [:tada: Participation](.scripts/Participation.md)
@@ -272,7 +273,7 @@ start-jupyter
 
 ```powershell
 jupyter --version
-python --version
+python3 --version
 ```
 
 Tu devrais voir des versions cohérentes (par ex. Python 3.12.x et Jupyter 7.x ou 8.x).

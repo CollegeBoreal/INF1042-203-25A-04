@@ -398,7 +398,7 @@ pip install -r requirements.txt
 si ça ne marche pas essaye:
 
 ```bash
-python -m pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 ```
 
 ---

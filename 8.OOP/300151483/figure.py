@@ -5,15 +5,13 @@ Auteur : [300151483]
 Date : 2011-11-11
 """
 
+# figure.py
 class Figure:
     def __init__(self, nom):
-        # Nom de la figure (ex: Carré, Cercle, Triangle)
         self.nom = nom
 
-    def afficher_info(self):
-        # Retourne une chaîne contenant le nom de la figure
-        return f"Figure: {self.nom}"
-
     def aire(self):
-        # Méthode à implémenter par les sous-classes
-        raise NotImplementedError("Cette méthode doit être implémentée par les sous-classes.")
+        raise NotImplementedError("La méthode aire() doit être définie dans les sous-classes")
+
+    def afficher_info(self):
+        return f"Figure: {self.nom}"

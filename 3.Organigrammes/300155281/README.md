@@ -1,4 +1,4 @@
-
+# Cet organigramme permet de déterminer la parité d'un nombre
     
 ```mermaid
     graph TD
