@@ -1,4 +1,4 @@
-# Participation au 10-12-2025 23:05
+# Participation au 10-12-2025 23:14
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -31,7 +31,7 @@
 | 7 | [300151483](../300151483/README.md) [<image src='https://avatars0.githubusercontent.com/u/231570852?s=460&v=4' width=20 height=20></image>](https://github.com/Arnauld-ttad) | :heavy_check_mark: | :heavy_check_mark: | :page_facing_up: | :x: | [:receipt:](../300151483/RAPPORT.ipynb) | :writing_hand: | :one: |  |
 | 8 | [300151504](../300151504/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939073?s=460&v=4' width=20 height=20></image>](https://github.com/nassimidir) | :heavy_check_mark: | :heavy_check_mark: | :page_facing_up: | :rocket: | [:receipt:](../300151504/RAPPORT.ipynb) | :writing_hand: | :three: |  |
 | 9 | [300151505](../300151505/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939190?s=460&v=4' width=20 height=20></image>](https://github.com/300151505) | :heavy_check_mark: | :heavy_check_mark: | :page_facing_up: | :rocket: | [:receipt:](../300151505/RAPPORT.ipynb) | :writing_hand: | :three: |  |
-| 10 | [300151558](../300151558/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939530?s=460&v=4' width=20 height=20></image>](https://github.com/hindchili) | :heavy_check_mark: | :heavy_check_mark: | :page_facing_up: | :x: | [:receipt:](../300151558/RAPPORT.ipynb) | :x: | :zero: | :boom: |
+| 10 | [300151558](../300151558/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939530?s=460&v=4' width=20 height=20></image>](https://github.com/hindchili) | :heavy_check_mark: | :heavy_check_mark: | :page_facing_up: | :x: | [:receipt:](../300151558/RAPPORT.ipynb) | :writing_hand: | :three: |  |
 | 11 | [300152315](../300152315/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939475?s=460&v=4' width=20 height=20></image>](https://github.com/nour19992108) | :heavy_check_mark: | :heavy_check_mark: | :page_facing_up: | :rocket: | [:receipt:](../300152315/RAPPORT.ipynb) | :writing_hand: | :three: |  |
 | 12 | [300152362](../300152362/README.md) [<image src='https://avatars0.githubusercontent.com/u/231571903?s=460&v=4' width=20 height=20></image>](https://github.com/naser674) | :heavy_check_mark: | :heavy_check_mark: | :page_facing_up: | :x: | [:receipt:](../300152362/RAPPORT.ipynb) | :writing_hand: | :two: |  |
 | 13 | [300153811](../300153811/README.md) [<image src='https://avatars0.githubusercontent.com/u/231571796?s=460&v=4' width=20 height=20></image>](https://github.com/hama374) | :heavy_check_mark: | :heavy_check_mark: | :page_facing_up: | :rocket: | [:receipt:](../300153811/RAPPORT.ipynb) | :writing_hand: | :two: |  |
@@ -56,4 +56,4 @@
 | 32 | [300158185](../300158185/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939280?s=460&v=4' width=20 height=20></image>](https://github.com/Mohammed-Mati) | :heavy_check_mark: | :heavy_check_mark: | :page_facing_up: | :rocket: | [:receipt:](../300158185/RAPPORT.ipynb) | :writing_hand: | :two: |  |
 | 33 | [300158486](../300158486/README.md) [<image src='https://avatars0.githubusercontent.com/u/232938643?s=460&v=4' width=20 height=20></image>](https://github.com/lyes158) | :heavy_check_mark: | :heavy_check_mark: | :page_facing_up: | :rocket: | [:receipt:](../300158486/RAPPORT.ipynb) | :writing_hand: | :three: |  |
 | 34 | [300159189](../300159189/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939045?s=460&v=4' width=20 height=20></image>](https://github.com/fateh98) | :heavy_check_mark: | :heavy_check_mark: | :page_facing_up: | :x: | [:receipt:](../300159189/RAPPORT.ipynb) | :writing_hand: | :two: |  |
-| :abacus: | $\frac{30}{35}$ = 85% | | | | | | | $\displaystyle\sum_{i=1}^{35} e_i$ = 83 |
+| :abacus: | $\frac{30}{35}$ = 85% | | | | | | | $\displaystyle\sum_{i=1}^{35} e_i$ = 86 |
