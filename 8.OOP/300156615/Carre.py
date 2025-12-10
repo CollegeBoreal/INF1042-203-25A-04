@@ -1,33 +1,21 @@
-{
- "cells": [
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "68749f98-3e61-4fb0-8b4b-0fe971c601f0",
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  }
- ],
- "metadata": {
-  "kernelspec": {
-   "display_name": "Python 3 (ipykernel)",
-   "language": "python",
-   "name": "python3"
-  },
-  "language_info": {
-   "codemirror_mode": {
-    "name": "ipython",
-    "version": 3
-   },
-   "file_extension": ".py",
-   "mimetype": "text/x-python",
-   "name": "python",
-   "nbconvert_exporter": "python",
-   "pygments_lexer": "ipython3",
-   "version": "3.12.9"
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 5
-}
+"""
+Fichier : Carre.py
+Description : Classe Carré héritant de Figure
+Auteur : [300156615]
+Date : 2025-12-06
+"""
+
+from figure import Figure
+
+class Carre(Figure):
+    def __init__(self, cote):
+        super().__init__("Carré")  # Appel du constructeur de la classe de base
+        self.cote = cote           # Longueur du côté du carré
+
+    def aire(self):
+        # Calcul de l'aire du carré
+        return self.cote ** 2
+
+    def afficher_info(self):
+        # Retourne une chaîne contenant le nom, le côté et l'aire
+        return f"{super().afficher_info()}, côté={self.cote}, aire={self.aire()}"

@@ -1,33 +1,19 @@
-{
- "cells": [
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "6a79c755-495a-4c8e-94b0-df65049a5170",
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  }
- ],
- "metadata": {
-  "kernelspec": {
-   "display_name": "Python 3 (ipykernel)",
-   "language": "python",
-   "name": "python3"
-  },
-  "language_info": {
-   "codemirror_mode": {
-    "name": "ipython",
-    "version": 3
-   },
-   "file_extension": ".py",
-   "mimetype": "text/x-python",
-   "name": "python",
-   "nbconvert_exporter": "python",
-   "pygments_lexer": "ipython3",
-   "version": "3.12.9"
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 5
-}
+"""
+Fichier : figure.py
+Description : Classe de base pour toutes les figures géométriques
+Auteur : [300156615]
+Date : 2025-12-06
+"""
+
+class Figure:
+    def __init__(self, nom):
+        # Nom de la figure (ex: Carré, Cercle)
+        self.nom = nom
+
+    def afficher_info(self):
+        # Retourne une chaîne contenant le nom de la figure
+        return f"Figure: {self.nom}"
+
+    def aire(self):
+        # Méthode à implémenter par les sous-classes
+        raise NotImplementedError("Cette méthode doit être implémentée par les sous-classes.")

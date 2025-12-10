@@ -3,10 +3,39 @@
   {
    "cell_type": "code",
    "execution_count": null,
-   "id": "0858b5be-5244-46b0-9c18-bd67840e0c80",
+   "id": "9dc85e75-5aae-458a-9103-c465f919db70",
    "metadata": {},
    "outputs": [],
-   "source": []
+   "source": [
+    "\"\"\"\n",
+    "Fichier : main.py\n",
+    "Description : Point d'entrée du programme. Crée un carré et un cercle et affiche leurs informations.\n",
+    "Auteur : [300156615]\n",
+    "Date : 2025-12-06\n",
+    "\"\"\"\n",
+    "\n",
+    "from Carre import Carre\n",
+    "from Cercle import Cercle\n",
+    "\n",
+    "def main():\n",
+    "    \"\"\"\n",
+    "    Fonction principale du programme.\n",
+    "    Crée un carré et un cercle, puis affiche leurs informations.\n",
+    "    \"\"\"\n",
+    "    # Création d'un carré de côté 4\n",
+    "    c1 = Carre(4)\n",
+    "\n",
+    "    # Création d'un cercle de rayon 3\n",
+    "    c2 = Cercle(3)\n",
+    "\n",
+    "    # Affichage des informations des deux figures\n",
+    "    print(c1.afficher_info())\n",
+    "    print(c2.afficher_info())\n",
+    "\n",
+    "# Point d'entrée du programme\n",
+    "if __name__ == \"__main__\":\n",
+    "    main()"
+   ]
   }
  ],
  "metadata": {
