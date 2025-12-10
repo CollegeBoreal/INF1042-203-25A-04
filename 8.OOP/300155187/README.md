@@ -12,118 +12,58 @@ Chaque figure possède :
 
 - une méthode pour calculer l’aire ou le volume  
 
-- une méthode d’affichage d’informations 
-
- 
-
+- une méthode d’affichage d’informations
+  
 ## 🔹 Figures 2D disponibles 
+- Figure 
+- Description 
+- Émoji 
+- Carré 
+- Basé sur son côté 
 
-Figure 
+## ⚪ Cercle 
+ - Basé sur son rayon
+## 🔶 Losange 
+ - Basé sur ses diagonales
+## ⬛ Parallélogramme 
+- Basé sur sa base et sa hauteur
+## 🔹 Figures 3D disponibles 
+     - Figure
+     - Description
+     - Émoji
+     - Cylindre
+     - Rayon r, Hauteur h 
+## 🛢️ Prisme carré 
+    - Côté c, Hauteur h 
+ ## 🔶 Prisme losange 
+   - Diagonales d1, d2, Hauteur h ⬛
 
-Description 
+ ## ▱ Prisme parallélogramme 
+-  Base b, Hauteur h, Profondeur p 
 
-Émoji 
-
-Carré 
-
-Basé sur son côté 
-
-⬜ 
-
-Cercle 
-
-Basé sur son rayon 
-
-⚪ 
-
-Losange 
-
-Basé sur ses diagonales 
-
-🔶 
-
-Parallélogramme 
-
-Basé sur sa base et sa hauteur 
-
-⬛ 
-
- 
-
-🔹 Figures 3D disponibles 
-
-Figure 
-
-Description 
-
-Émoji 
-
-Cylindre 
-
+## 🌐 Sphère 
+  - Rayon r 
+## 🔺 Cône 
 Rayon r, Hauteur h 
 
-🛢️ 
-
-Prisme carré 
-
-Côté c, Hauteur h 
-
-⬛ 
-
-Prisme losange 
-
-Diagonales d1, d2, Hauteur h 
-
-🔶 
-
-Prisme parallélogramme 
-
-Base b, Hauteur h, Profondeur p 
-
-▱ 
-
-Sphère 
-
-Rayon r 
-
-🌐 
-
-Cône 
-
-Rayon r, Hauteur h 
-
-🔺 
-
- 
-
-## 🧩 Structure du Projet 
-
-figure.py → Classe de base Figure  
-
-carre.py → Classe Carre  
-
-cercle.py → Classe Cercle  
-
-losange.py → Classe Losange (d1, d2)  
-
-parallelogramme.py → Classe Parallelogramme (b, h)  
-
-cylindre.py → Classe Cylindre  
-
-prisme_carre.py → Classe PrismeCarre  
-
-prisme_losange.py → Classe PrismeLosange  
-
-prisme_parallelogramme.py → Classe PrismeParallelogramme  
-
-sphere.py → Classe Sphere  
-
-cone.py → Classe Cone 
-
-Fonctions d'affichage graphique : 
+## 🧩 Structure du Projet
 
 ```python
+figure.py → Classe de base Figure  
+carre.py → Classe Carre  
+cercle.py → Classe Cercle  
+losange.py → Classe Losange (d1, d2)  
+parallelogramme.py → Classe Parallelogramme (b, h)  
+cylindre.py → Classe Cylindre  
+prisme_carre.py → Classe PrismeCarre  
+prisme_losange.py → Classe PrismeLosange  
+prisme_parallelogramme.py → Classe PrismeParallelogramme  
+sphere.py → Classe Sphere  
+cone.py → Classe Cone
+``` 
+## Fonctions d'affichage graphique : 
 
+```python
 afficher_carre()  
 afficher_cercle()  
 afficher_losange()  
@@ -458,6 +398,7 @@ Créer des animations 2D et 3D interactives
  
 
  
+
 
 
 
