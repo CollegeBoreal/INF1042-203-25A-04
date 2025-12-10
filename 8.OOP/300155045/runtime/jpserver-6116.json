@@ -1,0 +1,13 @@
+{
+  "base_url": "/",
+  "hostname": "localhost",
+  "password": false,
+  "pid": 6116,
+  "port": 8889,
+  "root_dir": "C:\\Users\\choua\\Documents\\INF101025",
+  "secure": false,
+  "sock": "",
+  "token": "4319a6fea071f8b240d13c7aa96a75a752afd73c7029c958",
+  "url": "http://localhost:8889/",
+  "version": "2.17.0"
+}

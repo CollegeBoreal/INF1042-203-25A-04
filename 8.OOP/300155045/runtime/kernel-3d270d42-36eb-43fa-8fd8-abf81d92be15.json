@@ -1,0 +1,13 @@
+{
+  "shell_port": 50249,
+  "iopub_port": 50250,
+  "stdin_port": 50251,
+  "control_port": 50253,
+  "hb_port": 50252,
+  "ip": "127.0.0.1",
+  "key": "c8cc0ef8-1c15bdf43ffcb34763d5cc30",
+  "transport": "tcp",
+  "signature_scheme": "hmac-sha256",
+  "kernel_name": "python3",
+  "jupyter_session": "C:\\Users\\choua\\Documents\\INF101025\\Untitled.ipynb"
+}
