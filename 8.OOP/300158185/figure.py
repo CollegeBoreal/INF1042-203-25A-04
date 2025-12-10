@@ -7,7 +7,7 @@ Date : 2025-11-19
 
 class Figure:
     def __init__(self, nom):
-        # Nom de la figure (ex: Carré, Cercle)
+        # Nom de la figure (ex: Carre, Cercle)
         self.nom = nom
 
     def afficher_info(self):

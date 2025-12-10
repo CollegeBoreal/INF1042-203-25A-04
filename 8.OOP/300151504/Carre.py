@@ -1,10 +1,3 @@
-"""
-Fichier : Carre.py
-Description : Classe Carré héritant de Figure
-Auteur : 300151504 - Nassim Idir
-Date : 2025-11-25
-"""
-
 from figure import Figure
 
 class Carre(Figure):
@@ -17,4 +10,3 @@ class Carre(Figure):
 
     def afficher_info(self):
         return f"{super().afficher_info()}, côté={self.cote}, aire={self.aire()}"
-

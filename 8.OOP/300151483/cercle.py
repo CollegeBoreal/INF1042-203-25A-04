@@ -1,5 +1,6 @@
 from figure import Figure
-import math
+import numpy as np
+import matplotlib.pyplot as plt
 
 class Cercle(Figure):
     def __init__(self, rayon):
@@ -7,7 +8,15 @@ class Cercle(Figure):
         self.rayon = rayon
 
     def aire(self):
-        return math.pi * self.rayon ** 2
+        return np.pi * self.rayon**2
 
-    def afficher_info(self):
-        return f"{super().afficher_info()}, rayon={self.rayon}, aire={self.aire():.2f}"
+    def dessiner_3D(self):
+        fig = plt.figure()
+        ax = fig.add_subplot(111, projection='3d')
+        u, v = np.mgrid[0:2*np.pi:40j, 0:np.pi:20j]
+        x = self.rayon * np.cos(u) * np.sin(v)
+        y = self.rayon * np.sin(u) * np.sin(v)
+        z = self.rayon * np.cos(v)
+        ax.plot_surface(x, y, z, color='lightblue', alpha=0.6)
+        ax.set_title(f"Sphère — rayon={self.rayon}, aire={self.aire():.2f}")
+        plt.show()
