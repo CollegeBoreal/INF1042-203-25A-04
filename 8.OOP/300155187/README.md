@@ -1,4 +1,4 @@
-300155187 — Projet : Figures Géométriques en Python 📘 
+# 300155187 — Projet : Figures Géométriques en Python 📘 
 
 ✨ Introduction 
 
@@ -6,17 +6,17 @@ Ce projet présente une série de classes Python permettant de représenter et m
 
 Chaque figure possède :  
 
-une classe dédiée (héritée de Figure)  
+- une classe dédiée (héritée de Figure)  
 
-une méthode d’affichage graphique utilisant matplotlib  
+- une méthode d’affichage graphique utilisant matplotlib  
 
-une méthode pour calculer l’aire ou le volume  
+- une méthode pour calculer l’aire ou le volume  
 
-une méthode d’affichage d’informations 
+- une méthode d’affichage d’informations 
 
  
 
-🔹 Figures 2D disponibles 
+## 🔹 Figures 2D disponibles 
 
 Figure 
 
@@ -96,7 +96,7 @@ Rayon r, Hauteur h
 
  
 
-🧩 Structure du Projet 
+## 🧩 Structure du Projet 
 
 figure.py → Classe de base Figure  
 
@@ -122,26 +122,19 @@ cone.py → Classe Cone
 
 Fonctions d'affichage graphique : 
 
+```python
+
 afficher_carre()  
-
 afficher_cercle()  
-
 afficher_losange()  
-
 afficher_parallelogramme()  
-
 afficher_cylindre()  
-
 afficher_prisme_carre()  
-
 afficher_prisme_losange()  
-
 afficher_prisme_parallelogramme()  
-
 afficher_sphere()  
-
 afficher_cone() 
-
+```
  
 
 🎯 Objectifs du Projet 
@@ -168,6 +161,7 @@ Méthode : aire() = cote²
 
 🖼️ Affichage 
 
+```python
 def afficher_carre(carre): 
     cote = carre.cote 
     x = [0, cote, cote, 0, 0] 
@@ -179,7 +173,7 @@ def afficher_carre(carre):
     plt.axis("equal") 
     plt.grid(True) 
     plt.show() 
-
+```
  
 
  
@@ -464,3 +458,8 @@ Créer des animations 2D et 3D interactives
  
 
  
+
+
+
+
+
