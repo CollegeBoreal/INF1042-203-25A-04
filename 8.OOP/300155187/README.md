@@ -1,23 +1,13 @@
 # 300155187 — Projet : Figures Géométriques en Python 📘 
-
-✨ Introduction 
-
+## ✨ Introduction 
 Ce projet présente une série de classes Python permettant de représenter et manipuler différentes figures géométriques en 2D et 3D. 
-
 Chaque figure possède :  
-
 - une classe dédiée (héritée de Figure)  
-
 - une méthode d’affichage graphique utilisant matplotlib  
-
 - une méthode pour calculer l’aire ou le volume  
-
 - une méthode d’affichage d’informations
   
 ## 🔹 Figures 2D disponibles 
-  - Figure 
-  - Description 
-  - Émoji 
 ## ⬜ Carré 
   - Basé sur son côté 
 ## ⚪ Cercle 
@@ -27,26 +17,20 @@ Chaque figure possède :
 ## ⬛ Parallélogramme 
 - Basé sur sa base et sa hauteur
 ## 🔹 Figures 3D disponibles 
-     - Figure
-     - Description
-     - Émoji
 ## 🛢️ Cylindre
      - Rayon r, Hauteur h 
 ## ⬛ Prisme carré 
     - Côté c, Hauteur h 
  ## 🔶 Prisme losange 
    - Diagonales d1, d2, Hauteur h 
-
  ## ▱ Prisme parallélogramme 
 -  Base b, Hauteur h, Profondeur p 
-
 ## 🌐 Sphère 
   - Rayon r 
 ## 🔺 Cône 
 Rayon r, Hauteur h 
 
 ## 🧩 Structure du Projet
-
 ```python
 figure.py → Classe de base Figure  
 carre.py → Classe Carre  
@@ -74,9 +58,7 @@ afficher_prisme_parallelogramme()
 afficher_sphere()  
 afficher_cone() 
 ```
-
 ## 🎯 Objectifs du Projet 
-
   - Appliquer les concepts de POO en Python  
   - Pratiquer l’héritage et les classes  
   - Visualiser les formes en 2D et 3D avec Matplotlib  
@@ -154,7 +136,6 @@ def afficher_losange(losange):
     plt.grid(True) 
     plt.show()
   ```
-
 ## ⬛ 4. Parallélogramme 
 ## 🧮 Classe 
   Le parallélogramme est défini par :
@@ -272,7 +253,6 @@ afficher_prisme_parallelogramme(c8)
 afficher_sphere(c9) 
 afficher_cone(c10)
 ``` 
-
 ## 🎉 Conclusion 
 Ce projet montre : 
 l’utilisation de la POO en Python 
@@ -290,6 +270,7 @@ Créer des animations 2D et 3D interactives
  
 
  
+
 
 
 
