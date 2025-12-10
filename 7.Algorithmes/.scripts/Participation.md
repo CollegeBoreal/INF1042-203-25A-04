@@ -1,4 +1,4 @@
-# Participation au 07-12-2025 22:27
+# Participation au 10-12-2025 04:40
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -17,7 +17,7 @@
 |:hash:| Boréal :id:                | README.md    | images | RAPPORT.ipynb  | Signature | :martial_arts_uniform: Exécutions | :boom: Erreurs
 |------|----------------------------|--------------|--------|----------------|-----------|--------|-----------|
 | 0 | [300146694](../300146694/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939164?s=460&v=4' width=20 height=20></image>](https://github.com/yourten06) | :heavy_check_mark: | :heavy_check_mark: | [:receipt:](../300146694/RAPPORT.ipynb) | :writing_hand: | :six: |  |
-| 1 | [300147253](../300147253/README.md) [<image src='https://avatars0.githubusercontent.com/u/232965506?s=460&v=4' width=20 height=20></image>](https://github.com/azzed98) | :x: | :x: | [:x:](../300147253/RAPPORT.ipynb) | :x: | :x: | :x: |
+| 1 | [300147253](../300147253/README.md) [<image src='https://avatars0.githubusercontent.com/u/232965506?s=460&v=4' width=20 height=20></image>](https://github.com/azzed98) | :heavy_check_mark: | :heavy_check_mark: | [:receipt:](../300147253/RAPPORT.ipynb) | :writing_hand: | :zero: |  |
 | 2 | [300150396](../300150396/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939321?s=460&v=4' width=20 height=20></image>](https://github.com/ibkourouma) | :x: | :x: | [:x:](../300150396/RAPPORT.ipynb) | :x: | :x: | :x: |
 | 3 | [300150410](../300150410/README.md) [<image src='https://avatars0.githubusercontent.com/u/231570554?s=460&v=4' width=20 height=20></image>](https://github.com/lahlou06) | :heavy_check_mark: | :heavy_check_mark: | [:receipt:](../300150410/RAPPORT.ipynb) | :writing_hand: | :six: |  |
 | 4 | [300150468](../300150468/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939143?s=460&v=4' width=20 height=20></image>](https://github.com/sahebmohandsaid97-oss) | :heavy_check_mark: | :heavy_check_mark: | [:receipt:](../300150468/RAPPORT.ipynb) | :writing_hand: | :five: |  |
@@ -51,4 +51,4 @@
 | 32 | [300158185](../300158185/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939280?s=460&v=4' width=20 height=20></image>](https://github.com/Mohammed-Mati) | :heavy_check_mark: | :heavy_check_mark: | [:receipt:](../300158185/RAPPORT.ipynb) | :writing_hand: | :six: |  |
 | 33 | [300158486](../300158486/README.md) [<image src='https://avatars0.githubusercontent.com/u/232938643?s=460&v=4' width=20 height=20></image>](https://github.com/lyes158) | :heavy_check_mark: | :heavy_check_mark: | [:receipt:](../300158486/RAPPORT.ipynb) | :writing_hand: | :six: |  |
 | 34 | [300159189](../300159189/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939045?s=460&v=4' width=20 height=20></image>](https://github.com/fateh98) | :heavy_check_mark: | :heavy_check_mark: | [:receipt:](../300159189/RAPPORT.ipynb) | :writing_hand: | :six: |  |
-| :abacus: | $\frac{30}{35}$ = 85% | $\displaystyle\sum_{i=1}^{35} s_i$ = 30 | | | | $\displaystyle\sum_{i=1}^{35} e_i$ = 169
+| :abacus: | $\frac{31}{35}$ = 88% | $\displaystyle\sum_{i=1}^{35} s_i$ = 31 | | | | $\displaystyle\sum_{i=1}^{35} e_i$ = 169
