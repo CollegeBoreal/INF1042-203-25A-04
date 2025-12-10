@@ -1,5 +1,15 @@
-class Parallelogramme:
-    def _init_(self, base, hauteur):
+"""
+Fichier : Parallelogramme.py
+Description : Classe Carré héritant de Figure
+Auteur : [ID de l'étudiant]
+Date : YYYY-MM-DD
+"""
+
+from figure import Figure
+
+class Parallelogramme(Figure):
+    def __init__(self, base, hauteur):
+        super().__init__("Parallélogramme")
         self.base = base
         self.hauteur = hauteur
 
@@ -11,3 +21,5 @@ class Parallelogramme:
             f"Parallélogramme - Base : {self.base}, "
             f"Hauteur : {self.hauteur}, Aire : {self.aire()}"
         )
+
+    
