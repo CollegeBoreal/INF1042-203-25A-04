@@ -6,13 +6,13 @@ Ce projet présente une série de classes Python permettant de représenter et m
 
 Chaque figure possède :  
 
-une classe dédiée (héritée de Figure)  
+- une classe dédiée (héritée de Figure)  
 
-une méthode d’affichage graphique utilisant matplotlib  
+- une méthode d’affichage graphique utilisant matplotlib  
 
-une méthode pour calculer l’aire ou le volume  
+- une méthode pour calculer l’aire ou le volume  
 
-une méthode d’affichage d’informations 
+- une méthode d’affichage d’informations 
 
  
 
@@ -464,4 +464,5 @@ Créer des animations 2D et 3D interactives
  
 
  
+
 
