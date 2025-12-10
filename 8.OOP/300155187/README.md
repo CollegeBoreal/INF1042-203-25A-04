@@ -161,6 +161,7 @@ Méthode : aire() = cote²
 
 🖼️ Affichage 
 
+```python
 def afficher_carre(carre): 
     cote = carre.cote 
     x = [0, cote, cote, 0, 0] 
@@ -172,7 +173,7 @@ def afficher_carre(carre):
     plt.axis("equal") 
     plt.grid(True) 
     plt.show() 
-
+```
  
 
  
@@ -457,6 +458,7 @@ Créer des animations 2D et 3D interactives
  
 
  
+
 
 
 
