@@ -9,7 +9,7 @@ Description : Classe Cercle qui hérite de Figure.
 __author__ = "BADREDDINE BARRAGOUB"
 __student_id__ = "300155504"
 
-from figure import Figure
+from Figure import Figure
 import matplotlib.pyplot as plt
 from math import pi
 
