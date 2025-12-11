@@ -1,31 +1,21 @@
+# Signature : BadrEddine Barragoub - 300155504
+
 """
 Fichier : main.py
-Description : Point d'entrée du programme. Crée un carré et un cercle et affiche leurs informations.
-Auteur : BadrEddine Barragoub (300155504)
+Description : Programme de test pour la classe Carré.
+Auteur : 300155504
 Date : 2025-12-10
 """
 
-
-from Carre import Carre
-from Cercle import Cercle
-
+from carre import Carre
 
 def main():
-    """
-    Fonction principale du programme.
-    Crée un carré et un cercle, puis affiche leurs informations.
-    """
-    # Création d'un carré de côté 4
-    c1 = Carre(4)
+    carre1 = Carre(4)
+    carre2 = Carre(7)
 
-    # Création d'un cercle de rayon 3
-    c2 = Cercle(3)
+    print(carre1.afficher_info())
+    print(carre2.afficher_info())
 
-    # Affichage des informations des deux figures
-    print(c1.afficher_info())
-    print(c2.afficher_info())
-
-
-# Point d'entrée du programme
 if __name__ == "__main__":
     main()
+
