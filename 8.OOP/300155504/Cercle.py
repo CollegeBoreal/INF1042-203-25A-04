@@ -36,3 +36,10 @@ class Cercle(Figure):
         axe.set_xlim(-self.rayon - marge, self.rayon + marge)
         axe.set_ylim(-self.rayon - marge, self.rayon + marge)
         axe.set_title(f"Cercle (rayon={self.rayon})")
+
+    def afficher_info(self) -> str:
+        """Retourne une description textuelle du cercle."""
+        return (
+            f"Cercle de rayon {self.rayon} — "
+            f"aire = {self.aire():.2f}, périmètre = {self.perimetre():.2f}"
+        )
