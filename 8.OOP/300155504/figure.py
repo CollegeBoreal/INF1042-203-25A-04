@@ -1,9 +1,10 @@
 """
 Fichier : figure.py
-Description : Classe de base pour toutes les figures géométriques
-Auteur : 300155504
-Date : 2025-12-03
+Description : Classe de base Figure pour les figures géométriques.
+Auteur : BadrEddine Barragoub (300155504)
+Date : 2025-12-10
 """
+
 
 class Figure:
     def __init__(self, nom):
