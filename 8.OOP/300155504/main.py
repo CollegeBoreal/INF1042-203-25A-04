@@ -1,44 +1,20 @@
+# Signature : BadrEddine Barragoub - 300155504
+
 """
 Fichier : main.py
-Description : Point d'entrée du programme. Test des figures géométriques.
-Auteur : BADREDDINE BARRAGOUB (300155504)
+Description : Programme de test pour la classe Carré.
+Auteur : 300155504
 Date : 2025-12-10
 """
 
-from Carre import Carre
-from Cercle import Cercle
-from Triangle import Triangle
-import matplotlib.pyplot as plt
-import os
-
-
-# créer le dossier images s'il n'existe pas
-if not os.path.exists("images"):
-    os.makedirs("images")
-
-
-def dessiner_et_sauvegarder(fig):
-    """Dessine la figure et la sauvegarde dans le dossier images/."""
-    plt.figure()
-    axe = plt.gca()
-    fig.dessiner(axe)
-    filename = f"images/{fig.nom}.png"
-    plt.savefig(filename)
-    plt.close()
-    print(f"Image sauvegardée : {filename}")
-
+from Carre import Carre  # مهم: C كبيرة بحال اسم الملف
 
 def main():
-    carre = Carre(4)
-    cercle = Cercle(3)
-    triangle = Triangle(5, 2)
+    carre1 = Carre(4)
+    carre2 = Carre(7)
 
-    figures = [carre, cercle, triangle]
+    print(carre1.afficher_info())
+    print(carre2.afficher_info())
 
-    for f in figures:
-        print(f.afficher_info())
-        dessiner_et_sauvegarder(f)
-
-
-if __name__ == "__main__":
+if _name_ == "_main_":
     main()

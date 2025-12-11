@@ -1,45 +1,23 @@
+# Signature : BadrEddine Barragoub - 300155504
+
 """
-Projet POO — Figures géométriques
-Auteur      : BADREDDINE BARRAGOUB
-Matricule   : 300155504
-Fichier     : Cercle.py
-Description : Classe Cercle qui hérite de Figure.
+Fichier : Cercle.py
+Description : Classe Cercle héritant de Figure.
+Auteur : 300155504
+Date : 2025-12-10
 """
 
-__author__ = "BADREDDINE BARRAGOUB"
-__student_id__ = "300155504"
-
-from Figure import Figure
-import matplotlib.pyplot as plt
-from math import pi
-
+from figure import Figure
+import math
 
 class Cercle(Figure):
-    """Représente un cercle de rayon donné."""
-
-    def __init__(self, rayon: float) -> None:
+    def __init__(self, rayon):
         super().__init__("Cercle")
         self.rayon = rayon
 
-    def aire(self) -> float:
-        return pi * self.rayon**2
+    def aire(self):
+        return math.pi * (self.rayon ** 2)
 
-    def perimetre(self) -> float:
-        return 2 * pi * self.rayon
+    def afficher_info(self):
+        return f"{super().afficher_info()}, rayon={self.rayon}, aire={self.aire():.2f}"
 
-    def dessiner(self, axe: plt.Axes) -> None:
-        """Dessine un cercle centré en (0,0)."""
-        cercle = plt.Circle((0, 0), self.rayon, fill=False)
-        axe.add_patch(cercle)
-        axe.set_aspect("equal")
-        marge = self.rayon * 0.2
-        axe.set_xlim(-self.rayon - marge, self.rayon + marge)
-        axe.set_ylim(-self.rayon - marge, self.rayon + marge)
-        axe.set_title(f"Cercle (rayon={self.rayon})")
-
-    def afficher_info(self) -> str:
-        """Retourne une description textuelle du cercle."""
-        return (
-            f"Cercle de rayon {self.rayon} — "
-            f"aire = {self.aire():.2f}, périmètre = {self.perimetre():.2f}"
-        )
