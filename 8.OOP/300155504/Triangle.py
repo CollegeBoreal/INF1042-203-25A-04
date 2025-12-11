@@ -6,7 +6,7 @@ Fichier     : Triangle.py
 Description : Classe Triangle qui hérite de Figure.
 """
 
-from figure import Figure
+from Figure import Figure
 import matplotlib.pyplot as plt
 from math import sqrt
 
