@@ -1,9 +1,10 @@
 """
 Fichier : Cercle.py
-Description : Classe Cercle héritant de Figure
-Auteur : 300155504
-Date : 2025-12-03
+Description : Classe Cercle héritant de Figure.
+Auteur : BadrEddine Barragoub (300155504)
+Date : 2025-12-10
 """
+
 
 from figure import Figure
 import math
