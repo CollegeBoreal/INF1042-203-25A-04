@@ -1,24 +1,27 @@
-"""
-Fichier : main.py
-Description : Point d'entrée du programme. Crée un carré et un cercle et affiche leurs informations.
-Auteur : 300155504
-Date : 2025-12-11
-"""
-
+from figure import Figure
 from Carre import Carre
 from Cercle import Cercle
-# from Triangle import Triangle  # ← يمكن تستعمله فالتجارب فقط
+from Losange import Losange
 
 def main():
-    # Création d'un carré de côté 4
-    c1 = Carre(4)
+    # Tester les classes enfants
+    carre1 = Carre(4)
+    cercle1 = Cercle(3)
+    losange1 = Losange(6, 4)
 
-    # Création d'un cercle de rayon 3
-    c2 = Cercle(3)
+    # Affichage
+    print(carre1.afficher_info())
+    print(cercle1.afficher_info())
+    print(losange1.afficher_info())
 
-    # Affichage des informations
-    print(c1.afficher_info())
-    print(c2.afficher_info())
+    # Test de la classe Figure seule (doit produire une erreur contrôlée)
+    try:
+        f = Figure("FigureTest")
+        print(f.aire())  # doit lever une erreur
+    except Exception as e:
+        print("Message attendu :", e)
 
-if __name__ == "__main__":
+
+# Point d'entrée du programme
+if __name__ == "__main__"
     main()
