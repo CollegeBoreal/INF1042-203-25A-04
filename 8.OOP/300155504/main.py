@@ -15,12 +15,14 @@ from Triangle import Triangle
 import matplotlib.pyplot as plt
 import os
 
-# créer le dossier images si ce n'est pas encore fait
+
+# créer le dossier images s'il n'existe pas
 if not os.path.exists("images"):
     os.makedirs("images")
 
+
 def dessiner_et_sauvegarder(fig):
-    """dessine la figure et la sauvegarde dans images/"""
+    """Dessine la figure et la sauvegarde dans le dossier images/."""
     plt.figure()
     axe = plt.gca()
     fig.dessiner(axe)
@@ -31,6 +33,7 @@ def dessiner_et_sauvegarder(fig):
 
     plt.close()
 
+
 def main():
     carre = Carre(5)
     cercle = Cercle(4)
@@ -39,8 +42,9 @@ def main():
     figures = [carre, cercle, triangle]
 
     for f in figures:
-        print(f"{f.nom} → Aire = {f.aire()}, Périmètre = {f.perimetre()}")
+        print(f"{f.nom} → aire = {f.aire():.2f}, périmètre = {f.perimetre():.2f}")
         dessiner_et_sauvegarder(f)
+
 
 if __name__ == "__main__":
     main()
