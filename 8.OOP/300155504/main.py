@@ -1,31 +1,44 @@
 """
 Fichier : main.py
-Description : Point d'entrée du programme. Crée un carré et un cercle et affiche leurs informations.
-Auteur : [300155504]
+Description : Point d'entrée du programme. Test des figures géométriques.
+Auteur : BADREDDINE BARRAGOUB (300155504)
 Date : 2025-12-10
 """
 
 from Carre import Carre
 from Cercle import Cercle
 from Triangle import Triangle
+import matplotlib.pyplot as plt
+import os
+
+
+# créer le dossier images s'il n'existe pas
+if not os.path.exists("images"):
+    os.makedirs("images")
+
+
+def dessiner_et_sauvegarder(fig):
+    """Dessine la figure et la sauvegarde dans le dossier images/."""
+    plt.figure()
+    axe = plt.gca()
+    fig.dessiner(axe)
+    filename = f"images/{fig.nom}.png"
+    plt.savefig(filename)
+    plt.close()
+    print(f"Image sauvegardée : {filename}")
 
 
 def main():
-    """
-    Fonction principale du programme.
-    Crée un carré et un cercle, puis affiche leurs informations.
-    """
-    # Création d'un carré de côté 4
-    c1 = Carre(4)
+    carre = Carre(4)
+    cercle = Cercle(3)
+    triangle = Triangle(5, 2)
 
-    # Création d'un cercle de rayon 3
-    c2 = Cercle(3)
+    figures = [carre, cercle, triangle]
 
-    # Affichage des informations des deux figures
-    print(c1.afficher_info())
-    print(c2.afficher_info())
+    for f in figures:
+        print(f.afficher_info())
+        dessiner_et_sauvegarder(f)
 
 
-# Point d'entrée du programme
 if __name__ == "__main__":
     main()
