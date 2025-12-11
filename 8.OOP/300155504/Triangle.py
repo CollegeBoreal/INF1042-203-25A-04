@@ -1,43 +1,25 @@
 """
-Projet POO — Figures géométriques
-Auteur      : BADREDDINE BARRAGOUB
-Matricule   : 300155504
-Fichier     : Triangle.py
-Description : Classe Triangle qui hérite de Figure.
+Fichier : Triangle.py
+Description : Classe Triangle héritant de Figure
+Auteur : 300155504
+Date : 2025-12-11
 """
 
-from Figure import Figure
-import matplotlib.pyplot as plt
-from math import sqrt
-
+from figure import Figure
 
 class Triangle(Figure):
-    """Triangle rectangle simple."""
-
-    def __init__(self, base: float, hauteur: float) -> None:
+    def __init__(self, base, hauteur):
         super().__init__("Triangle")
         self.base = base
         self.hauteur = hauteur
 
-    def aire(self) -> float:
+    def aire(self):
         return (self.base * self.hauteur) / 2
 
-    def perimetre(self) -> float:
-        hyp = sqrt(self.base**2 + self.hauteur**2)
-        return self.base + self.hauteur + hyp
-
-    def dessiner(self, axe: plt.Axes) -> None:
-        xs = [0, self.base, 0, 0]
-        ys = [0, 0, self.hauteur, 0]
-        axe.plot(xs, ys)
-        axe.set_aspect("equal")
-        marge = 0.2
-        axe.set_xlim(-1, self.base + 1)
-        axe.set_ylim(-1, self.hauteur + 1)
-        axe.set_title(f"Triangle (base={self.base}, hauteur={self.hauteur})")
-
-    def afficher_info(self) -> str:
+    def afficher_info(self):
         return (
-            f"Triangle (base={self.base}, hauteur={self.hauteur}) — "
-            f"aire = {self.aire():.2f}, périmètre = {self.perimetre():.2f}"
+            f"{super().afficher_info()}, base={self.base}, "
+            f"hauteur={self.hauteur}, aire={self.aire()}"
+        )
+
         )
