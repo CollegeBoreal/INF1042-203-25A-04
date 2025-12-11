@@ -36,3 +36,10 @@ class Carre(Figure):
         axe.set_xlim(-marge, self.cote + marge)
         axe.set_ylim(-marge, self.cote + marge)
         axe.set_title(f"Carré (côté={self.cote})")
+
+    def afficher_info(self) -> str:
+        """Retourne une description textuelle du carré."""
+        return (
+            f"Carré de côté {self.cote} — "
+            f"aire = {self.aire():.2f}, périmètre = {self.perimetre():.2f}"
+        )
