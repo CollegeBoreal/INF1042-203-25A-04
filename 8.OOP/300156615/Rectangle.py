@@ -1,33 +1,22 @@
-{
- "cells": [
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "aed3fe5c-b2ef-4e4c-8d43-8ef68b5caf24",
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  }
- ],
- "metadata": {
-  "kernelspec": {
-   "display_name": "Python 3 (ipykernel)",
-   "language": "python",
-   "name": "python3"
-  },
-  "language_info": {
-   "codemirror_mode": {
-    "name": "ipython",
-    "version": 3
-   },
-   "file_extension": ".py",
-   "mimetype": "text/x-python",
-   "name": "python",
-   "nbconvert_exporter": "python",
-   "pygments_lexer": "ipython3",
-   "version": "3.12.9"
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 5
-}
+"""
+Fichier : Rectangle.py
+Description : Classe Carré héritant de Figure
+Auteur : [300156615]
+Date : 2025-12-06
+"""
+from figure import Figure
+
+class Rectangle(Figure):
+    def __init__(self, largeur, hauteur):
+        super().__init__("Rectangle")
+        self.largeur = largeur
+        self.hauteur = hauteur
+
+    def aire(self):
+        return self.largeur * self.hauteur
+
+    def afficher_info(self):
+        return (
+            f"{super().afficher_info()}, largeur={self.largeur}, "
+            f"hauteur={self.hauteur}, aire={self.aire():.2f}"
+        )

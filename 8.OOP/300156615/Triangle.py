@@ -1,33 +1,19 @@
-{
- "cells": [
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "c8b50490-800a-41f0-9987-b490db1f3249",
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  }
- ],
- "metadata": {
-  "kernelspec": {
-   "display_name": "Python 3 (ipykernel)",
-   "language": "python",
-   "name": "python3"
-  },
-  "language_info": {
-   "codemirror_mode": {
-    "name": "ipython",
-    "version": 3
-   },
-   "file_extension": ".py",
-   "mimetype": "text/x-python",
-   "name": "python",
-   "nbconvert_exporter": "python",
-   "pygments_lexer": "ipython3",
-   "version": "3.12.9"
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 5
-}
+"""
+Fichier : Triangle.py
+Description : Classe Carré héritant de Figure
+Auteur : [300156615]
+Date : 2025-12-06
+"""
+from figure import Figure
+
+class Triangle(Figure):
+    def __init__(self, base, hauteur):
+        super().__init__("Triangle")
+        self.base = base
+        self.hauteur = hauteur
+
+    def aire(self):
+        return (self.base * self.hauteur) / 2
+
+    def afficher_info(self):
+        return f"{super().afficher_info()}, base={self.base}, hauteur={self.hauteur}, aire={self.aire():.2f}"
