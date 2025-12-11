@@ -1,4 +1,4 @@
-# Participation au 11-12-2025 01:16
+# Participation au 11-12-2025 01:20
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -46,7 +46,7 @@
 | 22 | [300155606](../300155606/README.md) [<image src='https://avatars0.githubusercontent.com/u/231571545?s=460&v=4' width=20 height=20></image>](https://github.com/Djelloulmsili) | :heavy_check_mark: | :heavy_check_mark: | :page_facing_up: | :rocket: | [:receipt:](../300155606/RAPPORT.ipynb) | :writing_hand: | :two: |  |
 | 23 | [300156204](../300156204/README.md) [<image src='https://avatars0.githubusercontent.com/u/231571560?s=460&v=4' width=20 height=20></image>](https://github.com/Abdou21566) | :heavy_check_mark: | :heavy_check_mark: | :page_facing_up: | :rocket: | [:receipt:](../300156204/RAPPORT.ipynb) | :writing_hand: | :two: |  |
 | 24 | [300156612](../300156612/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939132?s=460&v=4' width=20 height=20></image>](https://github.com/06019) | :heavy_check_mark: | :heavy_check_mark: | :page_facing_up: | :rocket: | [:receipt:](../300156612/RAPPORT.ipynb) | :writing_hand: | :three: |  |
-| 25 | [300156615](../300156615/README.md) [<image src='https://avatars0.githubusercontent.com/u/231570011?s=460&v=4' width=20 height=20></image>](https://github.com/waliii81) | :heavy_check_mark: | :heavy_check_mark: | :page_facing_up: | :x: | [:receipt:](../300156615/RAPPORT.ipynb) | :writing_hand: | :five: |  |
+| 25 | [300156615](../300156615/README.md) [<image src='https://avatars0.githubusercontent.com/u/231570011?s=460&v=4' width=20 height=20></image>](https://github.com/waliii81) | :heavy_check_mark: | :heavy_check_mark: | :page_facing_up: | :rocket: | [:receipt:](../300156615/RAPPORT.ipynb) | :writing_hand: | :five: |  |
 | 26 | [300157330](../300157330/README.md) [<image src='https://avatars0.githubusercontent.com/u/231571164?s=460&v=4' width=20 height=20></image>](https://github.com/toufikmekbel) | :heavy_check_mark: | :heavy_check_mark: | :page_facing_up: | :rocket: | [:receipt:](../300157330/RAPPORT.ipynb) | :writing_hand: | :three: |  |
 | 27 | [300157332](../300157332/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939140?s=460&v=4' width=20 height=20></image>](https://github.com/aliboukhalfa98-sudo) | :heavy_check_mark: | :heavy_check_mark: | :page_facing_up: | :rocket: | [:receipt:](../300157332/RAPPORT.ipynb) | :writing_hand: | :two: |  |
 | 28 | [300157334](../300157334/README.md) [<image src='https://avatars0.githubusercontent.com/u/231569676?s=460&v=4' width=20 height=20></image>](https://github.com/Laalahamdaoui16-alt) | :heavy_check_mark: | :heavy_check_mark: | :page_facing_up: | :rocket: | [:receipt:](../300157334/RAPPORT.ipynb) | :writing_hand: | :two: |  |
