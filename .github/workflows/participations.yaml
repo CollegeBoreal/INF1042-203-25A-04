@@ -1,0 +1,88 @@
+name: Participations
+
+on: [push]
+
+jobs:
+  presence:
+    name: presence de fichiers pour la participation
+    runs-on: macos-latest
+
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: Install jq
+        run: brew install jq
+
+      - name: Use jq
+        run: echo '{"name":"GitHub"}' | jq '.name'
+    
+      - shell: bash
+        run: |
+          ##
+          ## Evaluating chapter 0.PlanDeCours
+          ## 
+          echo "Evaluating chapter 0.PlanDeCours Participation"
+          cd 0.PlanDeCours
+          bash .scripts/run.sh
+          cd ..
+          ##
+          ## Evaluating chapter 2.IDE
+          ## 
+          echo "Evaluating chapter 0.PlanDeCours Participation"
+          cd 2.IDE
+          bash .scripts/run.sh
+          cd ..
+          ##
+          ## Evaluating chapter 3.Organigrammes
+          ## 
+          echo "Evaluating chapter 3.Organigrammes Participation"
+          cd 3.Organigrammes
+          bash .scripts/run.sh
+          cd ..
+          ##
+          ## Evaluating chapter 4.ASM
+          ## 
+          echo "Evaluating chapter 4.ASM Participation"
+          cd 4.ASM
+          bash .scripts/run.sh
+          cd ..
+          ##
+          ## Evaluating chapter 5.Jupyter
+          ## 
+          echo "Evaluating chapter 5.Jupyter Participation"
+          cd 5.Jupyter
+          bash .scripts/run.sh
+          cd ..
+          ##
+          ## Evaluating chapter 6.Variables
+          ## 
+          echo "Evaluating chapter 6.Variables Participation"
+          cd 6.Variables
+          bash .scripts/run.sh
+          cd ..
+          ##
+          ## Evaluating chapter 7.Algorithmes
+          ## 
+          echo "Evaluating chapter 7.Algorithmes Participation"
+          cd 7.Algorithmes
+          bash .scripts/run.sh
+          cd ..
+          ##
+          ## Evaluating chapter 8.OOP
+          ## 
+          echo "Evaluating chapter 8.OOP Participation"
+          cd 8.OOP
+          bash .scripts/run.sh
+          cd ..
+
+
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m "Vérification de la participation" -a
+          
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
